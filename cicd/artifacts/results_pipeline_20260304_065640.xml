@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="19" skipped="0" tests="22" time="98.607" timestamp="2026-03-04T06:57:56.021482" hostname="ip-172-31-89-239"><testcase classname="tests.consolidated.test_consolidated" name="test_page_navigation_features" time="1.698"><failure message="playwright._impl._errors.Error: Locator.click: Unexpected token &quot;locator(&quot; while parsing css selector &quot;page.locator('a.transition-all.font-medium').nth(0)&quot;. Did you mean to CSS.escape it?&#10;Call log:&#10;  - waiting for page.locator('a.transition-all.font-medium').nth(0)">tests/consolidated/test_consolidated.py:18: in test_page_navigation_features
+    page.locator("page.locator('a.transition-all.font-medium').nth(0)").click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Unexpected token "locator(" while parsing css selector "page.locator('a.transition-all.font-medium').nth(0)". Did you mean to CSS.escape it?
+E   Call log:
+E     - waiting for page.locator('a.transition-all.font-medium').nth(0)</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_page_navigation_benchmarks" time="1.019"><failure message="playwright._impl._errors.Error: Locator.click: Unexpected token &quot;locator(&quot; while parsing css selector &quot;page.locator('a.transition-all.font-medium').nth(0)&quot;. Did you mean to CSS.escape it?&#10;Call log:&#10;  - waiting for page.locator('a.transition-all.font-medium').nth(0)">tests/consolidated/test_consolidated.py:25: in test_page_navigation_benchmarks
+    page.locator("page.locator('a.transition-all.font-medium').nth(0)").click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Unexpected token "locator(" while parsing css selector "page.locator('a.transition-all.font-medium').nth(0)". Did you mean to CSS.escape it?
+E   Call log:
+E     - waiting for page.locator('a.transition-all.font-medium').nth(0)</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_page_navigation_pricing" time="0.929"><failure message="playwright._impl._errors.Error: Locator.click: Unexpected token &quot;locator(&quot; while parsing css selector &quot;page.locator('a.transition-all.font-medium').nth(0)&quot;. Did you mean to CSS.escape it?&#10;Call log:&#10;  - waiting for page.locator('a.transition-all.font-medium').nth(0)">tests/consolidated/test_consolidated.py:32: in test_page_navigation_pricing
+    page.locator("page.locator('a.transition-all.font-medium').nth(0)").click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Unexpected token "locator(" while parsing css selector "page.locator('a.transition-all.font-medium').nth(0)". Did you mean to CSS.escape it?
+E   Call log:
+E     - waiting for page.locator('a.transition-all.font-medium').nth(0)</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_page_get_started_link" time="0.890"><failure message="playwright._impl._errors.Error: Locator.click: Unexpected token &quot;locator(&quot; while parsing css selector &quot;page.locator('a.text-white.rounded-lg.font-semibold.transition-all.transform').nth(0)&quot;. Did you mean to CSS.escape it?&#10;Call log:&#10;  - waiting for page.locator('a.text-white.rounded-lg.font-semibold.transition-all.transform').nth(0)">tests/consolidated/test_consolidated.py:39: in test_page_get_started_link
+    page.locator("page.locator('a.text-white.rounded-lg.font-semibold.transition-all.transform').nth(0)").click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Unexpected token "locator(" while parsing css selector "page.locator('a.text-white.rounded-lg.font-semibold.transition-all.transform').nth(0)". Did you mean to CSS.escape it?
+E   Call log:
+E     - waiting for page.locator('a.text-white.rounded-lg.font-semibold.transition-all.transform').nth(0)</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_page_learn_more_link" time="1.031"><failure message="playwright._impl._errors.Error: Locator.click: Unexpected token &quot;locator(&quot; while parsing css selector &quot;page.locator('a.group.hover\:text-white.rounded-lg.font-semibold.transition-all.text-lg.transform.backdrop-blur-sm')&quot;. Did you mean to CSS.escape it?&#10;Call log:&#10;  - waiting for page.locator('a.group.hover\:text-white.rounded-lg.font-semibold.transition-all.text-lg.transform.backdrop-blur-sm')">tests/consolidated/test_consolidated.py:48: in test_page_learn_more_link
+    page.locator("page.locator('a.group.hover\:text-white.rounded-lg.font-semibold.transition-all.text-lg.transform.backdrop-blur-sm')").click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Unexpected token "locator(" while parsing css selector "page.locator('a.group.hover\:text-white.rounded-lg.font-semibold.transition-all.text-lg.transform.backdrop-blur-sm')". Did you mean to CSS.escape it?
+E   Call log:
+E     - waiting for page.locator('a.group.hover\:text-white.rounded-lg.font-semibold.transition-all.text-lg.transform.backdrop-blur-sm')</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_01" time="1.101" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_02" time="6.057"><failure message="AssertionError: Page URL expected to be 're.compile('#benchmarks')'&#10;Actual value: https://grok4.me/#features &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://grok4.me/#features&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:24: in test_TC_Navigation_02
+    expect(page).to_have_url(re.compile(r"#benchmarks"))
+E   AssertionError: Page URL expected to be 're.compile('#benchmarks')'
+E   Actual value: https://grok4.me/#features 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "https://grok4.me/#features"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_03" time="6.088"><failure message="AssertionError: Page URL expected to be 're.compile('#pricing')'&#10;Actual value: https://grok4.me/#features &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://grok4.me/#features&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:30: in test_TC_Navigation_03
+    expect(page).to_have_url(re.compile(r"#pricing"))
+E   AssertionError: Page URL expected to be 're.compile('#pricing')'
+E   Actual value: https://grok4.me/#features 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "https://grok4.me/#features"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_04" time="6.091"><failure message="AssertionError: Page URL expected to be 'https://grok.com'&#10;Actual value: https://grok4.me/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://grok4.me/&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:36: in test_TC_Navigation_04
+    expect(page).to_have_url("https://grok.com")
+E   AssertionError: Page URL expected to be 'https://grok.com'
+E   Actual value: https://grok4.me/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "https://grok4.me/"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_05" time="6.082"><failure message="AssertionError: Page URL expected to be 'https://grok.com'&#10;Actual value: https://grok4.me/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://grok4.me/&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:42: in test_TC_Navigation_05
+    expect(page).to_have_url("https://grok.com")
+E   AssertionError: Page URL expected to be 'https://grok.com'
+E   Actual value: https://grok4.me/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "https://grok4.me/"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_06" time="1.037" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_07" time="6.035"><failure message="AssertionError: Page URL expected to be 'https://x.ai'&#10;Actual value: https://grok4.me/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://grok4.me/&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:54: in test_TC_Navigation_07
+    expect(page).to_have_url("https://x.ai")
+E   AssertionError: Page URL expected to be 'https://x.ai'
+E   Actual value: https://grok4.me/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "https://grok4.me/"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_08" time="6.074"><failure message="AssertionError: Page URL expected to be 'https://x.ai'&#10;Actual value: https://grok4.me/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://grok4.me/&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:60: in test_TC_Navigation_08
+    expect(page).to_have_url("https://x.ai")
+E   AssertionError: Page URL expected to be 'https://x.ai'
+E   Actual value: https://grok4.me/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "https://grok4.me/"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_09" time="6.092"><failure message="AssertionError: Page URL expected to be 'https://x.ai'&#10;Actual value: https://grok4.me/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://grok4.me/&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:66: in test_TC_Navigation_09
+    expect(page).to_have_url("https://x.ai")
+E   AssertionError: Page URL expected to be 'https://x.ai'
+E   Actual value: https://grok4.me/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "https://grok4.me/"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_10" time="6.044"><failure message="AssertionError: Page URL expected to be 'https://x.ai/blog'&#10;Actual value: https://grok4.me/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://grok4.me/&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:72: in test_TC_Navigation_10
+    expect(page).to_have_url("https://x.ai/blog")
+E   AssertionError: Page URL expected to be 'https://x.ai/blog'
+E   Actual value: https://grok4.me/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "https://grok4.me/"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_11" time="1.036" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_12" time="6.087"><failure message="AssertionError: Page URL expected to be 're.compile('#benchmarks')'&#10;Actual value: https://grok4.me/#features &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://grok4.me/#features&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:84: in test_TC_Navigation_12
+    expect(page).to_have_url(re.compile(r"#benchmarks"))
+E   AssertionError: Page URL expected to be 're.compile('#benchmarks')'
+E   Actual value: https://grok4.me/#features 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "https://grok4.me/#features"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_13" time="6.338"><failure message="AssertionError: Page URL expected to be 're.compile('#pricing')'&#10;Actual value: https://grok4.me/#features &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://grok4.me/#features&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:90: in test_TC_Navigation_13
+    expect(page).to_have_url(re.compile(r"#pricing"))
+E   AssertionError: Page URL expected to be 're.compile('#pricing')'
+E   Actual value: https://grok4.me/#features 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "https://grok4.me/#features"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_14" time="6.331"><failure message="AssertionError: Page URL expected to be 'https://x.ai'&#10;Actual value: https://grok4.me/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://grok4.me/&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:96: in test_TC_Navigation_14
+    expect(page).to_have_url("https://x.ai")
+E   AssertionError: Page URL expected to be 'https://x.ai'
+E   Actual value: https://grok4.me/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "https://grok4.me/"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_15" time="6.348"><failure message="AssertionError: Page URL expected to be 'https://x.ai/blog'&#10;Actual value: https://grok4.me/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://grok4.me/&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:102: in test_TC_Navigation_15
+    expect(page).to_have_url("https://x.ai/blog")
+E   AssertionError: Page URL expected to be 'https://x.ai/blog'
+E   Actual value: https://grok4.me/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "https://grok4.me/"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_16" time="6.066"><failure message="AssertionError: Page URL expected to be 'https://twitter.com/xai'&#10;Actual value: https://grok4.me/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://grok4.me/&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:108: in test_TC_Navigation_16
+    expect(page).to_have_url("https://twitter.com/xai")
+E   AssertionError: Page URL expected to be 'https://twitter.com/xai'
+E   Actual value: https://grok4.me/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "https://grok4.me/"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_17" time="6.166"><failure message="AssertionError: Page URL expected to be 'https://x.ai'&#10;Actual value: https://grok4.me/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://grok4.me/&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:114: in test_TC_Navigation_17
+    expect(page).to_have_url("https://x.ai")
+E   AssertionError: Page URL expected to be 'https://x.ai'
+E   Actual value: https://grok4.me/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "https://grok4.me/"</failure></testcase></testsuite></testsuites>

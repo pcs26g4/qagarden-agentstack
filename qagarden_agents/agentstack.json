@@ -1,0 +1,12 @@
+{
+  "name": "qagarden_agents",
+  "version": "0.1.0",
+  "description": "AgentStack SDK wrappers for QA Garden's 5 FastAPI agent services",
+  "agents": [
+    { "name": "crawler_agent",      "port": 9001, "upstream": "http://localhost:8005" },
+    { "name": "testgenerator_agent", "port": 9002, "upstream": "http://localhost:8001" },
+    { "name": "playwright_agent",   "port": 9003, "upstream": "http://localhost:8002" },
+    { "name": "cicd_agent",         "port": 9004, "upstream": "http://localhost:8003" },
+    { "name": "triage_agent",       "port": 9005, "upstream": "http://localhost:8004" }
+  ]
+}

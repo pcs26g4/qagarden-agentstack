@@ -1,0 +1,11 @@
+{
+  "FORMYFORMCOMPONENTS_DRAG": "html",
+  "FORMYFORMCOMPONENTS_DRAG_1": "body",
+  "FORMYFORMCOMPONENTS": "nav.navbar.navbar-expand-lg.bg-light",
+  "LINK_FORMY": "#logo",
+  "FORMCOMPONENTS": "#navbarNavDropdown",
+  "LINK_FORM": "a.nav-link",
+  "LINK_COMPONENTS": "#navbarDropdownMenuLink",
+  "HEADING_DRAG_THE_IMAGE_INTO_THE_BOX": "h1",
+  "DROP_HERE": "#box"
+}

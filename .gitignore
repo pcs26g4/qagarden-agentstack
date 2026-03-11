@@ -1,0 +1,69 @@
+# Environments
+.env
+.venv
+venv/
+env/
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs
+*.log
+*_pid.txt
+ecosystem_pid.txt
+pip-log.txt
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specifics
+.agentstack*
+agentstack.log
+reset_all.py
+debug_fastapi.py
+final_surgical_fix.py
+master_fix.py
+repair_agents.py
+repair_pipeline.py
+combine_reqs.py
+
+# Test/Cache
+.pytest_cache/
+.coverage
+htmlcov/
+.cache
+.hypothesis/
+coverage.xml
+*.cover
+nosetests.xml
+
+# System
+.DS_Store
+Thumbs.db

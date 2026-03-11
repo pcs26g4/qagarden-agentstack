@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-03-01T12:23:10.088678",
+  "modelUsed": "unknown",
+  "totalTestCases": 0,
+  "runId": "job_122225_1",
+  "testCases": [],
+  "metrics": {
+    "test_cases": 0,
+    "pages": 0,
+    "failed_pages": 0,
+    "page_count": 0,
+    "valid_locators": 33,
+    "components": 1
+  }
+}

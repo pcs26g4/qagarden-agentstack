@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="4" skipped="0" tests="5" time="37.583" timestamp="2026-03-10T16:01:23.231224+05:30" hostname="Phani"><testcase classname="tests.page_7_181a.test_page_7_181a" name="test_page_navigation" time="2.105" /><testcase classname="tests.page_7_181a.test_page_7_181a" name="test_page_formyformcomponents_visibility" time="1.288"><failure message="AttributeError: 'Page' object has no attribute 'get_by_css'">tests\page_7_181a\test_page_7_181a.py:21: in test_page_formyformcomponents_visibility
+    expect(page.get_by_css("nav.navbar.navbar-expand-lg.bg-light").first).to_be_visible(timeout=15000)
+           ^^^^^^^^^^^^^^^
+E   AttributeError: 'Page' object has no attribute 'get_by_css'</failure></testcase><testcase classname="tests.page_7_181a.test_page_7_181a" name="test_page_link_formy_visibility" time="16.362"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#logo&quot;).first">tests\page_7_181a\test_page_7_181a.py:26: in test_page_link_formy_visibility
+    expect(page.locator("#logo").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#logo").first</failure></testcase><testcase classname="tests.page_7_181a.test_page_7_181a" name="test_page_heading_drag_the_image_into_the_box_visibility" time="1.265"><failure message="AttributeError: 'Page' object has no attribute 'get_by_tag'">tests\page_7_181a\test_page_7_181a.py:31: in test_page_heading_drag_the_image_into_the_box_visibility
+    expect(page.get_by_tag("h1").first).to_be_visible(timeout=15000)
+           ^^^^^^^^^^^^^^^
+E   AttributeError: 'Page' object has no attribute 'get_by_tag'</failure></testcase><testcase classname="tests.page_7_181a.test_page_7_181a" name="test_page_drop_here_element_visibility" time="16.409"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#box&quot;).first">tests\page_7_181a\test_page_7_181a.py:36: in test_page_drop_here_element_visibility
+    expect(page.locator("#box").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#box").first</failure></testcase></testsuite></testsuites>

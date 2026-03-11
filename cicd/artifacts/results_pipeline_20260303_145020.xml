@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="25" skipped="0" tests="153" time="291.560" timestamp="2026-03-03T14:55:37.881785" hostname="ip-172-31-89-239"><testcase classname="tests.consolidated.test_consolidated" name="test_page_welcome_elements_visible" time="1.524" /><testcase classname="tests.consolidated.test_consolidated" name="test_page_navigate_to_form" time="0.779" /><testcase classname="tests.consolidated.test_consolidated" name="test_page_navigate_to_autocomplete" time="0.810"><failure message="playwright._impl._errors.Error: Locator.click: Error: strict mode violation: locator(&quot;//a[contains(text(), \&quot;Autocomplete\&quot;)]&quot;) resolved to 2 elements:&#10;    1) &lt;a href=&quot;/autocomplete&quot; class=&quot;dropdown-item&quot;&gt;Autocomplete&lt;/a&gt; aka get_by_label(&quot;Components&quot;).get_by_role(&quot;link&quot;, name=&quot;Autocomplete&quot;)&#10;    2) &lt;a class=&quot;btn btn-lg&quot; href=&quot;/autocomplete&quot;&gt;Autocomplete&lt;/a&gt; aka get_by_role(&quot;link&quot;, name=&quot;Autocomplete&quot;).nth(1)&#10;&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(), \&quot;Autocomplete\&quot;)]&quot;)">tests/consolidated/test_consolidated.py:36: in test_page_navigate_to_autocomplete
+    page.locator('xpath=//a[contains(text(), "Autocomplete")]').click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Error: strict mode violation: locator("//a[contains(text(), \"Autocomplete\")]") resolved to 2 elements:
+E       1) &lt;a href="/autocomplete" class="dropdown-item"&gt;Autocomplete&lt;/a&gt; aka get_by_label("Components").get_by_role("link", name="Autocomplete")
+E       2) &lt;a class="btn btn-lg" href="/autocomplete"&gt;Autocomplete&lt;/a&gt; aka get_by_role("link", name="Autocomplete").nth(1)
+E   
+E   Call log:
+E     - waiting for locator("//a[contains(text(), \"Autocomplete\")]")</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_page_check_checkbox" time="0.934"><failure message="playwright._impl._errors.Error: Locator.click: Error: strict mode violation: locator(&quot;//a[contains(text(), \&quot;Checkbox\&quot;)]&quot;) resolved to 2 elements:&#10;    1) &lt;a href=&quot;/checkbox&quot; class=&quot;dropdown-item&quot;&gt;Checkbox&lt;/a&gt; aka get_by_label(&quot;Components&quot;).get_by_role(&quot;link&quot;, name=&quot;Checkbox&quot;)&#10;    2) &lt;a href=&quot;/checkbox&quot; class=&quot;btn btn-lg&quot;&gt;Checkbox&lt;/a&gt; aka get_by_role(&quot;link&quot;, name=&quot;Checkbox&quot;).nth(1)&#10;&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(), \&quot;Checkbox\&quot;)]&quot;)">tests/consolidated/test_consolidated.py:46: in test_page_check_checkbox
+    page.locator('xpath=//a[contains(text(), "Checkbox")]').click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Error: strict mode violation: locator("//a[contains(text(), \"Checkbox\")]") resolved to 2 elements:
+E       1) &lt;a href="/checkbox" class="dropdown-item"&gt;Checkbox&lt;/a&gt; aka get_by_label("Components").get_by_role("link", name="Checkbox")
+E       2) &lt;a href="/checkbox" class="btn btn-lg"&gt;Checkbox&lt;/a&gt; aka get_by_role("link", name="Checkbox").nth(1)
+E   
+E   Call log:
+E     - waiting for locator("//a[contains(text(), \"Checkbox\")]")</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_page_file_upload_reset" time="0.777"><failure message="playwright._impl._errors.Error: Locator.click: Error: strict mode violation: locator(&quot;//a[contains(text(), \&quot;File Upload\&quot;)]&quot;) resolved to 2 elements:&#10;    1) &lt;a href=&quot;/fileupload&quot; class=&quot;dropdown-item&quot;&gt;File Upload&lt;/a&gt; aka get_by_label(&quot;Components&quot;).get_by_role(&quot;link&quot;, name=&quot;File Upload&quot;)&#10;    2) &lt;a class=&quot;btn btn-lg&quot; href=&quot;/fileupload&quot;&gt;File Upload&lt;/a&gt; aka get_by_role(&quot;link&quot;, name=&quot;File Upload&quot;).nth(1)&#10;&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(), \&quot;File Upload\&quot;)]&quot;)">tests/consolidated/test_consolidated.py:56: in test_page_file_upload_reset
+    page.locator('xpath=//a[contains(text(), "File Upload")]').click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Error: strict mode violation: locator("//a[contains(text(), \"File Upload\")]") resolved to 2 elements:
+E       1) &lt;a href="/fileupload" class="dropdown-item"&gt;File Upload&lt;/a&gt; aka get_by_label("Components").get_by_role("link", name="File Upload")
+E       2) &lt;a class="btn btn-lg" href="/fileupload"&gt;File Upload&lt;/a&gt; aka get_by_role("link", name="File Upload").nth(1)
+E   
+E   Call log:
+E     - waiting for locator("//a[contains(text(), \"File Upload\")]")</failure></testcase><testcase classname="tests.page_1.test_page_1" name="test_page_title" time="0.693" /><testcase classname="tests.page_1.test_page_1" name="test_welcome_message_visibility" time="0.703" /><testcase classname="tests.page_1.test_page_1" name="test_navigation_to_form_page" time="10.815"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 10000ms&#10;  - waiting for locator(&quot;text\\=Submit&quot;)">tests/page_1/test_page_1.py:33: in test_navigation_to_form_page
+    expect(page.locator('text\=Submit')).to_be_visible(timeout=10000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 10000ms
+E     - waiting for locator("text\\=Submit")</failure></testcase><testcase classname="tests.page_1.test_page_1" name="test_click_autocomplete_link" time="0.779" /><testcase classname="tests.page_1.test_page_1" name="test_click_buttons_link" time="10.776"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 10000ms&#10;  - waiting for locator(&quot;button.btn.btn-primary&quot;)">tests/page_1/test_page_1.py:51: in test_click_buttons_link
+    expect(page.locator('button.btn.btn-primary')).to_be_visible(timeout=10000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 10000ms
+E     - waiting for locator("button.btn.btn-primary")</failure></testcase><testcase classname="tests.page_10.test_page_10" name="test_file_upload_page_loads" time="0.692" /><testcase classname="tests.page_10.test_page_10" name="test_file_upload_choose_button_exists" time="0.701" /><testcase classname="tests.page_10.test_page_10" name="test_file_upload_reset_button_exists" time="0.709" /><testcase classname="tests.page_10.test_page_10" name="test_file_upload_navigation_to_form" time="0.762" /><testcase classname="tests.page_10_be84.test_page_10_be84" name="test_TC_Navigation_001" time="0.786" /><testcase classname="tests.page_10_be84.test_page_10_be84" name="test_TC_Navigation_002" time="0.768" /><testcase classname="tests.page_10_be84.test_page_10_be84" name="test_TC_Interaction_001" time="0.811" /><testcase classname="tests.page_10_be84.test_page_10_be84" name="test_TC_Interaction_002" time="0.722" /><testcase classname="tests.page_11.test_page_11" name="test_keyboard_and_mouse_input_page_loads" time="0.713" /><testcase classname="tests.page_11.test_page_11" name="test_keyboard_and_mouse_input_fill_name" time="0.722" /><testcase classname="tests.page_11.test_page_11" name="test_keyboard_and_mouse_input_button_click" time="0.723" /><testcase classname="tests.page_11.test_page_11" name="test_keyboard_and_mouse_input_formy_link" time="0.747" /><testcase classname="tests.page_11.test_page_11" name="test_keyboard_and_mouse_input_navigation_links_visible" time="0.695" /><testcase classname="tests.page_12.test_page_12" name="test_page_12_navigation" time="0.710" /><testcase classname="tests.page_12.test_page_12" name="test_page_12_open_modal" time="10.739"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 10000ms&#10;  - waiting for locator(&quot;text\\=Close&quot;)">tests/page_12/test_page_12.py:27: in test_page_12_open_modal
+    expect(page.locator("text\=Close")).to_be_visible(timeout=10000)  # Assuming a close button exists in the modal
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 10000ms
+E     - waiting for locator("text\\=Close")</failure></testcase><testcase classname="tests.page_12.test_page_12" name="test_page_12_check_heading" time="0.729" /><testcase classname="tests.page_12.test_page_12" name="test_page_12_link_formy" time="0.791" /><testcase classname="tests.page_13.test_page_13" name="test_page_scroll_navigation" time="0.709" /><testcase classname="tests.page_13.test_page_13" name="test_page_scroll_input_interaction" time="0.748" /><testcase classname="tests.page_13.test_page_13" name="test_page_scroll_formy_link" time="0.793" /><testcase classname="tests.page_13.test_page_13" name="test_page_scroll_components_dropdown" time="0.757" /><testcase classname="tests.page_14.test_page_14" name="test_radio_button_page_navigation" time="0.706" /><testcase classname="tests.page_14.test_page_14" name="test_radio_button_selection" time="0.715" /><testcase classname="tests.page_14.test_page_14" name="test_radio_button_multiple_selection" time="0.778" /><testcase classname="tests.page_14.test_page_14" name="test_radio_button_elements_visibility" time="0.716" /><testcase classname="tests.page_14.test_page_14" name="test_radio_button_form_components_link" time="0.752" /><testcase classname="tests.page_15.test_page_15" name="test_page_switch_window_heading_visible" time="0.686" /><testcase classname="tests.page_15.test_page_15" name="test_page_open_new_tab" time="0.795" /><testcase classname="tests.page_15.test_page_15" name="test_page_open_alert" time="0.735" /><testcase classname="tests.page_15.test_page_15" name="test_page_link_formy_navigation" time="0.799" /><testcase classname="tests.page_15.test_page_15" name="test_page_components_link_visible" time="0.697" /><testcase classname="tests.page_16.test_page_16" name="test_page_thanks_heading_visible" time="0.691" /><testcase classname="tests.page_16.test_page_16" name="test_page_title" time="0.675" /><testcase classname="tests.page_16.test_page_16" name="test_page_formy_link_navigation" time="0.755" /><testcase classname="tests.page_16.test_page_16" name="test_page_thanks_message_visible" time="0.712" /><testcase classname="tests.page_16.test_page_16" name="test_page_form_link_navigation" time="0.804" /><testcase classname="tests.page_17.test_page_17" name="test_page_17_navigation" time="0.641" /><testcase classname="tests.page_17.test_page_17" name="test_page_17_heading_visibility" time="0.657" /><testcase classname="tests.page_17.test_page_17" name="test_page_17_heading_text" time="0.649" /><testcase classname="tests.page_17.test_page_17" name="test_page_17_check_title" time="0.639" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_01" time="0.744" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_02" time="10.735"><failure message="AssertionError: Page URL expected to be 're.compile('/buttons')'&#10;Actual value: https://formy-project.herokuapp.com/autocomplete &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    14 × unexpected value &quot;https://formy-project.herokuapp.com/autocomplete&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:26: in test_TC_Navigation_02
+    expect(page).to_have_url(re.compile(r"/buttons"), timeout=10000)
+E   AssertionError: Page URL expected to be 're.compile('/buttons')'
+E   Actual value: https://formy-project.herokuapp.com/autocomplete 
+E   Call log:
+E     - Expect "to_have_url" with timeout 10000ms
+E       14 × unexpected value "https://formy-project.herokuapp.com/autocomplete"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_03" time="10.765"><failure message="AssertionError: Page URL expected to be 're.compile('/checkbox')'&#10;Actual value: https://formy-project.herokuapp.com/autocomplete &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    14 × unexpected value &quot;https://formy-project.herokuapp.com/autocomplete&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:34: in test_TC_Navigation_03
+    expect(page).to_have_url(re.compile(r"/checkbox"), timeout=10000)
+E   AssertionError: Page URL expected to be 're.compile('/checkbox')'
+E   Actual value: https://formy-project.herokuapp.com/autocomplete 
+E   Call log:
+E     - Expect "to_have_url" with timeout 10000ms
+E       14 × unexpected value "https://formy-project.herokuapp.com/autocomplete"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_04" time="10.751"><failure message="AssertionError: Page URL expected to be 're.compile('/datepicker')'&#10;Actual value: https://formy-project.herokuapp.com/autocomplete &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    14 × unexpected value &quot;https://formy-project.herokuapp.com/autocomplete&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:42: in test_TC_Navigation_04
+    expect(page).to_have_url(re.compile(r"/datepicker"), timeout=10000)
+E   AssertionError: Page URL expected to be 're.compile('/datepicker')'
+E   Actual value: https://formy-project.herokuapp.com/autocomplete 
+E   Call log:
+E     - Expect "to_have_url" with timeout 10000ms
+E       14 × unexpected value "https://formy-project.herokuapp.com/autocomplete"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_05" time="10.762"><failure message="AssertionError: Page URL expected to be 're.compile('/dragdrop')'&#10;Actual value: https://formy-project.herokuapp.com/autocomplete &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    14 × unexpected value &quot;https://formy-project.herokuapp.com/autocomplete&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:50: in test_TC_Navigation_05
+    expect(page).to_have_url(re.compile(r"/dragdrop"), timeout=10000)
+E   AssertionError: Page URL expected to be 're.compile('/dragdrop')'
+E   Actual value: https://formy-project.herokuapp.com/autocomplete 
+E   Call log:
+E     - Expect "to_have_url" with timeout 10000ms
+E       14 × unexpected value "https://formy-project.herokuapp.com/autocomplete"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_06" time="10.733"><failure message="AssertionError: Page URL expected to be 're.compile('/dropdown')'&#10;Actual value: https://formy-project.herokuapp.com/autocomplete &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    14 × unexpected value &quot;https://formy-project.herokuapp.com/autocomplete&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:58: in test_TC_Navigation_06
+    expect(page).to_have_url(re.compile(r"/dropdown"), timeout=10000)
+E   AssertionError: Page URL expected to be 're.compile('/dropdown')'
+E   Actual value: https://formy-project.herokuapp.com/autocomplete 
+E   Call log:
+E     - Expect "to_have_url" with timeout 10000ms
+E       14 × unexpected value "https://formy-project.herokuapp.com/autocomplete"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_07" time="10.790"><failure message="AssertionError: Page URL expected to be 're.compile('/enabled')'&#10;Actual value: https://formy-project.herokuapp.com/autocomplete &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    14 × unexpected value &quot;https://formy-project.herokuapp.com/autocomplete&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:66: in test_TC_Navigation_07
+    expect(page).to_have_url(re.compile(r"/enabled"), timeout=10000)
+E   AssertionError: Page URL expected to be 're.compile('/enabled')'
+E   Actual value: https://formy-project.herokuapp.com/autocomplete 
+E   Call log:
+E     - Expect "to_have_url" with timeout 10000ms
+E       14 × unexpected value "https://formy-project.herokuapp.com/autocomplete"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_08" time="10.746"><failure message="AssertionError: Page URL expected to be 're.compile('/fileupload')'&#10;Actual value: https://formy-project.herokuapp.com/autocomplete &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    14 × unexpected value &quot;https://formy-project.herokuapp.com/autocomplete&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:74: in test_TC_Navigation_08
+    expect(page).to_have_url(re.compile(r"/fileupload"), timeout=10000)
+E   AssertionError: Page URL expected to be 're.compile('/fileupload')'
+E   Actual value: https://formy-project.herokuapp.com/autocomplete 
+E   Call log:
+E     - Expect "to_have_url" with timeout 10000ms
+E       14 × unexpected value "https://formy-project.herokuapp.com/autocomplete"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_09" time="10.782"><failure message="AssertionError: Page URL expected to be 're.compile('/keypress')'&#10;Actual value: https://formy-project.herokuapp.com/autocomplete &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    14 × unexpected value &quot;https://formy-project.herokuapp.com/autocomplete&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:82: in test_TC_Navigation_09
+    expect(page).to_have_url(re.compile(r"/keypress"), timeout=10000)
+E   AssertionError: Page URL expected to be 're.compile('/keypress')'
+E   Actual value: https://formy-project.herokuapp.com/autocomplete 
+E   Call log:
+E     - Expect "to_have_url" with timeout 10000ms
+E       14 × unexpected value "https://formy-project.herokuapp.com/autocomplete"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_10" time="10.739"><failure message="AssertionError: Page URL expected to be 're.compile('/modal')'&#10;Actual value: https://formy-project.herokuapp.com/autocomplete &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    14 × unexpected value &quot;https://formy-project.herokuapp.com/autocomplete&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:90: in test_TC_Navigation_10
+    expect(page).to_have_url(re.compile(r"/modal"), timeout=10000)
+E   AssertionError: Page URL expected to be 're.compile('/modal')'
+E   Actual value: https://formy-project.herokuapp.com/autocomplete 
+E   Call log:
+E     - Expect "to_have_url" with timeout 10000ms
+E       14 × unexpected value "https://formy-project.herokuapp.com/autocomplete"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_11" time="10.762"><failure message="AssertionError: Page URL expected to be 're.compile('/scroll')'&#10;Actual value: https://formy-project.herokuapp.com/autocomplete &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    14 × unexpected value &quot;https://formy-project.herokuapp.com/autocomplete&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:98: in test_TC_Navigation_11
+    expect(page).to_have_url(re.compile(r"/scroll"), timeout=10000)
+E   AssertionError: Page URL expected to be 're.compile('/scroll')'
+E   Actual value: https://formy-project.herokuapp.com/autocomplete 
+E   Call log:
+E     - Expect "to_have_url" with timeout 10000ms
+E       14 × unexpected value "https://formy-project.herokuapp.com/autocomplete"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_12" time="10.754"><failure message="AssertionError: Page URL expected to be 're.compile('/radiobutton')'&#10;Actual value: https://formy-project.herokuapp.com/autocomplete &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    14 × unexpected value &quot;https://formy-project.herokuapp.com/autocomplete&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:106: in test_TC_Navigation_12
+    expect(page).to_have_url(re.compile(r"/radiobutton"), timeout=10000)
+E   AssertionError: Page URL expected to be 're.compile('/radiobutton')'
+E   Actual value: https://formy-project.herokuapp.com/autocomplete 
+E   Call log:
+E     - Expect "to_have_url" with timeout 10000ms
+E       14 × unexpected value "https://formy-project.herokuapp.com/autocomplete"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_13" time="10.755"><failure message="AssertionError: Page URL expected to be 're.compile('/switch-window')'&#10;Actual value: https://formy-project.herokuapp.com/autocomplete &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    14 × unexpected value &quot;https://formy-project.herokuapp.com/autocomplete&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:114: in test_TC_Navigation_13
+    expect(page).to_have_url(re.compile(r"/switch-window"), timeout=10000)
+E   AssertionError: Page URL expected to be 're.compile('/switch-window')'
+E   Actual value: https://formy-project.herokuapp.com/autocomplete 
+E   Call log:
+E     - Expect "to_have_url" with timeout 10000ms
+E       14 × unexpected value "https://formy-project.herokuapp.com/autocomplete"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_14" time="0.751" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_15" time="0.807" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_16" time="0.794" /><testcase classname="tests.page_2.test_page_2" name="test_page_2_navigation_to_form" time="0.671"><failure message="playwright._impl._errors.Error: Locator.click: Unexpected token &quot;locator(&quot; while parsing css selector &quot;page.locator('#logo')&quot;. Did you mean to CSS.escape it?&#10;Call log:&#10;  - waiting for page.locator('#logo')">tests/page_2/test_page_2.py:18: in test_page_2_navigation_to_form
+    page.locator("page.locator('#logo')").click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Unexpected token "locator(" while parsing css selector "page.locator('#logo')". Did you mean to CSS.escape it?
+E   Call log:
+E     - waiting for page.locator('#logo')</failure></testcase><testcase classname="tests.page_2.test_page_2" name="test_page_2_form_submission" time="0.965" /><testcase classname="tests.page_2.test_page_2" name="test_page_2_element_visibility" time="0.709" /><testcase classname="tests.page_2.test_page_2" name="test_page_2_interactive_elements" time="0.807" /><testcase classname="tests.page_2.test_page_2" name="test_page_2_components_navigation" time="0.856" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_001" time="0.839" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_002" time="0.797" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_003" time="0.826" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_004" time="0.783" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_005" time="0.815" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_006" time="0.787" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_007" time="0.812" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_008" time="0.799" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_009" time="0.852" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_010" time="0.832" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_011" time="0.787" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_012" time="0.794" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_013" time="0.836" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_014" time="0.798" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Form_Submission_001" time="1.001" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Form_Submission_002" time="10.984"><failure message="AssertionError: Page URL expected to be 'https://formy-project.herokuapp.com/form'&#10;Actual value: https://formy-project.herokuapp.com/thanks &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    14 × unexpected value &quot;https://formy-project.herokuapp.com/thanks&quot;">tests/page_2_f871/test_page_2_f871.py:167: in test_TC_Form_Submission_002
+    expect(page).to_have_url(PAGE_2_F871_URL, timeout=10000)
+E   AssertionError: Page URL expected to be 'https://formy-project.herokuapp.com/form'
+E   Actual value: https://formy-project.herokuapp.com/thanks 
+E   Call log:
+E     - Expect "to_have_url" with timeout 10000ms
+E       14 × unexpected value "https://formy-project.herokuapp.com/thanks"</failure></testcase><testcase classname="tests.page_3.test_page_3" name="test_page_3_navigation_to_autocomplete" time="0.951"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: Unexpected token &quot;locator(&quot; while parsing css selector &quot;page.locator('#logo')&quot;. Did you mean to CSS.escape it? &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for page.locator('#logo')">tests/page_3/test_page_3.py:17: in test_page_3_navigation_to_autocomplete
+    expect(page.locator("page.locator('#logo')")).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: Unexpected token "locator(" while parsing css selector "page.locator('#logo')". Did you mean to CSS.escape it? 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for page.locator('#logo')</failure></testcase><testcase classname="tests.page_3.test_page_3" name="test_page_3_address_input" time="1.090" /><testcase classname="tests.page_3.test_page_3" name="test_page_3_check_formy_link" time="0.971"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: Unexpected token &quot;locator(&quot; while parsing css selector &quot;page.locator('#logo')&quot;. Did you mean to CSS.escape it? &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for page.locator('#logo')">tests/page_3/test_page_3.py:39: in test_page_3_check_formy_link
+    expect(page.locator("page.locator('#logo')")).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: Unexpected token "locator(" while parsing css selector "page.locator('#logo')". Did you mean to CSS.escape it? 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for page.locator('#logo')</failure></testcase><testcase classname="tests.page_3.test_page_3" name="test_page_3_components_dropdown_visibility" time="1.072" /><testcase classname="tests.page_3.test_page_3" name="test_page_3_autocomplete_heading_visibility" time="1.042" /><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_01" time="1.087" /><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Autocomplete_HappyPath_01" time="1.177" /><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Autocomplete_EdgeCase_01" time="1.108" /><testcase classname="tests.page_4.test_page_4" name="test_page_4_navigation" time="0.806" /><testcase classname="tests.page_4.test_page_4" name="test_page_4_button_clicks" time="0.756"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: strict mode violation: locator(&quot;button.btn.btn-lg.btn-primary&quot;) resolved to 7 elements:&#10;    1) &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-primary&quot;&gt;Primary&lt;/button&gt; aka get_by_role(&quot;button&quot;, name=&quot;Primary&quot;)&#10;    2) &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-primary&quot;&gt;Left&lt;/button&gt; aka get_by_role(&quot;button&quot;, name=&quot;Left&quot;)&#10;    3) &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-primary&quot;&gt;Middle&lt;/button&gt; aka get_by_role(&quot;button&quot;, name=&quot;Middle&quot;)&#10;    4) &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-primary&quot;&gt;Right&lt;/button&gt; aka get_by_role(&quot;button&quot;, name=&quot;Right&quot;)&#10;    5) &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-primary&quot;&gt;1&lt;/button&gt; aka get_by_role(&quot;button&quot;, name=&quot;1&quot;)&#10;    6) &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-primary&quot;&gt;2&lt;/button&gt; aka get_by_role(&quot;button&quot;, name=&quot;2&quot;)&#10;    7) &lt;button type=&quot;button&quot; id=&quot;btnGroupDrop1&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; data-toggle=&quot;dropdown&quot; class=&quot;btn btn-lg btn-primary dropdown-toggle&quot;&gt;↵            Dropdown↵          &lt;/button&gt; aka get_by_role(&quot;button&quot;, name=&quot;Dropdown&quot;)&#10; &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;button.btn.btn-lg.btn-primary&quot;)">tests/page_4/test_page_4.py:25: in test_page_4_button_clicks
+    expect(page.locator('button.btn.btn-lg.btn-primary')).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: strict mode violation: locator("button.btn.btn-lg.btn-primary") resolved to 7 elements:
+E       1) &lt;button type="button" class="btn btn-lg btn-primary"&gt;Primary&lt;/button&gt; aka get_by_role("button", name="Primary")
+E       2) &lt;button type="button" class="btn btn-lg btn-primary"&gt;Left&lt;/button&gt; aka get_by_role("button", name="Left")
+E       3) &lt;button type="button" class="btn btn-lg btn-primary"&gt;Middle&lt;/button&gt; aka get_by_role("button", name="Middle")
+E       4) &lt;button type="button" class="btn btn-lg btn-primary"&gt;Right&lt;/button&gt; aka get_by_role("button", name="Right")
+E       5) &lt;button type="button" class="btn btn-lg btn-primary"&gt;1&lt;/button&gt; aka get_by_role("button", name="1")
+E       6) &lt;button type="button" class="btn btn-lg btn-primary"&gt;2&lt;/button&gt; aka get_by_role("button", name="2")
+E       7) &lt;button type="button" id="btnGroupDrop1" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="btn btn-lg btn-primary dropdown-toggle"&gt;↵            Dropdown↵          &lt;/button&gt; aka get_by_role("button", name="Dropdown")
+E    
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("button.btn.btn-lg.btn-primary")</failure></testcase><testcase classname="tests.page_4.test_page_4" name="test_page_4_dropdown_interaction" time="1.518" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_01" time="0.754" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Button_Clicks_02" time="0.966" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Button_Clicks_03" time="0.911" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Dropdown_04" time="0.963" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Button_Clicks_05" time="0.793" /><testcase classname="tests.page_5.test_page_5" name="test_page_checkbox_title_visibility" time="0.253" /><testcase classname="tests.page_5.test_page_5" name="test_page_checkbox_select_first" time="0.287" /><testcase classname="tests.page_5.test_page_5" name="test_page_checkbox_select_all" time="0.410" /><testcase classname="tests.page_5.test_page_5" name="test_page_checkbox_navigation_to_formy" time="0.319" /><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_tc_navigation_01" time="0.786" /><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_tc_checkbox_selection_01" time="0.839" /><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_tc_navigation_02" time="5.790"><failure message="AssertionError: Locator expected to contain text 'Formy is a place'&#10;Actual value: &#10;    &#10;      &#10;  Formy&#10;  &#10;    &#10;  &#10;  &#10;    &#10;      &#10;        Form&#10;      &#10;      &#10;        &#10;          Components&#10;        &#10;        &#10;          Autocomplete&#10;          Buttons&#10;          Checkbox&#10;          Datepicker&#10;          Drag and Drop&#10;          Dropdown&#10;          Enabled and disabled elements&#10;          File Upload&#10;          Key and Mouse Press&#10;          Modal&#10;          Page Scroll&#10;          Radio Button&#10;          Switch Window&#10;          Complete Web Form&#10;        &#10;      &#10;    &#10;  &#10;&#10;&#10;      &#10;  Welcome to Formy&#10;  This is a simple site that has form components that can be used for testing purposes.&#10;  &#10;  Here are the list of all the components&#10;    Autocomplete&#10;    Buttons&#10;    Checkbox&#10;    Datepicker&#10;    Drag and Drop&#10;    Dropdown&#10;    Enabled and disabled elements&#10;    File Upload&#10;    Key and Mouse Press&#10;    Modal&#10;    Page Scroll&#10;    Radio Button&#10;    Switch Window&#10;    Complete Web Form&#10;&#10;&#10;    &#10;    &#10;  &#10;&#10; &#10;Call log:&#10;  - Expect &quot;to_contain_text&quot; with timeout 5000ms&#10;  - waiting for locator(&quot;body&quot;)&#10;    9 × locator resolved to &lt;body&gt;…&lt;/body&gt;&#10;      - unexpected value &quot;&#10;    &#10;      &#10;  Formy&#10;  &#10;    &#10;  &#10;  &#10;    &#10;      &#10;        Form&#10;      &#10;      &#10;        &#10;          Components&#10;        &#10;        &#10;          Autocomplete&#10;          Buttons&#10;          Checkbox&#10;          Datepicker&#10;          Drag and Drop&#10;          Dropdown&#10;          Enabled and disabled elements&#10;          File Upload&#10;          Key and Mouse Press&#10;          Modal&#10;          Page Scroll&#10;          Radio Button&#10;          Switch Window&#10;          Complete Web Form&#10;        &#10;      &#10;    &#10;  &#10;&#10;&#10;      &#10;  Welcome to Formy&#10;  This is a simple site that has form components that can be used for testing purposes.&#10;  &#10;  Here are the list of all the components&#10;    Autocomplete&#10;    Buttons&#10;    Checkbox&#10;    Datepicker&#10;    Drag and Drop&#10;    Dropdown&#10;    Enabled and disabled elements&#10;    File Upload&#10;    Key and Mouse Press&#10;    Modal&#10;    Page Scroll&#10;    Radio Button&#10;    Switch Window&#10;    Complete Web Form&#10;&#10;&#10;    &#10;    &#10;  &#10;&#10;&quot;">tests/page_5_aa33/test_page_5_aa33.py:37: in test_tc_navigation_02
+    expect(page.locator('body')).to_contain_text("Formy is a place")
+E   AssertionError: Locator expected to contain text 'Formy is a place'
+E   Actual value: 
+E       
+E         
+E     Formy
+E     
+E       
+E     
+E     
+E       
+E         
+E           Form
+E         
+E         
+E           
+E             Components
+E           
+E           
+E             Autocomplete
+E             Buttons
+E             Checkbox
+E             Datepicker
+E             Drag and Drop
+E             Dropdown
+E             Enabled and disabled elements
+E             File Upload
+E             Key and Mouse Press
+E             Modal
+E             Page Scroll
+E             Radio Button
+E             Switch Window
+E             Complete Web Form
+E           
+E         
+E       
+E     
+E   
+E   
+E         
+E     Welcome to Formy
+E     This is a simple site that has form components that can be used for testing purposes.
+E     
+E     Here are the list of all the components
+E       Autocomplete
+E       Buttons
+E       Checkbox
+E       Datepicker
+E       Drag and Drop
+E       Dropdown
+E       Enabled and disabled elements
+E       File Upload
+E       Key and Mouse Press
+E       Modal
+E       Page Scroll
+E       Radio Button
+E       Switch Window
+E       Complete Web Form
+E   
+E   
+E       
+E       
+E     
+E   
+E    
+E   Call log:
+E     - Expect "to_contain_text" with timeout 5000ms
+E     - waiting for locator("body")
+E       9 × locator resolved to &lt;body&gt;…&lt;/body&gt;
+E         - unexpected value "
+E       
+E         
+E     Formy
+E     
+E       
+E     
+E     
+E       
+E         
+E           Form
+E         
+E         
+E           
+E             Components
+E           
+E           
+E             Autocomplete
+E             Buttons
+E             Checkbox
+E             Datepicker
+E             Drag and Drop
+E             Dropdown
+E             Enabled and disabled elements
+E             File Upload
+E             Key and Mouse Press
+E             Modal
+E             Page Scroll
+E             Radio Button
+E             Switch Window
+E             Complete Web Form
+E           
+E         
+E       
+E     
+E   
+E   
+E         
+E     Welcome to Formy
+E     This is a simple site that has form components that can be used for testing purposes.
+E     
+E     Here are the list of all the components
+E       Autocomplete
+E       Buttons
+E       Checkbox
+E       Datepicker
+E       Drag and Drop
+E       Dropdown
+E       Enabled and disabled elements
+E       File Upload
+E       Key and Mouse Press
+E       Modal
+E       Page Scroll
+E       Radio Button
+E       Switch Window
+E       Complete Web Form
+E   
+E   
+E       
+E       
+E     
+E   
+E   "</failure></testcase><testcase classname="tests.page_6.test_page_6" name="test_page_6_navigation_to_datepicker" time="0.827" /><testcase classname="tests.page_6.test_page_6" name="test_page_6_formy_link_exists" time="0.706" /><testcase classname="tests.page_6.test_page_6" name="test_page_6_components_dropdown_exists" time="0.765" /><testcase classname="tests.page_6.test_page_6" name="test_page_6_navigate_to_form" time="0.776" /><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_TC_Navigation_01" time="0.775" /><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_TC_Navigation_02" time="0.791" /><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_TC_Navigation_03" time="0.777" /><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_TC_Navigation_04" time="0.788" /><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_TC_Navigation_05" time="0.787" /><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_TC_Navigation_06" time="0.825" /><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_TC_Navigation_07" time="0.793" /><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_TC_Navigation_08" time="0.799" /><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_TC_Navigation_09" time="0.837" /><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_TC_Navigation_10" time="0.808" /><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_TC_Navigation_11" time="0.790" /><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_TC_Navigation_12" time="0.857" /><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_TC_Navigation_13" time="0.836" /><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_TC_Navigation_14" time="0.787" /><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_TC_Navigation_15" time="0.749" /><testcase classname="tests.page_7.test_page_7" name="test_page_7_title" time="0.320" /><testcase classname="tests.page_7.test_page_7" name="test_page_7_heading_visibility" time="0.325" /><testcase classname="tests.page_7.test_page_7" name="test_page_7_drop_here_visibility" time="0.330" /><testcase classname="tests.page_7.test_page_7" name="test_page_7_link_formy_navigation" time="0.889" /><testcase classname="tests.page_7.test_page_7" name="test_page_7_form_link_navigation" time="0.913" /><testcase classname="tests.page_7_181a.test_page_7_181a" name="test_TC_Navigation_001" time="0.799" /><testcase classname="tests.page_7_181a.test_page_7_181a" name="test_TC_Navigation_002" time="0.785" /><testcase classname="tests.page_7_181a.test_page_7_181a" name="test_TC_Navigation_003" time="0.775" /><testcase classname="tests.page_8.test_page_8" name="test_page_dropdown_heading_visible" time="0.688" /><testcase classname="tests.page_8.test_page_8" name="test_page_dropdown_button_click" time="0.736" /><testcase classname="tests.page_8.test_page_8" name="test_page_formy_link_navigation" time="0.760" /><testcase classname="tests.page_8.test_page_8" name="test_page_components_dropdown_exists" time="0.732" /><testcase classname="tests.page_8.test_page_8" name="test_page_components_dropdown_click" time="0.762" /><testcase classname="tests.page_8_2f35.test_page_8_2f35" name="test_TC_Navigation_01" time="0.753" /><testcase classname="tests.page_8_2f35.test_page_8_2f35" name="test_TC_Navigation_02" time="0.744" /><testcase classname="tests.page_8_2f35.test_page_8_2f35" name="test_TC_Interaction_01" time="0.728" /><testcase classname="tests.page_9.test_page_9" name="test_page_enabled_elements_title" time="0.681" /><testcase classname="tests.page_9.test_page_9" name="test_page_enabled_elements_heading_visible" time="0.694" /><testcase classname="tests.page_9.test_page_9" name="test_page_enabled_elements_formy_link_visible" time="5.736"><failure message="AssertionError: Locator expected to have text 'FORMY'&#10;Actual value: Formy &#10;Call log:&#10;  - Expect &quot;to_have_text&quot; with timeout 5000ms&#10;  - waiting for locator(&quot;#logo&quot;)&#10;    9 × locator resolved to &lt;a href=&quot;/&quot; id=&quot;logo&quot; class=&quot;navbar-brand&quot;&gt;Formy&lt;/a&gt;&#10;      - unexpected value &quot;Formy&quot;">tests/page_9/test_page_9.py:34: in test_page_enabled_elements_formy_link_visible
+    expect(page.locator('#logo')).to_have_text("FORMY")
+E   AssertionError: Locator expected to have text 'FORMY'
+E   Actual value: Formy 
+E   Call log:
+E     - Expect "to_have_text" with timeout 5000ms
+E     - waiting for locator("#logo")
+E       9 × locator resolved to &lt;a href="/" id="logo" class="navbar-brand"&gt;Formy&lt;/a&gt;
+E         - unexpected value "Formy"</failure></testcase><testcase classname="tests.page_9.test_page_9" name="test_page_enabled_elements_components_link_visible" time="0.698" /><testcase classname="tests.page_9.test_page_9" name="test_page_enabled_elements_form_link_visible" time="0.689" /><testcase classname="tests.page_9_e3bd.test_page_9_e3bd" name="test_TC_Navigation_01" time="0.751" /><testcase classname="tests.page_9_e3bd.test_page_9_e3bd" name="test_TC_Navigation_02" time="0.792" /><testcase classname="tests.page_9_e3bd.test_page_9_e3bd" name="test_TC_Interaction_01" time="0.824" /></testsuite></testsuites>

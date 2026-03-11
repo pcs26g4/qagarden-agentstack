@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="8" time="265.691" timestamp="2026-02-25T22:54:37.907755+05:30" hostname="DESKTOP-5T4S1GA"><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_001" time="37.255"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">#x1B[1m#x1B[31mtests\page_1_cdbd\test_page_1_cdbd.py#x1B[0m:16: in test_TC_Navigation_001
+    #x1B[0mpage.wait_for_load_state(#x1B[33m'#x1B[39;49;00m#x1B[33mnetworkidle#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\sync_api\_generated.py#x1B[0m:9152: in wait_for_load_state
+    #x1B[0m#x1B[96mself#x1B[39;49;00m._sync(#x1B[96mself#x1B[39;49;00m._impl_obj.wait_for_load_state(state=state, timeout=timeout))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\_impl\_page.py#x1B[0m:572: in wait_for_load_state
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._main_frame.wait_for_load_state(**locals_to_params(#x1B[96mlocals#x1B[39;49;00m()))#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\_impl\_frame.py#x1B[0m:273: in wait_for_load_state
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._wait_for_load_state_impl(state, timeout)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\_impl\_frame.py#x1B[0m:301: in _wait_for_load_state_impl
+    #x1B[0m#x1B[94mawait#x1B[39;49;00m waiter.result()#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.#x1B[0m</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_002" time="33.914"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">#x1B[1m#x1B[31mtests\page_1_cdbd\test_page_1_cdbd.py#x1B[0m:23: in test_TC_Navigation_002
+    #x1B[0mpage.wait_for_load_state(#x1B[33m'#x1B[39;49;00m#x1B[33mnetworkidle#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\sync_api\_generated.py#x1B[0m:9152: in wait_for_load_state
+    #x1B[0m#x1B[96mself#x1B[39;49;00m._sync(#x1B[96mself#x1B[39;49;00m._impl_obj.wait_for_load_state(state=state, timeout=timeout))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\_impl\_page.py#x1B[0m:572: in wait_for_load_state
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._main_frame.wait_for_load_state(**locals_to_params(#x1B[96mlocals#x1B[39;49;00m()))#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\_impl\_frame.py#x1B[0m:273: in wait_for_load_state
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._wait_for_load_state_impl(state, timeout)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\_impl\_frame.py#x1B[0m:301: in _wait_for_load_state_impl
+    #x1B[0m#x1B[94mawait#x1B[39;49;00m waiter.result()#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.#x1B[0m</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_003" time="36.896"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">#x1B[1m#x1B[31mtests\page_1_cdbd\test_page_1_cdbd.py#x1B[0m:30: in test_TC_Navigation_003
+    #x1B[0mpage.wait_for_load_state(#x1B[33m'#x1B[39;49;00m#x1B[33mnetworkidle#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\sync_api\_generated.py#x1B[0m:9152: in wait_for_load_state
+    #x1B[0m#x1B[96mself#x1B[39;49;00m._sync(#x1B[96mself#x1B[39;49;00m._impl_obj.wait_for_load_state(state=state, timeout=timeout))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\_impl\_page.py#x1B[0m:572: in wait_for_load_state
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._main_frame.wait_for_load_state(**locals_to_params(#x1B[96mlocals#x1B[39;49;00m()))#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\_impl\_frame.py#x1B[0m:273: in wait_for_load_state
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._wait_for_load_state_impl(state, timeout)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\_impl\_frame.py#x1B[0m:301: in _wait_for_load_state_impl
+    #x1B[0m#x1B[94mawait#x1B[39;49;00m waiter.result()#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.#x1B[0m</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_004" time="19.175" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Authentication_001" time="18.936" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Authentication_002" time="28.370" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_LanguageSelection_001" time="35.446"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">#x1B[1m#x1B[31mtests\page_1_cdbd\test_page_1_cdbd.py#x1B[0m:58: in test_TC_LanguageSelection_001
+    #x1B[0mpage.wait_for_load_state(#x1B[33m'#x1B[39;49;00m#x1B[33mnetworkidle#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\sync_api\_generated.py#x1B[0m:9152: in wait_for_load_state
+    #x1B[0m#x1B[96mself#x1B[39;49;00m._sync(#x1B[96mself#x1B[39;49;00m._impl_obj.wait_for_load_state(state=state, timeout=timeout))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\_impl\_page.py#x1B[0m:572: in wait_for_load_state
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._main_frame.wait_for_load_state(**locals_to_params(#x1B[96mlocals#x1B[39;49;00m()))#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\_impl\_frame.py#x1B[0m:273: in wait_for_load_state
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._wait_for_load_state_impl(state, timeout)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\_impl\_frame.py#x1B[0m:301: in _wait_for_load_state_impl
+    #x1B[0m#x1B[94mawait#x1B[39;49;00m waiter.result()#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.#x1B[0m</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_LanguageSelection_002" time="49.629"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;button.language-button&quot;).first&#10;    - locator resolved to &lt;button class=&quot;language-button&quot;&gt;…&lt;/button&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not stable&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not stable&#10;    - retrying click action&#10;      - waiting 100ms&#10;    47 × waiting for element to be visible, enabled and stable&#10;       - element is not stable&#10;     - retrying click action&#10;       - waiting 500ms">#x1B[1m#x1B[31mtests\page_1_cdbd\test_page_1_cdbd.py#x1B[0m:70: in test_TC_LanguageSelection_002
+    #x1B[0mpage.locator(#x1B[33m'#x1B[39;49;00m#x1B[33mbutton.language-button#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m).nth(#x1B[94m0#x1B[39;49;00m).click()#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\sync_api\_generated.py#x1B[0m:15631: in click
+    #x1B[0m#x1B[96mself#x1B[39;49;00m._sync(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\_impl\_locator.py#x1B[0m:162: in click
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._frame._click(#x1B[96mself#x1B[39;49;00m._selector, strict=#x1B[94mTrue#x1B[39;49;00m, **params)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\_impl\_frame.py#x1B[0m:566: in _click
+    #x1B[0m#x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._channel.send(#x1B[33m"#x1B[39;49;00m#x1B[33mclick#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m, #x1B[96mself#x1B[39;49;00m._timeout, locals_to_params(#x1B[96mlocals#x1B[39;49;00m()))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\_impl\_connection.py#x1B[0m:69: in send
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._connection.wrap_api_call(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\playwright\_impl\_connection.py#x1B[0m:559: in wrap_api_call
+    #x1B[0m#x1B[94mraise#x1B[39;49;00m rewrite_error(error, #x1B[33mf#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m{#x1B[39;49;00mparsed_st[#x1B[33m'#x1B[39;49;00m#x1B[33mapiName#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m]#x1B[33m}#x1B[39;49;00m#x1B[33m: #x1B[39;49;00m#x1B[33m{#x1B[39;49;00merror#x1B[33m}#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m) #x1B[94mfrom#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[94mNone#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.#x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - waiting for locator("button.language-button").first#x1B[0m
+#x1B[1m#x1B[31mE       - locator resolved to &lt;button class="language-button"&gt;…&lt;/button&gt;#x1B[0m
+#x1B[1m#x1B[31mE     - attempting click action#x1B[0m
+#x1B[1m#x1B[31mE       2 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE         - element is not stable#x1B[0m
+#x1B[1m#x1B[31mE       - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE       - waiting 20ms#x1B[0m
+#x1B[1m#x1B[31mE       2 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE         - element is not stable#x1B[0m
+#x1B[1m#x1B[31mE       - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE         - waiting 100ms#x1B[0m
+#x1B[1m#x1B[31mE       47 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE          - element is not stable#x1B[0m
+#x1B[1m#x1B[31mE        - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE          - waiting 500ms#x1B[0m</failure></testcase></testsuite></testsuites>

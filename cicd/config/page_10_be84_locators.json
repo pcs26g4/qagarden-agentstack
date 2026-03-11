@@ -1,0 +1,12 @@
+{
+  "FORMYFORMCOMPONENTS_FILE": "html",
+  "FORMYFORMCOMPONENTS_FILE_1": "body",
+  "FORMYFORMCOMPONENTS": "nav.navbar.navbar-expand-lg.bg-light",
+  "LINK_FORMY": "#logo",
+  "FORMCOMPONENTS": "#navbarNavDropdown",
+  "LINK_FORM": "a.nav-link",
+  "LINK_COMPONENTS": "#navbarDropdownMenuLink",
+  "HEADING_FILE_UPLOAD": "h1",
+  "BTN_CHOOSE": "button.btn.btn-secondary.btn-choose",
+  "BTN_RESET": "button.btn.btn-warning.btn-reset"
+}

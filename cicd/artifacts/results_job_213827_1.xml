@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="10" failures="0" skipped="0" tests="10" time="1.972" timestamp="2026-02-25T21:45:12.531494+05:30" hostname="DESKTOP-5T4S1GA"><testcase classname="" name="tests.page_10_be84.test_page_10_be84" time="0.000"><error message="collection failure">#x1B[31mImportError while importing test module 'C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\tests\page_10_be84\test_page_10_be84.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\python.py#x1B[0m:507: in importtestmodule
+    #x1B[0mmod = import_path(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\pathlib.py#x1B[0m:587: in import_path
+    #x1B[0mimportlib.import_module(module_name)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py#x1B[0m:90: in import_module
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m _bootstrap._gcd_import(name[level:], package, level)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1387: in _gcd_import
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1360: in _find_and_load
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1331: in _find_and_load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:935: in _load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\assertion\rewrite.py#x1B[0m:197: in exec_module
+    #x1B[0mexec(co, module.#x1B[91m__dict__#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mtests\page_10_be84\test_page_10_be84.py#x1B[0m:9: in &lt;module&gt;
+    #x1B[0m#x1B[94mfrom#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[04m#x1B[96mconfig#x1B[39;49;00m#x1B[04m#x1B[96m.#x1B[39;49;00m#x1B[04m#x1B[96murls#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[94mimport#x1B[39;49;00m PAGE_10_BE84_URL#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   ImportError: cannot import name 'PAGE_10_BE84_URL' from 'config.urls' (C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\config\urls.py)#x1B[0m#x1B[0m</error></testcase><testcase classname="" name="tests.page_1_cdbd.test_page_1_cdbd" time="0.000"><error message="collection failure">#x1B[31mImportError while importing test module 'C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\tests\page_1_cdbd\test_page_1_cdbd.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\python.py#x1B[0m:507: in importtestmodule
+    #x1B[0mmod = import_path(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\pathlib.py#x1B[0m:587: in import_path
+    #x1B[0mimportlib.import_module(module_name)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py#x1B[0m:90: in import_module
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m _bootstrap._gcd_import(name[level:], package, level)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1387: in _gcd_import
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1360: in _find_and_load
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1331: in _find_and_load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:935: in _load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\assertion\rewrite.py#x1B[0m:197: in exec_module
+    #x1B[0mexec(co, module.#x1B[91m__dict__#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mtests\page_1_cdbd\test_page_1_cdbd.py#x1B[0m:8: in &lt;module&gt;
+    #x1B[0m#x1B[94mfrom#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[04m#x1B[96mconfig#x1B[39;49;00m#x1B[04m#x1B[96m.#x1B[39;49;00m#x1B[04m#x1B[96murls#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[94mimport#x1B[39;49;00m PAGE_1_CDBD_URL#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   ImportError: cannot import name 'PAGE_1_CDBD_URL' from 'config.urls' (C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\config\urls.py)#x1B[0m#x1B[0m</error></testcase><testcase classname="" name="tests.page_2_f871.test_page_2_f871" time="0.000"><error message="collection failure">#x1B[31mImportError while importing test module 'C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\tests\page_2_f871\test_page_2_f871.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\python.py#x1B[0m:507: in importtestmodule
+    #x1B[0mmod = import_path(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\pathlib.py#x1B[0m:587: in import_path
+    #x1B[0mimportlib.import_module(module_name)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py#x1B[0m:90: in import_module
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m _bootstrap._gcd_import(name[level:], package, level)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1387: in _gcd_import
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1360: in _find_and_load
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1331: in _find_and_load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:935: in _load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\assertion\rewrite.py#x1B[0m:197: in exec_module
+    #x1B[0mexec(co, module.#x1B[91m__dict__#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mtests\page_2_f871\test_page_2_f871.py#x1B[0m:8: in &lt;module&gt;
+    #x1B[0m#x1B[94mfrom#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[04m#x1B[96mconfig#x1B[39;49;00m#x1B[04m#x1B[96m.#x1B[39;49;00m#x1B[04m#x1B[96murls#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[94mimport#x1B[39;49;00m PAGE_2_F871_URL#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   ImportError: cannot import name 'PAGE_2_F871_URL' from 'config.urls' (C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\config\urls.py)#x1B[0m#x1B[0m</error></testcase><testcase classname="" name="tests.page_3_9ddb.test_page_3_9ddb" time="0.000"><error message="collection failure">#x1B[31mImportError while importing test module 'C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\tests\page_3_9ddb\test_page_3_9ddb.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\python.py#x1B[0m:507: in importtestmodule
+    #x1B[0mmod = import_path(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\pathlib.py#x1B[0m:587: in import_path
+    #x1B[0mimportlib.import_module(module_name)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py#x1B[0m:90: in import_module
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m _bootstrap._gcd_import(name[level:], package, level)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1387: in _gcd_import
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1360: in _find_and_load
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1331: in _find_and_load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:935: in _load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\assertion\rewrite.py#x1B[0m:197: in exec_module
+    #x1B[0mexec(co, module.#x1B[91m__dict__#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mtests\page_3_9ddb\test_page_3_9ddb.py#x1B[0m:8: in &lt;module&gt;
+    #x1B[0m#x1B[94mfrom#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[04m#x1B[96mconfig#x1B[39;49;00m#x1B[04m#x1B[96m.#x1B[39;49;00m#x1B[04m#x1B[96murls#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[94mimport#x1B[39;49;00m PAGE_3_9DDB_URL#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   ImportError: cannot import name 'PAGE_3_9DDB_URL' from 'config.urls' (C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\config\urls.py)#x1B[0m#x1B[0m</error></testcase><testcase classname="" name="tests.page_4_2b0a.test_page_4_2b0a" time="0.000"><error message="collection failure">#x1B[31mImportError while importing test module 'C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\tests\page_4_2b0a\test_page_4_2b0a.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\python.py#x1B[0m:507: in importtestmodule
+    #x1B[0mmod = import_path(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\pathlib.py#x1B[0m:587: in import_path
+    #x1B[0mimportlib.import_module(module_name)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py#x1B[0m:90: in import_module
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m _bootstrap._gcd_import(name[level:], package, level)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1387: in _gcd_import
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1360: in _find_and_load
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1331: in _find_and_load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:935: in _load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\assertion\rewrite.py#x1B[0m:197: in exec_module
+    #x1B[0mexec(co, module.#x1B[91m__dict__#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mtests\page_4_2b0a\test_page_4_2b0a.py#x1B[0m:8: in &lt;module&gt;
+    #x1B[0m#x1B[94mfrom#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[04m#x1B[96mconfig#x1B[39;49;00m#x1B[04m#x1B[96m.#x1B[39;49;00m#x1B[04m#x1B[96murls#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[94mimport#x1B[39;49;00m PAGE_4_2B0A_URL#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   ImportError: cannot import name 'PAGE_4_2B0A_URL' from 'config.urls' (C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\config\urls.py)#x1B[0m#x1B[0m</error></testcase><testcase classname="" name="tests.page_5_aa33.test_page_5_aa33" time="0.000"><error message="collection failure">#x1B[31mImportError while importing test module 'C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\tests\page_5_aa33\test_page_5_aa33.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\python.py#x1B[0m:507: in importtestmodule
+    #x1B[0mmod = import_path(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\pathlib.py#x1B[0m:587: in import_path
+    #x1B[0mimportlib.import_module(module_name)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py#x1B[0m:90: in import_module
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m _bootstrap._gcd_import(name[level:], package, level)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1387: in _gcd_import
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1360: in _find_and_load
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1331: in _find_and_load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:935: in _load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\assertion\rewrite.py#x1B[0m:197: in exec_module
+    #x1B[0mexec(co, module.#x1B[91m__dict__#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mtests\page_5_aa33\test_page_5_aa33.py#x1B[0m:8: in &lt;module&gt;
+    #x1B[0m#x1B[94mfrom#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[04m#x1B[96mconfig#x1B[39;49;00m#x1B[04m#x1B[96m.#x1B[39;49;00m#x1B[04m#x1B[96murls#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[94mimport#x1B[39;49;00m PAGE_5_AA33_URL#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   ImportError: cannot import name 'PAGE_5_AA33_URL' from 'config.urls' (C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\config\urls.py)#x1B[0m#x1B[0m</error></testcase><testcase classname="" name="tests.page_6_7142.test_page_6_7142" time="0.000"><error message="collection failure">#x1B[31mImportError while importing test module 'C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\tests\page_6_7142\test_page_6_7142.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\python.py#x1B[0m:507: in importtestmodule
+    #x1B[0mmod = import_path(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\pathlib.py#x1B[0m:587: in import_path
+    #x1B[0mimportlib.import_module(module_name)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py#x1B[0m:90: in import_module
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m _bootstrap._gcd_import(name[level:], package, level)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1387: in _gcd_import
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1360: in _find_and_load
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1331: in _find_and_load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:935: in _load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\assertion\rewrite.py#x1B[0m:197: in exec_module
+    #x1B[0mexec(co, module.#x1B[91m__dict__#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mtests\page_6_7142\test_page_6_7142.py#x1B[0m:8: in &lt;module&gt;
+    #x1B[0m#x1B[94mfrom#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[04m#x1B[96mconfig#x1B[39;49;00m#x1B[04m#x1B[96m.#x1B[39;49;00m#x1B[04m#x1B[96murls#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[94mimport#x1B[39;49;00m PAGE_6_7142_URL#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   ImportError: cannot import name 'PAGE_6_7142_URL' from 'config.urls' (C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\config\urls.py)#x1B[0m#x1B[0m</error></testcase><testcase classname="" name="tests.page_7_181a.test_page_7_181a" time="0.000"><error message="collection failure">#x1B[31mImportError while importing test module 'C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\tests\page_7_181a\test_page_7_181a.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\python.py#x1B[0m:507: in importtestmodule
+    #x1B[0mmod = import_path(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\pathlib.py#x1B[0m:587: in import_path
+    #x1B[0mimportlib.import_module(module_name)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py#x1B[0m:90: in import_module
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m _bootstrap._gcd_import(name[level:], package, level)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1387: in _gcd_import
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1360: in _find_and_load
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1331: in _find_and_load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:935: in _load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\assertion\rewrite.py#x1B[0m:197: in exec_module
+    #x1B[0mexec(co, module.#x1B[91m__dict__#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mtests\page_7_181a\test_page_7_181a.py#x1B[0m:8: in &lt;module&gt;
+    #x1B[0m#x1B[94mfrom#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[04m#x1B[96mconfig#x1B[39;49;00m#x1B[04m#x1B[96m.#x1B[39;49;00m#x1B[04m#x1B[96murls#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[94mimport#x1B[39;49;00m PAGE_7_181A_URL#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   ImportError: cannot import name 'PAGE_7_181A_URL' from 'config.urls' (C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\config\urls.py)#x1B[0m#x1B[0m</error></testcase><testcase classname="" name="tests.page_8_2f35.test_page_8_2f35" time="0.000"><error message="collection failure">#x1B[31mImportError while importing test module 'C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\tests\page_8_2f35\test_page_8_2f35.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\python.py#x1B[0m:507: in importtestmodule
+    #x1B[0mmod = import_path(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\pathlib.py#x1B[0m:587: in import_path
+    #x1B[0mimportlib.import_module(module_name)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py#x1B[0m:90: in import_module
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m _bootstrap._gcd_import(name[level:], package, level)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1387: in _gcd_import
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1360: in _find_and_load
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1331: in _find_and_load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:935: in _load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\assertion\rewrite.py#x1B[0m:197: in exec_module
+    #x1B[0mexec(co, module.#x1B[91m__dict__#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mtests\page_8_2f35\test_page_8_2f35.py#x1B[0m:10: in &lt;module&gt;
+    #x1B[0m#x1B[94mfrom#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[04m#x1B[96mconfig#x1B[39;49;00m#x1B[04m#x1B[96m.#x1B[39;49;00m#x1B[04m#x1B[96murls#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[94mimport#x1B[39;49;00m PAGE_8_2F35_URL#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   ImportError: cannot import name 'PAGE_8_2F35_URL' from 'config.urls' (C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\config\urls.py)#x1B[0m#x1B[0m</error></testcase><testcase classname="" name="tests.page_9_e3bd.test_page_9_e3bd" time="0.000"><error message="collection failure">#x1B[31mImportError while importing test module 'C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\tests\page_9_e3bd\test_page_9_e3bd.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\python.py#x1B[0m:507: in importtestmodule
+    #x1B[0mmod = import_path(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\pathlib.py#x1B[0m:587: in import_path
+    #x1B[0mimportlib.import_module(module_name)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py#x1B[0m:90: in import_module
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m _bootstrap._gcd_import(name[level:], package, level)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1387: in _gcd_import
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1360: in _find_and_load
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:1331: in _find_and_load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31m&lt;frozen importlib._bootstrap&gt;#x1B[0m:935: in _load_unlocked
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mvenv\Lib\site-packages\_pytest\assertion\rewrite.py#x1B[0m:197: in exec_module
+    #x1B[0mexec(co, module.#x1B[91m__dict__#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mtests\page_9_e3bd\test_page_9_e3bd.py#x1B[0m:8: in &lt;module&gt;
+    #x1B[0m#x1B[94mfrom#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[04m#x1B[96mconfig#x1B[39;49;00m#x1B[04m#x1B[96m.#x1B[39;49;00m#x1B[04m#x1B[96murls#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[94mimport#x1B[39;49;00m PAGE_9_E3BD_URL#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   ImportError: cannot import name 'PAGE_9_E3BD_URL' from 'config.urls' (C:\Users\Dell\OneDrive\Desktop\QA_Garden-main (2)\QA_Garden-main\QA_Garden-main\agents\cicd\config\urls.py)#x1B[0m#x1B[0m</error></testcase></testsuite></testsuites>

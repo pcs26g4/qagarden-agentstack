@@ -1,0 +1,25 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.10.11, pytest-7.4.3, pluggy-1.6.0 -- C:\Users\rleel\AppData\Local\Programs\Python\Python310\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\rleel\OneDrive\Desktop\QA DASH\qa-garden-dashboard\agents\cicd
+configfile: pytest.ini
+plugins: anyio-3.7.1, langsmith-0.6.9, asyncio-0.21.1
+asyncio: mode=strict
+collecting ... collected 1 item
+
+tests/page_4/test_page_4.py::test_page_valid_credentials FAILED          [100%]
+
+================================== FAILURES ===================================
+_________________________ test_page_valid_credentials _________________________
+tests\page_4\test_page_4.py:18: in test_page_valid_credentials
+    expect(page.url).to_equal(PAGE_4_URL)
+C:\Users\rleel\AppData\Local\Programs\Python\Python310\lib\site-packages\playwright\sync_api\__init__.py:142: in __call__
+    raise ValueError(f"Unsupported type: {type(actual)}")
+E   ValueError: Unsupported type: <class 'str'>
+----------------------------- Captured log setup ------------------------------
+INFO     test_page_valid_credentials:conftest.py:145 Starting test: test_page_valid_credentials
+---------------------------- Captured log teardown ----------------------------
+ERROR    test_page_valid_credentials:conftest.py:174 \u274c FAILED - 9.4s - Test error
+=========================== short test summary info ===========================
+FAILED tests/page_4/test_page_4.py::test_page_valid_credentials - ValueError:...
+============================= 1 failed in 14.93s ==============================

@@ -1,0 +1,41 @@
+# Ignore git metadata
+.git
+.gitignore
+
+# Ignore environments
+.env
+.venv
+venv/
+env/
+.env.*
+
+# Ignore Python caches and logs
+__pycache__
+*.py[cod]
+*.log
+*_pid.txt
+ecosystem_pid.txt
+
+# Ignore IDE settings
+.idea
+.vscode
+
+# Ignore build artifacts and caches
+build/
+dist/
+.pytest_cache
+.coverage
+htmlcov/
+
+# Ignore local AgentStack logs
+agentstack.log
+.agentstack/
+
+# Ignore local temporary/fix scripts
+reset_all.py
+debug_fastapi.py
+final_surgical_fix.py
+master_fix.py
+repair_agents.py
+repair_pipeline.py
+combine_reqs.py

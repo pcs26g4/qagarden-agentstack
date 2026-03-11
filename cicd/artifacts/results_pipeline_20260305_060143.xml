@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="50" failures="0" skipped="0" tests="50" time="6.430" timestamp="2026-03-05T06:33:23.935367" hostname="ip-172-31-89-239"><testcase classname="" name="tests.page_1.test_page_1" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_1/test_page_1.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_1/test_page_1.py:9: in &lt;module&gt;
+    from config.urls import PAGE_1_URL
+E   ImportError: cannot import name 'PAGE_1_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_10.test_page_10" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_10/test_page_10.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_10/test_page_10.py:9: in &lt;module&gt;
+    from config.urls import PAGE_10_URL
+E   ImportError: cannot import name 'PAGE_10_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_11.test_page_11" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_11/test_page_11.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_11/test_page_11.py:9: in &lt;module&gt;
+    from config.urls import PAGE_11_URL
+E   ImportError: cannot import name 'PAGE_11_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_12.test_page_12" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_12/test_page_12.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_12/test_page_12.py:9: in &lt;module&gt;
+    from config.urls import PAGE_12_URL
+E   ImportError: cannot import name 'PAGE_12_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_13.test_page_13" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_13/test_page_13.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_13/test_page_13.py:9: in &lt;module&gt;
+    from config.urls import PAGE_13_URL
+E   ImportError: cannot import name 'PAGE_13_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_14.test_page_14" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_14/test_page_14.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_14/test_page_14.py:9: in &lt;module&gt;
+    from config.urls import PAGE_14_URL
+E   ImportError: cannot import name 'PAGE_14_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_15.test_page_15" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_15/test_page_15.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_15/test_page_15.py:9: in &lt;module&gt;
+    from config.urls import PAGE_15_URL
+E   ImportError: cannot import name 'PAGE_15_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_16.test_page_16" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_16/test_page_16.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_16/test_page_16.py:9: in &lt;module&gt;
+    from config.urls import PAGE_16_URL
+E   ImportError: cannot import name 'PAGE_16_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_17.test_page_17" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_17/test_page_17.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_17/test_page_17.py:9: in &lt;module&gt;
+    from config.urls import PAGE_17_URL
+E   ImportError: cannot import name 'PAGE_17_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_18.test_page_18" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_18/test_page_18.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_18/test_page_18.py:9: in &lt;module&gt;
+    from config.urls import PAGE_18_URL
+E   ImportError: cannot import name 'PAGE_18_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_19.test_page_19" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_19/test_page_19.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_19/test_page_19.py:9: in &lt;module&gt;
+    from config.urls import PAGE_19_URL
+E   ImportError: cannot import name 'PAGE_19_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_2.test_page_2" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_2/test_page_2.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_2/test_page_2.py:9: in &lt;module&gt;
+    from config.urls import PAGE_2_URL
+E   ImportError: cannot import name 'PAGE_2_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_20.test_page_20" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_20/test_page_20.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_20/test_page_20.py:9: in &lt;module&gt;
+    from config.urls import PAGE_20_URL
+E   ImportError: cannot import name 'PAGE_20_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_21.test_page_21" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_21/test_page_21.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_21/test_page_21.py:9: in &lt;module&gt;
+    from config.urls import PAGE_21_URL
+E   ImportError: cannot import name 'PAGE_21_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_22.test_page_22" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_22/test_page_22.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_22/test_page_22.py:9: in &lt;module&gt;
+    from config.urls import PAGE_22_URL
+E   ImportError: cannot import name 'PAGE_22_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_23.test_page_23" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_23/test_page_23.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_23/test_page_23.py:9: in &lt;module&gt;
+    from config.urls import PAGE_23_URL
+E   ImportError: cannot import name 'PAGE_23_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_24.test_page_24" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_24/test_page_24.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_24/test_page_24.py:9: in &lt;module&gt;
+    from config.urls import PAGE_24_URL
+E   ImportError: cannot import name 'PAGE_24_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_25.test_page_25" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_25/test_page_25.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_25/test_page_25.py:9: in &lt;module&gt;
+    from config.urls import PAGE_25_URL
+E   ImportError: cannot import name 'PAGE_25_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_26.test_page_26" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_26/test_page_26.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_26/test_page_26.py:9: in &lt;module&gt;
+    from config.urls import PAGE_26_URL
+E   ImportError: cannot import name 'PAGE_26_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_27.test_page_27" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_27/test_page_27.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_27/test_page_27.py:9: in &lt;module&gt;
+    from config.urls import PAGE_27_URL
+E   ImportError: cannot import name 'PAGE_27_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_28.test_page_28" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_28/test_page_28.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_28/test_page_28.py:9: in &lt;module&gt;
+    from config.urls import PAGE_28_URL
+E   ImportError: cannot import name 'PAGE_28_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_29.test_page_29" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_29/test_page_29.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_29/test_page_29.py:9: in &lt;module&gt;
+    from config.urls import PAGE_29_URL
+E   ImportError: cannot import name 'PAGE_29_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_3.test_page_3" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_3/test_page_3.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_3/test_page_3.py:9: in &lt;module&gt;
+    from config.urls import PAGE_3_URL
+E   ImportError: cannot import name 'PAGE_3_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_30.test_page_30" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_30/test_page_30.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_30/test_page_30.py:9: in &lt;module&gt;
+    from config.urls import PAGE_30_URL
+E   ImportError: cannot import name 'PAGE_30_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_31.test_page_31" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_31/test_page_31.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_31/test_page_31.py:9: in &lt;module&gt;
+    from config.urls import PAGE_31_URL
+E   ImportError: cannot import name 'PAGE_31_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_32.test_page_32" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_32/test_page_32.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_32/test_page_32.py:9: in &lt;module&gt;
+    from config.urls import PAGE_32_URL
+E   ImportError: cannot import name 'PAGE_32_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_33.test_page_33" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_33/test_page_33.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_33/test_page_33.py:9: in &lt;module&gt;
+    from config.urls import PAGE_33_URL
+E   ImportError: cannot import name 'PAGE_33_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_34.test_page_34" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_34/test_page_34.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_34/test_page_34.py:9: in &lt;module&gt;
+    from config.urls import PAGE_34_URL
+E   ImportError: cannot import name 'PAGE_34_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_35.test_page_35" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_35/test_page_35.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_35/test_page_35.py:9: in &lt;module&gt;
+    from config.urls import PAGE_35_URL
+E   ImportError: cannot import name 'PAGE_35_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_36.test_page_36" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_36/test_page_36.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_36/test_page_36.py:9: in &lt;module&gt;
+    from config.urls import PAGE_36_URL
+E   ImportError: cannot import name 'PAGE_36_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_37.test_page_37" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_37/test_page_37.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_37/test_page_37.py:9: in &lt;module&gt;
+    from config.urls import PAGE_37_URL
+E   ImportError: cannot import name 'PAGE_37_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_38.test_page_38" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_38/test_page_38.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_38/test_page_38.py:9: in &lt;module&gt;
+    from config.urls import PAGE_38_URL
+E   ImportError: cannot import name 'PAGE_38_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_39.test_page_39" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_39/test_page_39.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_39/test_page_39.py:9: in &lt;module&gt;
+    from config.urls import PAGE_39_URL
+E   ImportError: cannot import name 'PAGE_39_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_4.test_page_4" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_4/test_page_4.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_4/test_page_4.py:9: in &lt;module&gt;
+    from config.urls import PAGE_4_URL
+E   ImportError: cannot import name 'PAGE_4_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_40.test_page_40" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_40/test_page_40.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_40/test_page_40.py:9: in &lt;module&gt;
+    from config.urls import PAGE_40_URL
+E   ImportError: cannot import name 'PAGE_40_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_41.test_page_41" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_41/test_page_41.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_41/test_page_41.py:9: in &lt;module&gt;
+    from config.urls import PAGE_41_URL
+E   ImportError: cannot import name 'PAGE_41_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_42.test_page_42" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_42/test_page_42.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_42/test_page_42.py:9: in &lt;module&gt;
+    from config.urls import PAGE_42_URL
+E   ImportError: cannot import name 'PAGE_42_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_43.test_page_43" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_43/test_page_43.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_43/test_page_43.py:9: in &lt;module&gt;
+    from config.urls import PAGE_43_URL
+E   ImportError: cannot import name 'PAGE_43_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_44.test_page_44" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_44/test_page_44.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_44/test_page_44.py:9: in &lt;module&gt;
+    from config.urls import PAGE_44_URL
+E   ImportError: cannot import name 'PAGE_44_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_45.test_page_45" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_45/test_page_45.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_45/test_page_45.py:9: in &lt;module&gt;
+    from config.urls import PAGE_45_URL
+E   ImportError: cannot import name 'PAGE_45_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_46.test_page_46" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_46/test_page_46.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_46/test_page_46.py:9: in &lt;module&gt;
+    from config.urls import PAGE_46_URL
+E   ImportError: cannot import name 'PAGE_46_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_47.test_page_47" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_47/test_page_47.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_47/test_page_47.py:9: in &lt;module&gt;
+    from config.urls import PAGE_47_URL
+E   ImportError: cannot import name 'PAGE_47_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_48.test_page_48" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_48/test_page_48.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_48/test_page_48.py:9: in &lt;module&gt;
+    from config.urls import PAGE_48_URL
+E   ImportError: cannot import name 'PAGE_48_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_49.test_page_49" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_49/test_page_49.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_49/test_page_49.py:9: in &lt;module&gt;
+    from config.urls import PAGE_49_URL
+E   ImportError: cannot import name 'PAGE_49_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_5.test_page_5" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_5/test_page_5.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_5/test_page_5.py:9: in &lt;module&gt;
+    from config.urls import PAGE_5_URL
+E   ImportError: cannot import name 'PAGE_5_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_50.test_page_50" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_50/test_page_50.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_50/test_page_50.py:9: in &lt;module&gt;
+    from config.urls import PAGE_50_URL
+E   ImportError: cannot import name 'PAGE_50_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_6.test_page_6" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_6/test_page_6.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_6/test_page_6.py:9: in &lt;module&gt;
+    from config.urls import PAGE_6_URL
+E   ImportError: cannot import name 'PAGE_6_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_7.test_page_7" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_7/test_page_7.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_7/test_page_7.py:9: in &lt;module&gt;
+    from config.urls import PAGE_7_URL
+E   ImportError: cannot import name 'PAGE_7_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_8.test_page_8" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_8/test_page_8.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_8/test_page_8.py:9: in &lt;module&gt;
+    from config.urls import PAGE_8_URL
+E   ImportError: cannot import name 'PAGE_8_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase><testcase classname="" name="tests.page_9.test_page_9" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_9/test_page_9.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_9/test_page_9.py:9: in &lt;module&gt;
+    from config.urls import PAGE_9_URL
+E   ImportError: cannot import name 'PAGE_9_URL' from 'config.urls' (/home/ubuntu/qagarden-backend/cicd/config/urls.py)</error></testcase></testsuite></testsuites>

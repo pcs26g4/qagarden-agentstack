@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="27" skipped="0" tests="27" time="668.770" timestamp="2026-02-24T18:29:31.113431+05:30" hostname="DESKTOP-5T4S1GA"><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Authentication_01" time="32.881"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests\page_1_cdbd\test_page_1_cdbd.py:16: in test_TC_Authentication_01
+    page.wait_for_load_state('networkidle')
+venv\Lib\site-packages\playwright\sync_api\_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+venv\Lib\site-packages\playwright\_impl\_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Authentication_02" time="30.812"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests\page_1_cdbd\test_page_1_cdbd.py:23: in test_TC_Authentication_02
+    page.wait_for_load_state('networkidle')
+venv\Lib\site-packages\playwright\sync_api\_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+venv\Lib\site-packages\playwright\_impl\_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Interaction_01" time="30.353"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests\page_1_cdbd\test_page_1_cdbd.py:30: in test_TC_Interaction_01
+    page.wait_for_load_state('networkidle')
+venv\Lib\site-packages\playwright\sync_api\_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+venv\Lib\site-packages\playwright\_impl\_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Interaction_02" time="30.763"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests\page_1_cdbd\test_page_1_cdbd.py:39: in test_TC_Interaction_02
+    page.wait_for_load_state('networkidle')
+venv\Lib\site-packages\playwright\sync_api\_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+venv\Lib\site-packages\playwright\_impl\_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Interaction_03" time="30.926"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests\page_1_cdbd\test_page_1_cdbd.py:47: in test_TC_Interaction_03
+    page.wait_for_load_state('networkidle')
+venv\Lib\site-packages\playwright\sync_api\_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+venv\Lib\site-packages\playwright\_impl\_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Interaction_04" time="30.688"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests\page_1_cdbd\test_page_1_cdbd.py:55: in test_TC_Interaction_04
+    page.wait_for_load_state('networkidle')
+venv\Lib\site-packages\playwright\sync_api\_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+venv\Lib\site-packages\playwright\_impl\_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_tc_navigation_01" time="30.951"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;a.flex.items-center&quot;).first">tests\page_2_f871\test_page_2_f871.py:17: in test_tc_navigation_01
+    page.locator('a.flex.items-center').first.click()
+venv\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("a.flex.items-center").first</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_tc_authentication_01" time="31.107"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;a.text-primary.hover\\:underline&quot;).first">tests\page_2_f871\test_page_2_f871.py:24: in test_tc_authentication_01
+    page.locator('a.text-primary.hover\:underline').nth(0).click()
+venv\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("a.text-primary.hover\\:underline").first</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_tc_authentication_02" time="1.175"><failure message="playwright._impl._errors.Error: Locator.click: Unexpected token &quot;\[--btn-hover\:hsl(&quot; while parsing css selector &quot;button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].w-full&quot;. Did you mean to CSS.escape it?&#10;Call log:&#10;  - waiting for button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].w-full &gt;&gt; nth=0">tests\page_2_f871\test_page_2_f871.py:31: in test_tc_authentication_02
+    page.locator('button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].w-full').nth(0).click()
+venv\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Unexpected token "\[--btn-hover\:hsl(" while parsing css selector "button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].w-full". Did you mean to CSS.escape it?
+E   Call log:
+E     - waiting for button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].w-full &gt;&gt; nth=0</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_tc_legal_01" time="31.091"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(), \&quot;Terms of Service\&quot;)]&quot;)">tests\page_2_f871\test_page_2_f871.py:39: in test_tc_legal_01
+    page.locator('xpath=//a[contains(text(), \"Terms of Service\")]').click()
+venv\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("//a[contains(text(), \"Terms of Service\")]")</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_tc_legal_02" time="30.920"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(), \&quot;Privacy Policy\&quot;)]&quot;)">tests\page_2_f871\test_page_2_f871.py:46: in test_tc_legal_02
+    page.locator('xpath=//a[contains(text(), \"Privacy Policy\")]').click()
+venv\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("//a[contains(text(), \"Privacy Policy\")]")</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_01" time="0.888"><failure message="TypeError: 'Locator' object is not callable">tests\page_3_9ddb\test_page_3_9ddb.py:15: in test_TC_Navigation_01
+    page.get_by_role('link').first().click()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: 'Locator' object is not callable</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Authentication_01" time="30.889"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;a.text-primary.hover\\:underline&quot;).first">tests\page_3_9ddb\test_page_3_9ddb.py:21: in test_TC_Authentication_01
+    page.locator('a.text-primary.hover\:underline').nth(0).click()
+venv\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("a.text-primary.hover\\:underline").first</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_ExternalLinks_01" time="31.049"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(), \&quot;Terms of Service\&quot;)]&quot;)">tests\page_3_9ddb\test_page_3_9ddb.py:27: in test_TC_ExternalLinks_01
+    page.locator('xpath=//a[contains(text(), "Terms of Service")]').click()
+venv\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("//a[contains(text(), \"Terms of Service\")]")</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_ExternalLinks_02" time="31.111"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(), \&quot;Privacy Policy\&quot;)]&quot;)">tests\page_3_9ddb\test_page_3_9ddb.py:33: in test_TC_ExternalLinks_02
+    page.locator('xpath=//a[contains(text(), "Privacy Policy")]').click()
+venv\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("//a[contains(text(), \"Privacy Policy\")]")</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Authentication_02" time="0.909"><failure message="playwright._impl._errors.Error: Locator.click: Unexpected token &quot;\[--btn-hover\:hsl(&quot; while parsing css selector &quot;button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].w-full&quot;. Did you mean to CSS.escape it?&#10;Call log:&#10;  - waiting for button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].w-full &gt;&gt; nth=0">tests\page_3_9ddb\test_page_3_9ddb.py:39: in test_TC_Authentication_02
+    page.locator('button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].w-full').nth(0).click()
+venv\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Unexpected token "\[--btn-hover\:hsl(" while parsing css selector "button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].w-full". Did you mean to CSS.escape it?
+E   Call log:
+E     - waiting for button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].w-full &gt;&gt; nth=0</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Authentication_03" time="1.098"><failure message="playwright._impl._errors.Error: Locator.click: Unexpected token &quot;\[--btn-hover\:hsl(&quot; while parsing css selector &quot;button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].nth(0)&quot;. Did you mean to CSS.escape it?&#10;Call log:&#10;  - waiting for button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].nth(0)">tests\page_3_9ddb\test_page_3_9ddb.py:45: in test_TC_Authentication_03
+    page.locator('button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].nth(0)').click()
+venv\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Unexpected token "\[--btn-hover\:hsl(" while parsing css selector "button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].nth(0)". Did you mean to CSS.escape it?
+E   Call log:
+E     - waiting for button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].nth(0)</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Authentication_04" time="0.956"><failure message="playwright._impl._errors.Error: Locator.click: Unexpected token &quot;\[--btn-hover\:hsl(&quot; while parsing css selector &quot;button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].nth(0)&quot;. Did you mean to CSS.escape it?&#10;Call log:&#10;  - waiting for button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].nth(0)">tests\page_3_9ddb\test_page_3_9ddb.py:50: in test_TC_Authentication_04
+    page.locator('button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].nth(0)').click()
+venv\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Unexpected token "\[--btn-hover\:hsl(" while parsing css selector "button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].nth(0)". Did you mean to CSS.escape it?
+E   Call log:
+E     - waiting for button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].nth(0)</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_01" time="31.401"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests\page_4_2b0a\test_page_4_2b0a.py:16: in test_TC_Navigation_01
+    page.wait_for_load_state('networkidle')
+venv\Lib\site-packages\playwright\sync_api\_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+venv\Lib\site-packages\playwright\_impl\_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_02" time="31.349"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests\page_4_2b0a\test_page_4_2b0a.py:24: in test_TC_Navigation_02
+    @pytest.mark.regression
+        ^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\sync_api\_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+venv\Lib\site-packages\playwright\_impl\_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Settings_01" time="30.896"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests\page_4_2b0a\test_page_4_2b0a.py:31: in test_TC_Settings_01
+    ???
+venv\Lib\site-packages\playwright\sync_api\_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+venv\Lib\site-packages\playwright\_impl\_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Image_Button_01" time="30.944"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests\page_4_2b0a\test_page_4_2b0a.py:37: in test_TC_Image_Button_01
+    ???
+venv\Lib\site-packages\playwright\sync_api\_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+venv\Lib\site-packages\playwright\_impl\_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Navigation_01" time="31.076"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;a.flex.items-center&quot;).first">tests\page_5_aa33\test_page_5_aa33.py:17: in test_TC_Navigation_01
+    page.locator('a.flex.items-center').first.click()
+venv\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("a.flex.items-center").first</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Authentication_01" time="30.970"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;a.text-primary.hover\\:underline&quot;).first">tests\page_5_aa33\test_page_5_aa33.py:24: in test_TC_Authentication_01
+    page.locator('a.text-primary.hover\:underline').nth(0).click()
+venv\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("a.text-primary.hover\\:underline").first</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Authentication_02" time="1.151"><failure message="playwright._impl._errors.Error: Locator.click: Unexpected token &quot;\[--btn-hover\:hsl(&quot; while parsing css selector &quot;button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].w-full&quot;. Did you mean to CSS.escape it?&#10;Call log:&#10;  - waiting for button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].w-full &gt;&gt; nth=0">tests\page_5_aa33\test_page_5_aa33.py:31: in test_TC_Authentication_02
+    page.locator('button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].w-full').nth(0).click()
+venv\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Unexpected token "\[--btn-hover\:hsl(" while parsing css selector "button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].w-full". Did you mean to CSS.escape it?
+E   Call log:
+E     - waiting for button.relative.isolate.inline-flex.items-center.justify-center.rounded-full.border.text-base.focus\:outline.sm\:text-sm.border-\[--btn-border\].bg-\[--btn-bg\].text-\[--btn-text\].hover\:bg-\[--btn-hover\].focus\:outline-\[--btn-text\].\[--btn-bg\:transparent\].\[--btn-hover\:hsl(var(--bg-overlay-hover))\].\[--btn-text\:hsl(var(--primary))\].w-full &gt;&gt; nth=0</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_ContentVerification_01" time="30.997"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(), \&quot;Terms of Service\&quot;)]&quot;)">tests\page_5_aa33\test_page_5_aa33.py:38: in test_TC_ContentVerification_01
+    page.locator('xpath=//a[contains(text(), "Terms of Service")]').click()
+venv\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("//a[contains(text(), \"Terms of Service\")]")</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_ContentVerification_02" time="31.771"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(), \&quot;Privacy Policy\&quot;)]&quot;)">tests\page_5_aa33\test_page_5_aa33.py:45: in test_TC_ContentVerification_02
+    page.locator('xpath=//a[contains(text(), "Privacy Policy")]').click()
+venv\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("//a[contains(text(), \"Privacy Policy\")]")</failure></testcase></testsuite></testsuites>

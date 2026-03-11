@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="15" skipped="0" tests="29" time="298.659" timestamp="2026-02-26T00:09:16.899543+05:30" hostname="DESKTOP-5T4S1GA"><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_NAVIGATION_001" time="5.943" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_NAVIGATION_002" time="4.007" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_NAVIGATION_003" time="13.911"><failure message="AssertionError: Page URL expected to be 're.compile('/faq/')'&#10;Actual value: https://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    13 × unexpected value &quot;https://www.scrapethissite.com/&quot;">#x1B[1m#x1B[31mtests\page_1_cdbd\test_page_1_cdbd.py#x1B[0m:31: in test_TC_NAVIGATION_003
+    #x1B[0mpage.locator(#x1B[33m'#x1B[39;49;00m#x1B[33ma.nav-link#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m).nth(#x1B[94m0#x1B[39;49;00m).click()#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/faq/')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: https://www.scrapethissite.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 10000ms#x1B[0m
+#x1B[1m#x1B[31mE       13 × unexpected value "https://www.scrapethissite.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_NAVIGATION_004" time="4.124" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_NAVIGATION_005" time="3.991" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_01" time="18.484"><failure message="AssertionError: Page URL expected to be 're.compile('/lessons/')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 15000ms&#10;    18 × unexpected value &quot;http://www.scrapethissite.com/&quot;">#x1B[1m#x1B[31mtests\page_2_f871\test_page_2_f871.py#x1B[0m:17: in test_TC_Navigation_01
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/lessons/')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: http://www.scrapethissite.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 15000ms#x1B[0m
+#x1B[1m#x1B[31mE       18 × unexpected value "http://www.scrapethissite.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_02" time="18.217"><failure message="AssertionError: Page URL expected to be 're.compile('/faq/')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 15000ms&#10;    18 × unexpected value &quot;http://www.scrapethissite.com/&quot;">#x1B[1m#x1B[31mtests\page_2_f871\test_page_2_f871.py#x1B[0m:24: in test_TC_Navigation_02
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/faq/')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: http://www.scrapethissite.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 15000ms#x1B[0m
+#x1B[1m#x1B[31mE       18 × unexpected value "http://www.scrapethissite.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_03" time="3.556" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_ContentVerification_01" time="17.560"><failure message="AssertionError: Locator expected to have text 're.compile('Scrape This Site Sandbox Lessons FAQ Login')'&#10;Actual value: &#10;            &#10;                &#10;                    &#10;                        &#10;                            &#10;                                &#10;                                Scrape This Site&#10;                            &#10;                        &#10;                        &#10;                            &#10;                                &#10;                                Sandbox&#10;                            &#10;                        &#10;                        &#10;                            &#10;                                &#10;                                Lessons&#10;                            &#10;                        &#10;                        &#10;                            &#10;                                &#10;                                FAQ&#10;                            &#10;                        &#10;                        &#10;                        &#10;                            &#10;                                Login&#10;                            &#10;                        &#10;                        &#10;                    &#10;                &#10;            &#10;         &#10;Call log:&#10;  - Expect &quot;to_have_text&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#site-nav&quot;)&#10;    18 × locator resolved to &lt;nav id=&quot;site-nav&quot;&gt;…&lt;/nav&gt;&#10;       - unexpected value &quot;&#10;            &#10;                &#10;                    &#10;                        &#10;                            &#10;                                &#10;                                Scrape This Site&#10;                            &#10;                        &#10;                        &#10;                            &#10;                                &#10;                                Sandbox&#10;                            &#10;                        &#10;                        &#10;                            &#10;                                &#10;                                Lessons&#10;                            &#10;                        &#10;                        &#10;                            &#10;                                &#10;                                FAQ&#10;                            &#10;                        &#10;                        &#10;                        &#10;                            &#10;                                Login&#10;                            &#10;                        &#10;                        &#10;                    &#10;                &#10;            &#10;        &quot;">#x1B[1m#x1B[31mtests\page_2_f871\test_page_2_f871.py#x1B[0m:37: in test_TC_ContentVerification_01
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Locator expected to have text 're.compile('Scrape This Site Sandbox Lessons FAQ Login')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: #x1B[0m
+#x1B[1m#x1B[31mE               #x1B[0m
+#x1B[1m#x1B[31mE                   #x1B[0m
+#x1B[1m#x1B[31mE                       #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                                   #x1B[0m
+#x1B[1m#x1B[31mE                                   Scrape This Site#x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                                   #x1B[0m
+#x1B[1m#x1B[31mE                                   Sandbox#x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                                   #x1B[0m
+#x1B[1m#x1B[31mE                                   Lessons#x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                                   #x1B[0m
+#x1B[1m#x1B[31mE                                   FAQ#x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                                   Login#x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                       #x1B[0m
+#x1B[1m#x1B[31mE                   #x1B[0m
+#x1B[1m#x1B[31mE               #x1B[0m
+#x1B[1m#x1B[31mE            #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_text" with timeout 15000ms#x1B[0m
+#x1B[1m#x1B[31mE     - waiting for locator("#site-nav")#x1B[0m
+#x1B[1m#x1B[31mE       18 × locator resolved to &lt;nav id="site-nav"&gt;…&lt;/nav&gt;#x1B[0m
+#x1B[1m#x1B[31mE          - unexpected value "#x1B[0m
+#x1B[1m#x1B[31mE               #x1B[0m
+#x1B[1m#x1B[31mE                   #x1B[0m
+#x1B[1m#x1B[31mE                       #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                                   #x1B[0m
+#x1B[1m#x1B[31mE                                   Scrape This Site#x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                                   #x1B[0m
+#x1B[1m#x1B[31mE                                   Sandbox#x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                                   #x1B[0m
+#x1B[1m#x1B[31mE                                   Lessons#x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                                   #x1B[0m
+#x1B[1m#x1B[31mE                                   FAQ#x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                                   Login#x1B[0m
+#x1B[1m#x1B[31mE                               #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                           #x1B[0m
+#x1B[1m#x1B[31mE                       #x1B[0m
+#x1B[1m#x1B[31mE                   #x1B[0m
+#x1B[1m#x1B[31mE               #x1B[0m
+#x1B[1m#x1B[31mE           "#x1B[0m</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_04" time="3.753" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_05" time="3.186" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_06" time="3.972" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_07" time="3.473" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_08" time="2.969" /><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_001" time="20.624"><failure message="AssertionError: Page URL expected to be 're.compile('https:\\/\\/gum\\.co\\/oLpqb')'&#10;Actual value: https://gumroad.com/checkout &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 15000ms&#10;    4 × unexpected value &quot;https://gumroad.com/checkout?action=show&amp;controller=links&amp;format=html&amp;id=oLpqb&amp;price=29700&amp;product=oLpqb&amp;referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F&amp;referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F&amp;rent=false&amp;wanted=true&quot;&#10;    12 × unexpected value &quot;https://gumroad.com/checkout&quot;">#x1B[1m#x1B[31mtests\page_3_9ddb\test_page_3_9ddb.py#x1B[0m:19: in test_TC_Navigation_001
+    #x1B[0mexpect(page).to_have_url(re.compile(#x1B[33mr#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33mhttps:#x1B[39;49;00m#x1B[33m\#x1B[39;49;00m#x1B[33m/#x1B[39;49;00m#x1B[33m\#x1B[39;49;00m#x1B[33m/gum#x1B[39;49;00m#x1B[33m\#x1B[39;49;00m#x1B[33m.co#x1B[39;49;00m#x1B[33m\#x1B[39;49;00m#x1B[33m/oLpqb#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('https:\\/\\/gum\\.co\\/oLpqb')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: https://gumroad.com/checkout #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 15000ms#x1B[0m
+#x1B[1m#x1B[31mE       4 × unexpected value "https://gumroad.com/checkout?action=show&amp;controller=links&amp;format=html&amp;id=oLpqb&amp;price=29700&amp;product=oLpqb&amp;referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F&amp;referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F&amp;rent=false&amp;wanted=true"#x1B[0m
+#x1B[1m#x1B[31mE       12 × unexpected value "https://gumroad.com/checkout"#x1B[0m</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_002" time="20.605"><failure message="AssertionError: Page URL expected to be 're.compile('https:\\/\\/gum\\.co\\/oLpqb')'&#10;Actual value: https://gumroad.com/checkout &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 15000ms&#10;    4 × unexpected value &quot;https://gumroad.com/checkout?action=show&amp;controller=links&amp;format=html&amp;id=oLpqb&amp;price=29700&amp;product=oLpqb&amp;referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F&amp;referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F&amp;rent=false&amp;wanted=true&quot;&#10;    13 × unexpected value &quot;https://gumroad.com/checkout&quot;">#x1B[1m#x1B[31mtests\page_3_9ddb\test_page_3_9ddb.py#x1B[0m:27: in test_TC_Navigation_002
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('https:\\/\\/gum\\.co\\/oLpqb')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: https://gumroad.com/checkout #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 15000ms#x1B[0m
+#x1B[1m#x1B[31mE       4 × unexpected value "https://gumroad.com/checkout?action=show&amp;controller=links&amp;format=html&amp;id=oLpqb&amp;price=29700&amp;product=oLpqb&amp;referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F&amp;referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F&amp;rent=false&amp;wanted=true"#x1B[0m
+#x1B[1m#x1B[31mE       13 × unexpected value "https://gumroad.com/checkout"#x1B[0m</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_003" time="20.929"><failure message="AssertionError: Page URL expected to be 're.compile('https:\\/\\/gum\\.co\\/oLpqb')'&#10;Actual value: https://gumroad.com/checkout &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 15000ms&#10;    4 × unexpected value &quot;https://gumroad.com/checkout?action=show&amp;controller=links&amp;format=html&amp;id=oLpqb&amp;price=29700&amp;product=oLpqb&amp;referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F&amp;referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F&amp;rent=false&amp;wanted=true&quot;&#10;    13 × unexpected value &quot;https://gumroad.com/checkout&quot;">#x1B[1m#x1B[31mtests\page_3_9ddb\test_page_3_9ddb.py#x1B[0m:35: in test_TC_Navigation_003
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('https:\\/\\/gum\\.co\\/oLpqb')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: https://gumroad.com/checkout #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 15000ms#x1B[0m
+#x1B[1m#x1B[31mE       4 × unexpected value "https://gumroad.com/checkout?action=show&amp;controller=links&amp;format=html&amp;id=oLpqb&amp;price=29700&amp;product=oLpqb&amp;referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F&amp;referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F&amp;rent=false&amp;wanted=true"#x1B[0m
+#x1B[1m#x1B[31mE       13 × unexpected value "https://gumroad.com/checkout"#x1B[0m</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_ContentVerification_001" time="18.647"><failure message="AssertionError: Locator expected to have text 'SCRAPE ANY WEBSITE'&#10;Actual value: &#10;                            Scrape Any Website&#10;                         &#10;Call log:&#10;  - Expect &quot;to_have_text&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#header&quot;)&#10;    18 × locator resolved to &lt;h1 id=&quot;header&quot;&gt;↵                            Scrape Any Website↵ …&lt;/h1&gt;&#10;       - unexpected value &quot;&#10;                            Scrape Any Website&#10;                        &quot;">#x1B[1m#x1B[31mtests\page_3_9ddb\test_page_3_9ddb.py#x1B[0m:43: in test_TC_ContentVerification_001
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Locator expected to have text 'SCRAPE ANY WEBSITE'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: #x1B[0m
+#x1B[1m#x1B[31mE                               Scrape Any Website#x1B[0m
+#x1B[1m#x1B[31mE                            #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_text" with timeout 15000ms#x1B[0m
+#x1B[1m#x1B[31mE     - waiting for locator("#header")#x1B[0m
+#x1B[1m#x1B[31mE       18 × locator resolved to &lt;h1 id="header"&gt;↵                            Scrape Any Website↵ …&lt;/h1&gt;#x1B[0m
+#x1B[1m#x1B[31mE          - unexpected value "#x1B[0m
+#x1B[1m#x1B[31mE                               Scrape Any Website#x1B[0m
+#x1B[1m#x1B[31mE                           "#x1B[0m</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_01" time="13.382"><failure message="AssertionError: Page URL expected to be 're.compile('/pages/')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    13 × unexpected value &quot;http://www.scrapethissite.com/&quot;">#x1B[1m#x1B[31mtests\page_4_2b0a\test_page_4_2b0a.py#x1B[0m:18: in test_TC_Navigation_01
+    #x1B[0mexpect(page).to_have_url(re.compile(#x1B[33mr#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m/pages/#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m), timeout=#x1B[94m10000#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/pages/')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: http://www.scrapethissite.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 10000ms#x1B[0m
+#x1B[1m#x1B[31mE       13 × unexpected value "http://www.scrapethissite.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_02" time="13.253"><failure message="AssertionError: Page URL expected to be 're.compile('/lessons/')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    13 × unexpected value &quot;http://www.scrapethissite.com/&quot;">#x1B[1m#x1B[31mtests\page_4_2b0a\test_page_4_2b0a.py#x1B[0m:25: in test_TC_Navigation_02
+    #x1B[0mexpect(page).to_have_url(re.compile(#x1B[33mr#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m/lessons/#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m), timeout=#x1B[94m10000#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/lessons/')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: http://www.scrapethissite.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 10000ms#x1B[0m
+#x1B[1m#x1B[31mE       13 × unexpected value "http://www.scrapethissite.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_03" time="13.010"><failure message="AssertionError: Page URL expected to be 're.compile('/faq/')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    13 × unexpected value &quot;http://www.scrapethissite.com/&quot;">#x1B[1m#x1B[31mtests\page_4_2b0a\test_page_4_2b0a.py#x1B[0m:32: in test_TC_Navigation_03
+    #x1B[0mexpect(page).to_have_url(re.compile(#x1B[33mr#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m/faq/#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m), timeout=#x1B[94m10000#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/faq/')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: http://www.scrapethissite.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 10000ms#x1B[0m
+#x1B[1m#x1B[31mE       13 × unexpected value "http://www.scrapethissite.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_04" time="3.446" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_05" time="13.728"><failure message="AssertionError: Page URL expected to be 're.compile('/robots.txt')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    13 × unexpected value &quot;http://www.scrapethissite.com/&quot;">#x1B[1m#x1B[31mtests\page_4_2b0a\test_page_4_2b0a.py#x1B[0m:46: in test_TC_Navigation_05
+    #x1B[0mexpect(page).to_have_url(re.compile(#x1B[33mr#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m/robots.txt#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m), timeout=#x1B[94m10000#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/robots.txt')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: http://www.scrapethissite.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 10000ms#x1B[0m
+#x1B[1m#x1B[31mE       13 × unexpected value "http://www.scrapethissite.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Navigation_01" time="13.715"><failure message="AssertionError: Page URL expected to be 're.compile('/pages/')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    13 × unexpected value &quot;http://www.scrapethissite.com/&quot;">#x1B[1m#x1B[31mtests\page_5_aa33\test_page_5_aa33.py#x1B[0m:17: in test_TC_Navigation_01
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/pages/')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: http://www.scrapethissite.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 10000ms#x1B[0m
+#x1B[1m#x1B[31mE       13 × unexpected value "http://www.scrapethissite.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Navigation_02" time="13.572"><failure message="AssertionError: Page URL expected to be 're.compile('/lessons/')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    13 × unexpected value &quot;http://www.scrapethissite.com/&quot;">#x1B[1m#x1B[31mtests\page_5_aa33\test_page_5_aa33.py#x1B[0m:23: in test_TC_Navigation_02
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/lessons/')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: http://www.scrapethissite.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 10000ms#x1B[0m
+#x1B[1m#x1B[31mE       13 × unexpected value "http://www.scrapethissite.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Navigation_03" time="12.986"><failure message="AssertionError: Page URL expected to be 're.compile('/faq/')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 10000ms&#10;    13 × unexpected value &quot;http://www.scrapethissite.com/&quot;">#x1B[1m#x1B[31mtests\page_5_aa33\test_page_5_aa33.py#x1B[0m:29: in test_TC_Navigation_03
+    #x1B[0m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[04m#x1B[91m?#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/faq/')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: http://www.scrapethissite.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 10000ms#x1B[0m
+#x1B[1m#x1B[31mE       13 × unexpected value "http://www.scrapethissite.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Authentication_01" time="3.985" /><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Authentication_02" time="3.119" /><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Authentication_03" time="4.680" /></testsuite></testsuites>

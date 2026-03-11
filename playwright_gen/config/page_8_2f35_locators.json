@@ -1,0 +1,11 @@
+{
+  "FORMYFORMCOMPONENTS_DROPD": "html",
+  "FORMYFORMCOMPONENTS_DROPD_1": "body",
+  "FORMYFORMCOMPONENTS": "nav.navbar.navbar-expand-lg.bg-light",
+  "LINK_FORMY": "#logo",
+  "FORMCOMPONENTS": "#navbarNavDropdown",
+  "LINK_FORM": "a.nav-link",
+  "LINK_COMPONENTS": "#navbarDropdownMenuLink",
+  "HEADING_DROPDOWN": "h1",
+  "BTN_DROPDOWN_BUTTON": "#dropdownMenuButton"
+}

@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="63" skipped="0" tests="128" time="1309.151" timestamp="2026-03-11T09:57:58.215543+05:30" hostname="Phani"><testcase classname="tests.consolidated_locators_state_1_1f0d.test_consolidated_locators_state_1_1f0d" name="test_TC_Navigation_001" time="32.973"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(), \&quot;Sandbox\&quot;)]&quot;)">tests\consolidated_locators_state_1_1f0d\test_consolidated_locators_state_1_1f0d.py:16: in test_TC_Navigation_001
+    page.locator('xpath=//a[contains(text(), "Sandbox")]').click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("//a[contains(text(), \"Sandbox\")]")</failure></testcase><testcase classname="tests.consolidated_locators_state_1_1f0d.test_consolidated_locators_state_1_1f0d" name="test_TC_Navigation_002" time="31.363"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;a.nav-link&quot;).first">tests\consolidated_locators_state_1_1f0d\test_consolidated_locators_state_1_1f0d.py:23: in test_TC_Navigation_002
+    page.locator('a.nav-link').nth(0).click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("a.nav-link").first</failure></testcase><testcase classname="tests.consolidated_locators_state_1_1f0d.test_consolidated_locators_state_1_1f0d" name="test_TC_Navigation_003" time="31.336"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;a.nav-link&quot;).first">tests\consolidated_locators_state_1_1f0d\test_consolidated_locators_state_1_1f0d.py:30: in test_TC_Navigation_003
+    page.locator('a.nav-link').nth(0).click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("a.nav-link").first</failure></testcase><testcase classname="tests.consolidated_locators_state_1_1f0d.test_consolidated_locators_state_1_1f0d" name="test_TC_Navigation_004" time="31.437"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(), \&quot;Login\&quot;)]&quot;)">tests\consolidated_locators_state_1_1f0d\test_consolidated_locators_state_1_1f0d.py:37: in test_TC_Navigation_004
+    page.locator('xpath=//a[contains(text(), "Login")]').click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("//a[contains(text(), \"Login\")]")</failure></testcase><testcase classname="tests.consolidated_locators_state_1_1f0d.test_consolidated_locators_state_1_1f0d" name="test_TC_Navigation_005" time="31.361"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;a.btn.btn-lg.btn-default&quot;).first">tests\consolidated_locators_state_1_1f0d\test_consolidated_locators_state_1_1f0d.py:44: in test_TC_Navigation_005
+    page.locator('a.btn.btn-lg.btn-default').first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("a.btn.btn-lg.btn-default").first</failure></testcase><testcase classname="tests.consolidated_locators_state_1_1f0d.test_consolidated_locators_state_1_1f0d" name="test_TC_Navigation_006" time="31.556"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;a.btn.btn-lg.btn-primary&quot;).first">tests\consolidated_locators_state_1_1f0d\test_consolidated_locators_state_1_1f0d.py:51: in test_TC_Navigation_006
+    page.locator('a.btn.btn-lg.btn-primary').first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("a.btn.btn-lg.btn-primary").first</failure></testcase><testcase classname="tests.consolidated_locators_state_1_1f0d.test_consolidated_locators_state_1_1f0d" name="test_TC_Navigation_007" time="31.499"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;a.nav-link.hidden-sm.hidden-xs&quot;).first">tests\consolidated_locators_state_1_1f0d\test_consolidated_locators_state_1_1f0d.py:58: in test_TC_Navigation_007
+    page.locator('a.nav-link.hidden-sm.hidden-xs').first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("a.nav-link.hidden-sm.hidden-xs").first</failure></testcase><testcase classname="tests.consolidated_locators_state_2_1db2.test_consolidated_locators_state_2_1db2" name="test_TC_Navigation_001" time="0.171"><failure message="playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL&#10;Call log:&#10;  - navigating to &quot; &quot;, waiting until &quot;load&quot;">tests\consolidated_locators_state_2_1db2\test_consolidated_locators_state_2_1db2.py:15: in test_TC_Navigation_001
+    page.goto(CONSOLIDATED_LOCATORS_STATE_2_1DB2_URL, timeout=60000)
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:9054: in goto
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py:552: in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:153: in goto
+    await self._channel.send(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+E   Call log:
+E     - navigating to " ", waiting until "load"</failure></testcase><testcase classname="tests.consolidated_locators_state_2_1db2.test_consolidated_locators_state_2_1db2" name="test_TC_Navigation_002" time="0.134"><failure message="playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL&#10;Call log:&#10;  - navigating to &quot; &quot;, waiting until &quot;load&quot;">tests\consolidated_locators_state_2_1db2\test_consolidated_locators_state_2_1db2.py:22: in test_TC_Navigation_002
+    page.goto(CONSOLIDATED_LOCATORS_STATE_2_1DB2_URL, timeout=60000)
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:9054: in goto
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py:552: in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:153: in goto
+    await self._channel.send(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+E   Call log:
+E     - navigating to " ", waiting until "load"</failure></testcase><testcase classname="tests.consolidated_locators_state_2_1db2.test_consolidated_locators_state_2_1db2" name="test_TC_Navigation_003" time="0.130"><failure message="playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL&#10;Call log:&#10;  - navigating to &quot; &quot;, waiting until &quot;load&quot;">tests\consolidated_locators_state_2_1db2\test_consolidated_locators_state_2_1db2.py:29: in test_TC_Navigation_003
+    page.goto(CONSOLIDATED_LOCATORS_STATE_2_1DB2_URL, timeout=60000)
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:9054: in goto
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py:552: in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:153: in goto
+    await self._channel.send(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+E   Call log:
+E     - navigating to " ", waiting until "load"</failure></testcase><testcase classname="tests.consolidated_locators_state_2_1db2.test_consolidated_locators_state_2_1db2" name="test_TC_Navigation_004" time="0.131"><failure message="playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL&#10;Call log:&#10;  - navigating to &quot; &quot;, waiting until &quot;load&quot;">tests\consolidated_locators_state_2_1db2\test_consolidated_locators_state_2_1db2.py:36: in test_TC_Navigation_004
+    page.goto(CONSOLIDATED_LOCATORS_STATE_2_1DB2_URL, timeout=60000)
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:9054: in goto
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py:552: in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:153: in goto
+    await self._channel.send(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+E   Call log:
+E     - navigating to " ", waiting until "load"</failure></testcase><testcase classname="tests.consolidated_locators_state_2_1db2.test_consolidated_locators_state_2_1db2" name="test_TC_Navigation_005" time="0.135"><failure message="playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL&#10;Call log:&#10;  - navigating to &quot; &quot;, waiting until &quot;load&quot;">tests\consolidated_locators_state_2_1db2\test_consolidated_locators_state_2_1db2.py:43: in test_TC_Navigation_005
+    page.goto(CONSOLIDATED_LOCATORS_STATE_2_1DB2_URL, timeout=60000)
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:9054: in goto
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py:552: in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:153: in goto
+    await self._channel.send(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+E   Call log:
+E     - navigating to " ", waiting until "load"</failure></testcase><testcase classname="tests.consolidated_locators_state_2_1db2.test_consolidated_locators_state_2_1db2" name="test_TC_Navigation_006" time="0.149"><failure message="playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL&#10;Call log:&#10;  - navigating to &quot; &quot;, waiting until &quot;load&quot;">tests\consolidated_locators_state_2_1db2\test_consolidated_locators_state_2_1db2.py:50: in test_TC_Navigation_006
+    page.goto(CONSOLIDATED_LOCATORS_STATE_2_1DB2_URL, timeout=60000)
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:9054: in goto
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py:552: in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:153: in goto
+    await self._channel.send(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+E   Call log:
+E     - navigating to " ", waiting until "load"</failure></testcase><testcase classname="tests.consolidated_locators_state_2_1db2.test_consolidated_locators_state_2_1db2" name="test_TC_Navigation_007" time="0.159"><failure message="playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL&#10;Call log:&#10;  - navigating to &quot; &quot;, waiting until &quot;load&quot;">tests\consolidated_locators_state_2_1db2\test_consolidated_locators_state_2_1db2.py:57: in test_TC_Navigation_007
+    page.goto(CONSOLIDATED_LOCATORS_STATE_2_1DB2_URL, timeout=60000)
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:9054: in goto
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py:552: in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:153: in goto
+    await self._channel.send(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+E   Call log:
+E     - navigating to " ", waiting until "load"</failure></testcase><testcase classname="tests.consolidated_locators_state_2_1db2.test_consolidated_locators_state_2_1db2" name="test_TC_Navigation_008" time="0.150"><failure message="playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL&#10;Call log:&#10;  - navigating to &quot; &quot;, waiting until &quot;load&quot;">tests\consolidated_locators_state_2_1db2\test_consolidated_locators_state_2_1db2.py:64: in test_TC_Navigation_008
+    page.goto(CONSOLIDATED_LOCATORS_STATE_2_1DB2_URL, timeout=60000)
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:9054: in goto
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py:552: in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:153: in goto
+    await self._channel.send(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+E   Call log:
+E     - navigating to " ", waiting until "load"</failure></testcase><testcase classname="tests.consolidated_locators_state_2_1db2.test_consolidated_locators_state_2_1db2" name="test_TC_Navigation_009" time="0.168"><failure message="playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL&#10;Call log:&#10;  - navigating to &quot; &quot;, waiting until &quot;load&quot;">tests\consolidated_locators_state_2_1db2\test_consolidated_locators_state_2_1db2.py:71: in test_TC_Navigation_009
+    page.goto(CONSOLIDATED_LOCATORS_STATE_2_1DB2_URL, timeout=60000)
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:9054: in goto
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py:552: in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:153: in goto
+    await self._channel.send(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+E   Call log:
+E     - navigating to " ", waiting until "load"</failure></testcase><testcase classname="tests.consolidated_locators_state_2_1db2.test_consolidated_locators_state_2_1db2" name="test_TC_Navigation_010" time="0.159"><failure message="playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL&#10;Call log:&#10;  - navigating to &quot; &quot;, waiting until &quot;load&quot;">tests\consolidated_locators_state_2_1db2\test_consolidated_locators_state_2_1db2.py:78: in test_TC_Navigation_010
+    page.goto(CONSOLIDATED_LOCATORS_STATE_2_1DB2_URL, timeout=60000)
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:9054: in goto
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py:552: in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:153: in goto
+    await self._channel.send(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+E   Call log:
+E     - navigating to " ", waiting until "load"</failure></testcase><testcase classname="tests.consolidated_locators_state_3_ca37.test_consolidated_locators_state_3_ca37" name="test_TC_ContentVerification_01" time="11.625"><failure message="AssertionError: Locator expected to have text 'A course to help you'&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_have_text&quot; with timeout 10000ms&#10;  - waiting for locator(&quot;#preheader&quot;).first">tests\consolidated_locators_state_3_ca37\test_consolidated_locators_state_3_ca37.py:16: in test_TC_ContentVerification_01
+    expect(page.locator('#preheader').first).to_have_text("A course to help you", timeout=10000)
+E   AssertionError: Locator expected to have text 'A course to help you'
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_have_text" with timeout 10000ms
+E     - waiting for locator("#preheader").first</failure></testcase><testcase classname="tests.consolidated_locators_state_3_ca37.test_consolidated_locators_state_3_ca37" name="test_TC_Navigation_01" time="31.540"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;a.gumroad-button&quot;).first">tests\consolidated_locators_state_3_ca37\test_consolidated_locators_state_3_ca37.py:27: in test_TC_Navigation_01
+    page.locator('a.gumroad-button').nth(0).click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("a.gumroad-button").first</failure></testcase><testcase classname="tests.page_10_be84.test_page_10_be84" name="test_page_file_upload_heading_visibility" time="1.664" /><testcase classname="tests.page_10_be84.test_page_10_be84" name="test_page_file_upload_choose_button_visibility" time="16.426"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;button.btn.btn-secondary.btn-choose&quot;).first">tests\page_10_be84\test_page_10_be84.py:24: in test_page_file_upload_choose_button_visibility
+    expect(page.locator("button.btn.btn-secondary.btn-choose").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("button.btn.btn-secondary.btn-choose").first</failure></testcase><testcase classname="tests.page_10_be84.test_page_10_be84" name="test_page_file_upload_reset_button_visibility" time="16.435"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;button.btn.btn-warning.btn-reset&quot;).first">tests\page_10_be84\test_page_10_be84.py:30: in test_page_file_upload_reset_button_visibility
+    expect(page.locator("button.btn.btn-warning.btn-reset").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("button.btn.btn-warning.btn-reset").first</failure></testcase><testcase classname="tests.page_10_be84.test_page_10_be84" name="test_page_formy_link_navigation" time="31.412"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#logo&quot;).first">tests\page_10_be84\test_page_10_be84.py:37: in test_page_formy_link_navigation
+    page.locator("#logo").first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#logo").first</failure></testcase><testcase classname="tests.page_10_be84.test_page_10_be84" name="test_page_form_components_link_visibility" time="16.410"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#navbarNavDropdown&quot;).first">tests\page_10_be84\test_page_10_be84.py:45: in test_page_form_components_link_visibility
+    expect(page.locator("#navbarNavDropdown").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#navbarNavDropdown").first</failure></testcase><testcase classname="tests.page_11.test_page_11" name="test_page_robots_txt_navigation" time="0.777" /><testcase classname="tests.page_11.test_page_11" name="test_page_robots_txt_content" time="0.753" /><testcase classname="tests.page_11.test_page_11" name="test_page_robots_txt_element_count" time="0.781" /><testcase classname="tests.page_11.test_page_11" name="test_page_robots_txt_body_element_visibility" time="0.800" /><testcase classname="tests.page_12.test_page_12" name="test_page_title" time="3.221" /><testcase classname="tests.page_12.test_page_12" name="test_search_team" time="2.692" /><testcase classname="tests.page_12.test_page_12" name="test_pagination" time="3.365" /><testcase classname="tests.page_12.test_page_12" name="test_per_page_select" time="2.541" /><testcase classname="tests.page_12.test_page_12" name="test_element_visibility" time="2.472" /><testcase classname="tests.page_13.test_page_13" name="test_page_navigation" time="2.137" /><testcase classname="tests.page_13.test_page_13" name="test_team_search" time="2.851" /><testcase classname="tests.page_13.test_page_13" name="test_pagination" time="2.431" /><testcase classname="tests.page_13.test_page_13" name="test_per_page_selection" time="3.471" /><testcase classname="tests.page_13.test_page_13" name="test_faq_link" time="31.884"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(), \&quot;FAQ\&quot;)]&quot;)">tests\page_13\test_page_13.py:48: in test_faq_link
+    page.locator('xpath=//a[contains(text(), "FAQ")]').click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("//a[contains(text(), \"FAQ\")]")</failure></testcase><testcase classname="tests.page_14.test_page_14" name="test_page_14_title" time="1.446" /><testcase classname="tests.page_14.test_page_14" name="test_page_14_search_team" time="1.881" /><testcase classname="tests.page_14.test_page_14" name="test_page_14_pagination" time="2.239" /><testcase classname="tests.page_14.test_page_14" name="test_page_14_change_per_page" time="2.442" /><testcase classname="tests.page_14.test_page_14" name="test_page_14_element_visibility" time="1.047" /><testcase classname="tests.page_15.test_page_15" name="test_page_15_navigation" time="1.528" /><testcase classname="tests.page_15.test_page_15" name="test_page_15_search_team" time="2.491" /><testcase classname="tests.page_15.test_page_15" name="test_page_15_pagination" time="4.067" /><testcase classname="tests.page_15.test_page_15" name="test_page_15_elements_visibility" time="2.059" /><testcase classname="tests.page_15.test_page_15" name="test_page_15_select_50_teams_per_page" time="2.471" /><testcase classname="tests.page_16.test_page_16" name="test_page_16_title" time="2.230" /><testcase classname="tests.page_16.test_page_16" name="test_page_16_search_team" time="2.465" /><testcase classname="tests.page_16.test_page_16" name="test_page_16_pagination" time="2.661" /><testcase classname="tests.page_16.test_page_16" name="test_page_16_element_visibility" time="2.538" /><testcase classname="tests.page_16.test_page_16" name="test_page_16_change_per_page" time="1.986" /><testcase classname="tests.page_17.test_page_17" name="test_page_17_navigation" time="2.213" /><testcase classname="tests.page_17.test_page_17" name="test_page_17_search_team" time="2.392" /><testcase classname="tests.page_17.test_page_17" name="test_page_17_pagination" time="2.894" /><testcase classname="tests.page_17.test_page_17" name="test_page_17_select_per_page" time="2.839" /><testcase classname="tests.page_18.test_page_18" name="test_page_18_navigation" time="2.486" /><testcase classname="tests.page_18.test_page_18" name="test_page_18_search_team" time="11.886" /><testcase classname="tests.page_18.test_page_18" name="test_page_18_pagination" time="4.305" /><testcase classname="tests.page_18.test_page_18" name="test_page_18_items_per_page" time="2.782" /><testcase classname="tests.page_18.test_page_18" name="test_page_18_elements_visible" time="2.654" /><testcase classname="tests.page_19.test_page_19" name="test_page_19_title" time="2.296" /><testcase classname="tests.page_19.test_page_19" name="test_page_19_search_team" time="3.045" /><testcase classname="tests.page_19.test_page_19" name="test_page_19_navigation_to_page_1" time="2.808" /><testcase classname="tests.page_19.test_page_19" name="test_page_19_change_per_page_to_50" time="3.165" /><testcase classname="tests.page_19.test_page_19" name="test_page_19_element_visibility" time="2.708" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_page_welcome_heading_visible" time="1.716" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_page_link_formy_visible" time="11.554"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 10000ms&#10;  - waiting for locator(&quot;#logo&quot;).first">tests\page_1_cdbd\test_page_1_cdbd.py:23: in test_page_link_formy_visible
+    expect(page.locator("#logo").first).to_be_visible(timeout=10000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 10000ms
+E     - waiting for locator("#logo").first</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_page_link_autocomplete_visible" time="11.748"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 10000ms&#10;  - waiting for locator(&quot;a.btn.btn-lg&quot;).first">tests\page_1_cdbd\test_page_1_cdbd.py:29: in test_page_link_autocomplete_visible
+    expect(page.locator("a.btn.btn-lg").nth(0)).to_be_visible(timeout=10000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 10000ms
+E     - waiting for locator("a.btn.btn-lg").first</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_page_link_buttons_visible" time="11.551"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 10000ms&#10;  - waiting for locator(&quot;a.btn.btn-lg&quot;).nth(1)">tests\page_1_cdbd\test_page_1_cdbd.py:35: in test_page_link_buttons_visible
+    expect(page.locator("a.btn.btn-lg").nth(1)).to_be_visible(timeout=10000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 10000ms
+E     - waiting for locator("a.btn.btn-lg").nth(1)</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_page_link_checkbox_visible" time="11.652"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 10000ms&#10;  - waiting for locator(&quot;a.btn.btn-lg&quot;).nth(2)">tests\page_1_cdbd\test_page_1_cdbd.py:41: in test_page_link_checkbox_visible
+    expect(page.locator("a.btn.btn-lg").nth(2)).to_be_visible(timeout=10000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 10000ms
+E     - waiting for locator("a.btn.btn-lg").nth(2)</failure></testcase><testcase classname="tests.page_20.test_page_20" name="test_page_20_navigation" time="2.228" /><testcase classname="tests.page_20.test_page_20" name="test_page_20_search_team" time="2.790" /><testcase classname="tests.page_20.test_page_20" name="test_page_20_pagination" time="2.736" /><testcase classname="tests.page_20.test_page_20" name="test_page_20_change_per_page" time="3.125" /><testcase classname="tests.page_20.test_page_20" name="test_page_20_header_visibility" time="2.572" /><testcase classname="tests.page_21.test_page_21" name="test_page_21_title" time="2.634" /><testcase classname="tests.page_21.test_page_21" name="test_page_21_search_team" time="2.862" /><testcase classname="tests.page_21.test_page_21" name="test_page_21_navigation_links" time="2.657" /><testcase classname="tests.page_21.test_page_21" name="test_page_21_pagination" time="2.913" /><testcase classname="tests.page_21.test_page_21" name="test_page_21_per_page_option" time="3.673" /><testcase classname="tests.page_22.test_page_22" name="test_page_navigation" time="2.863" /><testcase classname="tests.page_22.test_page_22" name="test_search_team" time="4.297" /><testcase classname="tests.page_22.test_page_22" name="test_pagination_navigation" time="3.749" /><testcase classname="tests.page_22.test_page_22" name="test_change_per_page" time="2.803" /><testcase classname="tests.page_22.test_page_22" name="test_header_element_visibility" time="2.513" /><testcase classname="tests.page_23.test_page_23" name="test_page_23_navigation" time="2.210"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: Unexpected token &quot;locator(&quot; while parsing css selector &quot;page.locator('h1')&quot;. Did you mean to CSS.escape it? &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 10000ms&#10;  - waiting for page.locator('h1')">tests\page_23\test_page_23.py:22: in test_page_23_navigation
+    expect(page.locator("page.locator('h1')")).to_be_visible(timeout=10000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: Unexpected token "locator(" while parsing css selector "page.locator('h1')". Did you mean to CSS.escape it? 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 10000ms
+E     - waiting for page.locator('h1')</failure></testcase><testcase classname="tests.page_23.test_page_23" name="test_page_23_search_team" time="2.960" /><testcase classname="tests.page_23.test_page_23" name="test_page_23_pagination" time="3.795" /><testcase classname="tests.page_23.test_page_23" name="test_page_23_per_page_dropdown" time="3.235" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_page_2_link_formy_visible" time="11.602"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 10000ms&#10;  - waiting for locator(&quot;#logo&quot;).first">tests\page_2_f871\test_page_2_f871.py:19: in test_page_2_link_formy_visible
+    expect(page.locator("#logo").first).to_be_visible(timeout=10000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 10000ms
+E     - waiting for locator("#logo").first</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_page_2_complete_web_form_elements_visible" time="1.454"><failure message="playwright._impl._errors.Error: Locator.click: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(),' is not a valid XPath expression.&#10;    at Object.queryAll (&lt;anonymous&gt;:6147:25)&#10;    at InjectedScript._queryEngineAll (&lt;anonymous&gt;:6847:49)&#10;    at InjectedScript.querySelectorAll (&lt;anonymous&gt;:6834:30)&#10;    at eval (eval at evaluate (:290:30), &lt;anonymous&gt;:2:35)&#10;    at UtilityScript.evaluate (&lt;anonymous&gt;:292:16)&#10;    at UtilityScript.&lt;anonymous&gt; (&lt;anonymous&gt;:1:44)&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(),&quot;)">tests\page_2_f871\test_page_2_f871.py:26: in test_page_2_complete_web_form_elements_visible
+    page.locator("xpath=//a[contains(text(), ").click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(),' is not a valid XPath expression.
+E       at Object.queryAll (&lt;anonymous&gt;:6147:25)
+E       at InjectedScript._queryEngineAll (&lt;anonymous&gt;:6847:49)
+E       at InjectedScript.querySelectorAll (&lt;anonymous&gt;:6834:30)
+E       at eval (eval at evaluate (:290:30), &lt;anonymous&gt;:2:35)
+E       at UtilityScript.evaluate (&lt;anonymous&gt;:292:16)
+E       at UtilityScript.&lt;anonymous&gt; (&lt;anonymous&gt;:1:44)
+E   Call log:
+E     - waiting for locator("//a[contains(text(),")</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_page_2_complete_web_form_fill_and_submit" time="1.442"><failure message="playwright._impl._errors.Error: Locator.click: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(),' is not a valid XPath expression.&#10;    at Object.queryAll (&lt;anonymous&gt;:6147:25)&#10;    at InjectedScript._queryEngineAll (&lt;anonymous&gt;:6847:49)&#10;    at InjectedScript.querySelectorAll (&lt;anonymous&gt;:6834:30)&#10;    at eval (eval at evaluate (:290:30), &lt;anonymous&gt;:2:35)&#10;    at UtilityScript.evaluate (&lt;anonymous&gt;:292:16)&#10;    at UtilityScript.&lt;anonymous&gt; (&lt;anonymous&gt;:1:44)&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(),&quot;)">tests\page_2_f871\test_page_2_f871.py:40: in test_page_2_complete_web_form_fill_and_submit
+    page.locator("xpath=//a[contains(text(), ").click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(),' is not a valid XPath expression.
+E       at Object.queryAll (&lt;anonymous&gt;:6147:25)
+E       at InjectedScript._queryEngineAll (&lt;anonymous&gt;:6847:49)
+E       at InjectedScript.querySelectorAll (&lt;anonymous&gt;:6834:30)
+E       at eval (eval at evaluate (:290:30), &lt;anonymous&gt;:2:35)
+E       at UtilityScript.evaluate (&lt;anonymous&gt;:292:16)
+E       at UtilityScript.&lt;anonymous&gt; (&lt;anonymous&gt;:1:44)
+E   Call log:
+E     - waiting for locator("//a[contains(text(),")</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_page_2_navigation_to_buttons" time="31.381"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#navbarDropdownMenuLink&quot;).first">tests\page_2_f871\test_page_2_f871.py:55: in test_page_2_navigation_to_buttons
+    page.locator("#navbarDropdownMenuLink").first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#navbarDropdownMenuLink").first</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_page_3_9ddb_navigation" time="16.599"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#logo&quot;).first">tests\page_3_9ddb\test_page_3_9ddb.py:19: in test_page_3_9ddb_navigation
+    expect(page.locator("#logo").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#logo").first</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_page_3_9ddb_autocomplete_elements_visibility" time="31.681"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#navbarDropdownMenuLink&quot;).first">tests\page_3_9ddb\test_page_3_9ddb.py:27: in test_page_3_9ddb_autocomplete_elements_visibility
+    page.locator("#navbarDropdownMenuLink").first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#navbarDropdownMenuLink").first</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_page_3_9ddb_autocomplete_interaction" time="31.726"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#navbarDropdownMenuLink&quot;).first">tests\page_3_9ddb\test_page_3_9ddb.py:49: in test_page_3_9ddb_autocomplete_interaction
+    page.locator("#navbarDropdownMenuLink").first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#navbarDropdownMenuLink").first</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_page_3_9ddb_formy_link" time="31.441"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#logo&quot;).first">tests\page_3_9ddb\test_page_3_9ddb.py:70: in test_page_3_9ddb_formy_link
+    page.locator("#logo").first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#logo").first</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_page_3_9ddb_dropdown_menu_navigation" time="31.537"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#navbarDropdownMenuLink&quot;).first">tests\page_3_9ddb\test_page_3_9ddb.py:77: in test_page_3_9ddb_dropdown_menu_navigation
+    page.locator("#navbarDropdownMenuLink").first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#navbarDropdownMenuLink").first</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_page_4_2b0a_navigation" time="11.407"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 10000ms&#10;  - waiting for locator(&quot;#logo&quot;).first">tests\page_4_2b0a\test_page_4_2b0a.py:19: in test_page_4_2b0a_navigation
+    expect(page.locator("#logo").first).to_be_visible(timeout=10000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 10000ms
+E     - waiting for locator("#logo").first</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_page_4_2b0a_button_visibility" time="11.447"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 10000ms&#10;  - waiting for locator(&quot;button.btn.btn-lg.btn-success&quot;).first">tests\page_4_2b0a\test_page_4_2b0a.py:27: in test_page_4_2b0a_button_visibility
+    expect(page.locator("button.btn.btn-lg.btn-success").first).to_be_visible(timeout=10000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 10000ms
+E     - waiting for locator("button.btn.btn-lg.btn-success").first</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_page_4_2b0a_button_group_visibility" time="11.534"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 10000ms&#10;  - waiting for locator(&quot;#btnGroupDrop1&quot;).first">tests\page_4_2b0a\test_page_4_2b0a.py:38: in test_page_4_2b0a_button_group_visibility
+    expect(page.locator("#btnGroupDrop1").first).to_be_visible(timeout=10000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 10000ms
+E     - waiting for locator("#btnGroupDrop1").first</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_page_4_2b0a_dropdown_interaction" time="31.706"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#btnGroupDrop1&quot;).first">tests\page_4_2b0a\test_page_4_2b0a.py:45: in test_page_4_2b0a_dropdown_interaction
+    page.locator("#btnGroupDrop1").first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#btnGroupDrop1").first</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_page_4_2b0a_form_components_link" time="11.628"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 10000ms&#10;  - waiting for locator(&quot;#navbarNavDropdown&quot;).first">tests\page_4_2b0a\test_page_4_2b0a.py:54: in test_page_4_2b0a_form_components_link
+    expect(page.locator("#navbarNavDropdown").first).to_be_visible(timeout=10000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 10000ms
+E     - waiting for locator("#navbarNavDropdown").first</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_page_5_aa33_navigation_to_components_checkbox" time="31.470"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#navbarDropdownMenuLink&quot;).first">tests\page_5_aa33\test_page_5_aa33.py:18: in test_page_5_aa33_navigation_to_components_checkbox
+    page.locator("#navbarDropdownMenuLink").first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#navbarDropdownMenuLink").first</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_page_5_aa33_checkbox_interaction" time="31.545"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#navbarDropdownMenuLink&quot;).first">tests\page_5_aa33\test_page_5_aa33.py:26: in test_page_5_aa33_checkbox_interaction
+    page.locator("#navbarDropdownMenuLink").first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#navbarDropdownMenuLink").first</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_page_5_aa33_checkbox_2_initial_state" time="31.517"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#navbarDropdownMenuLink&quot;).first">tests\page_5_aa33\test_page_5_aa33.py:38: in test_page_5_aa33_checkbox_2_initial_state
+    page.locator("#navbarDropdownMenuLink").first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#navbarDropdownMenuLink").first</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_page_5_aa33_checkbox_3_interaction" time="31.408"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#navbarDropdownMenuLink&quot;).first">tests\page_5_aa33\test_page_5_aa33.py:47: in test_page_5_aa33_checkbox_3_interaction
+    page.locator("#navbarDropdownMenuLink").first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#navbarDropdownMenuLink").first</failure></testcase><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_page_6_7142_logo_link" time="16.453"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#logo&quot;).first">tests\page_6_7142\test_page_6_7142.py:19: in test_page_6_7142_logo_link
+    expect(page.locator("#logo").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#logo").first</failure></testcase><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_page_6_7142_navigation_to_autocomplete" time="16.585"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#navbarDropdownMenuLink&quot;).first">tests\page_6_7142\test_page_6_7142.py:28: in test_page_6_7142_navigation_to_autocomplete
+    expect(page.locator("#navbarDropdownMenuLink").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#navbarDropdownMenuLink").first</failure></testcase><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_page_6_7142_navigation_to_buttons" time="16.441"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#navbarDropdownMenuLink&quot;).first">tests\page_6_7142\test_page_6_7142.py:41: in test_page_6_7142_navigation_to_buttons
+    expect(page.locator("#navbarDropdownMenuLink").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#navbarDropdownMenuLink").first</failure></testcase><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_page_6_7142_navigation_to_checkbox" time="16.498"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#navbarDropdownMenuLink&quot;).first">tests\page_6_7142\test_page_6_7142.py:53: in test_page_6_7142_navigation_to_checkbox
+    expect(page.locator("#navbarDropdownMenuLink").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#navbarDropdownMenuLink").first</failure></testcase><testcase classname="tests.page_6_7142.test_page_6_7142" name="test_page_6_7142_navigation_to_datepicker" time="16.535"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#navbarDropdownMenuLink&quot;).first">tests\page_6_7142\test_page_6_7142.py:65: in test_page_6_7142_navigation_to_datepicker
+    expect(page.locator("#navbarDropdownMenuLink").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#navbarDropdownMenuLink").first</failure></testcase><testcase classname="tests.page_7_181a.test_page_7_181a" name="test_page_formy_components_link" time="16.564"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#logo&quot;).first">tests\page_7_181a\test_page_7_181a.py:17: in test_page_formy_components_link
+    expect(page.locator("#logo").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#logo").first</failure></testcase><testcase classname="tests.page_7_181a.test_page_7_181a" name="test_page_drag_the_image_into_the_box_heading_visible" time="6.498"><failure message="AssertionError: Locator expected to have text 'Drag the image into the box'&#10;Actual value: Example Domain &#10;Call log:&#10;  - Expect &quot;to_have_text&quot; with timeout 5000ms&#10;  - waiting for locator(&quot;h1&quot;).first&#10;    9 × locator resolved to &lt;h1&gt;Example Domain&lt;/h1&gt;&#10;      - unexpected value &quot;Example Domain&quot;">tests\page_7_181a\test_page_7_181a.py:26: in test_page_drag_the_image_into_the_box_heading_visible
+    expect(page.locator("h1").first).to_have_text("Drag the image into the box")
+E   AssertionError: Locator expected to have text 'Drag the image into the box'
+E   Actual value: Example Domain 
+E   Call log:
+E     - Expect "to_have_text" with timeout 5000ms
+E     - waiting for locator("h1").first
+E       9 × locator resolved to &lt;h1&gt;Example Domain&lt;/h1&gt;
+E         - unexpected value "Example Domain"</failure></testcase><testcase classname="tests.page_7_181a.test_page_7_181a" name="test_page_drop_here_box_visible" time="16.450"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#box&quot;).first">tests\page_7_181a\test_page_7_181a.py:32: in test_page_drop_here_box_visible
+    expect(page.locator("#box").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#box").first</failure></testcase><testcase classname="tests.page_7_181a.test_page_7_181a" name="test_page_form_components_navigation_link" time="16.420"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#navbarNavDropdown&quot;).first">tests\page_7_181a\test_page_7_181a.py:38: in test_page_form_components_navigation_link
+    expect(page.locator("#navbarNavDropdown").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#navbarNavDropdown").first</failure></testcase><testcase classname="tests.page_8_2f35.test_page_8_2f35" name="test_page_formy_link" time="16.430"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#logo&quot;).first">tests\page_8_2f35\test_page_8_2f35.py:17: in test_page_formy_link
+    expect(page.locator("#logo").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#logo").first</failure></testcase><testcase classname="tests.page_8_2f35.test_page_8_2f35" name="test_page_components_dropdown_visibility" time="16.517"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#navbarDropdownMenuLink&quot;).first">tests\page_8_2f35\test_page_8_2f35.py:25: in test_page_components_dropdown_visibility
+    expect(page.locator("#navbarDropdownMenuLink").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#navbarDropdownMenuLink").first</failure></testcase><testcase classname="tests.page_8_2f35.test_page_8_2f35" name="test_page_components_dropdown_interaction" time="31.461"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#navbarDropdownMenuLink&quot;).first">tests\page_8_2f35\test_page_8_2f35.py:31: in test_page_components_dropdown_interaction
+    page.locator("#navbarDropdownMenuLink").first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#navbarDropdownMenuLink").first</failure></testcase><testcase classname="tests.page_8_2f35.test_page_8_2f35" name="test_page_dropdown_button_visibility" time="16.545"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#dropdownMenuButton&quot;).first">tests\page_8_2f35\test_page_8_2f35.py:38: in test_page_dropdown_button_visibility
+    expect(page.locator("#dropdownMenuButton").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#dropdownMenuButton").first</failure></testcase><testcase classname="tests.page_8_2f35.test_page_8_2f35" name="test_page_heading_visibility" time="1.528" /><testcase classname="tests.page_9_e3bd.test_page_9_e3bd" name="test_formy_components_page_navigation" time="1.537" /><testcase classname="tests.page_9_e3bd.test_page_9_e3bd" name="test_formy_link_navigation" time="31.384"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#logo&quot;).first">tests\page_9_e3bd\test_page_9_e3bd.py:23: in test_formy_link_navigation
+    page.locator("#logo").first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#logo").first</failure></testcase><testcase classname="tests.page_9_e3bd.test_page_9_e3bd" name="test_components_link_visibility" time="16.436"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#navbarDropdownMenuLink&quot;).first">tests\page_9_e3bd\test_page_9_e3bd.py:30: in test_components_link_visibility
+    expect(page.locator("#navbarDropdownMenuLink").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#navbarDropdownMenuLink").first</failure></testcase><testcase classname="tests.page_9_e3bd.test_page_9_e3bd" name="test_components_link_click" time="31.398"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#navbarDropdownMenuLink&quot;).first">tests\page_9_e3bd\test_page_9_e3bd.py:36: in test_components_link_click
+    page.locator("#navbarDropdownMenuLink").first.click()
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#navbarDropdownMenuLink").first</failure></testcase><testcase classname="tests.page_9_e3bd.test_page_9_e3bd" name="test_heading_visibility" time="1.714" /></testsuite></testsuites>

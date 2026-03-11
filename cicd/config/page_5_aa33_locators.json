@@ -1,0 +1,23 @@
+{
+  "LINK_FORMY": "#logo",
+  "LINK_FORM": "a.nav-link",
+  "LINK_COMPONENTS": "#navbarDropdownMenuLink",
+  "LINK_AUTOCOMPLETE": "xpath=//a[contains(text(), ",
+  "LINK_BUTTONS": "xpath=//a[contains(text(), ",
+  "LINK_CHECKBOX": "xpath=//a[contains(text(), ",
+  "LINK_DATEPICKER": "xpath=//a[contains(text(), ",
+  "LINK_DRAG_AND_DROP": "xpath=//a[contains(text(), ",
+  "LINK_DROPDOWN": "xpath=//a[contains(text(), ",
+  "LINK_ENABLED_AND_DISABLED_ELEMENTS": "xpath=//a[contains(text(), ",
+  "LINK_FILE_UPLOAD": "xpath=//a[contains(text(), ",
+  "LINK_KEY_AND_MOUSE_PRESS": "xpath=//a[contains(text(), ",
+  "LINK_MODAL": "xpath=//a[contains(text(), ",
+  "LINK_PAGE_SCROLL": "xpath=//a[contains(text(), ",
+  "LINK_RADIO_BUTTON": "xpath=//a[contains(text(), ",
+  "LINK_SWITCH_WINDOW": "xpath=//a[contains(text(), ",
+  "LINK_COMPLETE_WEB_FORM": "xpath=//a[contains(text(), ",
+  "HEADING_CHECKBOXES": "h1",
+  "INPUT_EL": "#checkbox-1",
+  "INPUT_EL_64_219": "#checkbox-2",
+  "INPUT_EL_64_267": "#checkbox-3"
+}

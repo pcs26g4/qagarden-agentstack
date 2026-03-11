@@ -1,0 +1,21 @@
+{
+  "FORMYFORMCOMPONENTS": "nav.navbar.navbar-expand-lg.bg-light",
+  "LINK_FORMY": "#logo",
+  "FORMCOMPONENTS": "#navbarNavDropdown",
+  "LINK_FORM": "a.nav-link",
+  "LINK_COMPONENTS": "#navbarDropdownMenuLink",
+  "BTN_PRIMARY": "xpath=//button[contains(text(), ",
+  "BTN_SUCCESS": "button.btn.btn-lg.btn-success",
+  "BTN_INFO": "button.btn.btn-lg.btn-info",
+  "BTN_WARNING": "button.btn.btn-lg.btn-warning",
+  "BTN_DANGER": "button.btn.btn-lg.btn-danger",
+  "BTN_LINK": "button.btn.btn-lg.btn-link",
+  "BTN_LEFT": "xpath=//button[contains(text(), ",
+  "BTN_MIDDLE": "xpath=//button[contains(text(), ",
+  "BTN_RIGHT": "xpath=//button[contains(text(), ",
+  "BTN_1": "xpath=/html/body/div[1]/form[1]/div[3]/div[1]/div[1]/div[1]/button[1]",
+  "BTN_2": "xpath=/html/body/div[1]/form[1]/div[3]/div[1]/div[1]/div[1]/button[2]",
+  "BTN_DROPDOWN": "#btnGroupDrop1",
+  "LINK_DROPDOWN_LINK_1": "xpath=//a[contains(text(), ",
+  "LINK_DROPDOWN_LINK_2": "xpath=//a[contains(text(), "
+}

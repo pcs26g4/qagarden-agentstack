@@ -1,0 +1,131 @@
+{
+    "site_info": {
+        "base_url": "unknown",
+        "synthesis_timestamp": "2026-03-03T06:34:57.168949",
+        "total_unique_pages": 5,
+        "total_raw_locators": 332
+    },
+    "pages": {
+        "https://www.jellypod.com/ai-voices": [
+            {
+                "tag": "header",
+                "text": "Jellypod\nAI Creation Platform\nPricing\nProduct\nSolutions\nResources\nEnterprise\nLog in\nGet Started",
+                "xpath": "/html/body/main[1]/header[1]",
+                "css": "header.sticky",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "sticky top-0 z-50"
+                },
+                "x": 0,
+                "y": 0,
+                "quality_score": 50,
+                "element_name": "jellypodai_creation_platform",
+                "playwright_selector": "page.locator('header.sticky')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/ai-voices",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/careers": [
+            {
+                "tag": "main",
+                "text": "CAREERS\nJoin the team.\n\nHelp us accelerate human creativity.\n\nOUR MISSION\nWe're a small team with a ",
+                "xpath": "/html/body/main[1]/main[1]",
+                "css": "main",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 0,
+                "y": 77,
+                "quality_score": 50,
+                "element_name": "careersjoin_the_teamhelp_u",
+                "playwright_selector": "page.locator('xpath=/html/body/main[1]/main[1]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/careers",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/": [
+            {
+                "tag": "body",
+                "text": "Jellypod\nAI Creation Platform\nPricing\nProduct\nSolutions\nResources\nEnterprise\nLog in\nGet Started\nNEW\n",
+                "xpath": "/html/body",
+                "css": "body.bg-white.font-sans.antialiased",
+                "id": "",
+                "isInteractive": true,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "bg-white font-sans antialiased"
+                },
+                "x": 0,
+                "y": 0,
+                "quality_score": 50,
+                "element_name": "jellypodai_creation_platform_1",
+                "playwright_selector": "page.locator('body.bg-white.font-sans.antialiased')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/compare": [
+            {
+                "tag": "h1",
+                "text": "Compare Jellypod to Alternatives",
+                "xpath": "/html/body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/h1[1]",
+                "css": "h1.font-light.tracking-tight",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "font-light text-4xl tracking-tight md:text-5xl"
+                },
+                "x": 53,
+                "y": 225,
+                "quality_score": 50,
+                "element_name": "heading_compare_jellypod_to_alternativ",
+                "playwright_selector": "page.locator('h1.font-light.tracking-tight')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/compare",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/contact": [
+            {
+                "tag": "h1",
+                "text": "Contact Us",
+                "xpath": "/html/body/main[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/h1[1]",
+                "css": "h1.font-medium.font-serif.text-foreground.tracking-tight",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "font-medium font-serif text-4xl text-foreground tracking-tight sm:text-5xl"
+                },
+                "x": 37,
+                "y": 145,
+                "quality_score": 50,
+                "element_name": "heading_contact_us",
+                "playwright_selector": "page.locator('h1.font-medium.font-serif.text-foreground.tracking-tight')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/contact",
+                "confidence_score": 0.5
+            }
+        ]
+    },
+    "site_graph": {}
+}

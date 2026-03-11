@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="15" skipped="0" tests="21" time="332.975" timestamp="2026-02-27T10:23:43.168426+05:30" hostname="DESKTOP-5T4S1GA"><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_01" time="8.870" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_02" time="34.410"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#endpoint&quot;).first&#10;    - locator resolved to &lt;a id=&quot;endpoint&quot; draggable=&quot;false&quot; class=&quot;yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer&quot;&gt;…&lt;/a&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;      - waiting 100ms&#10;    53 × waiting for element to be visible, enabled and stable&#10;       - element is not visible&#10;     - retrying click action&#10;       - waiting 500ms">#x1B[1m#x1B[31mtests\page_1_cdbd\test_page_1_cdbd.py#x1B[0m:24: in test_TC_Navigation_02
+    #x1B[0mpage.locator(#x1B[33m'#x1B[39;49;00m#x1B[33m#endpoint#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m).nth(#x1B[94m0#x1B[39;49;00m).click()#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\sync_api\_generated.py#x1B[0m:15631: in click
+    #x1B[0m#x1B[96mself#x1B[39;49;00m._sync(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_locator.py#x1B[0m:162: in click
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._frame._click(#x1B[96mself#x1B[39;49;00m._selector, strict=#x1B[94mTrue#x1B[39;49;00m, **params)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_frame.py#x1B[0m:566: in _click
+    #x1B[0m#x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._channel.send(#x1B[33m"#x1B[39;49;00m#x1B[33mclick#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m, #x1B[96mself#x1B[39;49;00m._timeout, locals_to_params(#x1B[96mlocals#x1B[39;49;00m()))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py#x1B[0m:69: in send
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._connection.wrap_api_call(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py#x1B[0m:559: in wrap_api_call
+    #x1B[0m#x1B[94mraise#x1B[39;49;00m rewrite_error(error, #x1B[33mf#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m{#x1B[39;49;00mparsed_st[#x1B[33m'#x1B[39;49;00m#x1B[33mapiName#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m]#x1B[33m}#x1B[39;49;00m#x1B[33m: #x1B[39;49;00m#x1B[33m{#x1B[39;49;00merror#x1B[33m}#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m) #x1B[94mfrom#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[94mNone#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.#x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - waiting for locator("#endpoint").first#x1B[0m
+#x1B[1m#x1B[31mE       - locator resolved to &lt;a id="endpoint" draggable="false" class="yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer"&gt;…&lt;/a&gt;#x1B[0m
+#x1B[1m#x1B[31mE     - attempting click action#x1B[0m
+#x1B[1m#x1B[31mE       2 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE         - element is not visible#x1B[0m
+#x1B[1m#x1B[31mE       - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE       - waiting 20ms#x1B[0m
+#x1B[1m#x1B[31mE       2 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE         - element is not visible#x1B[0m
+#x1B[1m#x1B[31mE       - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE         - waiting 100ms#x1B[0m
+#x1B[1m#x1B[31mE       53 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE          - element is not visible#x1B[0m
+#x1B[1m#x1B[31mE        - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE          - waiting 500ms#x1B[0m</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_03" time="22.373"><failure message="AssertionError: Page URL expected to be 're.compile('/feed/subscriptions')'&#10;Actual value: https://www.youtube.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 15000ms&#10;    18 × unexpected value &quot;https://www.youtube.com/&quot;">#x1B[1m#x1B[31mtests\page_1_cdbd\test_page_1_cdbd.py#x1B[0m:32: in test_TC_Navigation_03
+    #x1B[0mexpect(page).to_have_url(re.compile(#x1B[33mr#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m/feed/subscriptions#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m), timeout=#x1B[94m15000#x1B[39;49;00m)#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/feed/subscriptions')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: https://www.youtube.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 15000ms#x1B[0m
+#x1B[1m#x1B[31mE       18 × unexpected value "https://www.youtube.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_04" time="34.653"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#endpoint&quot;).first&#10;    - locator resolved to &lt;a id=&quot;endpoint&quot; draggable=&quot;false&quot; href=&quot;/watch?v=vp2yiZnjK0w&quot; class=&quot;yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer&quot;&gt;…&lt;/a&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;      - waiting 100ms&#10;    56 × waiting for element to be visible, enabled and stable&#10;       - element is not visible&#10;     - retrying click action&#10;       - waiting 500ms">#x1B[1m#x1B[31mtests\page_1_cdbd\test_page_1_cdbd.py#x1B[0m:38: in test_TC_Navigation_04
+    #x1B[0mpage.locator(#x1B[33m'#x1B[39;49;00m#x1B[33m#endpoint#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m).nth(#x1B[94m0#x1B[39;49;00m).click()#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\sync_api\_generated.py#x1B[0m:15631: in click
+    #x1B[0m#x1B[96mself#x1B[39;49;00m._sync(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_locator.py#x1B[0m:162: in click
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._frame._click(#x1B[96mself#x1B[39;49;00m._selector, strict=#x1B[94mTrue#x1B[39;49;00m, **params)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_frame.py#x1B[0m:566: in _click
+    #x1B[0m#x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._channel.send(#x1B[33m"#x1B[39;49;00m#x1B[33mclick#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m, #x1B[96mself#x1B[39;49;00m._timeout, locals_to_params(#x1B[96mlocals#x1B[39;49;00m()))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py#x1B[0m:69: in send
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._connection.wrap_api_call(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py#x1B[0m:559: in wrap_api_call
+    #x1B[0m#x1B[94mraise#x1B[39;49;00m rewrite_error(error, #x1B[33mf#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m{#x1B[39;49;00mparsed_st[#x1B[33m'#x1B[39;49;00m#x1B[33mapiName#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m]#x1B[33m}#x1B[39;49;00m#x1B[33m: #x1B[39;49;00m#x1B[33m{#x1B[39;49;00merror#x1B[33m}#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m) #x1B[94mfrom#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[94mNone#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.#x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - waiting for locator("#endpoint").first#x1B[0m
+#x1B[1m#x1B[31mE       - locator resolved to &lt;a id="endpoint" draggable="false" href="/watch?v=vp2yiZnjK0w" class="yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer"&gt;…&lt;/a&gt;#x1B[0m
+#x1B[1m#x1B[31mE     - attempting click action#x1B[0m
+#x1B[1m#x1B[31mE       2 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE         - element is not visible#x1B[0m
+#x1B[1m#x1B[31mE       - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE       - waiting 20ms#x1B[0m
+#x1B[1m#x1B[31mE       2 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE         - element is not visible#x1B[0m
+#x1B[1m#x1B[31mE       - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE         - waiting 100ms#x1B[0m
+#x1B[1m#x1B[31mE       56 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE          - element is not visible#x1B[0m
+#x1B[1m#x1B[31mE        - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE          - waiting 500ms#x1B[0m</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Authentication_01" time="7.025" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_01" time="4.503" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_02" time="9.432"><failure message="AssertionError: Page URL expected to be 're.compile('/shorts/')'&#10;Actual value: https://www.youtube.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://www.youtube.com/&quot;">#x1B[1m#x1B[31mtests\page_2_f871\test_page_2_f871.py#x1B[0m:25: in test_TC_Navigation_02
+    #x1B[0mexpect(page).to_have_url(re.compile(#x1B[33mr#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m/shorts/#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/shorts/')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: https://www.youtube.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 5000ms#x1B[0m
+#x1B[1m#x1B[31mE       9 × unexpected value "https://www.youtube.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_03" time="9.657"><failure message="AssertionError: Page URL expected to be 're.compile('/feed/subscriptions')'&#10;Actual value: https://www.youtube.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    8 × unexpected value &quot;https://www.youtube.com/&quot;">#x1B[1m#x1B[31mtests\page_2_f871\test_page_2_f871.py#x1B[0m:32: in test_TC_Navigation_03
+    #x1B[0mexpect(page).to_have_url(re.compile(#x1B[33mr#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m/feed/subscriptions#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/feed/subscriptions')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: https://www.youtube.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 5000ms#x1B[0m
+#x1B[1m#x1B[31mE       8 × unexpected value "https://www.youtube.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_04" time="10.423"><failure message="AssertionError: Page URL expected to be 're.compile('/feed/you')'&#10;Actual value: https://www.youtube.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://www.youtube.com/&quot;">#x1B[1m#x1B[31mtests\page_2_f871\test_page_2_f871.py#x1B[0m:39: in test_TC_Navigation_04
+    #x1B[0mexpect(page).to_have_url(re.compile(#x1B[33mr#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m/feed/you#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/feed/you')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: https://www.youtube.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 5000ms#x1B[0m
+#x1B[1m#x1B[31mE       9 × unexpected value "https://www.youtube.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Authentication_01" time="7.133" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_05" time="6.565" /><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_01" time="36.096"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#endpoint&quot;).first&#10;    - locator resolved to &lt;a id=&quot;endpoint&quot; draggable=&quot;false&quot; href=&quot;/watch?v=vp2yiZnjK0w&quot; class=&quot;yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer&quot;&gt;…&lt;/a&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;      - waiting 100ms&#10;    56 × waiting for element to be visible, enabled and stable&#10;       - element is not visible&#10;     - retrying click action&#10;       - waiting 500ms">#x1B[1m#x1B[31mtests\page_3_9ddb\test_page_3_9ddb.py#x1B[0m:15: in test_TC_Navigation_01
+    #x1B[0mpage.locator(#x1B[33m'#x1B[39;49;00m#x1B[33m#endpoint#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m).nth(#x1B[94m0#x1B[39;49;00m).click()#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\sync_api\_generated.py#x1B[0m:15631: in click
+    #x1B[0m#x1B[96mself#x1B[39;49;00m._sync(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_locator.py#x1B[0m:162: in click
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._frame._click(#x1B[96mself#x1B[39;49;00m._selector, strict=#x1B[94mTrue#x1B[39;49;00m, **params)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_frame.py#x1B[0m:566: in _click
+    #x1B[0m#x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._channel.send(#x1B[33m"#x1B[39;49;00m#x1B[33mclick#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m, #x1B[96mself#x1B[39;49;00m._timeout, locals_to_params(#x1B[96mlocals#x1B[39;49;00m()))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py#x1B[0m:69: in send
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._connection.wrap_api_call(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py#x1B[0m:559: in wrap_api_call
+    #x1B[0m#x1B[94mraise#x1B[39;49;00m rewrite_error(error, #x1B[33mf#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m{#x1B[39;49;00mparsed_st[#x1B[33m'#x1B[39;49;00m#x1B[33mapiName#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m]#x1B[33m}#x1B[39;49;00m#x1B[33m: #x1B[39;49;00m#x1B[33m{#x1B[39;49;00merror#x1B[33m}#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m) #x1B[94mfrom#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[94mNone#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.#x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - waiting for locator("#endpoint").first#x1B[0m
+#x1B[1m#x1B[31mE       - locator resolved to &lt;a id="endpoint" draggable="false" href="/watch?v=vp2yiZnjK0w" class="yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer"&gt;…&lt;/a&gt;#x1B[0m
+#x1B[1m#x1B[31mE     - attempting click action#x1B[0m
+#x1B[1m#x1B[31mE       2 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE         - element is not visible#x1B[0m
+#x1B[1m#x1B[31mE       - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE       - waiting 20ms#x1B[0m
+#x1B[1m#x1B[31mE       2 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE         - element is not visible#x1B[0m
+#x1B[1m#x1B[31mE       - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE         - waiting 100ms#x1B[0m
+#x1B[1m#x1B[31mE       56 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE          - element is not visible#x1B[0m
+#x1B[1m#x1B[31mE        - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE          - waiting 500ms#x1B[0m</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_02" time="34.375"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#endpoint&quot;).first&#10;    - locator resolved to &lt;a id=&quot;endpoint&quot; draggable=&quot;false&quot; href=&quot;/watch?v=vp2yiZnjK0w&quot; class=&quot;yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer&quot;&gt;…&lt;/a&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;      - waiting 100ms&#10;    56 × waiting for element to be visible, enabled and stable&#10;       - element is not visible&#10;     - retrying click action&#10;       - waiting 500ms">#x1B[1m#x1B[31mtests\page_3_9ddb\test_page_3_9ddb.py#x1B[0m:22: in test_TC_Navigation_02
+    #x1B[0mpage.locator(#x1B[33m'#x1B[39;49;00m#x1B[33m#endpoint#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m).nth(#x1B[94m0#x1B[39;49;00m).click()#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\sync_api\_generated.py#x1B[0m:15631: in click
+    #x1B[0m#x1B[96mself#x1B[39;49;00m._sync(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_locator.py#x1B[0m:162: in click
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._frame._click(#x1B[96mself#x1B[39;49;00m._selector, strict=#x1B[94mTrue#x1B[39;49;00m, **params)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_frame.py#x1B[0m:566: in _click
+    #x1B[0m#x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._channel.send(#x1B[33m"#x1B[39;49;00m#x1B[33mclick#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m, #x1B[96mself#x1B[39;49;00m._timeout, locals_to_params(#x1B[96mlocals#x1B[39;49;00m()))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py#x1B[0m:69: in send
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._connection.wrap_api_call(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py#x1B[0m:559: in wrap_api_call
+    #x1B[0m#x1B[94mraise#x1B[39;49;00m rewrite_error(error, #x1B[33mf#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m{#x1B[39;49;00mparsed_st[#x1B[33m'#x1B[39;49;00m#x1B[33mapiName#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m]#x1B[33m}#x1B[39;49;00m#x1B[33m: #x1B[39;49;00m#x1B[33m{#x1B[39;49;00merror#x1B[33m}#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m) #x1B[94mfrom#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[94mNone#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.#x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - waiting for locator("#endpoint").first#x1B[0m
+#x1B[1m#x1B[31mE       - locator resolved to &lt;a id="endpoint" draggable="false" href="/watch?v=vp2yiZnjK0w" class="yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer"&gt;…&lt;/a&gt;#x1B[0m
+#x1B[1m#x1B[31mE     - attempting click action#x1B[0m
+#x1B[1m#x1B[31mE       2 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE         - element is not visible#x1B[0m
+#x1B[1m#x1B[31mE       - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE       - waiting 20ms#x1B[0m
+#x1B[1m#x1B[31mE       2 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE         - element is not visible#x1B[0m
+#x1B[1m#x1B[31mE       - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE         - waiting 100ms#x1B[0m
+#x1B[1m#x1B[31mE       56 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE          - element is not visible#x1B[0m
+#x1B[1m#x1B[31mE        - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE          - waiting 500ms#x1B[0m</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_03" time="10.436"><failure message="AssertionError: Page URL expected to be 're.compile('/feed/subscriptions')'&#10;Actual value: https://www.youtube.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://www.youtube.com/&quot;">#x1B[1m#x1B[31mtests\page_3_9ddb\test_page_3_9ddb.py#x1B[0m:30: in test_TC_Navigation_03
+    #x1B[0mexpect(page).to_have_url(re.compile(#x1B[33mr#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m/feed/subscriptions#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/feed/subscriptions')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: https://www.youtube.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 5000ms#x1B[0m
+#x1B[1m#x1B[31mE       9 × unexpected value "https://www.youtube.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_04" time="34.659"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#endpoint&quot;).first&#10;    - locator resolved to &lt;a id=&quot;endpoint&quot; draggable=&quot;false&quot; class=&quot;yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer&quot;&gt;…&lt;/a&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;      - waiting 100ms&#10;    56 × waiting for element to be visible, enabled and stable&#10;       - element is not visible&#10;     - retrying click action&#10;       - waiting 500ms">#x1B[1m#x1B[31mtests\page_3_9ddb\test_page_3_9ddb.py#x1B[0m:36: in test_TC_Navigation_04
+    #x1B[0mpage.locator(#x1B[33m'#x1B[39;49;00m#x1B[33m#endpoint#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m).nth(#x1B[94m0#x1B[39;49;00m).click()#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\sync_api\_generated.py#x1B[0m:15631: in click
+    #x1B[0m#x1B[96mself#x1B[39;49;00m._sync(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_locator.py#x1B[0m:162: in click
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._frame._click(#x1B[96mself#x1B[39;49;00m._selector, strict=#x1B[94mTrue#x1B[39;49;00m, **params)#x1B[90m#x1B[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_frame.py#x1B[0m:566: in _click
+    #x1B[0m#x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._channel.send(#x1B[33m"#x1B[39;49;00m#x1B[33mclick#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m, #x1B[96mself#x1B[39;49;00m._timeout, locals_to_params(#x1B[96mlocals#x1B[39;49;00m()))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py#x1B[0m:69: in send
+    #x1B[0m#x1B[94mreturn#x1B[39;49;00m #x1B[94mawait#x1B[39;49;00m #x1B[96mself#x1B[39;49;00m._connection.wrap_api_call(#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mC:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py#x1B[0m:559: in wrap_api_call
+    #x1B[0m#x1B[94mraise#x1B[39;49;00m rewrite_error(error, #x1B[33mf#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m{#x1B[39;49;00mparsed_st[#x1B[33m'#x1B[39;49;00m#x1B[33mapiName#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m]#x1B[33m}#x1B[39;49;00m#x1B[33m: #x1B[39;49;00m#x1B[33m{#x1B[39;49;00merror#x1B[33m}#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m) #x1B[94mfrom#x1B[39;49;00m#x1B[90m #x1B[39;49;00m#x1B[94mNone#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.#x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - waiting for locator("#endpoint").first#x1B[0m
+#x1B[1m#x1B[31mE       - locator resolved to &lt;a id="endpoint" draggable="false" class="yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer"&gt;…&lt;/a&gt;#x1B[0m
+#x1B[1m#x1B[31mE     - attempting click action#x1B[0m
+#x1B[1m#x1B[31mE       2 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE         - element is not visible#x1B[0m
+#x1B[1m#x1B[31mE       - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE       - waiting 20ms#x1B[0m
+#x1B[1m#x1B[31mE       2 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE         - element is not visible#x1B[0m
+#x1B[1m#x1B[31mE       - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE         - waiting 100ms#x1B[0m
+#x1B[1m#x1B[31mE       56 × waiting for element to be visible, enabled and stable#x1B[0m
+#x1B[1m#x1B[31mE          - element is not visible#x1B[0m
+#x1B[1m#x1B[31mE        - retrying click action#x1B[0m
+#x1B[1m#x1B[31mE          - waiting 500ms#x1B[0m</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Authentication_01" time="10.807"><failure message="AssertionError: Page URL expected to be 're.compile('accounts\\.google\\.com/ServiceLogin')'&#10;Actual value: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlos%252Bangeles&amp;dsh=S1043858425%3A1772168300820448&amp;ec=65620&amp;hl=en-GB&amp;ifkv=ASfE1-rRGx6p7qyQ_uejCLRzPj_1GM-uuYKA_ittueCjRnvJ7W9J2n_J9wdxBHqw4qnVZDoFo8hFCw&amp;passive=true&amp;service=youtube&amp;uilel=3&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    8 × unexpected value &quot;https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlos%252Bangeles&amp;dsh=S1043858425%3A1772168300820448&amp;ec=65620&amp;hl=en-GB&amp;ifkv=ASfE1-rRGx6p7qyQ_uejCLRzPj_1GM-uuYKA_ittueCjRnvJ7W9J2n_J9wdxBHqw4qnVZDoFo8hFCw&amp;passive=true&amp;service=youtube&amp;uilel=3&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin&quot;">#x1B[1m#x1B[31mtests\page_3_9ddb\test_page_3_9ddb.py#x1B[0m:44: in test_TC_Authentication_01
+    #x1B[0mexpect(page).to_have_url(re.compile(#x1B[33mr#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33maccounts#x1B[39;49;00m#x1B[33m\#x1B[39;49;00m#x1B[33m.google#x1B[39;49;00m#x1B[33m\#x1B[39;49;00m#x1B[33m.com/ServiceLogin#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('accounts\\.google\\.com/ServiceLogin')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlos%252Bangeles&amp;dsh=S1043858425%3A1772168300820448&amp;ec=65620&amp;hl=en-GB&amp;ifkv=ASfE1-rRGx6p7qyQ_uejCLRzPj_1GM-uuYKA_ittueCjRnvJ7W9J2n_J9wdxBHqw4qnVZDoFo8hFCw&amp;passive=true&amp;service=youtube&amp;uilel=3&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 5000ms#x1B[0m
+#x1B[1m#x1B[31mE       8 × unexpected value "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlos%252Bangeles&amp;dsh=S1043858425%3A1772168300820448&amp;ec=65620&amp;hl=en-GB&amp;ifkv=ASfE1-rRGx6p7qyQ_uejCLRzPj_1GM-uuYKA_ittueCjRnvJ7W9J2n_J9wdxBHqw4qnVZDoFo8hFCw&amp;passive=true&amp;service=youtube&amp;uilel=3&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin"#x1B[0m</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_01" time="5.122" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_02" time="10.683"><failure message="AssertionError: Page URL expected to be 're.compile('/shorts/')'&#10;Actual value: https://www.youtube.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://www.youtube.com/&quot;">#x1B[1m#x1B[31mtests\page_4_2b0a\test_page_4_2b0a.py#x1B[0m:24: in test_TC_Navigation_02
+    #x1B[0mexpect(page).to_have_url(re.compile(#x1B[33mr#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m/shorts/#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/shorts/')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: https://www.youtube.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 5000ms#x1B[0m
+#x1B[1m#x1B[31mE       9 × unexpected value "https://www.youtube.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_03" time="11.260"><failure message="AssertionError: Page URL expected to be 're.compile('/feed/subscriptions')'&#10;Actual value: https://www.youtube.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://www.youtube.com/&quot;">#x1B[1m#x1B[31mtests\page_4_2b0a\test_page_4_2b0a.py#x1B[0m:31: in test_TC_Navigation_03
+    #x1B[0mexpect(page).to_have_url(re.compile(#x1B[33mr#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m/feed/subscriptions#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/feed/subscriptions')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: https://www.youtube.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 5000ms#x1B[0m
+#x1B[1m#x1B[31mE       9 × unexpected value "https://www.youtube.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_04" time="10.525"><failure message="AssertionError: Page URL expected to be 're.compile('/feed/you')'&#10;Actual value: https://www.youtube.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://www.youtube.com/&quot;">#x1B[1m#x1B[31mtests\page_4_2b0a\test_page_4_2b0a.py#x1B[0m:38: in test_TC_Navigation_04
+    #x1B[0mexpect(page).to_have_url(re.compile(#x1B[33mr#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33m/feed/you#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('/feed/you')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: https://www.youtube.com/ #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 5000ms#x1B[0m
+#x1B[1m#x1B[31mE       9 × unexpected value "https://www.youtube.com/"#x1B[0m</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Authentication_01" time="11.363"><failure message="AssertionError: Page URL expected to be 're.compile('accounts\\.google\\.com/ServiceLogin')'&#10;Actual value: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlos%252Bangeles&amp;dsh=S321002490%3A1772168349733865&amp;ec=65620&amp;hl=en-GB&amp;ifkv=ASfE1-rSv6FJ8wWYSV7w8JXayW0bCXYx94_C0RhnD1ePO4sHQb7ILdDvuW1X6p4IIrh8YtvBCaN8_g&amp;passive=true&amp;service=youtube&amp;uilel=3&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlos%252Bangeles&amp;dsh=S321002490%3A1772168349733865&amp;ec=65620&amp;hl=en-GB&amp;ifkv=ASfE1-rSv6FJ8wWYSV7w8JXayW0bCXYx94_C0RhnD1ePO4sHQb7ILdDvuW1X6p4IIrh8YtvBCaN8_g&amp;passive=true&amp;service=youtube&amp;uilel=3&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin&quot;">#x1B[1m#x1B[31mtests\page_4_2b0a\test_page_4_2b0a.py#x1B[0m:45: in test_TC_Authentication_01
+    #x1B[0mexpect(page).to_have_url(re.compile(#x1B[33mr#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m#x1B[33maccounts#x1B[39;49;00m#x1B[33m\#x1B[39;49;00m#x1B[33m.google#x1B[39;49;00m#x1B[33m\#x1B[39;49;00m#x1B[33m.com/ServiceLogin#x1B[39;49;00m#x1B[33m"#x1B[39;49;00m))#x1B[90m#x1B[39;49;00m
+#x1B[1m#x1B[31mE   AssertionError: Page URL expected to be 're.compile('accounts\\.google\\.com/ServiceLogin')'#x1B[0m
+#x1B[1m#x1B[31mE   Actual value: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlos%252Bangeles&amp;dsh=S321002490%3A1772168349733865&amp;ec=65620&amp;hl=en-GB&amp;ifkv=ASfE1-rSv6FJ8wWYSV7w8JXayW0bCXYx94_C0RhnD1ePO4sHQb7ILdDvuW1X6p4IIrh8YtvBCaN8_g&amp;passive=true&amp;service=youtube&amp;uilel=3&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin #x1B[0m
+#x1B[1m#x1B[31mE   Call log:#x1B[0m
+#x1B[1m#x1B[31mE     - Expect "to_have_url" with timeout 5000ms#x1B[0m
+#x1B[1m#x1B[31mE       9 × unexpected value "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlos%252Bangeles&amp;dsh=S321002490%3A1772168349733865&amp;ec=65620&amp;hl=en-GB&amp;ifkv=ASfE1-rSv6FJ8wWYSV7w8JXayW0bCXYx94_C0RhnD1ePO4sHQb7ILdDvuW1X6p4IIrh8YtvBCaN8_g&amp;passive=true&amp;service=youtube&amp;uilel=3&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin"#x1B[0m</failure></testcase></testsuite></testsuites>

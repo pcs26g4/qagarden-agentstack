@@ -1,0 +1,251 @@
+{
+    "site_info": {
+        "base_url": "unknown",
+        "synthesis_timestamp": "2026-02-24T17:46:29.333496",
+        "total_unique_pages": 10,
+        "total_raw_locators": 423
+    },
+    "pages": {
+        "https://books.toscrape.com/catalogue/category/books/romance_8/index.html": [
+            {
+                "tag": "header",
+                "text": "Books to Scrape We love being scraped!",
+                "xpath": "/html/body/header[1]",
+                "css": "header.header.container-fluid",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "header container-fluid"
+                },
+                "x": 14,
+                "y": 0,
+                "quality_score": 50,
+                "element_name": "books_to_scrape_we_love_being",
+                "playwright_selector": "page.locator('header.header.container-fluid')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://books.toscrape.com/catalogue/category/books/romance_8/index.html",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://books.toscrape.com/index.html": [
+            {
+                "tag": "h1",
+                "text": "All products",
+                "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[1]/h1[1]",
+                "css": "h1",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 364,
+                "y": 215,
+                "quality_score": 50,
+                "element_name": "heading_all_products",
+                "playwright_selector": "page.locator('h1')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://books.toscrape.com/index.html",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://books.toscrape.com/catalogue/category/books_1/index.html": [
+            {
+                "tag": "strong",
+                "text": "1000",
+                "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/form[1]/strong[1]",
+                "css": "strong",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 364,
+                "y": 287,
+                "quality_score": 50,
+                "element_name": "1000",
+                "playwright_selector": "page.locator('xpath=/html/body/div[1]/div[1]/div[1]/div[1]/form[1]/strong[1]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://books.toscrape.com/catalogue/category/books_1/index.html",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html": [
+            {
+                "tag": "h3",
+                "text": "Tipping the Velvet",
+                "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/section[1]/div[2]/ol[1]/li[1]/article[1]/h3[1]",
+                "css": "h3",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 379,
+                "y": 622,
+                "quality_score": 50,
+                "element_name": "heading_tipping_the_velvet",
+                "playwright_selector": "page.locator('xpath=/html/body/div[1]/div[1]/div[1]/div[1]/section[1]/div[2]/ol[1]/li[1]/article[1]/h3[1]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://books.toscrape.com/catalogue/category/books/mystery_3/index.html": [
+            {
+                "tag": "h3",
+                "text": "Sharp Objects",
+                "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/section[1]/div[2]/ol[1]/li[1]/article[1]/h3[1]",
+                "css": "h3",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 379,
+                "y": 622,
+                "quality_score": 50,
+                "element_name": "heading_sharp_objects",
+                "playwright_selector": "page.locator('xpath=/html/body/div[1]/div[1]/div[1]/div[1]/section[1]/div[2]/ol[1]/li[1]/article[1]/h3[1]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://books.toscrape.com/catalogue/category/books/mystery_3/index.html",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html": [
+            {
+                "tag": "h3",
+                "text": "Scott Pilgrim's Precious Little ...",
+                "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/section[1]/div[2]/ol[1]/li[1]/article[1]/h3[1]",
+                "css": "h3",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 379,
+                "y": 622,
+                "quality_score": 50,
+                "element_name": "heading_scott_pilgrims_precious_littl",
+                "playwright_selector": "page.locator('xpath=/html/body/div[1]/div[1]/div[1]/div[1]/section[1]/div[2]/ol[1]/li[1]/article[1]/h3[1]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://books.toscrape.com/catalogue/category/books/travel_2/index.html": [
+            {
+                "tag": "h3",
+                "text": "It's Only the Himalayas",
+                "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/section[1]/div[2]/ol[1]/li[1]/article[1]/h3[1]",
+                "css": "h3",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 379,
+                "y": 622,
+                "quality_score": 50,
+                "element_name": "heading_its_only_the_himalayas",
+                "playwright_selector": "page.locator('xpath=/html/body/div[1]/div[1]/div[1]/div[1]/section[1]/div[2]/ol[1]/li[1]/article[1]/h3[1]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://books.toscrape.com/catalogue/category/books/travel_2/index.html",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://books.toscrape.com/catalogue/category/books/womens-fiction_9/index.html": [
+            {
+                "tag": "strong",
+                "text": "Womens Fiction",
+                "xpath": "/html/body/div[1]/div[1]/div[1]/aside[1]/div[2]/ul[1]/li[1]/ul[1]/li[8]/a[1]/strong[1]",
+                "css": "strong",
+                "id": "",
+                "isInteractive": true,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 104,
+                "y": 417,
+                "quality_score": 50,
+                "element_name": "womens_fiction_104_417",
+                "playwright_selector": "page.locator('xpath=/html/body/div[1]/div[1]/div[1]/aside[1]/div[2]/ul[1]/li[1]/ul[1]/li[8]/a[1]/strong[1]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://books.toscrape.com/catalogue/category/books/womens-fiction_9/index.html",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://books.toscrape.com/catalogue/category/books/philosophy_7/index.html": [
+            {
+                "tag": "strong",
+                "text": "11",
+                "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/form[1]/strong[1]",
+                "css": "strong",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 364,
+                "y": 287,
+                "quality_score": 50,
+                "element_name": "11",
+                "playwright_selector": "page.locator('xpath=/html/body/div[1]/div[1]/div[1]/div[1]/form[1]/strong[1]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://books.toscrape.com/catalogue/category/books/philosophy_7/index.html",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://books.toscrape.com/catalogue/category/books/classics_6/index.html": [
+            {
+                "tag": "body",
+                "text": "Books to Scrape We love being scraped!\nHome  Books Classics\nBooks\nTravel\nMystery\nHistorical Fiction\n",
+                "xpath": "//*[@id=\"default\"]",
+                "css": "#default",
+                "id": "default",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "default"
+                },
+                "x": 0,
+                "y": 0,
+                "quality_score": 90,
+                "element_name": "books_to_scrape_we_love_being_1",
+                "playwright_selector": "page.locator('#default')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://books.toscrape.com/catalogue/category/books/classics_6/index.html",
+                "confidence_score": 0.5
+            }
+        ]
+    },
+    "site_graph": {}
+}

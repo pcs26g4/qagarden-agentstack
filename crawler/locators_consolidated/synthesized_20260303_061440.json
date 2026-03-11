@@ -1,0 +1,155 @@
+{
+    "site_info": {
+        "base_url": "unknown",
+        "synthesis_timestamp": "2026-03-03T06:14:40.070128",
+        "total_unique_pages": 6,
+        "total_raw_locators": 23
+    },
+    "pages": {
+        "https://grok.com/sign-in": [
+            {
+                "tag": "h1",
+                "text": "grok.com",
+                "xpath": "/html/body/div[1]/div[1]/div[1]/h1[1]",
+                "css": "h1",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 190,
+                "y": 128,
+                "quality_score": 50,
+                "element_name": "heading_grokcom",
+                "playwright_selector": "page.locator('h1')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://grok.com/sign-in",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://grok.com/sign-up": [
+            {
+                "tag": "code",
+                "text": "9d667f1488980634",
+                "xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/code[1]",
+                "css": "code",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 603,
+                "y": 721,
+                "quality_score": 50,
+                "element_name": "9d667f1488980634",
+                "playwright_selector": "page.locator('code')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://grok.com/sign-up",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://grok.com/imagine": [
+            {
+                "tag": "code",
+                "text": "9d66804a6aab0634",
+                "xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/code[1]",
+                "css": "code",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 603,
+                "y": 721,
+                "quality_score": 50,
+                "element_name": "9d66804a6aab0634",
+                "playwright_selector": "page.locator('code')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://grok.com/imagine",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://grok.com/sign-up?return_to=%2Fimagine": [
+            {
+                "tag": "code",
+                "text": "9d6680026b920634",
+                "xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/code[1]",
+                "css": "code",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 603,
+                "y": 721,
+                "quality_score": 50,
+                "element_name": "9d6680026b920634",
+                "playwright_selector": "page.locator('code')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://grok.com/sign-up?return_to=%2Fimagine",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://grok.com/imagine/favorites": [
+            {
+                "tag": "code",
+                "text": "9d667f71ab3d0634",
+                "xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/code[1]",
+                "css": "code",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 603,
+                "y": 721,
+                "quality_score": 50,
+                "element_name": "9d667f71ab3d0634",
+                "playwright_selector": "page.locator('code')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://grok.com/imagine/favorites",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://grok.com/sign-in?return_to=%2Fimagine": [
+            {
+                "tag": "code",
+                "text": "9d667fbcfc720634",
+                "xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/code[1]",
+                "css": "code",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 603,
+                "y": 721,
+                "quality_score": 50,
+                "element_name": "9d667fbcfc720634",
+                "playwright_selector": "page.locator('code')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://grok.com/sign-in?return_to=%2Fimagine",
+                "confidence_score": 0.5
+            }
+        ]
+    },
+    "site_graph": {}
+}

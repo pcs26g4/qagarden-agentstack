@@ -1,0 +1,252 @@
+{
+    "site_info": {
+        "base_url": "unknown",
+        "synthesis_timestamp": "2026-02-24T18:36:39.389619",
+        "total_unique_pages": 10,
+        "total_raw_locators": 97
+    },
+    "pages": {
+        "https://formy-project.herokuapp.com/": [
+            {
+                "tag": "html",
+                "text": "FORMY\nForm\nComponents \nWelcome to Formy\n\nThis is a simple site that has form components that can be ",
+                "xpath": "/html/body/html[1]",
+                "css": "html",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 0,
+                "y": 0,
+                "quality_score": 50,
+                "element_name": "formyformcomponents_welcome",
+                "playwright_selector": "page.locator('html')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://formy-project.herokuapp.com/",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://formy-project.herokuapp.com/enabled": [
+            {
+                "tag": "nav",
+                "text": "FORMY\nForm\nComponents",
+                "xpath": "/html/body/div[1]/nav[1]",
+                "css": "nav.navbar.navbar-expand-lg.bg-light",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "navbar navbar-expand-lg bg-light"
+                },
+                "x": 105,
+                "y": 0,
+                "quality_score": 50,
+                "element_name": "formyformcomponents",
+                "playwright_selector": "page.locator('nav.navbar.navbar-expand-lg.bg-light')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://formy-project.herokuapp.com/enabled",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://formy-project.herokuapp.com/checkbox": [
+            {
+                "tag": "a",
+                "text": "Autocomplete",
+                "xpath": "//a[contains(text(), \"Autocomplete\")]",
+                "css": "a.dropdown-item",
+                "id": "",
+                "isInteractive": true,
+                "attributes": {
+                    "href": "/autocomplete",
+                    "src": null,
+                    "class": "dropdown-item"
+                },
+                "x": 279,
+                "y": 74,
+                "quality_score": 50,
+                "element_name": "link_autocomplete",
+                "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Autocomplete\")]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://formy-project.herokuapp.com/checkbox",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://formy-project.herokuapp.com/fileupload": [
+            {
+                "tag": "html",
+                "text": "FORMY\nForm\nComponents \n\n\nFile upload\nChoose\nReset",
+                "xpath": "/html/body/html[1]",
+                "css": "html",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 0,
+                "y": 0,
+                "quality_score": 50,
+                "element_name": "formyformcomponents_file",
+                "playwright_selector": "page.locator('html')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://formy-project.herokuapp.com/fileupload",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://formy-project.herokuapp.com/form": [
+            {
+                "tag": "h1",
+                "text": "Complete Web Form",
+                "xpath": "/html/body/div[1]/h1[1]",
+                "css": "h1",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 90,
+                "y": 111,
+                "quality_score": 50,
+                "element_name": "heading_complete_web_form_90_111",
+                "playwright_selector": "page.locator('h1')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://formy-project.herokuapp.com/form",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://formy-project.herokuapp.com/autocomplete": [
+            {
+                "tag": "h1",
+                "text": "Autocomplete",
+                "xpath": "/html/body/div[1]/h1[1]",
+                "css": "h1",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 105,
+                "y": 111,
+                "quality_score": 50,
+                "element_name": "heading_autocomplete_105_111",
+                "playwright_selector": "page.locator('h1')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://formy-project.herokuapp.com/autocomplete",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://formy-project.herokuapp.com/buttons": [
+            {
+                "tag": "button",
+                "text": "Primary",
+                "xpath": "//button[contains(text(), \"Primary\")]",
+                "css": "button.btn.btn-lg.btn-primary",
+                "id": "",
+                "type": "button",
+                "isInteractive": true,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "btn btn-lg btn-primary"
+                },
+                "x": 105,
+                "y": 111,
+                "quality_score": 50,
+                "element_name": "btn_primary",
+                "playwright_selector": "page.locator('xpath=//button[contains(text(), \"Primary\")]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://formy-project.herokuapp.com/buttons",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://formy-project.herokuapp.com/datepicker": [
+            {
+                "tag": "html",
+                "text": "FORMY\nForm\nComponents \n\n\nDatepicker",
+                "xpath": "/html/body/html[1]",
+                "css": "html",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 0,
+                "y": 0,
+                "quality_score": 50,
+                "element_name": "formyformcomponents_datep",
+                "playwright_selector": "page.locator('html')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://formy-project.herokuapp.com/datepicker",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://formy-project.herokuapp.com/dragdrop": [
+            {
+                "tag": "html",
+                "text": "FORMY\nForm\nComponents \n\n\nDrag the image into the box\n\nDrop here",
+                "xpath": "/html/body/html[1]",
+                "css": "html",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 0,
+                "y": 0,
+                "quality_score": 50,
+                "element_name": "formyformcomponents_drag",
+                "playwright_selector": "page.locator('html')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://formy-project.herokuapp.com/dragdrop",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://formy-project.herokuapp.com/dropdown": [
+            {
+                "tag": "html",
+                "text": "FORMY\nForm\nComponents \n\n\nDropdown\n\n\nDropdown button",
+                "xpath": "/html/body/html[1]",
+                "css": "html",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 0,
+                "y": 0,
+                "quality_score": 50,
+                "element_name": "formyformcomponents_dropd",
+                "playwright_selector": "page.locator('html')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://formy-project.herokuapp.com/dropdown",
+                "confidence_score": 0.5
+            }
+        ]
+    },
+    "site_graph": {}
+}

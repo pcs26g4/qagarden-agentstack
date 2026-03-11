@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="19" skipped="0" tests="38" time="574.078" timestamp="2026-03-04T05:57:09.752593" hostname="ip-172-31-89-239"><testcase classname="tests.consolidated.test_consolidated" name="test_youtube_page_title" time="5.389" /><testcase classname="tests.consolidated.test_consolidated" name="test_youtube_search_functionality" time="34.467"><failure message="playwright._impl._errors.TimeoutError: Locator.fill: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;input#search&quot;).first">tests/consolidated/test_consolidated.py:25: in test_youtube_search_functionality
+    page.locator("input#search").first.fill("Los Angeles Lakers")
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15983: in fill
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:215: in fill
+    return await self._frame.fill(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:607: in fill
+    await self._fill(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:619: in _fill
+    await self._channel.send("fill", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.fill: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("input#search").first</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_youtube_navigate_subscriptions" time="4.741"><failure message="playwright._impl._errors.Error: Locator.click: Unexpected token &quot;&quot;Subscriptions&quot;&quot; while parsing css selector &quot;a\[title\=&quot;Subscriptions&quot;\]&quot;. Did you mean to CSS.escape it?&#10;Call log:&#10;  - waiting for a\[title\=&quot;Subscriptions&quot;\] &gt;&gt; nth=0">tests/consolidated/test_consolidated.py:34: in test_youtube_navigate_subscriptions
+    page.locator('a\[title\="Subscriptions"\]').first.click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Unexpected token ""Subscriptions"" while parsing css selector "a\[title\="Subscriptions"\]". Did you mean to CSS.escape it?
+E   Call log:
+E     - waiting for a\[title\="Subscriptions"\] &gt;&gt; nth=0</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_youtube_menu_visibility" time="4.661" /><testcase classname="tests.consolidated.test_consolidated" name="test_youtube_sign_in_button_visibility" time="4.715" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_01" time="34.231"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#endpoint&quot;).first&#10;    - locator resolved to &lt;a id=&quot;endpoint&quot; draggable=&quot;false&quot; href=&quot;/watch?v=T6e2QplRv6Q&quot; class=&quot;yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer&quot;&gt;…&lt;/a&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;      - waiting 100ms&#10;    55 × waiting for element to be visible, enabled and stable&#10;       - element is not visible&#10;     - retrying click action&#10;       - waiting 500ms">tests/page_1_cdbd/test_page_1_cdbd.py:18: in test_TC_Navigation_01
+    page.locator('#endpoint').nth(0).click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#endpoint").first
+E       - locator resolved to &lt;a id="endpoint" draggable="false" href="/watch?v=T6e2QplRv6Q" class="yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer"&gt;…&lt;/a&gt;
+E     - attempting click action
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E       - waiting 20ms
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E         - waiting 100ms
+E       55 × waiting for element to be visible, enabled and stable
+E          - element is not visible
+E        - retrying click action
+E          - waiting 500ms</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_02" time="35.352"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#endpoint&quot;).first&#10;    - locator resolved to &lt;a id=&quot;endpoint&quot; draggable=&quot;false&quot; href=&quot;/watch?v=T6e2QplRv6Q&quot; class=&quot;yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer&quot;&gt;…&lt;/a&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;      - waiting 100ms&#10;    56 × waiting for element to be visible, enabled and stable&#10;       - element is not visible&#10;     - retrying click action&#10;       - waiting 500ms&#10;    - waiting for element to be visible, enabled and stable">tests/page_1_cdbd/test_page_1_cdbd.py:25: in test_TC_Navigation_02
+    page.locator('#endpoint').nth(0).click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#endpoint").first
+E       - locator resolved to &lt;a id="endpoint" draggable="false" href="/watch?v=T6e2QplRv6Q" class="yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer"&gt;…&lt;/a&gt;
+E     - attempting click action
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E       - waiting 20ms
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E         - waiting 100ms
+E       56 × waiting for element to be visible, enabled and stable
+E          - element is not visible
+E        - retrying click action
+E          - waiting 500ms
+E       - waiting for element to be visible, enabled and stable</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_03" time="33.291"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#endpoint&quot;).first&#10;    - locator resolved to &lt;a id=&quot;endpoint&quot; draggable=&quot;false&quot; href=&quot;/watch?v=T6e2QplRv6Q&amp;pp=0gcJCfMAdtSAhXgk&quot; class=&quot;yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer&quot;&gt;…&lt;/a&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;      - waiting 100ms&#10;    53 × waiting for element to be visible, enabled and stable&#10;       - element is not visible&#10;     - retrying click action&#10;       - waiting 500ms">tests/page_1_cdbd/test_page_1_cdbd.py:32: in test_TC_Navigation_03
+    page.locator('#endpoint').nth(0).click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#endpoint").first
+E       - locator resolved to &lt;a id="endpoint" draggable="false" href="/watch?v=T6e2QplRv6Q&amp;pp=0gcJCfMAdtSAhXgk" class="yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer"&gt;…&lt;/a&gt;
+E     - attempting click action
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E       - waiting 20ms
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E         - waiting 100ms
+E       53 × waiting for element to be visible, enabled and stable
+E          - element is not visible
+E        - retrying click action
+E          - waiting 500ms</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_04" time="33.317"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#endpoint&quot;).first&#10;    - locator resolved to &lt;a id=&quot;endpoint&quot; draggable=&quot;false&quot; href=&quot;/watch?v=T6e2QplRv6Q&amp;pp=0gcJCfMAdtSAhXgk&quot; class=&quot;yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer&quot;&gt;…&lt;/a&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;      - waiting 100ms&#10;    52 × waiting for element to be visible, enabled and stable&#10;       - element is not visible&#10;     - retrying click action&#10;       - waiting 500ms">tests/page_1_cdbd/test_page_1_cdbd.py:39: in test_TC_Navigation_04
+    page.locator('#endpoint').nth(0).click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#endpoint").first
+E       - locator resolved to &lt;a id="endpoint" draggable="false" href="/watch?v=T6e2QplRv6Q&amp;pp=0gcJCfMAdtSAhXgk" class="yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer"&gt;…&lt;/a&gt;
+E     - attempting click action
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E       - waiting 20ms
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E         - waiting 100ms
+E       52 × waiting for element to be visible, enabled and stable
+E          - element is not visible
+E        - retrying click action
+E          - waiting 500ms</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Authentication_01" time="12.138"><failure message="AssertionError: Page URL expected to be 're.compile('accounts\\.google\\.com/ServiceLogin')'&#10;Actual value: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlos%252Bangeles%252Blakers&amp;dsh=S1040214253%3A1772604028532615&amp;ec=65620&amp;hl=en&amp;ifkv=ASfE1-rBFc5lN6BEVHTk7FxEy0z1w1p6lOichy8I0CKlSyLxqUjNG4XLcjQZxYQCx8Her9nZhgx61Q&amp;passive=true&amp;service=youtube&amp;uilel=3&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    8 × unexpected value &quot;https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlos%252Bangeles%252Blakers&amp;dsh=S1040214253%3A1772604028532615&amp;ec=65620&amp;hl=en&amp;ifkv=ASfE1-rBFc5lN6BEVHTk7FxEy0z1w1p6lOichy8I0CKlSyLxqUjNG4XLcjQZxYQCx8Her9nZhgx61Q&amp;passive=true&amp;service=youtube&amp;uilel=3&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:47: in test_TC_Authentication_01
+    expect(page).to_have_url(re.compile(r"accounts\.google\.com/ServiceLogin"))
+E   AssertionError: Page URL expected to be 're.compile('accounts\\.google\\.com/ServiceLogin')'
+E   Actual value: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlos%252Bangeles%252Blakers&amp;dsh=S1040214253%3A1772604028532615&amp;ec=65620&amp;hl=en&amp;ifkv=ASfE1-rBFc5lN6BEVHTk7FxEy0z1w1p6lOichy8I0CKlSyLxqUjNG4XLcjQZxYQCx8Her9nZhgx61Q&amp;passive=true&amp;service=youtube&amp;uilel=3&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       8 × unexpected value "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlos%252Bangeles%252Blakers&amp;dsh=S1040214253%3A1772604028532615&amp;ec=65620&amp;hl=en&amp;ifkv=ASfE1-rBFc5lN6BEVHTk7FxEy0z1w1p6lOichy8I0CKlSyLxqUjNG4XLcjQZxYQCx8Her9nZhgx61Q&amp;passive=true&amp;service=youtube&amp;uilel=3&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin"</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_01" time="3.418" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_02" time="8.372"><failure message="AssertionError: Page URL expected to be 're.compile('/shorts/')'&#10;Actual value: https://www.youtube.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    8 × unexpected value &quot;https://www.youtube.com/&quot;">tests/page_2_f871/test_page_2_f871.py:23: in test_TC_Navigation_02
+    expect(page).to_have_url(re.compile(r"/shorts/"))
+E   AssertionError: Page URL expected to be 're.compile('/shorts/')'
+E   Actual value: https://www.youtube.com/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       8 × unexpected value "https://www.youtube.com/"</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Authentication_01" time="3.787" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_ContentVerification_01" time="7.193"><failure message="AssertionError: Locator expected to have text 'I post highlights from the biggest flex moments on the internet. ...more'&#10;Actual value: I post highlights from the biggest flex moments on the internet. ...moreI post highlights from the biggest flex moments on the internet. ...more...more &#10;Call log:&#10;  - Expect &quot;to_have_text&quot; with timeout 5000ms&#10;  - waiting for locator(&quot;yt-description-preview-view-model.ytDescriptionPreviewViewModelHost.yt-page-header-view-model__page-header-description.ytDescriptionPreviewViewModelClickable&quot;).first&#10;    8 × locator resolved to &lt;yt-description-preview-view-model class=&quot;ytDescriptionPreviewViewModelHost yt-page-header-view-model__page-header-description ytDescriptionPreviewViewModelClickable&quot;&gt;…&lt;/yt-description-preview-view-model&gt;&#10;      - unexpected value &quot;I post highlights from the biggest flex moments on the internet. ...moreI post highlights from the biggest flex moments on the internet. ...more...more&quot;">tests/page_2_f871/test_page_2_f871.py:34: in test_TC_ContentVerification_01
+    expect(page.locator("yt-description-preview-view-model.ytDescriptionPreviewViewModelHost.yt-page-header-view-model__page-header-description.ytDescriptionPreviewViewModelClickable").first).to_have_text("I post highlights from the biggest flex moments on the internet. ...more")
+E   AssertionError: Locator expected to have text 'I post highlights from the biggest flex moments on the internet. ...more'
+E   Actual value: I post highlights from the biggest flex moments on the internet. ...moreI post highlights from the biggest flex moments on the internet. ...more...more 
+E   Call log:
+E     - Expect "to_have_text" with timeout 5000ms
+E     - waiting for locator("yt-description-preview-view-model.ytDescriptionPreviewViewModelHost.yt-page-header-view-model__page-header-description.ytDescriptionPreviewViewModelClickable").first
+E       8 × locator resolved to &lt;yt-description-preview-view-model class="ytDescriptionPreviewViewModelHost yt-page-header-view-model__page-header-description ytDescriptionPreviewViewModelClickable"&gt;…&lt;/yt-description-preview-view-model&gt;
+E         - unexpected value "I post highlights from the biggest flex moments on the internet. ...moreI post highlights from the biggest flex moments on the internet. ...more...more"</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_ContentVerification_02" time="3.072" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Interaction_01" time="3.526" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Interaction_02" time="3.565" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Interaction_03" time="3.567" /><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_01" time="33.302"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#endpoint&quot;).first&#10;    - locator resolved to &lt;a id=&quot;endpoint&quot; draggable=&quot;false&quot; href=&quot;/watch?v=T6e2QplRv6Q&quot; class=&quot;yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer&quot;&gt;…&lt;/a&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;      - waiting 100ms&#10;    53 × waiting for element to be visible, enabled and stable&#10;       - element is not visible&#10;     - retrying click action&#10;       - waiting 500ms">tests/page_3_9ddb/test_page_3_9ddb.py:18: in test_TC_Navigation_01
+    page.locator('#endpoint').nth(0).click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#endpoint").first
+E       - locator resolved to &lt;a id="endpoint" draggable="false" href="/watch?v=T6e2QplRv6Q" class="yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer"&gt;…&lt;/a&gt;
+E     - attempting click action
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E       - waiting 20ms
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E         - waiting 100ms
+E       53 × waiting for element to be visible, enabled and stable
+E          - element is not visible
+E        - retrying click action
+E          - waiting 500ms</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_02" time="34.337"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#endpoint&quot;).first&#10;    - locator resolved to &lt;a id=&quot;endpoint&quot; draggable=&quot;false&quot; href=&quot;/watch?v=T6e2QplRv6Q&quot; class=&quot;yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer&quot;&gt;…&lt;/a&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;      - waiting 100ms&#10;    55 × waiting for element to be visible, enabled and stable&#10;       - element is not visible&#10;     - retrying click action&#10;       - waiting 500ms">tests/page_3_9ddb/test_page_3_9ddb.py:25: in test_TC_Navigation_02
+    page.locator('#endpoint').nth(0).click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#endpoint").first
+E       - locator resolved to &lt;a id="endpoint" draggable="false" href="/watch?v=T6e2QplRv6Q" class="yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer"&gt;…&lt;/a&gt;
+E     - attempting click action
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E       - waiting 20ms
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E         - waiting 100ms
+E       55 × waiting for element to be visible, enabled and stable
+E          - element is not visible
+E        - retrying click action
+E          - waiting 500ms</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_03" time="12.854"><failure message="AssertionError: Page URL expected to be 're.compile('/feed/subscriptions')'&#10;Actual value: https://www.youtube.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://www.youtube.com/&quot;">tests/page_3_9ddb/test_page_3_9ddb.py:33: in test_TC_Navigation_03
+    expect(page).to_have_url(re.compile(r"/feed/subscriptions"))
+E   AssertionError: Page URL expected to be 're.compile('/feed/subscriptions')'
+E   Actual value: https://www.youtube.com/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "https://www.youtube.com/"</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_04" time="34.257"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#endpoint&quot;).first&#10;    - locator resolved to &lt;a id=&quot;endpoint&quot; draggable=&quot;false&quot; href=&quot;/watch?v=T6e2QplRv6Q&quot; class=&quot;yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer&quot;&gt;…&lt;/a&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;      - waiting 100ms&#10;    54 × waiting for element to be visible, enabled and stable&#10;       - element is not visible&#10;     - retrying click action&#10;       - waiting 500ms">tests/page_3_9ddb/test_page_3_9ddb.py:39: in test_TC_Navigation_04
+    page.locator('#endpoint').nth(0).click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#endpoint").first
+E       - locator resolved to &lt;a id="endpoint" draggable="false" href="/watch?v=T6e2QplRv6Q" class="yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer"&gt;…&lt;/a&gt;
+E     - attempting click action
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E       - waiting 20ms
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E         - waiting 100ms
+E       54 × waiting for element to be visible, enabled and stable
+E          - element is not visible
+E        - retrying click action
+E          - waiting 500ms</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Authentication_01" time="11.713"><failure message="AssertionError: Page URL expected to be 're.compile('accounts\\.google\\.com/ServiceLogin')'&#10;Actual value: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlos%252Bangeles%252Blakers&amp;dsh=S1040214253%3A1772604192745548&amp;ec=65620&amp;hl=en&amp;ifkv=ASfE1-r4EysdpYEdlZlrbPem2X6cJ-meNF3_wT2UbKK_NJl-aNa0XHGcu8tJ6M1V4sPS9wBX57rYlw&amp;passive=true&amp;service=youtube&amp;uilel=3&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    8 × unexpected value &quot;https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlos%252Bangeles%252Blakers&amp;dsh=S1040214253%3A1772604192745548&amp;ec=65620&amp;hl=en&amp;ifkv=ASfE1-r4EysdpYEdlZlrbPem2X6cJ-meNF3_wT2UbKK_NJl-aNa0XHGcu8tJ6M1V4sPS9wBX57rYlw&amp;passive=true&amp;service=youtube&amp;uilel=3&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin&quot;">tests/page_3_9ddb/test_page_3_9ddb.py:47: in test_TC_Authentication_01
+    expect(page).to_have_url(re.compile(r"accounts\.google\.com/ServiceLogin"))
+E   AssertionError: Page URL expected to be 're.compile('accounts\\.google\\.com/ServiceLogin')'
+E   Actual value: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlos%252Bangeles%252Blakers&amp;dsh=S1040214253%3A1772604192745548&amp;ec=65620&amp;hl=en&amp;ifkv=ASfE1-r4EysdpYEdlZlrbPem2X6cJ-meNF3_wT2UbKK_NJl-aNa0XHGcu8tJ6M1V4sPS9wBX57rYlw&amp;passive=true&amp;service=youtube&amp;uilel=3&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       8 × unexpected value "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlos%252Bangeles%252Blakers&amp;dsh=S1040214253%3A1772604192745548&amp;ec=65620&amp;hl=en&amp;ifkv=ASfE1-r4EysdpYEdlZlrbPem2X6cJ-meNF3_wT2UbKK_NJl-aNa0XHGcu8tJ6M1V4sPS9wBX57rYlw&amp;passive=true&amp;service=youtube&amp;uilel=3&amp;flowName=WebLiteSignIn&amp;flowEntry=ServiceLogin"</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_01" time="5.487" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_02" time="34.571"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#endpoint&quot;).first&#10;    - locator resolved to &lt;a id=&quot;endpoint&quot; draggable=&quot;false&quot; href=&quot;/watch?v=T6e2QplRv6Q&quot; class=&quot;yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer&quot;&gt;…&lt;/a&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;      - waiting 100ms&#10;    55 × waiting for element to be visible, enabled and stable&#10;       - element is not visible&#10;     - retrying click action&#10;       - waiting 500ms">tests/page_4_2b0a/test_page_4_2b0a.py:24: in test_TC_Navigation_02
+    page.locator("#endpoint").nth(0).click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#endpoint").first
+E       - locator resolved to &lt;a id="endpoint" draggable="false" href="/watch?v=T6e2QplRv6Q" class="yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer"&gt;…&lt;/a&gt;
+E     - attempting click action
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E       - waiting 20ms
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E         - waiting 100ms
+E       55 × waiting for element to be visible, enabled and stable
+E          - element is not visible
+E        - retrying click action
+E          - waiting 500ms</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_03" time="33.343"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#endpoint&quot;).first&#10;    - locator resolved to &lt;a id=&quot;endpoint&quot; draggable=&quot;false&quot; href=&quot;/watch?v=T6e2QplRv6Q&quot; class=&quot;yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer&quot;&gt;…&lt;/a&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;      - waiting 100ms&#10;    54 × waiting for element to be visible, enabled and stable&#10;       - element is not visible&#10;     - retrying click action&#10;       - waiting 500ms">tests/page_4_2b0a/test_page_4_2b0a.py:31: in test_TC_Navigation_03
+    page.locator("#endpoint").nth(0).click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#endpoint").first
+E       - locator resolved to &lt;a id="endpoint" draggable="false" href="/watch?v=T6e2QplRv6Q" class="yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer"&gt;…&lt;/a&gt;
+E     - attempting click action
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E       - waiting 20ms
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E         - waiting 100ms
+E       54 × waiting for element to be visible, enabled and stable
+E          - element is not visible
+E        - retrying click action
+E          - waiting 500ms</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_04" time="35.652"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;#endpoint&quot;).first&#10;    - locator resolved to &lt;a id=&quot;endpoint&quot; draggable=&quot;false&quot; href=&quot;/watch?v=T6e2QplRv6Q&quot; class=&quot;yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer&quot;&gt;…&lt;/a&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;      - waiting 100ms&#10;    56 × waiting for element to be visible, enabled and stable&#10;       - element is not visible&#10;     - retrying click action&#10;       - waiting 500ms">tests/page_4_2b0a/test_page_4_2b0a.py:38: in test_TC_Navigation_04
+    page.locator("#endpoint").nth(0).click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#endpoint").first
+E       - locator resolved to &lt;a id="endpoint" draggable="false" href="/watch?v=T6e2QplRv6Q" class="yt-simple-endpoint style-scope ytd-macro-markers-list-item-renderer"&gt;…&lt;/a&gt;
+E     - attempting click action
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E       - waiting 20ms
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E         - waiting 100ms
+E       56 × waiting for element to be visible, enabled and stable
+E          - element is not visible
+E        - retrying click action
+E          - waiting 500ms</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Filters_01" time="5.539" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Tabs_01" time="7.551" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Tabs_02" time="5.583" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Tabs_03" time="4.687" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Tabs_04" time="4.698" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Tabs_05" time="5.976" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Tabs_06" time="5.222" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Tabs_07" time="33.223"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;//button[contains(text(), \&quot;Live\&quot;)]&quot;)&#10;    - locator resolved to &lt;button class=&quot;ytp-live-badge ytp-button&quot;&gt;Live&lt;/button&gt;&#10;  - attempting click action&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;    - waiting 20ms&#10;    2 × waiting for element to be visible, enabled and stable&#10;      - element is not visible&#10;    - retrying click action&#10;      - waiting 100ms&#10;    50 × waiting for element to be visible, enabled and stable&#10;       - element is not visible&#10;     - retrying click action&#10;       - waiting 500ms">tests/page_4_2b0a/test_page_4_2b0a.py:94: in test_TC_Tabs_07
+    page.locator("xpath=//button[contains(text(), \"Live\")]").click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("//button[contains(text(), \"Live\")]")
+E       - locator resolved to &lt;button class="ytp-live-badge ytp-button"&gt;Live&lt;/button&gt;
+E     - attempting click action
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E       - waiting 20ms
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E         - waiting 100ms
+E       50 × waiting for element to be visible, enabled and stable
+E          - element is not visible
+E        - retrying click action
+E          - waiting 500ms</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_VideoLink_01" time="12.350"><failure message="AssertionError: Page URL expected to be 're.compile('/watch\\?v=tkXaappAotk&amp;pp=ygUSbG9zIGFuZ2VsZXMgbGFrZXJz')'&#10;Actual value: https://www.youtube.com/watch?v=tkXaappAotk &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    8 × unexpected value &quot;https://www.youtube.com/watch?v=tkXaappAotk&quot;">tests/page_4_2b0a/test_page_4_2b0a.py:102: in test_TC_VideoLink_01
+    expect(page).to_have_url(re.compile(r"/watch\?v=tkXaappAotk&amp;pp=ygUSbG9zIGFuZ2VsZXMgbGFrZXJz"))
+E   AssertionError: Page URL expected to be 're.compile('/watch\\?v=tkXaappAotk&amp;pp=ygUSbG9zIGFuZ2VsZXMgbGFrZXJz')'
+E   Actual value: https://www.youtube.com/watch?v=tkXaappAotk 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       8 × unexpected value "https://www.youtube.com/watch?v=tkXaappAotk"</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_ChannelLink_01" time="4.580" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_ChannelLink_02" time="5.881" /></testsuite></testsuites>

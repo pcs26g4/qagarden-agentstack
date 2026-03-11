@@ -1,0 +1,39 @@
+{
+  "testCases": [
+    {
+      "id": "TC_ContentVerification_01",
+      "title": "Verify page content and text elements",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Verify text 'A course to help you' is present in locator `page.locator('#preheader')`",
+        "Verify text 'SCRAPE ANY WEBSITE' is present in locator `page.locator('#header')`",
+        "Verify text 'Learn how to build your own web scrapers and\nstart collecting the data you need.' is present in locator `page.locator('#postheader')`",
+        "Verify text 'Build your first scraper in minutes!' is present in locator `page.locator('#subhero')`",
+        "Verify text 'Learn more about the course:' is present in locator `page.locator('#video')`",
+        "Verify text '\u00a9 Hartley Brody' is present in locator `page.locator('#footer-content')`"
+      ],
+      "expected": [
+        "Page content is displayed correctly."
+      ]
+    },
+    {
+      "id": "TC_Navigation_01",
+      "title": "Verify 'Get Started Now' link navigation",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('a.gumroad-button').nth(0)`",
+        "Verification: Expect URL to contain 'https://gum.co/oLpqb'"
+      ],
+      "expected": [
+        "User is redirected to Gumroad page."
+      ]
+    }
+  ],
+  "url": "",
+  "generatedAt": "2026-03-11T09:57:12.448282",
+  "runId": "84c1f15e-054c-4b0c-b4dd-ba731f398c2d"
+}

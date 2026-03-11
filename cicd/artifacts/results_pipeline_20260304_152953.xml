@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="17" skipped="0" tests="17" time="532.692" timestamp="2026-03-04T15:32:41.984381" hostname="ip-172-31-89-239"><testcase classname="tests.consolidated.test_consolidated" name="test_page_navigation_sign_in" time="32.533"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/consolidated/test_consolidated.py:17: in test_page_navigation_sign_in
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_page_navigation_sign_up" time="31.580"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/consolidated/test_consolidated.py:24: in test_page_navigation_sign_up
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_element_visibility_human_check" time="31.875"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/consolidated/test_consolidated.py:31: in test_element_visibility_human_check
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_element_click_settings" time="31.658"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/consolidated/test_consolidated.py:37: in test_element_click_settings
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_element_click_saved" time="32.113"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/consolidated/test_consolidated.py:43: in test_element_click_saved
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_001" time="30.675"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/page_1_cdbd/test_page_1_cdbd.py:16: in test_TC_Navigation_001
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_002" time="30.745"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/page_1_cdbd/test_page_1_cdbd.py:23: in test_TC_Navigation_002
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Interaction_001" time="30.704"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/page_1_cdbd/test_page_1_cdbd.py:30: in test_TC_Interaction_001
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Interaction_002" time="30.689"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/page_1_cdbd/test_page_1_cdbd.py:37: in test_TC_Interaction_002
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Interaction_003" time="30.535"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/page_1_cdbd/test_page_1_cdbd.py:44: in test_TC_Interaction_003
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Interaction_004" time="30.743"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/page_1_cdbd/test_page_1_cdbd.py:51: in test_TC_Interaction_004
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_ContentVerification_01" time="30.529"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/page_2_f871/test_page_2_f871.py:17: in test_TC_ContentVerification_01
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_01" time="30.774"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/page_2_f871/test_page_2_f871.py:23: in test_TC_Navigation_01
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_02" time="30.750"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/page_2_f871/test_page_2_f871.py:31: in test_TC_Navigation_02
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_ContentVerification_01" time="30.773"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/page_3_9ddb/test_page_3_9ddb.py:17: in test_TC_ContentVerification_01
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_CloudflareLink_02" time="30.696"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/page_3_9ddb/test_page_3_9ddb.py:23: in test_TC_Navigation_CloudflareLink_02
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_PrivacyLink_03" time="30.750"><failure message="playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.">tests/page_3_9ddb/test_page_3_9ddb.py:30: in test_TC_Navigation_PrivacyLink_03
+    page.wait_for_load_state('networkidle')
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:9152: in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+../venv/lib/python3.12/site-packages/playwright/_impl/_page.py:572: in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:273: in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:301: in _wait_for_load_state_impl
+    await waiter.result()
+E   playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.</failure></testcase></testsuite></testsuites>

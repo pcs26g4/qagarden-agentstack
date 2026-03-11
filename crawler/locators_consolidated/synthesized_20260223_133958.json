@@ -1,0 +1,34 @@
+{
+    "site_info": {
+        "base_url": "unknown",
+        "synthesis_timestamp": "2026-02-23T13:39:58.550184",
+        "total_unique_pages": 1,
+        "total_raw_locators": 699
+    },
+    "pages": {
+        "unknown": [
+            {
+                "tag": "header",
+                "text": "Jellypod\nAI Creation Platform\nPricing\nProduct\nSolutions\nResources\nEnterprise\nLog in\nGet Started",
+                "xpath": "/html/body/main[1]/header[1]",
+                "css": "header.sticky",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "sticky top-0 z-50"
+                },
+                "x": 0,
+                "y": 0,
+                "quality_score": 50,
+                "element_name": "jellypodai_creation_platform",
+                "playwright_selector": "page.locator('header.sticky')",
+                "is_unique": true,
+                "element_count": 1,
+                "confidence_score": 0.5
+            }
+        ]
+    },
+    "site_graph": {}
+}

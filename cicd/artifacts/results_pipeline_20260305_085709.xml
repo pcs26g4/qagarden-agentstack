@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="15" skipped="0" tests="29" time="104.238" timestamp="2026-03-05T09:00:13.889997" hostname="ip-172-31-89-239"><testcase classname="tests.consolidated.test_consolidated" name="test_page_homepage_navigation" time="2.948"><failure message="playwright._impl._errors.Error: Locator.click: Unexpected token &quot;locator(&quot; while parsing css selector &quot;page.locator('#nav-sandbox')&quot;. Did you mean to CSS.escape it?&#10;Call log:&#10;  - waiting for page.locator('#nav-sandbox')">tests/consolidated/test_consolidated.py:18: in test_page_homepage_navigation
+    page.locator("page.locator('#nav-sandbox')").click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Unexpected token "locator(" while parsing css selector "page.locator('#nav-sandbox')". Did you mean to CSS.escape it?
+E   Call log:
+E     - waiting for page.locator('#nav-sandbox')</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_page_sandbox_navigation" time="1.582"><failure message="playwright._impl._errors.Error: Locator.click: Unexpected token &quot;locator(&quot; while parsing css selector &quot;page.locator('#nav-lessons')&quot;. Did you mean to CSS.escape it?&#10;Call log:&#10;  - waiting for page.locator('#nav-lessons')">tests/consolidated/test_consolidated.py:27: in test_page_sandbox_navigation
+    page.locator("page.locator('#nav-lessons')").click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: Unexpected token "locator(" while parsing css selector "page.locator('#nav-lessons')". Did you mean to CSS.escape it?
+E   Call log:
+E     - waiting for page.locator('#nav-lessons')</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_page_faq_navigation" time="1.758"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: Unexpected token &quot;locator(&quot; while parsing css selector &quot;page.locator('#nav-faq')&quot;. Did you mean to CSS.escape it? &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for page.locator('#nav-faq')">tests/consolidated/test_consolidated.py:36: in test_page_faq_navigation
+    expect(page.locator("page.locator('#nav-faq')")).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: Unexpected token "locator(" while parsing css selector "page.locator('#nav-faq')". Did you mean to CSS.escape it? 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for page.locator('#nav-faq')</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_page_login_navigation" time="1.557"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: Unexpected token &quot;locator(&quot; while parsing css selector &quot;page.locator('#email')&quot;. Did you mean to CSS.escape it? &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for page.locator('#email')">tests/consolidated/test_consolidated.py:43: in test_page_login_navigation
+    expect(page.locator("page.locator('#email')")).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: Unexpected token "locator(" while parsing css selector "page.locator('#email')". Did you mean to CSS.escape it? 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for page.locator('#email')</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_page_footer_visibility" time="1.469"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: Unexpected token &quot;locator(&quot; while parsing css selector &quot;page.locator('#footer')&quot;. Did you mean to CSS.escape it? &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for page.locator('#footer')">tests/consolidated/test_consolidated.py:50: in test_page_footer_visibility
+    expect(page.locator("page.locator('#footer')")).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: Unexpected token "locator(" while parsing css selector "page.locator('#footer')". Did you mean to CSS.escape it? 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for page.locator('#footer')</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_001" time="1.928" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_002" time="1.894" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_003" time="6.571"><failure message="AssertionError: Page URL expected to be 're.compile('/faq/')'&#10;Actual value: https://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    8 × unexpected value &quot;https://www.scrapethissite.com/&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:31: in test_TC_Navigation_003
+    expect(page).to_have_url(re.compile(r"/faq/"))
+E   AssertionError: Page URL expected to be 're.compile('/faq/')'
+E   Actual value: https://www.scrapethissite.com/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       8 × unexpected value "https://www.scrapethissite.com/"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_004" time="1.576" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_01" time="6.685"><failure message="AssertionError: Page URL expected to be 're.compile('/lessons/')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;http://www.scrapethissite.com/&quot;">tests/page_2_f871/test_page_2_f871.py:19: in test_TC_Navigation_01
+    expect(page).to_have_url(re.compile(r"/lessons/"))
+E   AssertionError: Page URL expected to be 're.compile('/lessons/')'
+E   Actual value: http://www.scrapethissite.com/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "http://www.scrapethissite.com/"</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_02" time="6.466"><failure message="AssertionError: Page URL expected to be 're.compile('/faq/')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;http://www.scrapethissite.com/&quot;">tests/page_2_f871/test_page_2_f871.py:26: in test_TC_Navigation_02
+    expect(page).to_have_url(re.compile(r"/faq/"))
+E   AssertionError: Page URL expected to be 're.compile('/faq/')'
+E   Actual value: http://www.scrapethissite.com/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "http://www.scrapethissite.com/"</failure></testcase><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_03" time="1.691" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_04" time="1.960" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_05" time="1.669" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_06" time="1.643" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_07" time="1.814" /><testcase classname="tests.page_2_f871.test_page_2_f871" name="test_TC_Navigation_08" time="1.686" /><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_01" time="7.590"><failure message="AssertionError: Page URL expected to be 're.compile('https://gum.co/oLpqb')'&#10;Actual value: https://gumroad.com/checkout &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    3 × unexpected value &quot;https://gumroad.com/checkout?action=show&amp;controller=links&amp;format=html&amp;id=oLpqb&amp;price=29700&amp;product=oLpqb&amp;referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F&amp;referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F&amp;rent=false&amp;wanted=true&quot;&#10;    4 × unexpected value &quot;https://gumroad.com/checkout&quot;">tests/page_3_9ddb/test_page_3_9ddb.py:19: in test_TC_Navigation_01
+    expect(page).to_have_url(re.compile(r"https://gum.co/oLpqb"))
+E   AssertionError: Page URL expected to be 're.compile('https://gum.co/oLpqb')'
+E   Actual value: https://gumroad.com/checkout 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       3 × unexpected value "https://gumroad.com/checkout?action=show&amp;controller=links&amp;format=html&amp;id=oLpqb&amp;price=29700&amp;product=oLpqb&amp;referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F&amp;referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F&amp;rent=false&amp;wanted=true"
+E       4 × unexpected value "https://gumroad.com/checkout"</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_01" time="6.607"><failure message="AssertionError: Page URL expected to be 're.compile('/pages/')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;http://www.scrapethissite.com/&quot;">tests/page_4_2b0a/test_page_4_2b0a.py:17: in test_TC_Navigation_01
+    expect(page).to_have_url(re.compile(r"/pages/"))
+E   AssertionError: Page URL expected to be 're.compile('/pages/')'
+E   Actual value: http://www.scrapethissite.com/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "http://www.scrapethissite.com/"</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_02" time="6.579"><failure message="AssertionError: Page URL expected to be 're.compile('/lessons/')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;http://www.scrapethissite.com/&quot;">tests/page_4_2b0a/test_page_4_2b0a.py:23: in test_TC_Navigation_02
+    expect(page).to_have_url(re.compile(r"/lessons/"))
+E   AssertionError: Page URL expected to be 're.compile('/lessons/')'
+E   Actual value: http://www.scrapethissite.com/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "http://www.scrapethissite.com/"</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_03" time="1.625" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_04" time="1.871" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_05" time="6.591"><failure message="AssertionError: Page URL expected to be 're.compile('/robots.txt')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    8 × unexpected value &quot;http://www.scrapethissite.com/&quot;">tests/page_4_2b0a/test_page_4_2b0a.py:41: in test_TC_Navigation_05
+    expect(page).to_have_url(re.compile(r"/robots.txt"))
+E   AssertionError: Page URL expected to be 're.compile('/robots.txt')'
+E   Actual value: http://www.scrapethissite.com/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       8 × unexpected value "http://www.scrapethissite.com/"</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Navigation_01" time="6.457"><failure message="AssertionError: Page URL expected to be 're.compile('/pages/')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;http://www.scrapethissite.com/&quot;">tests/page_5_aa33/test_page_5_aa33.py:19: in test_TC_Navigation_01
+    expect(page).to_have_url(re.compile(r"/pages/"))
+E   AssertionError: Page URL expected to be 're.compile('/pages/')'
+E   Actual value: http://www.scrapethissite.com/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "http://www.scrapethissite.com/"</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Navigation_02" time="6.562"><failure message="AssertionError: Page URL expected to be 're.compile('/lessons/')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;http://www.scrapethissite.com/&quot;">tests/page_5_aa33/test_page_5_aa33.py:26: in test_TC_Navigation_02
+    expect(page).to_have_url(re.compile(r"/lessons/"))
+E   AssertionError: Page URL expected to be 're.compile('/lessons/')'
+E   Actual value: http://www.scrapethissite.com/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "http://www.scrapethissite.com/"</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Navigation_03" time="6.547"><failure message="AssertionError: Page URL expected to be 're.compile('/faq/')'&#10;Actual value: http://www.scrapethissite.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;http://www.scrapethissite.com/&quot;">tests/page_5_aa33/test_page_5_aa33.py:33: in test_TC_Navigation_03
+    expect(page).to_have_url(re.compile(r"/faq/"))
+E   AssertionError: Page URL expected to be 're.compile('/faq/')'
+E   Actual value: http://www.scrapethissite.com/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "http://www.scrapethissite.com/"</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Login_HappyPath_01" time="1.623" /><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Login_Negative_01" time="1.648" /><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Login_Negative_02" time="2.074" /></testsuite></testsuites>

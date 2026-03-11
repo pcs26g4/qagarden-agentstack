@@ -1,0 +1,4215 @@
+{
+    "locators": {
+        "element_el": {
+            "name": "element_el",
+            "type": "button",
+            "xpath": "point(454,262)",
+            "x": 454,
+            "y": 262,
+            "source": "vision",
+            "description": "Resets the file input field.",
+            "confidence": 0.8
+        },
+        "element_el_268_44": {
+            "name": "element_el_268_44",
+            "type": "link",
+            "xpath": "point(268,44)",
+            "x": 268,
+            "y": 44,
+            "source": "vision",
+            "description": "Opens the components dropdown.",
+            "confidence": 0.8
+        },
+        "element_el_109_397": {
+            "name": "element_el_109_397",
+            "type": "link",
+            "xpath": "point(109,397)",
+            "x": 109,
+            "y": 397,
+            "source": "vision",
+            "description": "Navigates to the Autocomplete component page.",
+            "confidence": 0.8
+        },
+        "element_el_94_441": {
+            "name": "element_el_94_441",
+            "type": "link",
+            "xpath": "point(94,441)",
+            "x": 94,
+            "y": 441,
+            "source": "vision",
+            "description": "Navigates to the Buttons component page.",
+            "confidence": 0.8
+        },
+        "element_el_101_485": {
+            "name": "element_el_101_485",
+            "type": "link",
+            "xpath": "point(101,485)",
+            "x": 101,
+            "y": 485,
+            "source": "vision",
+            "description": "Navigates to the Checkbox component page.",
+            "confidence": 0.8
+        },
+        "element_el_104_529": {
+            "name": "element_el_104_529",
+            "type": "link",
+            "xpath": "point(104,529)",
+            "x": 104,
+            "y": 529,
+            "source": "vision",
+            "description": "Navigates to the Datepicker component page.",
+            "confidence": 0.8
+        },
+        "element_el_123_573": {
+            "name": "element_el_123_573",
+            "type": "link",
+            "xpath": "point(123,573)",
+            "x": 123,
+            "y": 573,
+            "source": "vision",
+            "description": "Navigates to the Drag and Drop component page.",
+            "confidence": 0.8
+        },
+        "element_el_99_617": {
+            "name": "element_el_99_617",
+            "type": "link",
+            "xpath": "point(99,617)",
+            "x": 99,
+            "y": 617,
+            "source": "vision",
+            "description": "Navigates to the Dropdown component page.",
+            "confidence": 0.8
+        },
+        "element_el_180_661": {
+            "name": "element_el_180_661",
+            "type": "link",
+            "xpath": "point(180,661)",
+            "x": 180,
+            "y": 661,
+            "source": "vision",
+            "description": "Navigates to the Enabled and disabled elements component page.",
+            "confidence": 0.8
+        },
+        "element_el_106_705": {
+            "name": "element_el_106_705",
+            "type": "link",
+            "xpath": "point(106,705)",
+            "x": 106,
+            "y": 705,
+            "source": "vision",
+            "description": "Navigates to the File Upload component page.",
+            "confidence": 0.8
+        },
+        "element_el_152_749": {
+            "name": "element_el_152_749",
+            "type": "link",
+            "xpath": "point(152,749)",
+            "x": 152,
+            "y": 749,
+            "source": "vision",
+            "description": "Navigates to the Key and Mouse Press component page.",
+            "confidence": 0.8
+        },
+        "element_el_86_793": {
+            "name": "element_el_86_793",
+            "type": "link",
+            "xpath": "point(86,793)",
+            "x": 86,
+            "y": 793,
+            "source": "vision",
+            "description": "Navigates to the Modal component page.",
+            "confidence": 0.8
+        },
+        "state_1_formyformcomponents_welcome": {
+            "tag": "html",
+            "text": "FORMY\nForm\nComponents \nWelcome to Formy\n\nThis is a simple site that has form components that can be ",
+            "xpath": "/html/body/html[1]",
+            "css": "html",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 0,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "formyformcomponents_welcome",
+            "playwright_selector": "page.locator('html')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_1_formyformcomponents_welcome_1": {
+            "tag": "body",
+            "text": "FORMY\nForm\nComponents \nWelcome to Formy\n\nThis is a simple site that has form components that can be ",
+            "xpath": "/html/body",
+            "css": "body",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 0,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "formyformcomponents_welcome_1",
+            "playwright_selector": "page.locator('body')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_1_formyformcomponents": {
+            "tag": "nav",
+            "text": "FORMY\nForm\nComponents",
+            "xpath": "/html/body/div[1]/nav[1]",
+            "css": "nav.navbar.navbar-expand-lg.bg-light",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "navbar navbar-expand-lg bg-light"
+            },
+            "x": 64,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "formyformcomponents",
+            "playwright_selector": "page.locator('nav.navbar.navbar-expand-lg.bg-light')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_1_link_formy": {
+            "tag": "a",
+            "text": "FORMY",
+            "xpath": "//*[@id=\"logo\"]",
+            "css": "#logo",
+            "id": "logo",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/",
+                "src": null,
+                "class": "navbar-brand"
+            },
+            "x": 80,
+            "y": 8,
+            "quality_score": 90,
+            "element_name": "link_formy",
+            "playwright_selector": "page.locator('#logo')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_1_formcomponents": {
+            "tag": "div",
+            "text": "Form\nComponents",
+            "xpath": "//*[@id=\"navbarNavDropdown\"]",
+            "css": "#navbarNavDropdown",
+            "id": "navbarNavDropdown",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "collapse navbar-collapse"
+            },
+            "x": 188,
+            "y": 23,
+            "quality_score": 90,
+            "element_name": "formcomponents",
+            "playwright_selector": "page.locator('#navbarNavDropdown')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_1_link_form": {
+            "tag": "a",
+            "text": "Form",
+            "xpath": "//a[contains(text(), \"Form\")]",
+            "css": "a.nav-link",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/form",
+                "src": null,
+                "class": "nav-link"
+            },
+            "x": 188,
+            "y": 23,
+            "quality_score": 50,
+            "element_name": "link_form",
+            "playwright_selector": "page.locator('a.nav-link').nth(0)",
+            "is_unique": false,
+            "element_count": 2
+        },
+        "state_1_link_components": {
+            "tag": "a",
+            "text": "Components",
+            "xpath": "//*[@id=\"navbarDropdownMenuLink\"]",
+            "css": "#navbarDropdownMenuLink",
+            "id": "navbarDropdownMenuLink",
+            "isInteractive": true,
+            "attributes": {
+                "href": "#",
+                "src": null,
+                "class": "nav-link dropdown-toggle"
+            },
+            "x": 242,
+            "y": 23,
+            "quality_score": 90,
+            "element_name": "link_components",
+            "playwright_selector": "page.locator('#navbarDropdownMenuLink')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_1_heading_welcome_to_formy": {
+            "tag": "h1",
+            "text": "Welcome to Formy",
+            "xpath": "/html/body/div[1]/div[1]/h1[1]",
+            "css": "h1",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "display-3"
+            },
+            "x": 64,
+            "y": 87,
+            "quality_score": 50,
+            "element_name": "heading_welcome_to_formy",
+            "playwright_selector": "page.locator('h1')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_1_link_autocomplete": {
+            "tag": "a",
+            "text": "Autocomplete",
+            "xpath": "//a[contains(text(), \"Autocomplete\")]",
+            "css": "a.btn.btn-lg",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/autocomplete",
+                "src": null,
+                "class": "btn btn-lg"
+            },
+            "x": 64,
+            "y": 300,
+            "quality_score": 50,
+            "element_name": "link_autocomplete",
+            "playwright_selector": "page.locator('a.btn.btn-lg').nth(0)",
+            "is_unique": false,
+            "element_count": 14
+        },
+        "state_1_link_buttons": {
+            "tag": "a",
+            "text": "Buttons",
+            "xpath": "//a[contains(text(), \"Buttons\")]",
+            "css": "a.btn.btn-lg",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/buttons",
+                "src": null,
+                "class": "btn btn-lg"
+            },
+            "x": 64,
+            "y": 348,
+            "quality_score": 50,
+            "element_name": "link_buttons",
+            "playwright_selector": "page.locator('a.btn.btn-lg').nth(0)",
+            "is_unique": false,
+            "element_count": 14
+        },
+        "state_1_link_checkbox": {
+            "tag": "a",
+            "text": "Checkbox",
+            "xpath": "//a[contains(text(), \"Checkbox\")]",
+            "css": "a.btn.btn-lg",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/checkbox",
+                "src": null,
+                "class": "btn btn-lg"
+            },
+            "x": 64,
+            "y": 396,
+            "quality_score": 50,
+            "element_name": "link_checkbox",
+            "playwright_selector": "page.locator('a.btn.btn-lg').nth(0)",
+            "is_unique": false,
+            "element_count": 14
+        },
+        "state_1_link_datepicker": {
+            "tag": "a",
+            "text": "Datepicker",
+            "xpath": "//a[contains(text(), \"Datepicker\")]",
+            "css": "a.btn.btn-lg",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/datepicker",
+                "src": null,
+                "class": "btn btn-lg"
+            },
+            "x": 64,
+            "y": 444,
+            "quality_score": 50,
+            "element_name": "link_datepicker",
+            "playwright_selector": "page.locator('a.btn.btn-lg').nth(0)",
+            "is_unique": false,
+            "element_count": 14
+        },
+        "state_1_link_drag_and_drop": {
+            "tag": "a",
+            "text": "Drag and Drop",
+            "xpath": "//a[contains(text(), \"Drag and Drop\")]",
+            "css": "a.btn.btn-lg",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/dragdrop",
+                "src": null,
+                "class": "btn btn-lg"
+            },
+            "x": 64,
+            "y": 492,
+            "quality_score": 50,
+            "element_name": "link_drag_and_drop",
+            "playwright_selector": "page.locator('a.btn.btn-lg').nth(0)",
+            "is_unique": false,
+            "element_count": 14
+        },
+        "state_1_link_dropdown": {
+            "tag": "a",
+            "text": "Dropdown",
+            "xpath": "//a[contains(text(), \"Dropdown\")]",
+            "css": "a.btn.btn-lg",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/dropdown",
+                "src": null,
+                "class": "btn btn-lg"
+            },
+            "x": 64,
+            "y": 540,
+            "quality_score": 50,
+            "element_name": "link_dropdown",
+            "playwright_selector": "page.locator('a.btn.btn-lg').nth(0)",
+            "is_unique": false,
+            "element_count": 14
+        },
+        "state_1_link_enabled_and_disabled_elements": {
+            "tag": "a",
+            "text": "Enabled and disabled elements",
+            "xpath": "//a[contains(text(), \"Enabled and disabled elements\")]",
+            "css": "a.btn.btn-lg",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/enabled",
+                "src": null,
+                "class": "btn btn-lg"
+            },
+            "x": 64,
+            "y": 588,
+            "quality_score": 50,
+            "element_name": "link_enabled_and_disabled_elements",
+            "playwright_selector": "page.locator('a.btn.btn-lg').nth(0)",
+            "is_unique": false,
+            "element_count": 14
+        },
+        "state_1_link_file_upload": {
+            "tag": "a",
+            "text": "File Upload",
+            "xpath": "//a[contains(text(), \"File Upload\")]",
+            "css": "a.btn.btn-lg",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/fileupload",
+                "src": null,
+                "class": "btn btn-lg"
+            },
+            "x": 64,
+            "y": 636,
+            "quality_score": 50,
+            "element_name": "link_file_upload",
+            "playwright_selector": "page.locator('a.btn.btn-lg').nth(0)",
+            "is_unique": false,
+            "element_count": 14
+        },
+        "state_1_link_key_and_mouse_press": {
+            "tag": "a",
+            "text": "Key and Mouse Press",
+            "xpath": "//a[contains(text(), \"Key and Mouse Press\")]",
+            "css": "a.btn.btn-lg",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/keypress",
+                "src": null,
+                "class": "btn btn-lg"
+            },
+            "x": 64,
+            "y": 684,
+            "quality_score": 50,
+            "element_name": "link_key_and_mouse_press",
+            "playwright_selector": "page.locator('a.btn.btn-lg').nth(0)",
+            "is_unique": false,
+            "element_count": 14
+        },
+        "state_1_link_modal": {
+            "tag": "a",
+            "text": "Modal",
+            "xpath": "//a[contains(text(), \"Modal\")]",
+            "css": "a.btn.btn-lg",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/modal",
+                "src": null,
+                "class": "btn btn-lg"
+            },
+            "x": 64,
+            "y": 732,
+            "quality_score": 50,
+            "element_name": "link_modal",
+            "playwright_selector": "page.locator('a.btn.btn-lg').nth(0)",
+            "is_unique": false,
+            "element_count": 14
+        },
+        "state_1_link_page_scroll": {
+            "tag": "a",
+            "text": "Page Scroll",
+            "xpath": "//a[contains(text(), \"Page Scroll\")]",
+            "css": "a.btn.btn-lg",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/scroll",
+                "src": null,
+                "class": "btn btn-lg"
+            },
+            "x": 64,
+            "y": 780,
+            "quality_score": 50,
+            "element_name": "link_page_scroll",
+            "playwright_selector": "page.locator('a.btn.btn-lg').nth(0)",
+            "is_unique": false,
+            "element_count": 14
+        },
+        "state_1_link_radio_button": {
+            "tag": "a",
+            "text": "Radio Button",
+            "xpath": "//a[contains(text(), \"Radio Button\")]",
+            "css": "a.btn.btn-lg",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/radiobutton",
+                "src": null,
+                "class": "btn btn-lg"
+            },
+            "x": 64,
+            "y": 828,
+            "quality_score": 50,
+            "element_name": "link_radio_button",
+            "playwright_selector": "page.locator('a.btn.btn-lg').nth(0)",
+            "is_unique": false,
+            "element_count": 14
+        },
+        "state_1_link_switch_window": {
+            "tag": "a",
+            "text": "Switch Window",
+            "xpath": "//a[contains(text(), \"Switch Window\")]",
+            "css": "a.btn.btn-lg",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/switch-window",
+                "src": null,
+                "class": "btn btn-lg"
+            },
+            "x": 64,
+            "y": 876,
+            "quality_score": 50,
+            "element_name": "link_switch_window",
+            "playwright_selector": "page.locator('a.btn.btn-lg').nth(0)",
+            "is_unique": false,
+            "element_count": 14
+        },
+        "state_1_link_complete_web_form": {
+            "tag": "a",
+            "text": "Complete Web Form",
+            "xpath": "//a[contains(text(), \"Complete Web Form\")]",
+            "css": "a.btn.btn-lg",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/form",
+                "src": null,
+                "class": "btn btn-lg"
+            },
+            "x": 64,
+            "y": 924,
+            "quality_score": 50,
+            "element_name": "link_complete_web_form",
+            "playwright_selector": "page.locator('a.btn.btn-lg').nth(0)",
+            "is_unique": false,
+            "element_count": 14
+        },
+        "element_el_354_340": {
+            "name": "element_el_354_340",
+            "type": "input",
+            "xpath": "point(354,340)",
+            "x": 354,
+            "y": 340,
+            "source": "vision",
+            "description": "Text input for last name.",
+            "confidence": 0.8
+        },
+        "element_el_354_413": {
+            "name": "element_el_354_413",
+            "type": "input",
+            "xpath": "point(354,413)",
+            "x": 354,
+            "y": 413,
+            "source": "vision",
+            "description": "Text input for job title.",
+            "confidence": 0.8
+        },
+        "element_el_354_771": {
+            "name": "element_el_354_771",
+            "type": "dropdown",
+            "xpath": "point(354,771)",
+            "x": 354,
+            "y": 771,
+            "source": "vision",
+            "description": "Selects the years of experience.",
+            "confidence": 0.8
+        },
+        "state_2_link_formy": {
+            "tag": "a",
+            "text": "FORMY",
+            "xpath": "//*[@id=\"logo\"]",
+            "css": "#logo",
+            "id": "logo",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/",
+                "src": null,
+                "class": "navbar-brand"
+            },
+            "x": 80,
+            "y": 8,
+            "quality_score": 90,
+            "element_name": "link_formy",
+            "playwright_selector": "page.locator('#logo')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_link_form": {
+            "tag": "a",
+            "text": "Form",
+            "xpath": "//a[contains(text(), \"Form\")]",
+            "css": "a.nav-link",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/form",
+                "src": null,
+                "class": "nav-link"
+            },
+            "x": 188,
+            "y": 23,
+            "quality_score": 50,
+            "element_name": "link_form",
+            "playwright_selector": "page.locator('a.nav-link').nth(0)",
+            "is_unique": false,
+            "element_count": 2
+        },
+        "state_2_link_components": {
+            "tag": "a",
+            "text": "Components",
+            "xpath": "//*[@id=\"navbarDropdownMenuLink\"]",
+            "css": "#navbarDropdownMenuLink",
+            "id": "navbarDropdownMenuLink",
+            "isInteractive": true,
+            "attributes": {
+                "href": "#",
+                "src": null,
+                "class": "nav-link dropdown-toggle"
+            },
+            "x": 242,
+            "y": 23,
+            "quality_score": 90,
+            "element_name": "link_components",
+            "playwright_selector": "page.locator('#navbarDropdownMenuLink')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_link_autocomplete": {
+            "tag": "a",
+            "text": "Autocomplete",
+            "xpath": "//a[contains(text(), \"Autocomplete\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/autocomplete",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 74,
+            "quality_score": 50,
+            "element_name": "link_autocomplete",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Autocomplete\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_link_buttons": {
+            "tag": "a",
+            "text": "Buttons",
+            "xpath": "//a[contains(text(), \"Buttons\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/buttons",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 106,
+            "quality_score": 50,
+            "element_name": "link_buttons",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Buttons\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_link_checkbox": {
+            "tag": "a",
+            "text": "Checkbox",
+            "xpath": "//a[contains(text(), \"Checkbox\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/checkbox",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 138,
+            "quality_score": 50,
+            "element_name": "link_checkbox",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Checkbox\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_link_datepicker": {
+            "tag": "a",
+            "text": "Datepicker",
+            "xpath": "//a[contains(text(), \"Datepicker\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/datepicker",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 170,
+            "quality_score": 50,
+            "element_name": "link_datepicker",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Datepicker\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_link_drag_and_drop": {
+            "tag": "a",
+            "text": "Drag and Drop",
+            "xpath": "//a[contains(text(), \"Drag and Drop\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/dragdrop",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 202,
+            "quality_score": 50,
+            "element_name": "link_drag_and_drop",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Drag and Drop\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_link_dropdown": {
+            "tag": "a",
+            "text": "Dropdown",
+            "xpath": "//a[contains(text(), \"Dropdown\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/dropdown",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 234,
+            "quality_score": 50,
+            "element_name": "link_dropdown",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Dropdown\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_link_enabled_and_disabled_elements": {
+            "tag": "a",
+            "text": "Enabled and disabled elements",
+            "xpath": "//a[contains(text(), \"Enabled and disabled elements\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/enabled",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 266,
+            "quality_score": 50,
+            "element_name": "link_enabled_and_disabled_elements",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Enabled and disabled elements\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_link_file_upload": {
+            "tag": "a",
+            "text": "File Upload",
+            "xpath": "//a[contains(text(), \"File Upload\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/fileupload",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 298,
+            "quality_score": 50,
+            "element_name": "link_file_upload",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"File Upload\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_link_key_and_mouse_press": {
+            "tag": "a",
+            "text": "Key and Mouse Press",
+            "xpath": "//a[contains(text(), \"Key and Mouse Press\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/keypress",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 330,
+            "quality_score": 50,
+            "element_name": "link_key_and_mouse_press",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Key and Mouse Press\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_link_modal": {
+            "tag": "a",
+            "text": "Modal",
+            "xpath": "//a[contains(text(), \"Modal\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/modal",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 362,
+            "quality_score": 50,
+            "element_name": "link_modal",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Modal\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_link_page_scroll": {
+            "tag": "a",
+            "text": "Page Scroll",
+            "xpath": "//a[contains(text(), \"Page Scroll\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/scroll",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 394,
+            "quality_score": 50,
+            "element_name": "link_page_scroll",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Page Scroll\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_link_radio_button": {
+            "tag": "a",
+            "text": "Radio Button",
+            "xpath": "//a[contains(text(), \"Radio Button\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/radiobutton",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 426,
+            "quality_score": 50,
+            "element_name": "link_radio_button",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Radio Button\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_link_switch_window": {
+            "tag": "a",
+            "text": "Switch Window",
+            "xpath": "//a[contains(text(), \"Switch Window\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/switch-window",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 458,
+            "quality_score": 50,
+            "element_name": "link_switch_window",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Switch Window\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_link_complete_web_form": {
+            "tag": "a",
+            "text": "Complete Web Form",
+            "xpath": "//a[contains(text(), \"Complete Web Form\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/form",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 490,
+            "quality_score": 50,
+            "element_name": "link_complete_web_form",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Complete Web Form\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_heading_complete_web_form_64_111": {
+            "tag": "h1",
+            "text": "Complete Web Form",
+            "xpath": "/html/body/div[1]/h1[1]",
+            "css": "h1",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 64,
+            "y": 111,
+            "quality_score": 50,
+            "element_name": "heading_complete_web_form_64_111",
+            "playwright_selector": "page.locator('h1')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_first_name": {
+            "tag": "strong",
+            "text": "First name",
+            "xpath": "/html/body/div[1]/form[1]/div[1]/div[1]/strong[1]",
+            "css": "strong",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 170,
+            "quality_score": 50,
+            "element_name": "first_name",
+            "playwright_selector": "page.locator('xpath=/html/body/div[1]/form[1]/div[1]/div[1]/strong[1]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_input_first_name_79_199": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[@id=\"first-name\"]",
+            "css": "#first-name",
+            "id": "first-name",
+            "type": "text",
+            "placeholder": "Enter first name",
+            "customLabel": "First name",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "form-control"
+            },
+            "x": 79,
+            "y": 199,
+            "quality_score": 90,
+            "element_name": "input_first_name_79_199",
+            "playwright_selector": "page.locator('#first-name')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_last_name": {
+            "tag": "strong",
+            "text": "Last name",
+            "xpath": "/html/body/div[1]/form[1]/div[1]/div[2]/strong[1]",
+            "css": "strong",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 264,
+            "quality_score": 50,
+            "element_name": "last_name",
+            "playwright_selector": "page.locator('xpath=/html/body/div[1]/form[1]/div[1]/div[2]/strong[1]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_input_last_name_79_293": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[@id=\"last-name\"]",
+            "css": "#last-name",
+            "id": "last-name",
+            "type": "text",
+            "placeholder": "Enter last name",
+            "customLabel": "Last name",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "form-control"
+            },
+            "x": 79,
+            "y": 293,
+            "quality_score": 90,
+            "element_name": "input_last_name_79_293",
+            "playwright_selector": "page.locator('#last-name')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_job_title": {
+            "tag": "strong",
+            "text": "Job title",
+            "xpath": "/html/body/div[1]/form[1]/div[1]/div[3]/strong[1]",
+            "css": "strong",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 358,
+            "quality_score": 50,
+            "element_name": "job_title",
+            "playwright_selector": "page.locator('xpath=/html/body/div[1]/form[1]/div[1]/div[3]/strong[1]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_input_job_title_79_387": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[@id=\"job-title\"]",
+            "css": "#job-title",
+            "id": "job-title",
+            "type": "text",
+            "placeholder": "Enter your job title",
+            "customLabel": "Job title",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "form-control"
+            },
+            "x": 79,
+            "y": 387,
+            "quality_score": 90,
+            "element_name": "input_job_title_79_387",
+            "playwright_selector": "page.locator('#job-title')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_highest_level_of_education": {
+            "tag": "strong",
+            "text": "Highest level of education",
+            "xpath": "/html/body/div[1]/form[1]/div[1]/div[4]/div[1]/strong[1]",
+            "css": "strong",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 452,
+            "quality_score": 50,
+            "element_name": "highest_level_of_education",
+            "playwright_selector": "page.locator('xpath=/html/body/div[1]/form[1]/div[1]/div[4]/div[1]/strong[1]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_input_el": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[contains(@aria-label, \"Radio button\")]",
+            "css": "#radio-button-1",
+            "id": "radio-button-1",
+            "type": "radio",
+            "ariaLabel": "Radio button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 485,
+            "quality_score": 90,
+            "element_name": "input_el",
+            "playwright_selector": "page.locator('#radio-button-1')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_input_el_79_509": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[contains(@aria-label, \"Radio button\")]",
+            "css": "#radio-button-2",
+            "id": "radio-button-2",
+            "type": "radio",
+            "ariaLabel": "Radio button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 509,
+            "quality_score": 90,
+            "element_name": "input_el_79_509",
+            "playwright_selector": "page.locator('#radio-button-2')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_input_el_79_533": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[contains(@aria-label, \"Radio button\")]",
+            "css": "#radio-button-3",
+            "id": "radio-button-3",
+            "type": "radio",
+            "ariaLabel": "Radio button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 533,
+            "quality_score": 90,
+            "element_name": "input_el_79_533",
+            "playwright_selector": "page.locator('#radio-button-3')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_sex": {
+            "tag": "strong",
+            "text": "Sex",
+            "xpath": "/html/body/div[1]/form[1]/div[1]/div[5]/div[1]/strong[1]",
+            "css": "strong",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 580,
+            "quality_score": 50,
+            "element_name": "sex",
+            "playwright_selector": "page.locator('xpath=/html/body/div[1]/form[1]/div[1]/div[5]/div[1]/strong[1]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_input_el_79_613": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[contains(@aria-label, \"checkbox\")]",
+            "css": "#checkbox-1",
+            "id": "checkbox-1",
+            "type": "checkbox",
+            "ariaLabel": "checkbox",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 613,
+            "quality_score": 90,
+            "element_name": "input_el_79_613",
+            "playwright_selector": "page.locator('#checkbox-1')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_input_el_79_637": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[contains(@aria-label, \"checkbox\")]",
+            "css": "#checkbox-2",
+            "id": "checkbox-2",
+            "type": "checkbox",
+            "ariaLabel": "checkbox",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 637,
+            "quality_score": 90,
+            "element_name": "input_el_79_637",
+            "playwright_selector": "page.locator('#checkbox-2')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_input_el_79_661": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[contains(@aria-label, \"checkbox\")]",
+            "css": "#checkbox-3",
+            "id": "checkbox-3",
+            "type": "checkbox",
+            "ariaLabel": "checkbox",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 661,
+            "quality_score": 90,
+            "element_name": "input_el_79_661",
+            "playwright_selector": "page.locator('#checkbox-3')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_years_of_experience": {
+            "tag": "strong",
+            "text": "Years of experience:",
+            "xpath": "/html/body/div[1]/form[1]/div[1]/div[6]/strong[1]",
+            "css": "strong",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 708,
+            "quality_score": 50,
+            "element_name": "years_of_experience",
+            "playwright_selector": "page.locator('xpath=/html/body/div[1]/form[1]/div[1]/div[6]/strong[1]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_years_of_experience_79_737": {
+            "tag": "select",
+            "text": "Select an option\n0-1\n2-4\n5-9\n10+",
+            "xpath": "//*[@id=\"select-menu\"]",
+            "css": "#select-menu",
+            "id": "select-menu",
+            "customLabel": "Years of experience:",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "form-control"
+            },
+            "x": 79,
+            "y": 737,
+            "quality_score": 90,
+            "element_name": "years_of_experience_79_737",
+            "playwright_selector": "page.locator('#select-menu')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_select_an_option": {
+            "tag": "option",
+            "text": "Select an option",
+            "xpath": "//*[@id=\"select-menu\"]/option[1]",
+            "css": "option",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 0,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "select_an_option",
+            "playwright_selector": "page.locator('xpath=//*[@id=\"select-menu\"]/option[1]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_01": {
+            "tag": "option",
+            "text": "0-1",
+            "xpath": "//*[@id=\"select-menu\"]/option[2]",
+            "css": "option",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 0,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "01",
+            "playwright_selector": "page.locator('xpath=//*[@id=\"select-menu\"]/option[2]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_24": {
+            "tag": "option",
+            "text": "2-4",
+            "xpath": "//*[@id=\"select-menu\"]/option[3]",
+            "css": "option",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 0,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "24",
+            "playwright_selector": "page.locator('xpath=//*[@id=\"select-menu\"]/option[3]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_59": {
+            "tag": "option",
+            "text": "5-9",
+            "xpath": "//*[@id=\"select-menu\"]/option[4]",
+            "css": "option",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 0,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "59",
+            "playwright_selector": "page.locator('xpath=//*[@id=\"select-menu\"]/option[4]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_10": {
+            "tag": "option",
+            "text": "10+",
+            "xpath": "//*[@id=\"select-menu\"]/option[5]",
+            "css": "option",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 0,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "10",
+            "playwright_selector": "page.locator('xpath=//*[@id=\"select-menu\"]/option[5]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_date": {
+            "tag": "strong",
+            "text": "Date",
+            "xpath": "/html/body/div[1]/form[1]/div[1]/div[7]/strong[1]",
+            "css": "strong",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 802,
+            "quality_score": 50,
+            "element_name": "date",
+            "playwright_selector": "page.locator('xpath=/html/body/div[1]/form[1]/div[1]/div[7]/strong[1]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_input_el_79_831": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[@id=\"datepicker\"]",
+            "css": "#datepicker",
+            "id": "datepicker",
+            "type": "text",
+            "placeholder": "mm/dd/yyyy",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "form-control"
+            },
+            "x": 79,
+            "y": 831,
+            "quality_score": 90,
+            "element_name": "input_el_79_831",
+            "playwright_selector": "page.locator('#datepicker')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_2_link_button": {
+            "tag": "a",
+            "text": "Submit",
+            "xpath": "//a[contains(text(), \"Submit\")]",
+            "css": "a.btn.btn-lg.btn-primary",
+            "role": "button",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/thanks",
+                "src": null,
+                "class": "btn btn-lg btn-primary"
+            },
+            "x": 79,
+            "y": 893,
+            "quality_score": 80,
+            "element_name": "link_button",
+            "playwright_selector": "page.locator('a.btn.btn-lg.btn-primary')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "element_el_202_417": {
+            "name": "element_el_202_417",
+            "type": "input",
+            "xpath": "point(202,417)",
+            "x": 202,
+            "y": 417,
+            "source": "vision",
+            "description": "Text input for entering the second street address.",
+            "confidence": 0.8
+        },
+        "element_el_202_492": {
+            "name": "element_el_202_492",
+            "type": "input",
+            "xpath": "point(202,492)",
+            "x": 202,
+            "y": 492,
+            "source": "vision",
+            "description": "Text input for entering the city.",
+            "confidence": 0.8
+        },
+        "element_el_202_567": {
+            "name": "element_el_202_567",
+            "type": "input",
+            "xpath": "point(202,567)",
+            "x": 202,
+            "y": 567,
+            "source": "vision",
+            "description": "Text input for entering the state.",
+            "confidence": 0.8
+        },
+        "element_el_202_717": {
+            "name": "element_el_202_717",
+            "type": "input",
+            "xpath": "point(202,717)",
+            "x": 202,
+            "y": 717,
+            "source": "vision",
+            "description": "Text input for entering the country.",
+            "confidence": 0.8
+        },
+        "state_3_link_formy": {
+            "tag": "a",
+            "text": "FORMY",
+            "xpath": "//*[@id=\"logo\"]",
+            "css": "#logo",
+            "id": "logo",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/",
+                "src": null,
+                "class": "navbar-brand"
+            },
+            "x": 80,
+            "y": 8,
+            "quality_score": 90,
+            "element_name": "link_formy",
+            "playwright_selector": "page.locator('#logo')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_link_form": {
+            "tag": "a",
+            "text": "Form",
+            "xpath": "//a[contains(text(), \"Form\")]",
+            "css": "a.nav-link",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/form",
+                "src": null,
+                "class": "nav-link"
+            },
+            "x": 182,
+            "y": 23,
+            "quality_score": 50,
+            "element_name": "link_form",
+            "playwright_selector": "page.locator('a.nav-link').nth(0)",
+            "is_unique": false,
+            "element_count": 2
+        },
+        "state_3_link_components": {
+            "tag": "a",
+            "text": "Components",
+            "xpath": "//*[@id=\"navbarDropdownMenuLink\"]",
+            "css": "#navbarDropdownMenuLink",
+            "id": "navbarDropdownMenuLink",
+            "isInteractive": true,
+            "attributes": {
+                "href": "#",
+                "src": null,
+                "class": "nav-link dropdown-toggle"
+            },
+            "x": 235,
+            "y": 23,
+            "quality_score": 90,
+            "element_name": "link_components",
+            "playwright_selector": "page.locator('#navbarDropdownMenuLink')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_link_autocomplete": {
+            "tag": "a",
+            "text": "Autocomplete",
+            "xpath": "//a[contains(text(), \"Autocomplete\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/autocomplete",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 236,
+            "y": 74,
+            "quality_score": 50,
+            "element_name": "link_autocomplete",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Autocomplete\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_link_buttons": {
+            "tag": "a",
+            "text": "Buttons",
+            "xpath": "//a[contains(text(), \"Buttons\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/buttons",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 236,
+            "y": 106,
+            "quality_score": 50,
+            "element_name": "link_buttons",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Buttons\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_link_checkbox": {
+            "tag": "a",
+            "text": "Checkbox",
+            "xpath": "//a[contains(text(), \"Checkbox\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/checkbox",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 236,
+            "y": 138,
+            "quality_score": 50,
+            "element_name": "link_checkbox",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Checkbox\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_link_datepicker": {
+            "tag": "a",
+            "text": "Datepicker",
+            "xpath": "//a[contains(text(), \"Datepicker\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/datepicker",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 236,
+            "y": 170,
+            "quality_score": 50,
+            "element_name": "link_datepicker",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Datepicker\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_link_drag_and_drop": {
+            "tag": "a",
+            "text": "Drag and Drop",
+            "xpath": "//a[contains(text(), \"Drag and Drop\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/dragdrop",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 236,
+            "y": 202,
+            "quality_score": 50,
+            "element_name": "link_drag_and_drop",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Drag and Drop\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_link_dropdown": {
+            "tag": "a",
+            "text": "Dropdown",
+            "xpath": "//a[contains(text(), \"Dropdown\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/dropdown",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 236,
+            "y": 234,
+            "quality_score": 50,
+            "element_name": "link_dropdown",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Dropdown\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_link_enabled_and_disabled_elements": {
+            "tag": "a",
+            "text": "Enabled and disabled elements",
+            "xpath": "//a[contains(text(), \"Enabled and disabled elements\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/enabled",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 236,
+            "y": 266,
+            "quality_score": 50,
+            "element_name": "link_enabled_and_disabled_elements",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Enabled and disabled elements\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_link_file_upload": {
+            "tag": "a",
+            "text": "File Upload",
+            "xpath": "//a[contains(text(), \"File Upload\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/fileupload",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 236,
+            "y": 298,
+            "quality_score": 50,
+            "element_name": "link_file_upload",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"File Upload\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_link_key_and_mouse_press": {
+            "tag": "a",
+            "text": "Key and Mouse Press",
+            "xpath": "//a[contains(text(), \"Key and Mouse Press\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/keypress",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 236,
+            "y": 330,
+            "quality_score": 50,
+            "element_name": "link_key_and_mouse_press",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Key and Mouse Press\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_link_modal": {
+            "tag": "a",
+            "text": "Modal",
+            "xpath": "//a[contains(text(), \"Modal\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/modal",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 236,
+            "y": 362,
+            "quality_score": 50,
+            "element_name": "link_modal",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Modal\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_link_page_scroll": {
+            "tag": "a",
+            "text": "Page Scroll",
+            "xpath": "//a[contains(text(), \"Page Scroll\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/scroll",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 236,
+            "y": 394,
+            "quality_score": 50,
+            "element_name": "link_page_scroll",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Page Scroll\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_link_radio_button": {
+            "tag": "a",
+            "text": "Radio Button",
+            "xpath": "//a[contains(text(), \"Radio Button\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/radiobutton",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 236,
+            "y": 426,
+            "quality_score": 50,
+            "element_name": "link_radio_button",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Radio Button\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_link_switch_window": {
+            "tag": "a",
+            "text": "Switch Window",
+            "xpath": "//a[contains(text(), \"Switch Window\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/switch-window",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 236,
+            "y": 458,
+            "quality_score": 50,
+            "element_name": "link_switch_window",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Switch Window\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_link_complete_web_form": {
+            "tag": "a",
+            "text": "Complete Web Form",
+            "xpath": "//a[contains(text(), \"Complete Web Form\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/form",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 236,
+            "y": 490,
+            "quality_score": 50,
+            "element_name": "link_complete_web_form",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Complete Web Form\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_heading_autocomplete_64_111": {
+            "tag": "h1",
+            "text": "Autocomplete",
+            "xpath": "/html/body/div[1]/h1[1]",
+            "css": "h1",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 64,
+            "y": 111,
+            "quality_score": 50,
+            "element_name": "heading_autocomplete_64_111",
+            "playwright_selector": "page.locator('h1')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_address": {
+            "tag": "strong",
+            "text": "Address",
+            "xpath": "/html/body/div[1]/form[1]/div[1]/div[1]/strong[1]",
+            "css": "strong",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 169,
+            "quality_score": 50,
+            "element_name": "address",
+            "playwright_selector": "page.locator('xpath=/html/body/div[1]/form[1]/div[1]/div[1]/strong[1]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_input_address_79_199": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[@id=\"autocomplete\"]",
+            "css": "#autocomplete",
+            "id": "autocomplete",
+            "type": "text",
+            "placeholder": "Enter address",
+            "customLabel": "Address",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "form-control pac-target-input"
+            },
+            "x": 79,
+            "y": 199,
+            "quality_score": 90,
+            "element_name": "input_address_79_199",
+            "playwright_selector": "page.locator('#autocomplete')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_street_address": {
+            "tag": "strong",
+            "text": "Street address",
+            "xpath": "/html/body/div[1]/form[1]/div[1]/div[2]/strong[1]",
+            "css": "strong",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 239,
+            "quality_score": 50,
+            "element_name": "street_address",
+            "playwright_selector": "page.locator('xpath=/html/body/div[1]/form[1]/div[1]/div[2]/strong[1]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_input_el": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[@id=\"street_number\"]",
+            "css": "#street_number",
+            "id": "street_number",
+            "type": "text",
+            "placeholder": "Street address",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "form-control"
+            },
+            "x": 79,
+            "y": 269,
+            "quality_score": 90,
+            "element_name": "input_el",
+            "playwright_selector": "page.locator('#street_number')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_street_address_2": {
+            "tag": "strong",
+            "text": "Street address 2",
+            "xpath": "/html/body/div[1]/form[1]/div[1]/div[3]/strong[1]",
+            "css": "strong",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 309,
+            "quality_score": 50,
+            "element_name": "street_address_2",
+            "playwright_selector": "page.locator('xpath=/html/body/div[1]/form[1]/div[1]/div[3]/strong[1]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_input_el_79_339": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[@id=\"route\"]",
+            "css": "#route",
+            "id": "route",
+            "type": "text",
+            "placeholder": "Street address 2",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "form-control"
+            },
+            "x": 79,
+            "y": 339,
+            "quality_score": 90,
+            "element_name": "input_el_79_339",
+            "playwright_selector": "page.locator('#route')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_city": {
+            "tag": "strong",
+            "text": "City",
+            "xpath": "/html/body/div[1]/form[1]/div[1]/div[4]/strong[1]",
+            "css": "strong",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 379,
+            "quality_score": 50,
+            "element_name": "city",
+            "playwright_selector": "page.locator('xpath=/html/body/div[1]/form[1]/div[1]/div[4]/strong[1]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_input_el_79_409": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[@id=\"locality\"]",
+            "css": "#locality",
+            "id": "locality",
+            "type": "text",
+            "placeholder": "City",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "form-control"
+            },
+            "x": 79,
+            "y": 409,
+            "quality_score": 90,
+            "element_name": "input_el_79_409",
+            "playwright_selector": "page.locator('#locality')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_state": {
+            "tag": "strong",
+            "text": "State",
+            "xpath": "/html/body/div[1]/form[1]/div[1]/div[5]/strong[1]",
+            "css": "strong",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 449,
+            "quality_score": 50,
+            "element_name": "state",
+            "playwright_selector": "page.locator('xpath=/html/body/div[1]/form[1]/div[1]/div[5]/strong[1]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_input_el_79_479": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[@id=\"administrative_area_level_1\"]",
+            "css": "#administrative_area_level_1",
+            "id": "administrative_area_level_1",
+            "type": "text",
+            "placeholder": "State",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "form-control"
+            },
+            "x": 79,
+            "y": 479,
+            "quality_score": 90,
+            "element_name": "input_el_79_479",
+            "playwright_selector": "page.locator('#administrative_area_level_1')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_zip_code": {
+            "tag": "strong",
+            "text": "Zip code",
+            "xpath": "/html/body/div[1]/form[1]/div[1]/div[6]/strong[1]",
+            "css": "strong",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 519,
+            "quality_score": 50,
+            "element_name": "zip_code",
+            "playwright_selector": "page.locator('xpath=/html/body/div[1]/form[1]/div[1]/div[6]/strong[1]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_input_el_79_549": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[@id=\"postal_code\"]",
+            "css": "#postal_code",
+            "id": "postal_code",
+            "type": "text",
+            "placeholder": "Zip code",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "form-control"
+            },
+            "x": 79,
+            "y": 549,
+            "quality_score": 90,
+            "element_name": "input_el_79_549",
+            "playwright_selector": "page.locator('#postal_code')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_country": {
+            "tag": "strong",
+            "text": "Country",
+            "xpath": "/html/body/div[1]/form[1]/div[1]/div[7]/strong[1]",
+            "css": "strong",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 79,
+            "y": 589,
+            "quality_score": 50,
+            "element_name": "country",
+            "playwright_selector": "page.locator('xpath=/html/body/div[1]/form[1]/div[1]/div[7]/strong[1]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_3_input_el_79_619": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[@id=\"country\"]",
+            "css": "#country",
+            "id": "country",
+            "type": "text",
+            "placeholder": "Country",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "form-control"
+            },
+            "x": 79,
+            "y": 619,
+            "quality_score": 90,
+            "element_name": "input_el_79_619",
+            "playwright_selector": "page.locator('#country')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "element_el_292_167": {
+            "name": "element_el_292_167",
+            "type": "button",
+            "xpath": "point(292,167)",
+            "x": 292,
+            "y": 167,
+            "source": "vision",
+            "description": "A button with the label 'Info'.",
+            "confidence": 0.8
+        },
+        "element_el_390_167": {
+            "name": "element_el_390_167",
+            "type": "button",
+            "xpath": "point(390,167)",
+            "x": 390,
+            "y": 167,
+            "source": "vision",
+            "description": "A button with the label 'Warning'.",
+            "confidence": 0.8
+        },
+        "element_el_477_167": {
+            "name": "element_el_477_167",
+            "type": "button",
+            "xpath": "point(477,167)",
+            "x": 477,
+            "y": 167,
+            "source": "vision",
+            "description": "A button with the label 'Danger'.",
+            "confidence": 0.8
+        },
+        "element_el_548_167": {
+            "name": "element_el_548_167",
+            "type": "link",
+            "xpath": "point(548,167)",
+            "x": 548,
+            "y": 167,
+            "source": "vision",
+            "description": "A link with the label 'Link'.",
+            "confidence": 0.8
+        },
+        "element_el_188_250": {
+            "name": "element_el_188_250",
+            "type": "button",
+            "xpath": "point(188,250)",
+            "x": 188,
+            "y": 250,
+            "source": "vision",
+            "description": "A button with the label 'Middle'.",
+            "confidence": 0.8
+        },
+        "element_el_274_250": {
+            "name": "element_el_274_250",
+            "type": "button",
+            "xpath": "point(274,250)",
+            "x": 274,
+            "y": 250,
+            "source": "vision",
+            "description": "A button with the label 'Right'.",
+            "confidence": 0.8
+        },
+        "element_el_135_323": {
+            "name": "element_el_135_323",
+            "type": "button",
+            "xpath": "point(135,323)",
+            "x": 135,
+            "y": 323,
+            "source": "vision",
+            "description": "A button with the label '2'.",
+            "confidence": 0.8
+        },
+        "element_el_199_323": {
+            "name": "element_el_199_323",
+            "type": "button",
+            "xpath": "point(199,323)",
+            "x": 199,
+            "y": 323,
+            "source": "vision",
+            "description": "A button with the label 'Dropdown'.",
+            "confidence": 0.8
+        },
+        "state_4_formyformcomponents": {
+            "tag": "nav",
+            "text": "FORMY\nForm\nComponents",
+            "xpath": "/html/body/div[1]/nav[1]",
+            "css": "nav.navbar.navbar-expand-lg.bg-light",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "navbar navbar-expand-lg bg-light"
+            },
+            "x": 64,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "formyformcomponents",
+            "playwright_selector": "page.locator('nav.navbar.navbar-expand-lg.bg-light')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_link_formy": {
+            "tag": "a",
+            "text": "FORMY",
+            "xpath": "//*[@id=\"logo\"]",
+            "css": "#logo",
+            "id": "logo",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/",
+                "src": null,
+                "class": "navbar-brand"
+            },
+            "x": 80,
+            "y": 8,
+            "quality_score": 90,
+            "element_name": "link_formy",
+            "playwright_selector": "page.locator('#logo')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_formcomponents": {
+            "tag": "div",
+            "text": "Form\nComponents",
+            "xpath": "//*[@id=\"navbarNavDropdown\"]",
+            "css": "#navbarNavDropdown",
+            "id": "navbarNavDropdown",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "collapse navbar-collapse"
+            },
+            "x": 188,
+            "y": 23,
+            "quality_score": 90,
+            "element_name": "formcomponents",
+            "playwright_selector": "page.locator('#navbarNavDropdown')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_link_form": {
+            "tag": "a",
+            "text": "Form",
+            "xpath": "//a[contains(text(), \"Form\")]",
+            "css": "a.nav-link",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/form",
+                "src": null,
+                "class": "nav-link"
+            },
+            "x": 188,
+            "y": 23,
+            "quality_score": 50,
+            "element_name": "link_form",
+            "playwright_selector": "page.locator('a.nav-link').nth(0)",
+            "is_unique": false,
+            "element_count": 2
+        },
+        "state_4_link_components": {
+            "tag": "a",
+            "text": "Components",
+            "xpath": "//*[@id=\"navbarDropdownMenuLink\"]",
+            "css": "#navbarDropdownMenuLink",
+            "id": "navbarDropdownMenuLink",
+            "isInteractive": true,
+            "attributes": {
+                "href": "#",
+                "src": null,
+                "class": "nav-link dropdown-toggle"
+            },
+            "x": 242,
+            "y": 23,
+            "quality_score": 90,
+            "element_name": "link_components",
+            "playwright_selector": "page.locator('#navbarDropdownMenuLink')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_btn_primary": {
+            "tag": "button",
+            "text": "Primary",
+            "xpath": "//button[contains(text(), \"Primary\")]",
+            "css": "button.btn.btn-lg.btn-primary",
+            "id": "",
+            "type": "button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "btn btn-lg btn-primary"
+            },
+            "x": 64,
+            "y": 111,
+            "quality_score": 50,
+            "element_name": "btn_primary",
+            "playwright_selector": "page.locator('xpath=//button[contains(text(), \"Primary\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_btn_success": {
+            "tag": "button",
+            "text": "Success",
+            "xpath": "//button[contains(text(), \"Success\")]",
+            "css": "button.btn.btn-lg.btn-success",
+            "id": "",
+            "type": "button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "btn btn-lg btn-success"
+            },
+            "x": 171,
+            "y": 111,
+            "quality_score": 50,
+            "element_name": "btn_success",
+            "playwright_selector": "page.locator('button.btn.btn-lg.btn-success')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_btn_info": {
+            "tag": "button",
+            "text": "Info",
+            "xpath": "//button[contains(text(), \"Info\")]",
+            "css": "button.btn.btn-lg.btn-info",
+            "id": "",
+            "type": "button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "btn btn-lg btn-info"
+            },
+            "x": 285,
+            "y": 111,
+            "quality_score": 50,
+            "element_name": "btn_info",
+            "playwright_selector": "page.locator('button.btn.btn-lg.btn-info')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_btn_warning": {
+            "tag": "button",
+            "text": "Warning",
+            "xpath": "//button[contains(text(), \"Warning\")]",
+            "css": "button.btn.btn-lg.btn-warning",
+            "id": "",
+            "type": "button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "btn btn-lg btn-warning"
+            },
+            "x": 357,
+            "y": 111,
+            "quality_score": 50,
+            "element_name": "btn_warning",
+            "playwright_selector": "page.locator('button.btn.btn-lg.btn-warning')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_btn_danger": {
+            "tag": "button",
+            "text": "Danger",
+            "xpath": "//button[contains(text(), \"Danger\")]",
+            "css": "button.btn.btn-lg.btn-danger",
+            "id": "",
+            "type": "button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "btn btn-lg btn-danger"
+            },
+            "x": 469,
+            "y": 111,
+            "quality_score": 50,
+            "element_name": "btn_danger",
+            "playwright_selector": "page.locator('button.btn.btn-lg.btn-danger')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_btn_link": {
+            "tag": "button",
+            "text": "Link",
+            "xpath": "//button[contains(text(), \"Link\")]",
+            "css": "button.btn.btn-lg.btn-link",
+            "id": "",
+            "type": "button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "btn btn-lg btn-link"
+            },
+            "x": 573,
+            "y": 111,
+            "quality_score": 50,
+            "element_name": "btn_link",
+            "playwright_selector": "page.locator('button.btn.btn-lg.btn-link')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_btn_left": {
+            "tag": "button",
+            "text": "Left",
+            "xpath": "//button[contains(text(), \"Left\")]",
+            "css": "button.btn.btn-lg.btn-primary",
+            "id": "",
+            "type": "button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "btn btn-lg btn-primary"
+            },
+            "x": 64,
+            "y": 175,
+            "quality_score": 50,
+            "element_name": "btn_left",
+            "playwright_selector": "page.locator('xpath=//button[contains(text(), \"Left\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_btn_middle": {
+            "tag": "button",
+            "text": "Middle",
+            "xpath": "//button[contains(text(), \"Middle\")]",
+            "css": "button.btn.btn-lg.btn-primary",
+            "id": "",
+            "type": "button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "btn btn-lg btn-primary"
+            },
+            "x": 130,
+            "y": 175,
+            "quality_score": 50,
+            "element_name": "btn_middle",
+            "playwright_selector": "page.locator('xpath=//button[contains(text(), \"Middle\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_btn_right": {
+            "tag": "button",
+            "text": "Right",
+            "xpath": "//button[contains(text(), \"Right\")]",
+            "css": "button.btn.btn-lg.btn-primary",
+            "id": "",
+            "type": "button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "btn btn-lg btn-primary"
+            },
+            "x": 222,
+            "y": 175,
+            "quality_score": 50,
+            "element_name": "btn_right",
+            "playwright_selector": "page.locator('xpath=//button[contains(text(), \"Right\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_btn_1": {
+            "tag": "button",
+            "text": "1",
+            "xpath": "/html/body/div[1]/form[1]/div[3]/div[1]/div[1]/div[1]/button[1]",
+            "css": "button.btn.btn-lg.btn-primary",
+            "id": "",
+            "type": "button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "btn btn-lg btn-primary"
+            },
+            "x": 64,
+            "y": 239,
+            "quality_score": 50,
+            "element_name": "btn_1",
+            "playwright_selector": "page.locator('xpath=/html/body/div[1]/form[1]/div[3]/div[1]/div[1]/div[1]/button[1]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_btn_2": {
+            "tag": "button",
+            "text": "2",
+            "xpath": "/html/body/div[1]/form[1]/div[3]/div[1]/div[1]/div[1]/button[2]",
+            "css": "button.btn.btn-lg.btn-primary",
+            "id": "",
+            "type": "button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "btn btn-lg btn-primary"
+            },
+            "x": 108,
+            "y": 239,
+            "quality_score": 50,
+            "element_name": "btn_2",
+            "playwright_selector": "page.locator('xpath=/html/body/div[1]/form[1]/div[3]/div[1]/div[1]/div[1]/button[2]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_btn_dropdown": {
+            "tag": "button",
+            "text": "Dropdown",
+            "xpath": "//*[@id=\"btnGroupDrop1\"]",
+            "css": "#btnGroupDrop1",
+            "id": "btnGroupDrop1",
+            "type": "button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "btn btn-lg btn-primary dropdown-toggle"
+            },
+            "x": 152,
+            "y": 239,
+            "quality_score": 90,
+            "element_name": "btn_dropdown",
+            "playwright_selector": "page.locator('#btnGroupDrop1')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_link_dropdown_link_1": {
+            "tag": "a",
+            "text": "Dropdown link 1",
+            "xpath": "//a[contains(text(), \"Dropdown link 1\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "#",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 153,
+            "y": 298,
+            "quality_score": 50,
+            "element_name": "link_dropdown_link_1",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Dropdown link 1\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_4_link_dropdown_link_2": {
+            "tag": "a",
+            "text": "Dropdown link 2",
+            "xpath": "//a[contains(text(), \"Dropdown link 2\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "#",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 153,
+            "y": 330,
+            "quality_score": 50,
+            "element_name": "link_dropdown_link_2",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Dropdown link 2\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_link_formy": {
+            "tag": "a",
+            "text": "FORMY",
+            "xpath": "//*[@id=\"logo\"]",
+            "css": "#logo",
+            "id": "logo",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/",
+                "src": null,
+                "class": "navbar-brand"
+            },
+            "x": 80,
+            "y": 8,
+            "quality_score": 90,
+            "element_name": "link_formy",
+            "playwright_selector": "page.locator('#logo')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_link_form": {
+            "tag": "a",
+            "text": "Form",
+            "xpath": "//a[contains(text(), \"Form\")]",
+            "css": "a.nav-link",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/form",
+                "src": null,
+                "class": "nav-link"
+            },
+            "x": 188,
+            "y": 23,
+            "quality_score": 50,
+            "element_name": "link_form",
+            "playwright_selector": "page.locator('a.nav-link').nth(0)",
+            "is_unique": false,
+            "element_count": 2
+        },
+        "state_5_link_components": {
+            "tag": "a",
+            "text": "Components",
+            "xpath": "//*[@id=\"navbarDropdownMenuLink\"]",
+            "css": "#navbarDropdownMenuLink",
+            "id": "navbarDropdownMenuLink",
+            "isInteractive": true,
+            "attributes": {
+                "href": "#",
+                "src": null,
+                "class": "nav-link dropdown-toggle"
+            },
+            "x": 242,
+            "y": 23,
+            "quality_score": 90,
+            "element_name": "link_components",
+            "playwright_selector": "page.locator('#navbarDropdownMenuLink')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_link_autocomplete": {
+            "tag": "a",
+            "text": "Autocomplete",
+            "xpath": "//a[contains(text(), \"Autocomplete\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/autocomplete",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 74,
+            "quality_score": 50,
+            "element_name": "link_autocomplete",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Autocomplete\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_link_buttons": {
+            "tag": "a",
+            "text": "Buttons",
+            "xpath": "//a[contains(text(), \"Buttons\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/buttons",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 106,
+            "quality_score": 50,
+            "element_name": "link_buttons",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Buttons\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_link_checkbox": {
+            "tag": "a",
+            "text": "Checkbox",
+            "xpath": "//a[contains(text(), \"Checkbox\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/checkbox",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 138,
+            "quality_score": 50,
+            "element_name": "link_checkbox",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Checkbox\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_link_datepicker": {
+            "tag": "a",
+            "text": "Datepicker",
+            "xpath": "//a[contains(text(), \"Datepicker\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/datepicker",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 170,
+            "quality_score": 50,
+            "element_name": "link_datepicker",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Datepicker\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_link_drag_and_drop": {
+            "tag": "a",
+            "text": "Drag and Drop",
+            "xpath": "//a[contains(text(), \"Drag and Drop\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/dragdrop",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 202,
+            "quality_score": 50,
+            "element_name": "link_drag_and_drop",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Drag and Drop\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_link_dropdown": {
+            "tag": "a",
+            "text": "Dropdown",
+            "xpath": "//a[contains(text(), \"Dropdown\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/dropdown",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 234,
+            "quality_score": 50,
+            "element_name": "link_dropdown",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Dropdown\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_link_enabled_and_disabled_elements": {
+            "tag": "a",
+            "text": "Enabled and disabled elements",
+            "xpath": "//a[contains(text(), \"Enabled and disabled elements\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/enabled",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 266,
+            "quality_score": 50,
+            "element_name": "link_enabled_and_disabled_elements",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Enabled and disabled elements\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_link_file_upload": {
+            "tag": "a",
+            "text": "File Upload",
+            "xpath": "//a[contains(text(), \"File Upload\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/fileupload",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 298,
+            "quality_score": 50,
+            "element_name": "link_file_upload",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"File Upload\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_link_key_and_mouse_press": {
+            "tag": "a",
+            "text": "Key and Mouse Press",
+            "xpath": "//a[contains(text(), \"Key and Mouse Press\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/keypress",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 330,
+            "quality_score": 50,
+            "element_name": "link_key_and_mouse_press",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Key and Mouse Press\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_link_modal": {
+            "tag": "a",
+            "text": "Modal",
+            "xpath": "//a[contains(text(), \"Modal\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/modal",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 362,
+            "quality_score": 50,
+            "element_name": "link_modal",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Modal\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_link_page_scroll": {
+            "tag": "a",
+            "text": "Page Scroll",
+            "xpath": "//a[contains(text(), \"Page Scroll\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/scroll",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 394,
+            "quality_score": 50,
+            "element_name": "link_page_scroll",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Page Scroll\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_link_radio_button": {
+            "tag": "a",
+            "text": "Radio Button",
+            "xpath": "//a[contains(text(), \"Radio Button\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/radiobutton",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 426,
+            "quality_score": 50,
+            "element_name": "link_radio_button",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Radio Button\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_link_switch_window": {
+            "tag": "a",
+            "text": "Switch Window",
+            "xpath": "//a[contains(text(), \"Switch Window\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/switch-window",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 458,
+            "quality_score": 50,
+            "element_name": "link_switch_window",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Switch Window\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_link_complete_web_form": {
+            "tag": "a",
+            "text": "Complete Web Form",
+            "xpath": "//a[contains(text(), \"Complete Web Form\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/form",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 490,
+            "quality_score": 50,
+            "element_name": "link_complete_web_form",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Complete Web Form\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_heading_checkboxes": {
+            "tag": "h1",
+            "text": "Checkboxes",
+            "xpath": "/html/body/div[1]/h1[1]",
+            "css": "h1",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 64,
+            "y": 111,
+            "quality_score": 50,
+            "element_name": "heading_checkboxes",
+            "playwright_selector": "page.locator('h1')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_input_el": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[contains(@aria-label, \"checkbox\")]",
+            "css": "#checkbox-1",
+            "id": "checkbox-1",
+            "type": "checkbox",
+            "ariaLabel": "checkbox",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 64,
+            "y": 171,
+            "quality_score": 90,
+            "element_name": "input_el",
+            "playwright_selector": "page.locator('#checkbox-1')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_input_el_64_219": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[contains(@aria-label, \"checkbox\")]",
+            "css": "#checkbox-2",
+            "id": "checkbox-2",
+            "type": "checkbox",
+            "ariaLabel": "checkbox",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 64,
+            "y": 219,
+            "quality_score": 90,
+            "element_name": "input_el_64_219",
+            "playwright_selector": "page.locator('#checkbox-2')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_5_input_el_64_267": {
+            "tag": "input",
+            "text": "",
+            "xpath": "//*[contains(@aria-label, \"checkbox\")]",
+            "css": "#checkbox-3",
+            "id": "checkbox-3",
+            "type": "checkbox",
+            "ariaLabel": "checkbox",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 64,
+            "y": 267,
+            "quality_score": 90,
+            "element_name": "input_el_64_267",
+            "playwright_selector": "page.locator('#checkbox-3')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_link_formy": {
+            "tag": "a",
+            "text": "FORMY",
+            "xpath": "//*[@id=\"logo\"]",
+            "css": "#logo",
+            "id": "logo",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/",
+                "src": null,
+                "class": "navbar-brand"
+            },
+            "x": 80,
+            "y": 8,
+            "quality_score": 90,
+            "element_name": "link_formy",
+            "playwright_selector": "page.locator('#logo')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_link_form": {
+            "tag": "a",
+            "text": "Form",
+            "xpath": "//a[contains(text(), \"Form\")]",
+            "css": "a.nav-link",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/form",
+                "src": null,
+                "class": "nav-link"
+            },
+            "x": 188,
+            "y": 23,
+            "quality_score": 50,
+            "element_name": "link_form",
+            "playwright_selector": "page.locator('a.nav-link').nth(0)",
+            "is_unique": false,
+            "element_count": 2
+        },
+        "state_6_link_components": {
+            "tag": "a",
+            "text": "Components",
+            "xpath": "//*[@id=\"navbarDropdownMenuLink\"]",
+            "css": "#navbarDropdownMenuLink",
+            "id": "navbarDropdownMenuLink",
+            "isInteractive": true,
+            "attributes": {
+                "href": "#",
+                "src": null,
+                "class": "nav-link dropdown-toggle"
+            },
+            "x": 242,
+            "y": 23,
+            "quality_score": 90,
+            "element_name": "link_components",
+            "playwright_selector": "page.locator('#navbarDropdownMenuLink')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_link_autocomplete": {
+            "tag": "a",
+            "text": "Autocomplete",
+            "xpath": "//a[contains(text(), \"Autocomplete\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/autocomplete",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 74,
+            "quality_score": 50,
+            "element_name": "link_autocomplete",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Autocomplete\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_link_buttons": {
+            "tag": "a",
+            "text": "Buttons",
+            "xpath": "//a[contains(text(), \"Buttons\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/buttons",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 106,
+            "quality_score": 50,
+            "element_name": "link_buttons",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Buttons\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_link_checkbox": {
+            "tag": "a",
+            "text": "Checkbox",
+            "xpath": "//a[contains(text(), \"Checkbox\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/checkbox",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 138,
+            "quality_score": 50,
+            "element_name": "link_checkbox",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Checkbox\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_link_datepicker": {
+            "tag": "a",
+            "text": "Datepicker",
+            "xpath": "//a[contains(text(), \"Datepicker\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/datepicker",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 170,
+            "quality_score": 50,
+            "element_name": "link_datepicker",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Datepicker\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_link_drag_and_drop": {
+            "tag": "a",
+            "text": "Drag and Drop",
+            "xpath": "//a[contains(text(), \"Drag and Drop\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/dragdrop",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 202,
+            "quality_score": 50,
+            "element_name": "link_drag_and_drop",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Drag and Drop\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_link_dropdown": {
+            "tag": "a",
+            "text": "Dropdown",
+            "xpath": "//a[contains(text(), \"Dropdown\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/dropdown",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 234,
+            "quality_score": 50,
+            "element_name": "link_dropdown",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Dropdown\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_link_enabled_and_disabled_elements": {
+            "tag": "a",
+            "text": "Enabled and disabled elements",
+            "xpath": "//a[contains(text(), \"Enabled and disabled elements\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/enabled",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 266,
+            "quality_score": 50,
+            "element_name": "link_enabled_and_disabled_elements",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Enabled and disabled elements\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_link_file_upload": {
+            "tag": "a",
+            "text": "File Upload",
+            "xpath": "//a[contains(text(), \"File Upload\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/fileupload",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 298,
+            "quality_score": 50,
+            "element_name": "link_file_upload",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"File Upload\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_link_key_and_mouse_press": {
+            "tag": "a",
+            "text": "Key and Mouse Press",
+            "xpath": "//a[contains(text(), \"Key and Mouse Press\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/keypress",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 330,
+            "quality_score": 50,
+            "element_name": "link_key_and_mouse_press",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Key and Mouse Press\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_link_modal": {
+            "tag": "a",
+            "text": "Modal",
+            "xpath": "//a[contains(text(), \"Modal\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/modal",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 362,
+            "quality_score": 50,
+            "element_name": "link_modal",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Modal\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_link_page_scroll": {
+            "tag": "a",
+            "text": "Page Scroll",
+            "xpath": "//a[contains(text(), \"Page Scroll\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/scroll",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 394,
+            "quality_score": 50,
+            "element_name": "link_page_scroll",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Page Scroll\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_link_radio_button": {
+            "tag": "a",
+            "text": "Radio Button",
+            "xpath": "//a[contains(text(), \"Radio Button\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/radiobutton",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 426,
+            "quality_score": 50,
+            "element_name": "link_radio_button",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Radio Button\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_link_switch_window": {
+            "tag": "a",
+            "text": "Switch Window",
+            "xpath": "//a[contains(text(), \"Switch Window\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/switch-window",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 458,
+            "quality_score": 50,
+            "element_name": "link_switch_window",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Switch Window\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_link_complete_web_form": {
+            "tag": "a",
+            "text": "Complete Web Form",
+            "xpath": "//a[contains(text(), \"Complete Web Form\")]",
+            "css": "a.dropdown-item",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/form",
+                "src": null,
+                "class": "dropdown-item"
+            },
+            "x": 243,
+            "y": 490,
+            "quality_score": 50,
+            "element_name": "link_complete_web_form",
+            "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Complete Web Form\")]')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_6_heading_datepicker_64_111": {
+            "tag": "h1",
+            "text": "Datepicker",
+            "xpath": "/html/body/div[1]/h1[1]",
+            "css": "h1",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 64,
+            "y": 111,
+            "quality_score": 50,
+            "element_name": "heading_datepicker_64_111",
+            "playwright_selector": "page.locator('h1')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_7_formyformcomponents_drag": {
+            "tag": "html",
+            "text": "FORMY\nForm\nComponents \n\n\nDrag the image into the box\n\nDrop here",
+            "xpath": "/html/body/html[1]",
+            "css": "html",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 0,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "formyformcomponents_drag",
+            "playwright_selector": "page.locator('html')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_7_formyformcomponents_drag_1": {
+            "tag": "body",
+            "text": "FORMY\nForm\nComponents \n\n\nDrag the image into the box\n\nDrop here",
+            "xpath": "/html/body",
+            "css": "body",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 0,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "formyformcomponents_drag_1",
+            "playwright_selector": "page.locator('body')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_7_formyformcomponents": {
+            "tag": "nav",
+            "text": "FORMY\nForm\nComponents",
+            "xpath": "/html/body/div[1]/nav[1]",
+            "css": "nav.navbar.navbar-expand-lg.bg-light",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "navbar navbar-expand-lg bg-light"
+            },
+            "x": 64,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "formyformcomponents",
+            "playwright_selector": "page.locator('nav.navbar.navbar-expand-lg.bg-light')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_7_link_formy": {
+            "tag": "a",
+            "text": "FORMY",
+            "xpath": "//*[@id=\"logo\"]",
+            "css": "#logo",
+            "id": "logo",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/",
+                "src": null,
+                "class": "navbar-brand"
+            },
+            "x": 80,
+            "y": 8,
+            "quality_score": 90,
+            "element_name": "link_formy",
+            "playwright_selector": "page.locator('#logo')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_7_formcomponents": {
+            "tag": "div",
+            "text": "Form\nComponents",
+            "xpath": "//*[@id=\"navbarNavDropdown\"]",
+            "css": "#navbarNavDropdown",
+            "id": "navbarNavDropdown",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "collapse navbar-collapse"
+            },
+            "x": 188,
+            "y": 23,
+            "quality_score": 90,
+            "element_name": "formcomponents",
+            "playwright_selector": "page.locator('#navbarNavDropdown')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_7_link_form": {
+            "tag": "a",
+            "text": "Form",
+            "xpath": "//a[contains(text(), \"Form\")]",
+            "css": "a.nav-link",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/form",
+                "src": null,
+                "class": "nav-link"
+            },
+            "x": 188,
+            "y": 23,
+            "quality_score": 50,
+            "element_name": "link_form",
+            "playwright_selector": "page.locator('a.nav-link').nth(0)",
+            "is_unique": false,
+            "element_count": 2
+        },
+        "state_7_link_components": {
+            "tag": "a",
+            "text": "Components",
+            "xpath": "//*[@id=\"navbarDropdownMenuLink\"]",
+            "css": "#navbarDropdownMenuLink",
+            "id": "navbarDropdownMenuLink",
+            "isInteractive": true,
+            "attributes": {
+                "href": "#",
+                "src": null,
+                "class": "nav-link dropdown-toggle"
+            },
+            "x": 242,
+            "y": 23,
+            "quality_score": 90,
+            "element_name": "link_components",
+            "playwright_selector": "page.locator('#navbarDropdownMenuLink')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_7_heading_drag_the_image_into_the_box": {
+            "tag": "h1",
+            "text": "Drag the image into the box",
+            "xpath": "/html/body/div[1]/h1[1]",
+            "css": "h1",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 64,
+            "y": 111,
+            "quality_score": 50,
+            "element_name": "heading_drag_the_image_into_the_box",
+            "playwright_selector": "page.locator('h1')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_7_drop_here": {
+            "tag": "div",
+            "text": "Drop here",
+            "xpath": "//*[@id=\"box\"]",
+            "css": "#box",
+            "id": "box",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "ui-widget-header ui-droppable"
+            },
+            "x": 284,
+            "y": 177,
+            "quality_score": 90,
+            "element_name": "drop_here",
+            "playwright_selector": "page.locator('#box')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_8_formyformcomponents_dropd": {
+            "tag": "html",
+            "text": "FORMY\nForm\nComponents \n\n\nDropdown\n\n\nDropdown button",
+            "xpath": "/html/body/html[1]",
+            "css": "html",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 0,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "formyformcomponents_dropd",
+            "playwright_selector": "page.locator('html')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_8_formyformcomponents_dropd_1": {
+            "tag": "body",
+            "text": "FORMY\nForm\nComponents \n\n\nDropdown\n\n\nDropdown button",
+            "xpath": "/html/body",
+            "css": "body",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 0,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "formyformcomponents_dropd_1",
+            "playwright_selector": "page.locator('body')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_8_formyformcomponents": {
+            "tag": "nav",
+            "text": "FORMY\nForm\nComponents",
+            "xpath": "/html/body/div[1]/nav[1]",
+            "css": "nav.navbar.navbar-expand-lg.bg-light",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "navbar navbar-expand-lg bg-light"
+            },
+            "x": 64,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "formyformcomponents",
+            "playwright_selector": "page.locator('nav.navbar.navbar-expand-lg.bg-light')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_8_link_formy": {
+            "tag": "a",
+            "text": "FORMY",
+            "xpath": "//*[@id=\"logo\"]",
+            "css": "#logo",
+            "id": "logo",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/",
+                "src": null,
+                "class": "navbar-brand"
+            },
+            "x": 80,
+            "y": 8,
+            "quality_score": 90,
+            "element_name": "link_formy",
+            "playwright_selector": "page.locator('#logo')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_8_formcomponents": {
+            "tag": "div",
+            "text": "Form\nComponents",
+            "xpath": "//*[@id=\"navbarNavDropdown\"]",
+            "css": "#navbarNavDropdown",
+            "id": "navbarNavDropdown",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "collapse navbar-collapse"
+            },
+            "x": 188,
+            "y": 23,
+            "quality_score": 90,
+            "element_name": "formcomponents",
+            "playwright_selector": "page.locator('#navbarNavDropdown')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_8_link_form": {
+            "tag": "a",
+            "text": "Form",
+            "xpath": "//a[contains(text(), \"Form\")]",
+            "css": "a.nav-link",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/form",
+                "src": null,
+                "class": "nav-link"
+            },
+            "x": 188,
+            "y": 23,
+            "quality_score": 50,
+            "element_name": "link_form",
+            "playwright_selector": "page.locator('a.nav-link').nth(0)",
+            "is_unique": false,
+            "element_count": 2
+        },
+        "state_8_link_components": {
+            "tag": "a",
+            "text": "Components",
+            "xpath": "//*[@id=\"navbarDropdownMenuLink\"]",
+            "css": "#navbarDropdownMenuLink",
+            "id": "navbarDropdownMenuLink",
+            "isInteractive": true,
+            "attributes": {
+                "href": "#",
+                "src": null,
+                "class": "nav-link dropdown-toggle"
+            },
+            "x": 242,
+            "y": 23,
+            "quality_score": 90,
+            "element_name": "link_components",
+            "playwright_selector": "page.locator('#navbarDropdownMenuLink')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_8_heading_dropdown": {
+            "tag": "h1",
+            "text": "Dropdown",
+            "xpath": "/html/body/div[1]/h1[1]",
+            "css": "h1",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 64,
+            "y": 111,
+            "quality_score": 50,
+            "element_name": "heading_dropdown",
+            "playwright_selector": "page.locator('h1')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_8_btn_dropdown_button": {
+            "tag": "button",
+            "text": "Dropdown button",
+            "xpath": "//*[@id=\"dropdownMenuButton\"]",
+            "css": "#dropdownMenuButton",
+            "id": "dropdownMenuButton",
+            "type": "button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "btn btn-primary dropdown-toggle"
+            },
+            "x": 64,
+            "y": 191,
+            "quality_score": 90,
+            "element_name": "btn_dropdown_button",
+            "playwright_selector": "page.locator('#dropdownMenuButton')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_9_formyformcomponents_enabl": {
+            "tag": "html",
+            "text": "FORMY\nForm\nComponents \n\n\nEnabled and Disabled elements",
+            "xpath": "/html/body/html[1]",
+            "css": "html",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 0,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "formyformcomponents_enabl",
+            "playwright_selector": "page.locator('html')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_9_formyformcomponents_enabl_1": {
+            "tag": "body",
+            "text": "FORMY\nForm\nComponents \n\n\nEnabled and Disabled elements",
+            "xpath": "/html/body",
+            "css": "body",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 0,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "formyformcomponents_enabl_1",
+            "playwright_selector": "page.locator('body')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_9_formyformcomponents": {
+            "tag": "nav",
+            "text": "FORMY\nForm\nComponents",
+            "xpath": "/html/body/div[1]/nav[1]",
+            "css": "nav.navbar.navbar-expand-lg.bg-light",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "navbar navbar-expand-lg bg-light"
+            },
+            "x": 64,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "formyformcomponents",
+            "playwright_selector": "page.locator('nav.navbar.navbar-expand-lg.bg-light')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_9_link_formy": {
+            "tag": "a",
+            "text": "FORMY",
+            "xpath": "//*[@id=\"logo\"]",
+            "css": "#logo",
+            "id": "logo",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/",
+                "src": null,
+                "class": "navbar-brand"
+            },
+            "x": 80,
+            "y": 8,
+            "quality_score": 90,
+            "element_name": "link_formy",
+            "playwright_selector": "page.locator('#logo')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_9_formcomponents": {
+            "tag": "div",
+            "text": "Form\nComponents",
+            "xpath": "//*[@id=\"navbarNavDropdown\"]",
+            "css": "#navbarNavDropdown",
+            "id": "navbarNavDropdown",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "collapse navbar-collapse"
+            },
+            "x": 188,
+            "y": 23,
+            "quality_score": 90,
+            "element_name": "formcomponents",
+            "playwright_selector": "page.locator('#navbarNavDropdown')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_9_link_form": {
+            "tag": "a",
+            "text": "Form",
+            "xpath": "//a[contains(text(), \"Form\")]",
+            "css": "a.nav-link",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/form",
+                "src": null,
+                "class": "nav-link"
+            },
+            "x": 188,
+            "y": 23,
+            "quality_score": 50,
+            "element_name": "link_form",
+            "playwright_selector": "page.locator('a.nav-link').nth(0)",
+            "is_unique": false,
+            "element_count": 2
+        },
+        "state_9_link_components": {
+            "tag": "a",
+            "text": "Components",
+            "xpath": "//*[@id=\"navbarDropdownMenuLink\"]",
+            "css": "#navbarDropdownMenuLink",
+            "id": "navbarDropdownMenuLink",
+            "isInteractive": true,
+            "attributes": {
+                "href": "#",
+                "src": null,
+                "class": "nav-link dropdown-toggle"
+            },
+            "x": 242,
+            "y": 23,
+            "quality_score": 90,
+            "element_name": "link_components",
+            "playwright_selector": "page.locator('#navbarDropdownMenuLink')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_9_heading_enabled_and_disabled_elements": {
+            "tag": "h1",
+            "text": "Enabled and Disabled elements",
+            "xpath": "/html/body/div[1]/h1[1]",
+            "css": "h1",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 64,
+            "y": 111,
+            "quality_score": 50,
+            "element_name": "heading_enabled_and_disabled_elements",
+            "playwright_selector": "page.locator('h1')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_10_formyformcomponents_file": {
+            "tag": "html",
+            "text": "FORMY\nForm\nComponents \n\n\nFile upload\nChoose\nReset",
+            "xpath": "/html/body/html[1]",
+            "css": "html",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 0,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "formyformcomponents_file",
+            "playwright_selector": "page.locator('html')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_10_formyformcomponents_file_1": {
+            "tag": "body",
+            "text": "FORMY\nForm\nComponents \n\n\nFile upload\nChoose\nReset",
+            "xpath": "/html/body",
+            "css": "body",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 0,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "formyformcomponents_file_1",
+            "playwright_selector": "page.locator('body')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_10_formyformcomponents": {
+            "tag": "nav",
+            "text": "FORMY\nForm\nComponents",
+            "xpath": "/html/body/div[1]/nav[1]",
+            "css": "nav.navbar.navbar-expand-lg.bg-light",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "navbar navbar-expand-lg bg-light"
+            },
+            "x": 64,
+            "y": 0,
+            "quality_score": 50,
+            "element_name": "formyformcomponents",
+            "playwright_selector": "page.locator('nav.navbar.navbar-expand-lg.bg-light')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_10_link_formy": {
+            "tag": "a",
+            "text": "FORMY",
+            "xpath": "//*[@id=\"logo\"]",
+            "css": "#logo",
+            "id": "logo",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/",
+                "src": null,
+                "class": "navbar-brand"
+            },
+            "x": 80,
+            "y": 8,
+            "quality_score": 90,
+            "element_name": "link_formy",
+            "playwright_selector": "page.locator('#logo')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_10_formcomponents": {
+            "tag": "div",
+            "text": "Form\nComponents",
+            "xpath": "//*[@id=\"navbarNavDropdown\"]",
+            "css": "#navbarNavDropdown",
+            "id": "navbarNavDropdown",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "collapse navbar-collapse"
+            },
+            "x": 188,
+            "y": 23,
+            "quality_score": 90,
+            "element_name": "formcomponents",
+            "playwright_selector": "page.locator('#navbarNavDropdown')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_10_link_form": {
+            "tag": "a",
+            "text": "Form",
+            "xpath": "//a[contains(text(), \"Form\")]",
+            "css": "a.nav-link",
+            "id": "",
+            "isInteractive": true,
+            "attributes": {
+                "href": "/form",
+                "src": null,
+                "class": "nav-link"
+            },
+            "x": 188,
+            "y": 23,
+            "quality_score": 50,
+            "element_name": "link_form",
+            "playwright_selector": "page.locator('a.nav-link').nth(0)",
+            "is_unique": false,
+            "element_count": 2
+        },
+        "state_10_link_components": {
+            "tag": "a",
+            "text": "Components",
+            "xpath": "//*[@id=\"navbarDropdownMenuLink\"]",
+            "css": "#navbarDropdownMenuLink",
+            "id": "navbarDropdownMenuLink",
+            "isInteractive": true,
+            "attributes": {
+                "href": "#",
+                "src": null,
+                "class": "nav-link dropdown-toggle"
+            },
+            "x": 242,
+            "y": 23,
+            "quality_score": 90,
+            "element_name": "link_components",
+            "playwright_selector": "page.locator('#navbarDropdownMenuLink')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_10_heading_file_upload": {
+            "tag": "h1",
+            "text": "File upload",
+            "xpath": "/html/body/div[1]/h1[1]",
+            "css": "h1",
+            "id": "",
+            "isInteractive": false,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": ""
+            },
+            "x": 64,
+            "y": 111,
+            "quality_score": 50,
+            "element_name": "heading_file_upload",
+            "playwright_selector": "page.locator('h1')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_10_btn_choose": {
+            "tag": "button",
+            "text": "Choose",
+            "xpath": "//button[contains(text(), \"Choose\")]",
+            "css": "button.btn.btn-secondary.btn-choose",
+            "id": "",
+            "type": "button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "btn btn-secondary btn-choose"
+            },
+            "x": 64,
+            "y": 194,
+            "quality_score": 50,
+            "element_name": "btn_choose",
+            "playwright_selector": "page.locator('button.btn.btn-secondary.btn-choose')",
+            "is_unique": true,
+            "element_count": 1
+        },
+        "state_10_btn_reset": {
+            "tag": "button",
+            "text": "Reset",
+            "xpath": "//button[contains(text(), \"Reset\")]",
+            "css": "button.btn.btn-warning.btn-reset",
+            "id": "",
+            "type": "button",
+            "isInteractive": true,
+            "attributes": {
+                "href": null,
+                "src": null,
+                "class": "btn btn-warning btn-reset"
+            },
+            "x": 515,
+            "y": 194,
+            "quality_score": 50,
+            "element_name": "btn_reset",
+            "playwright_selector": "page.locator('button.btn.btn-warning.btn-reset')",
+            "is_unique": true,
+            "element_count": 1
+        }
+    },
+    "state_graph": {
+        "nodes": {
+            "https://formy-project.herokuapp.com::2b031bbcb129a88bf10a5d21a92e071a76025a92f7ed8d2d4701032103a08bf2": {
+                "url": "https://formy-project.herokuapp.com",
+                "hash": "2b031bbcb129a88bf10a5d21a92e071a76025a92f7ed8d2d4701032103a08bf2",
+                "depth": 1,
+                "visited_at": "2026-03-05T11:54:13.865091",
+                "extracted_locators": 0
+            },
+            "https://formy-project.herokuapp.com/form::e593994b9d2ccb48782ff854de7bd7a177af1c93a38fd0ccc5bcd66e66076fc3": {
+                "url": "https://formy-project.herokuapp.com/form",
+                "hash": "e593994b9d2ccb48782ff854de7bd7a177af1c93a38fd0ccc5bcd66e66076fc3",
+                "depth": 1,
+                "visited_at": "2026-03-05T11:54:30.214104",
+                "extracted_locators": 0
+            },
+            "https://formy-project.herokuapp.com/autocomplete::05aeb540b60de646fff921c810f2f37f223e8af8bb17163b65f8151e7699179f": {
+                "url": "https://formy-project.herokuapp.com/autocomplete",
+                "hash": "05aeb540b60de646fff921c810f2f37f223e8af8bb17163b65f8151e7699179f",
+                "depth": 1,
+                "visited_at": "2026-03-05T11:54:52.925111",
+                "extracted_locators": 0
+            },
+            "https://formy-project.herokuapp.com/buttons::32d8c0ed277693dd5cd232e962cbc6a0b0e1d3bae03d99ff47d29f00a1b74ac5": {
+                "url": "https://formy-project.herokuapp.com/buttons",
+                "hash": "32d8c0ed277693dd5cd232e962cbc6a0b0e1d3bae03d99ff47d29f00a1b74ac5",
+                "depth": 1,
+                "visited_at": "2026-03-05T11:55:13.560096",
+                "extracted_locators": 0
+            },
+            "https://formy-project.herokuapp.com/checkbox::690bf47112ff8ba7b95cdb2d7b72426b17bb56ebdb89d03f3715bfaa12f9b4b1": {
+                "url": "https://formy-project.herokuapp.com/checkbox",
+                "hash": "690bf47112ff8ba7b95cdb2d7b72426b17bb56ebdb89d03f3715bfaa12f9b4b1",
+                "depth": 1,
+                "visited_at": "2026-03-05T11:55:27.847206",
+                "extracted_locators": 0
+            },
+            "https://formy-project.herokuapp.com/datepicker::fb9350e4cf5629040e048b834fab3b666604f8a4374c0cf2d9f38656908f39da": {
+                "url": "https://formy-project.herokuapp.com/datepicker",
+                "hash": "fb9350e4cf5629040e048b834fab3b666604f8a4374c0cf2d9f38656908f39da",
+                "depth": 1,
+                "visited_at": "2026-03-05T11:55:42.472175",
+                "extracted_locators": 0
+            },
+            "https://formy-project.herokuapp.com/dragdrop::d5837a914d7bec208539ce202ab680b52be7b80d0faea1bd2b27a468e1aee8f1": {
+                "url": "https://formy-project.herokuapp.com/dragdrop",
+                "hash": "d5837a914d7bec208539ce202ab680b52be7b80d0faea1bd2b27a468e1aee8f1",
+                "depth": 1,
+                "visited_at": "2026-03-05T11:55:57.364889",
+                "extracted_locators": 0
+            },
+            "https://formy-project.herokuapp.com/dropdown::dae14916ee95613d49d94e44a88f027fdfe39e47c8e778822afa05925b8ab171": {
+                "url": "https://formy-project.herokuapp.com/dropdown",
+                "hash": "dae14916ee95613d49d94e44a88f027fdfe39e47c8e778822afa05925b8ab171",
+                "depth": 1,
+                "visited_at": "2026-03-05T11:56:09.961083",
+                "extracted_locators": 0
+            },
+            "https://formy-project.herokuapp.com/enabled::0b8e062da002087bb1eb5ce23b5825ae24ff6cc094a256e706ff965c2bf75b02": {
+                "url": "https://formy-project.herokuapp.com/enabled",
+                "hash": "0b8e062da002087bb1eb5ce23b5825ae24ff6cc094a256e706ff965c2bf75b02",
+                "depth": 1,
+                "visited_at": "2026-03-05T11:56:23.310551",
+                "extracted_locators": 0
+            },
+            "https://formy-project.herokuapp.com/fileupload::dfb619b6fc5f52553d4dd69918d5f8c42b0d7dfad65ffe8ae045595029eaca5e": {
+                "url": "https://formy-project.herokuapp.com/fileupload",
+                "hash": "dfb619b6fc5f52553d4dd69918d5f8c42b0d7dfad65ffe8ae045595029eaca5e",
+                "depth": 1,
+                "visited_at": "2026-03-05T11:57:38.213481",
+                "extracted_locators": 0
+            }
+        },
+        "edges": []
+    },
+    "metadata": {
+        "total_pages": 10,
+        "total_locators": 217,
+        "timestamp": "2026-03-05T11:57:44.021945"
+    }
+}

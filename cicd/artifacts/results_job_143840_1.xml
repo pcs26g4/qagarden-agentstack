@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="5" time="72.698" timestamp="2026-03-10T14:40:58.548714+05:30" hostname="Phani"><testcase classname="tests.page_10_be84.test_page_10_be84" name="test_page_navigation" time="7.225"><failure message="AssertionError: Page URL expected to be 're.compile('PAGE_10_BE84_URL')'&#10;Actual value: https://example.com/ &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    9 × unexpected value &quot;https://example.com/&quot;">tests\page_10_be84\test_page_10_be84.py:16: in test_page_navigation
+    expect(page).to_have_url(re.compile(r"PAGE_10_BE84_URL"))
+E   AssertionError: Page URL expected to be 're.compile('PAGE_10_BE84_URL')'
+E   Actual value: https://example.com/ 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       9 × unexpected value "https://example.com/"</failure></testcase><testcase classname="tests.page_10_be84.test_page_10_be84" name="test_page_form_components_visibility" time="16.374"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;#navbarNavDropdown&quot;).first">tests\page_10_be84\test_page_10_be84.py:21: in test_page_form_components_visibility
+    expect(page.locator("#navbarNavDropdown").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("#navbarNavDropdown").first</failure></testcase><testcase classname="tests.page_10_be84.test_page_10_be84" name="test_page_choose_button_functionality" time="16.258"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;button.btn.btn-secondary.btn-choose&quot;).first">tests\page_10_be84\test_page_10_be84.py:28: in test_page_choose_button_functionality
+    expect(page.locator("button.btn.btn-secondary.btn-choose").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("button.btn.btn-secondary.btn-choose").first</failure></testcase><testcase classname="tests.page_10_be84.test_page_10_be84" name="test_page_reset_button_functionality" time="16.253"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;button.btn.btn-warning.btn-reset&quot;).first">tests\page_10_be84\test_page_10_be84.py:35: in test_page_reset_button_functionality
+    expect(page.locator("button.btn.btn-warning.btn-reset").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("button.btn.btn-warning.btn-reset").first</failure></testcase><testcase classname="tests.page_10_be84.test_page_10_be84" name="test_page_file_upload_heading_visibility" time="16.423"><failure message="AssertionError: Locator expected to contain text 'File Upload'&#10;Actual value: Example Domain &#10;Call log:&#10;  - Expect &quot;to_contain_text&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;h1&quot;).first&#10;    18 × locator resolved to &lt;h1&gt;Example Domain&lt;/h1&gt;&#10;       - unexpected value &quot;Example Domain&quot;">tests\page_10_be84\test_page_10_be84.py:43: in test_page_file_upload_heading_visibility
+    expect(page.locator("h1").first).to_contain_text("File Upload", timeout=15000)
+E   AssertionError: Locator expected to contain text 'File Upload'
+E   Actual value: Example Domain 
+E   Call log:
+E     - Expect "to_contain_text" with timeout 15000ms
+E     - waiting for locator("h1").first
+E       18 × locator resolved to &lt;h1&gt;Example Domain&lt;/h1&gt;
+E          - unexpected value "Example Domain"</failure></testcase></testsuite></testsuites>

@@ -1,0 +1,70 @@
+{
+  "elements": {
+    "heading_example_domain": {
+      "tag": "h1",
+      "text": "Example Domain",
+      "xpath": "/html/body/div[1]/h1[1]",
+      "css": "h1",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 264,
+      "y": 121,
+      "element_name": "heading_example_domain",
+      "quality_score": 50,
+      "playwright_selector": "page.locator('h1')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "learn_more": {
+      "tag": "p",
+      "text": "Learn more",
+      "xpath": "/html/body/div[1]/p[2]",
+      "css": "p",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 264,
+      "y": 206,
+      "element_name": "learn_more",
+      "quality_score": 50,
+      "playwright_selector": "page.locator('p')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_learn_more_264_206": {
+      "tag": "a",
+      "text": "Learn more",
+      "xpath": "/html/body/div[1]/p[2]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "https://iana.org/domains/example",
+        "src": null,
+        "class": ""
+      },
+      "x": 264,
+      "y": 206,
+      "element_name": "link_learn_more_264_206",
+      "quality_score": 50,
+      "playwright_selector": "page.locator('a')",
+      "is_unique": true,
+      "element_count": 1
+    }
+  },
+  "url": "https://example.com/",
+  "screen_id": 0,
+  "timestamp": "2026-02-20T12:13:13.613610",
+  "metadata": {
+    "title": "Example Domain"
+  }
+}

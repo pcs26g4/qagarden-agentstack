@@ -1,0 +1,521 @@
+{
+    "site_info": {
+        "base_url": "unknown",
+        "synthesis_timestamp": "2026-02-23T13:41:48.238711",
+        "total_unique_pages": 21,
+        "total_raw_locators": 903
+    },
+    "pages": {
+        "https://www.jellypod.com/explore": [
+            {
+                "tag": "header",
+                "text": "Jellypod\nAI Creation Platform\nPricing\nProduct\nSolutions\nResources\nEnterprise\nLog in\nGet Started",
+                "xpath": "/html/body/main[1]/header[1]",
+                "css": "header.sticky",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "sticky top-0 z-50"
+                },
+                "x": 0,
+                "y": 0,
+                "quality_score": 50,
+                "element_name": "jellypodai_creation_platform",
+                "playwright_selector": "page.locator('header.sticky')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/explore",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/": [
+            {
+                "tag": "body",
+                "text": "Jellypod\nAI Creation Platform\nPricing\nProduct\nSolutions\nResources\nEnterprise\nLog in\nGet Started\nNEW\n",
+                "xpath": "/html/body",
+                "css": "body.bg-white.font-sans.antialiased",
+                "id": "",
+                "isInteractive": true,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "bg-white font-sans antialiased"
+                },
+                "x": 0,
+                "y": 0,
+                "quality_score": 50,
+                "element_name": "jellypodai_creation_platform_1",
+                "playwright_selector": "page.locator('body.bg-white.font-sans.antialiased')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/ai-podcast-generator": [
+            {
+                "tag": "button",
+                "text": "",
+                "xpath": "//*[@id=\"base-ui-_R_qmbu5bsnpfknkmbtb_\"]",
+                "css": "#base-ui-_R_qmbu5bsnpfknkmbtb_",
+                "id": "base-ui-_R_qmbu5bsnpfknkmbtb_",
+                "type": "button",
+                "isInteractive": true,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:aria-invalid:border-destructive/50 border bg-clip-padding text-sm font-medium focus-visible:ring-[3px] aria-invalid:ring-[3px] [&_svg:not([class*='size-'])]:size-4 inline-flex items-center justify-center whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none shrink-0 [&_svg]:shrink-0 outline-none group/button select-none border-border bg-input/30 hover:bg-input/50 hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground size-9 rounded-full"
+                },
+                "x": 231,
+                "y": 582,
+                "quality_score": 90,
+                "element_name": "btn_button_el",
+                "playwright_selector": "page.locator('#base-ui-_R_qmbu5bsnpfknkmbtb_')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/ai-podcast-generator",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/podcast-cover-art-generator": [
+            {
+                "tag": "h2",
+                "text": "Ready to create your podcast?",
+                "xpath": "/html/body/main[1]/main[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[1]/div[1]/h2[1]",
+                "css": "h2.font-medium.font-serif.tracking-tight",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "font-medium font-serif text-3xl tracking-tight"
+                },
+                "x": 53,
+                "y": 1323,
+                "quality_score": 50,
+                "element_name": "heading_ready_to_create_your_podcast",
+                "playwright_selector": "page.locator('xpath=/html/body/main[1]/main[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[1]/div[1]/h2[1]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/podcast-cover-art-generator",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/pricing": [
+            {
+                "tag": "h3",
+                "text": "Do I own the content I create?",
+                "xpath": "//*[@id=\"faqs\"]/div[1]/div[3]/div[2]/div[1]/div[4]/h3[1]",
+                "css": "h3.flex",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "flex"
+                },
+                "x": 453,
+                "y": 3376,
+                "quality_score": 50,
+                "element_name": "heading_do_i_own_the_content_i_create",
+                "playwright_selector": "page.locator('xpath=//*[@id=\"faqs\"]/div[1]/div[3]/div[2]/div[1]/div[4]/h3[1]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/pricing",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/enterprise": [
+            {
+                "tag": "div",
+                "text": "Privacy Settings",
+                "xpath": "//*[@data-testid=\"consent-manager-dialog-title\"]",
+                "css": "div",
+                "id": "",
+                "dataTestId": "consent-manager-dialog-title",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "c15t-title-B_498 c15t-title-B_498 c15t-title-B_498"
+                },
+                "x": 464,
+                "y": 112,
+                "quality_score": 95,
+                "element_name": "privacy_settings",
+                "playwright_selector": "page.locator('xpath=//*[@data-testid=\"consent-manager-dialog-title\"]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/enterprise",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/product-updates": [
+            {
+                "tag": "h1",
+                "text": "Product Updates",
+                "xpath": "/html/body/main[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/h1[1]",
+                "css": "h1.font-serif.tracking-tight",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "font-serif text-5xl tracking-tight"
+                },
+                "x": 61,
+                "y": 145,
+                "quality_score": 50,
+                "element_name": "heading_product_updates",
+                "playwright_selector": "page.locator('h1.font-serif.tracking-tight')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/product-updates",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/unsubscribe": [
+            {
+                "tag": "a",
+                "text": "Get Started for Free",
+                "xpath": "//a[contains(text(), \"Get Started for Free\")]",
+                "css": "a.focus-visible:border-ring.aria-invalid:border-destructive.border.border-transparent.bg-clip-padding.text-sm.font-medium.inline-flex.items-center.justify-center.whitespace-nowrap.transition-all.disabled:pointer-events-none.[&_svg]:pointer-events-none.outline-none.group/button.select-none.bg-primary.text-primary-foreground",
+                "role": "button",
+                "id": "",
+                "isInteractive": true,
+                "attributes": {
+                    "href": "/signup",
+                    "src": null,
+                    "class": "focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:aria-invalid:border-destructive/50 rounded-4xl border border-transparent bg-clip-padding text-sm font-medium focus-visible:ring-[3px] aria-invalid:ring-[3px] [&_svg:not([class*='size-'])]:size-4 inline-flex items-center justify-center whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none shrink-0 [&_svg]:shrink-0 outline-none group/button select-none bg-primary text-primary-foreground hover:bg-primary/80 h-10 gap-1.5 px-4 has-data-[icon=inline-end]:pr-3 has-data-[icon=inline-start]:pl-3"
+                },
+                "x": 1104,
+                "y": 598,
+                "quality_score": 80,
+                "element_name": "link_button_1104_598",
+                "playwright_selector": "page.locator('a.focus-visible:border-ring.aria-invalid:border-destructive.border.border-transparent.bg-clip-padding.text-sm.font-medium.inline-flex.items-center.justify-center.whitespace-nowrap.transition-all.disabled:pointer-events-none.[&_svg]:pointer-events-none.outline-none.group/button.select-none.bg-primary.text-primary-foreground').nth(0)",
+                "is_unique": false,
+                "element_count": 0,
+                "url": "https://www.jellypod.com/unsubscribe",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/use-cases": [
+            {
+                "tag": "h1",
+                "text": "Powering podcasts across every industry",
+                "xpath": "/html/body/main[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/h1[1]",
+                "css": "h1.font-medium.font-serif.text-foreground.tracking-tight",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "font-medium font-serif text-4xl text-foreground tracking-tight sm:text-5xl"
+                },
+                "x": 37,
+                "y": 145,
+                "quality_score": 50,
+                "element_name": "heading_powering_podcasts_across_every",
+                "playwright_selector": "page.locator('h1.font-medium.font-serif.text-foreground.tracking-tight')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/use-cases",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/affiliate-terms": [
+            {
+                "tag": "h1",
+                "text": "Affiliate Program Terms",
+                "xpath": "/html/body/main[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/h1[1]",
+                "css": "h1.mx-auto.font-medium.font-serif.text-foreground.tracking-tight",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "mx-auto mt-4 max-w-3xl font-medium font-serif text-4xl text-foreground tracking-tight sm:text-5xl"
+                },
+                "x": 279,
+                "y": 181,
+                "quality_score": 50,
+                "element_name": "heading_affiliate_program_terms",
+                "playwright_selector": "page.locator('h1.mx-auto.font-medium.font-serif.text-foreground.tracking-tight')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/affiliate-terms",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/cookie-policy": [
+            {
+                "tag": "main",
+                "text": "LEGAL\nCookie Policy\n\nLearn about how we use cookies and how you can manage them.",
+                "xpath": "/html/body/main[1]/main[1]",
+                "css": "main",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 0,
+                "y": 77,
+                "quality_score": 50,
+                "element_name": "legalcookie_policylearn_abo",
+                "playwright_selector": "page.locator('xpath=/html/body/main[1]/main[1]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/cookie-policy",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/dpa": [
+            {
+                "tag": "h1",
+                "text": "Data Processing Agreement",
+                "xpath": "/html/body/main[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/h1[1]",
+                "css": "h1.mx-auto.font-medium.font-serif.text-foreground.tracking-tight",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "mx-auto mt-4 max-w-3xl font-medium font-serif text-4xl text-foreground tracking-tight sm:text-5xl"
+                },
+                "x": 270,
+                "y": 181,
+                "quality_score": 50,
+                "element_name": "heading_data_processing_agreement",
+                "playwright_selector": "page.locator('h1.mx-auto.font-medium.font-serif.text-foreground.tracking-tight')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/dpa",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/privacy-policy": [
+            {
+                "tag": "main",
+                "text": "LEGAL\nPrivacy Policy\n\nLearn how we collect, use, and protect your personal information.",
+                "xpath": "/html/body/main[1]/main[1]",
+                "css": "main",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 0,
+                "y": 77,
+                "quality_score": 50,
+                "element_name": "legalprivacy_policylearn_ho",
+                "playwright_selector": "page.locator('xpath=/html/body/main[1]/main[1]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/privacy-policy",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/terms": [
+            {
+                "tag": "h1",
+                "text": "Terms of Service",
+                "xpath": "/html/body/main[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/h1[1]",
+                "css": "h1.mx-auto.font-medium.font-serif.text-foreground.tracking-tight",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "mx-auto mt-4 max-w-3xl font-medium font-serif text-4xl text-foreground tracking-tight sm:text-5xl"
+                },
+                "x": 270,
+                "y": 181,
+                "quality_score": 50,
+                "element_name": "heading_terms_of_service",
+                "playwright_selector": "page.locator('h1.mx-auto.font-medium.font-serif.text-foreground.tracking-tight')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/terms",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/contact": [
+            {
+                "tag": "h1",
+                "text": "Contact Us",
+                "xpath": "/html/body/main[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/h1[1]",
+                "css": "h1.font-medium.font-serif.text-foreground.tracking-tight",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "font-medium font-serif text-4xl text-foreground tracking-tight sm:text-5xl"
+                },
+                "x": 37,
+                "y": 145,
+                "quality_score": 50,
+                "element_name": "heading_contact_us",
+                "playwright_selector": "page.locator('h1.font-medium.font-serif.text-foreground.tracking-tight')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/contact",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/ai-voices": [
+            {
+                "tag": "button",
+                "text": "All Genders",
+                "xpath": "//*[@id=\"base-ui-_R_16qanpfknkmbtb_\"]",
+                "css": "#base-ui-_R_16qanpfknkmbtb_",
+                "role": "combobox",
+                "id": "base-ui-_R_16qanpfknkmbtb_",
+                "type": "button",
+                "isInteractive": true,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "border-border data-[placeholder]:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:aria-invalid:border-destructive/50 gap-1.5 rounded-4xl border px-3 py-1 text-sm transition-colors focus-visible:ring-[3px] aria-invalid:ring-[3px] data-[size=default]:h-9 data-[size=sm]:h-8 *:data-[slot=select-value]:items-center *:data-[slot=select-value]:gap-1.5 *:data-[slot=select-value]:line-clamp-1 [&_svg:not([class*='size-'])]:size-4 flex items-center justify-between whitespace-nowrap outline-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:shrink-0 w-full bg-input sm:w-[180px]"
+                },
+                "x": 1092,
+                "y": 400,
+                "quality_score": 90,
+                "element_name": "btn_combobox",
+                "playwright_selector": "page.locator('#base-ui-_R_16qanpfknkmbtb_')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/ai-voices",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/contact-sales": [
+            {
+                "tag": "input",
+                "text": "",
+                "xpath": "//input[@name=\"region\"]",
+                "css": "input",
+                "id": "",
+                "name": "region",
+                "isInteractive": true,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 394,
+                "y": 629,
+                "quality_score": 50,
+                "element_name": "input_el",
+                "playwright_selector": "page.locator('xpath=//input[@name=\"region\"]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/contact-sales",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://login.jellypod.com/?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&state=eyJyZXR1cm5QYXRobmFtZSI6Ii9wb2RjYXN0LWNsaXAtZ2VuZXJhdG9yIn0%3D&authorization_session_id=01KJ4RTH31MAMEHMB1MKZ3CKX0": [
+            {
+                "tag": "h1",
+                "text": "Sign in to Jellypod",
+                "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[1]/h1[1]",
+                "css": "h1.rt-Heading.rt-r-ta-center.rt-r-tw-balance.ak-Heading",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "rt-Heading rt-r-size-6 rt-r-ta-center rt-r-tw-balance ak-Heading"
+                },
+                "x": 548,
+                "y": 195,
+                "quality_score": 50,
+                "element_name": "heading_sign_in_to_jellypod",
+                "playwright_selector": "page.locator('h1.rt-Heading.rt-r-ta-center.rt-r-tw-balance.ak-Heading')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://login.jellypod.com/?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&state=eyJyZXR1cm5QYXRobmFtZSI6Ii9wb2RjYXN0LWNsaXAtZ2VuZXJhdG9yIn0%3D&authorization_session_id=01KJ4RTH31MAMEHMB1MKZ3CKX0",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/careers": [
+            {
+                "tag": "main",
+                "text": "CAREERS\nJoin the team.\n\nHelp us accelerate human creativity.\n\nOUR MISSION\nWe're a small team with a ",
+                "xpath": "/html/body/main[1]/main[1]",
+                "css": "main",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 0,
+                "y": 77,
+                "quality_score": 50,
+                "element_name": "careersjoin_the_teamhelp_u",
+                "playwright_selector": "page.locator('xpath=/html/body/main[1]/main[1]')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/careers",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/compare": [
+            {
+                "tag": "h1",
+                "text": "Compare Jellypod to Alternatives",
+                "xpath": "/html/body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/h1[1]",
+                "css": "h1.font-light.tracking-tight",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "font-light text-4xl tracking-tight md:text-5xl"
+                },
+                "x": 53,
+                "y": 225,
+                "quality_score": 50,
+                "element_name": "heading_compare_jellypod_to_alternativ",
+                "playwright_selector": "page.locator('h1.font-light.tracking-tight')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/compare",
+                "confidence_score": 0.5
+            }
+        ],
+        "https://www.jellypod.com/customer-stories": [
+            {
+                "tag": "h1",
+                "text": "Customer Stories",
+                "xpath": "/html/body/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/h1[1]",
+                "css": "h1.font-light.tracking-tight",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": "font-light text-4xl tracking-tight md:text-5xl"
+                },
+                "x": 53,
+                "y": 145,
+                "quality_score": 50,
+                "element_name": "heading_customer_stories",
+                "playwright_selector": "page.locator('h1.font-light.tracking-tight')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "https://www.jellypod.com/customer-stories",
+                "confidence_score": 0.5
+            }
+        ]
+    },
+    "site_graph": {}
+}

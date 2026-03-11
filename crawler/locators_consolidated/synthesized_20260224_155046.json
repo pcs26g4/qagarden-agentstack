@@ -1,0 +1,35 @@
+{
+    "site_info": {
+        "base_url": "unknown",
+        "synthesis_timestamp": "2026-02-24T15:50:46.114308",
+        "total_unique_pages": 1,
+        "total_raw_locators": 2
+    },
+    "pages": {
+        "http://example.com/": [
+            {
+                "tag": "h1",
+                "text": "Example Domain",
+                "xpath": "/html/body/div[1]/h1[1]",
+                "css": "h1",
+                "id": "",
+                "isInteractive": false,
+                "attributes": {
+                    "href": null,
+                    "src": null,
+                    "class": ""
+                },
+                "x": 246,
+                "y": 118,
+                "quality_score": 50,
+                "element_name": "heading_example_domain",
+                "playwright_selector": "page.locator('h1')",
+                "is_unique": true,
+                "element_count": 1,
+                "url": "http://example.com/",
+                "confidence_score": 0.5
+            }
+        ]
+    },
+    "site_graph": {}
+}

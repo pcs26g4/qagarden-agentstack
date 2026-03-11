@@ -1,0 +1,10 @@
+{
+  "FORMYFORMCOMPONENTS_ENABL": "html",
+  "FORMYFORMCOMPONENTS_ENABL_1": "body",
+  "FORMYFORMCOMPONENTS": "nav.navbar.navbar-expand-lg.bg-light",
+  "LINK_FORMY": "#logo",
+  "FORMCOMPONENTS": "#navbarNavDropdown",
+  "LINK_FORM": "a.nav-link",
+  "LINK_COMPONENTS": "#navbarDropdownMenuLink",
+  "HEADING_ENABLED_AND_DISABLED_ELEMENTS": "h1"
+}

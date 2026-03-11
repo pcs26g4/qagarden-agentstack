@@ -1,0 +1,105 @@
+{
+  "testCases": [
+    {
+      "id": "TC_Navigation_001",
+      "title": "Verify navigation to Sandbox page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Sandbox\")]')`",
+        "Verification: Expect URL to change to '/pages/'"
+      ],
+      "expected": [
+        "Sandbox page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_002",
+      "title": "Verify navigation to Lessons page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to change to '/lessons/'"
+      ],
+      "expected": [
+        "Lessons page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_003",
+      "title": "Verify navigation to FAQ page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to change to '/faq/'"
+      ],
+      "expected": [
+        "FAQ page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_004",
+      "title": "Verify navigation to Login page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
+        "Verification: Expect URL to change to '/login/'"
+      ],
+      "expected": [
+        "Login page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_005",
+      "title": "Verify navigation to Sandbox page via 'Explore Sandbox' button",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('a.btn.btn-lg.btn-default')`",
+        "Verification: Expect URL to change to '/pages/'"
+      ],
+      "expected": [
+        "Sandbox page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_006",
+      "title": "Verify navigation to Lessons page via 'Begin Lessons' button",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('a.btn.btn-lg.btn-primary')`",
+        "Verification: Expect URL to change to '/lessons/'"
+      ],
+      "expected": [
+        "Lessons page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_007",
+      "title": "Verify navigation to Home page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('a.nav-link.hidden-sm.hidden-xs')`",
+        "Verification: Expect URL to change to '/'"
+      ],
+      "expected": [
+        "Home page loads successfully"
+      ]
+    }
+  ],
+  "url": "",
+  "generatedAt": "2026-03-11T09:57:12.441455",
+  "runId": "84c1f15e-054c-4b0c-b4dd-ba731f398c2d"
+}

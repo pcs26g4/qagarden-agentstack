@@ -1,0 +1,70 @@
+{
+  "elements": {
+    "useragent_disallow_lesso": {
+      "tag": "html",
+      "text": "User-agent: *\nDisallow: /lessons/\nDisallow: /faq/",
+      "xpath": "/html/body/html[1]",
+      "css": "html",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 0,
+      "y": 0,
+      "quality_score": 50,
+      "element_name": "useragent_disallow_lesso",
+      "playwright_selector": "page.locator('html')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "useragent_disallow_lesso_8_13": {
+      "tag": "body",
+      "text": "User-agent: *\nDisallow: /lessons/\nDisallow: /faq/",
+      "xpath": "/html/body",
+      "css": "body",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 8,
+      "y": 13,
+      "quality_score": 50,
+      "element_name": "useragent_disallow_lesso_8_13",
+      "playwright_selector": "page.locator('body')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "useragent_disallow_lesso_2": {
+      "tag": "pre",
+      "text": "User-agent: *\nDisallow: /lessons/\nDisallow: /faq/",
+      "xpath": "/html/body/pre[1]",
+      "css": "pre",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 8,
+      "y": 13,
+      "quality_score": 50,
+      "element_name": "useragent_disallow_lesso_2",
+      "playwright_selector": "page.locator('pre')",
+      "is_unique": true,
+      "element_count": 1
+    }
+  },
+  "url": "http://www.scrapethissite.com/robots.txt",
+  "screen_id": 10,
+  "timestamp": "2026-03-11T09:54:34.042101",
+  "metadata": {
+    "title": ""
+  }
+}

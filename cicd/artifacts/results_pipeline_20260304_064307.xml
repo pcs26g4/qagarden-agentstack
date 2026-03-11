@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="19" skipped="0" tests="49" time="261.699" timestamp="2026-03-04T06:46:35.632218" hostname="ip-172-31-89-239"><testcase classname="tests.consolidated.test_consolidated" name="test_page_navigation_to_pricing" time="3.625" /><testcase classname="tests.consolidated.test_consolidated" name="test_page_check_prompt_to_podcast_button_visibility" time="2.652" /><testcase classname="tests.consolidated.test_consolidated" name="test_page_click_get_started_for_free_navigates_to_signup" time="2.716" /><testcase classname="tests.consolidated.test_consolidated" name="test_page_check_ai_voice_library_heading_visibility" time="32.964"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for get_by_role(&quot;menuitem&quot;, name=&quot;AI Voice Library&quot;).first">tests/consolidated/test_consolidated.py:37: in test_page_check_ai_voice_library_heading_visibility
+    page.get_by_role("menuitem", name="AI Voice Library").first.click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for get_by_role("menuitem", name="AI Voice Library").first</failure></testcase><testcase classname="tests.consolidated.test_consolidated" name="test_page_navigation_to_careers" time="33.145"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for get_by_role(&quot;menuitem&quot;, name=&quot;Careers&quot;).first">tests/consolidated/test_consolidated.py:45: in test_page_navigation_to_careers
+    page.get_by_role("menuitem", name="Careers").first.click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for get_by_role("menuitem", name="Careers").first</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_01" time="3.465" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_02" time="7.982"><failure message="AssertionError: Page URL expected to be 're.compile('/enterprise')'&#10;Actual value: https://www.jellypod.com/pricing &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    3 × unexpected value &quot;https://www.jellypod.com/&quot;&#10;    6 × unexpected value &quot;https://www.jellypod.com/pricing&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:25: in test_TC_Navigation_02
+    expect(page).to_have_url(re.compile(r"/enterprise"))
+E   AssertionError: Page URL expected to be 're.compile('/enterprise')'
+E   Actual value: https://www.jellypod.com/pricing 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       3 × unexpected value "https://www.jellypod.com/"
+E       6 × unexpected value "https://www.jellypod.com/pricing"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_03" time="3.829" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_04" time="8.004"><failure message="AssertionError: Page URL expected to be 're.compile('/signup')'&#10;Actual value: https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSN7ZJ03SKVA2XK0XZ906A &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    2 × unexpected value &quot;https://www.jellypod.com/&quot;&#10;    - waiting for&quot; https://www.jellypod.com/signup&quot; navigation to finish...&#10;    - navigated to &quot;https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSN7ZJ03SKVA2XK0XZ906A&quot;&#10;    6 × unexpected value &quot;https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSN7ZJ03SKVA2XK0XZ906A&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:39: in test_TC_Navigation_04
+    expect(page).to_have_url(re.compile(r"/signup"))
+E   AssertionError: Page URL expected to be 're.compile('/signup')'
+E   Actual value: https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSN7ZJ03SKVA2XK0XZ906A 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       2 × unexpected value "https://www.jellypod.com/"
+E       - waiting for" https://www.jellypod.com/signup" navigation to finish...
+E       - navigated to "https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSN7ZJ03SKVA2XK0XZ906A"
+E       6 × unexpected value "https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSN7ZJ03SKVA2XK0XZ906A"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_05" time="4.294" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_06" time="7.824"><failure message="AssertionError: Page URL expected to be 're.compile('/signup')'&#10;Actual value: https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSNKWPBY0HK5G028W0KHG0 &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    2 × unexpected value &quot;https://www.jellypod.com/&quot;&#10;    - waiting for&quot; https://www.jellypod.com/signup&quot; navigation to finish...&#10;    - navigated to &quot;https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSNKWPBY0HK5G028W0KHG0&quot;&#10;    6 × unexpected value &quot;https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSNKWPBY0HK5G028W0KHG0&quot;">tests/page_1_cdbd/test_page_1_cdbd.py:53: in test_TC_Navigation_06
+    expect(page).to_have_url(re.compile(r"/signup"))
+E   AssertionError: Page URL expected to be 're.compile('/signup')'
+E   Actual value: https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSNKWPBY0HK5G028W0KHG0 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       2 × unexpected value "https://www.jellypod.com/"
+E       - waiting for" https://www.jellypod.com/signup" navigation to finish...
+E       - navigated to "https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSNKWPBY0HK5G028W0KHG0"
+E       6 × unexpected value "https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSNKWPBY0HK5G028W0KHG0"</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_07" time="3.178" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_08" time="3.718" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_09" time="3.283" /><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_Navigation_10" time="2.873"><failure message="playwright._impl._errors.Error: Locator.click: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(),' is not a valid XPath expression.&#10;    at Object.queryAll (&lt;anonymous&gt;:6147:25)&#10;    at InjectedScript._queryEngineAll (&lt;anonymous&gt;:6847:49)&#10;    at InjectedScript.querySelectorAll (&lt;anonymous&gt;:6834:30)&#10;    at eval (eval at evaluate (:290:30), &lt;anonymous&gt;:2:35)&#10;    at UtilityScript.evaluate (&lt;anonymous&gt;:292:16)&#10;    at UtilityScript.&lt;anonymous&gt; (&lt;anonymous&gt;:1:44)&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(),&quot;)">tests/page_1_cdbd/test_page_1_cdbd.py:80: in test_TC_Navigation_10
+    page.locator("xpath=//a[contains(text(), ").click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(),' is not a valid XPath expression.
+E       at Object.queryAll (&lt;anonymous&gt;:6147:25)
+E       at InjectedScript._queryEngineAll (&lt;anonymous&gt;:6847:49)
+E       at InjectedScript.querySelectorAll (&lt;anonymous&gt;:6834:30)
+E       at eval (eval at evaluate (:290:30), &lt;anonymous&gt;:2:35)
+E       at UtilityScript.evaluate (&lt;anonymous&gt;:292:16)
+E       at UtilityScript.&lt;anonymous&gt; (&lt;anonymous&gt;:1:44)
+E   Call log:
+E     - waiting for locator("//a[contains(text(),")</failure></testcase><testcase classname="tests.page_1_cdbd.test_page_1_cdbd" name="test_TC_CookiePreferences_01" time="3.010"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@data-testid=' is not a valid XPath expression.&#10;    at Object.queryAll (&lt;anonymous&gt;:6147:25)&#10;    at InjectedScript._queryEngineAll (&lt;anonymous&gt;:6847:49)&#10;    at InjectedScript.querySelectorAll (&lt;anonymous&gt;:6834:30)&#10;    at eval (eval at evaluate (:290:30), &lt;anonymous&gt;:2:42)&#10;    at UtilityScript.evaluate (&lt;anonymous&gt;:292:16)&#10;    at UtilityScript.&lt;anonymous&gt; (&lt;anonymous&gt;:1:44) &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;//*[@data-testid=&quot;).first">tests/page_1_cdbd/test_page_1_cdbd.py:88: in test_TC_CookiePreferences_01
+    expect(page.locator("xpath=//*[@data-testid=").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@data-testid=' is not a valid XPath expression.
+E       at Object.queryAll (&lt;anonymous&gt;:6147:25)
+E       at InjectedScript._queryEngineAll (&lt;anonymous&gt;:6847:49)
+E       at InjectedScript.querySelectorAll (&lt;anonymous&gt;:6834:30)
+E       at eval (eval at evaluate (:290:30), &lt;anonymous&gt;:2:42)
+E       at UtilityScript.evaluate (&lt;anonymous&gt;:292:16)
+E       at UtilityScript.&lt;anonymous&gt; (&lt;anonymous&gt;:1:44) 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("//*[@data-testid=").first</failure></testcase><testcase classname="tests.page_2.test_page_2" name="test_page_ai_voices_heading_visibility" time="2.432" /><testcase classname="tests.page_2.test_page_2" name="test_page_ai_voices_explore_link_navigation" time="3.444" /><testcase classname="tests.page_2.test_page_2" name="test_page_ai_voices_gender_filter_button_visibility" time="2.563" /><testcase classname="tests.page_2.test_page_2" name="test_page_ai_voices_accent_links_are_visible" time="2.442" /><testcase classname="tests.page_2.test_page_2" name="test_page_ai_voices_footer_links_are_visible" time="2.552"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: strict mode violation: locator(&quot;//a[contains(text(), \&quot;Pricing\&quot;)]&quot;) resolved to 2 elements:&#10;    1) &lt;a href=&quot;/pricing&quot; data-slot=&quot;navigation-menu-link&quot; class=&quot;!rounded-full flex h-9 items-center px-4 py-2 font-medium text-foreground text-sm transition-all hover:bg-muted/50 hover:ring-1 hover:ring-border data-[active=true]:focus:bg-muted data-[active=true]:hover:bg-muted data-[active=true]:bg-muted/50 focus-visible:ring-ring/50 hover:bg-muted focus:bg-muted flex items-center gap-1.5 rounded-xl p-3 text-sm transition-all outline-none focus-visible:ring-[3px] focus-visible:outline-1 [&amp;_svg:not([cl…&gt;Pricing&lt;/a&gt; aka locator(&quot;header&quot;).get_by_role(&quot;link&quot;, name=&quot;Pricing&quot;)&#10;    2) &lt;a href=&quot;/pricing&quot; class=&quot;font-medium text-foreground/70 data-hover:text-foreground&quot;&gt;Pricing&lt;/a&gt; aka locator(&quot;footer&quot;).get_by_role(&quot;link&quot;, name=&quot;Pricing&quot;)&#10; &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;//a[contains(text(), \&quot;Pricing\&quot;)]&quot;)">tests/page_2/test_page_2.py:51: in test_page_ai_voices_footer_links_are_visible
+    expect(page.locator("xpath=//a[contains(text(), \"Pricing\")]")).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: strict mode violation: locator("//a[contains(text(), \"Pricing\")]") resolved to 2 elements:
+E       1) &lt;a href="/pricing" data-slot="navigation-menu-link" class="!rounded-full flex h-9 items-center px-4 py-2 font-medium text-foreground text-sm transition-all hover:bg-muted/50 hover:ring-1 hover:ring-border data-[active=true]:focus:bg-muted data-[active=true]:hover:bg-muted data-[active=true]:bg-muted/50 focus-visible:ring-ring/50 hover:bg-muted focus:bg-muted flex items-center gap-1.5 rounded-xl p-3 text-sm transition-all outline-none focus-visible:ring-[3px] focus-visible:outline-1 [&amp;_svg:not([cl…&gt;Pricing&lt;/a&gt; aka locator("header").get_by_role("link", name="Pricing")
+E       2) &lt;a href="/pricing" class="font-medium text-foreground/70 data-hover:text-foreground"&gt;Pricing&lt;/a&gt; aka locator("footer").get_by_role("link", name="Pricing")
+E    
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("//a[contains(text(), \"Pricing\")]")</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_01" time="2.752" /><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_02" time="7.129"><failure message="AssertionError: Page URL expected to be 're.compile('/enterprise')'&#10;Actual value: https://www.jellypod.com/pricing &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    3 × unexpected value &quot;https://www.jellypod.com/careers&quot;&#10;    6 × unexpected value &quot;https://www.jellypod.com/pricing&quot;">tests/page_3_9ddb/test_page_3_9ddb.py:26: in test_TC_Navigation_02
+    expect(page).to_have_url(re.compile(r"/enterprise"))
+E   AssertionError: Page URL expected to be 're.compile('/enterprise')'
+E   Actual value: https://www.jellypod.com/pricing 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       3 × unexpected value "https://www.jellypod.com/careers"
+E       6 × unexpected value "https://www.jellypod.com/pricing"</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_03" time="2.974" /><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_04" time="7.336"><failure message="AssertionError: Page URL expected to be 're.compile('/signup')'&#10;Actual value: https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSQ5560QK0V5Q2Q9YTB94K &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    2 × unexpected value &quot;https://www.jellypod.com/careers&quot;&#10;    5 × unexpected value &quot;https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSQ5560QK0V5Q2Q9YTB94K&quot;">tests/page_3_9ddb/test_page_3_9ddb.py:40: in test_TC_Navigation_04
+    expect(page).to_have_url(re.compile(r"/signup"))
+E   AssertionError: Page URL expected to be 're.compile('/signup')'
+E   Actual value: https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSQ5560QK0V5Q2Q9YTB94K 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       2 × unexpected value "https://www.jellypod.com/careers"
+E       5 × unexpected value "https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSQ5560QK0V5Q2Q9YTB94K"</failure></testcase><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Navigation_05" time="2.212" /><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_Positions_01" time="2.177" /><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_ConsentManager_01" time="2.461" /><testcase classname="tests.page_3_9ddb.test_page_3_9ddb" name="test_TC_ConsentManager_02" time="2.450" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_01" time="2.704" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_02" time="7.202"><failure message="AssertionError: Page URL expected to be 're.compile('/enterprise')'&#10;Actual value: https://www.jellypod.com/pricing &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    3 × unexpected value &quot;https://www.jellypod.com/compare&quot;&#10;    5 × unexpected value &quot;https://www.jellypod.com/pricing&quot;">tests/page_4_2b0a/test_page_4_2b0a.py:26: in test_TC_Navigation_02
+    expect(page).to_have_url(re.compile(r"/enterprise"))
+E   AssertionError: Page URL expected to be 're.compile('/enterprise')'
+E   Actual value: https://www.jellypod.com/pricing 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       3 × unexpected value "https://www.jellypod.com/compare"
+E       5 × unexpected value "https://www.jellypod.com/pricing"</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_03" time="3.068" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_Navigation_04" time="7.401"><failure message="AssertionError: Page URL expected to be 're.compile('/signup')'&#10;Actual value: https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSR29M4W7HNNCAQC68HEBX &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    2 × unexpected value &quot;https://www.jellypod.com/compare&quot;&#10;    - waiting for&quot; https://www.jellypod.com/signup&quot; navigation to finish...&#10;    - navigated to &quot;https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSR29M4W7HNNCAQC68HEBX&quot;&#10;    6 × unexpected value &quot;https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSR29M4W7HNNCAQC68HEBX&quot;">tests/page_4_2b0a/test_page_4_2b0a.py:40: in test_TC_Navigation_04
+    expect(page).to_have_url(re.compile(r"/signup"))
+E   AssertionError: Page URL expected to be 're.compile('/signup')'
+E   Actual value: https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSR29M4W7HNNCAQC68HEBX 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       2 × unexpected value "https://www.jellypod.com/compare"
+E       - waiting for" https://www.jellypod.com/signup" navigation to finish...
+E       - navigated to "https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSR29M4W7HNNCAQC68HEBX"
+E       6 × unexpected value "https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSR29M4W7HNNCAQC68HEBX"</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_ComparisonLink_01" time="2.584" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_ComparisonLink_02" time="3.195" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_ComparisonLink_03" time="2.666" /><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_CookiePreferences_01" time="2.304"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@data-testid=' is not a valid XPath expression.&#10;    at Object.queryAll (&lt;anonymous&gt;:6147:25)&#10;    at InjectedScript._queryEngineAll (&lt;anonymous&gt;:6847:49)&#10;    at InjectedScript.querySelectorAll (&lt;anonymous&gt;:6834:30)&#10;    at eval (eval at evaluate (:290:30), &lt;anonymous&gt;:2:42)&#10;    at UtilityScript.evaluate (&lt;anonymous&gt;:292:16)&#10;    at UtilityScript.&lt;anonymous&gt; (&lt;anonymous&gt;:1:44) &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;//*[@data-testid=&quot;).first">tests/page_4_2b0a/test_page_4_2b0a.py:68: in test_TC_CookiePreferences_01
+    expect(page.locator("xpath=//*[@data-testid=").first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@data-testid=' is not a valid XPath expression.
+E       at Object.queryAll (&lt;anonymous&gt;:6147:25)
+E       at InjectedScript._queryEngineAll (&lt;anonymous&gt;:6847:49)
+E       at InjectedScript.querySelectorAll (&lt;anonymous&gt;:6834:30)
+E       at eval (eval at evaluate (:290:30), &lt;anonymous&gt;:2:42)
+E       at UtilityScript.evaluate (&lt;anonymous&gt;:292:16)
+E       at UtilityScript.&lt;anonymous&gt; (&lt;anonymous&gt;:1:44) 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("//*[@data-testid=").first</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_FooterNavigation_01" time="2.149"><failure message="playwright._impl._errors.Error: Locator.click: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(),' is not a valid XPath expression.&#10;    at Object.queryAll (&lt;anonymous&gt;:6147:25)&#10;    at InjectedScript._queryEngineAll (&lt;anonymous&gt;:6847:49)&#10;    at InjectedScript.querySelectorAll (&lt;anonymous&gt;:6834:30)&#10;    at eval (eval at evaluate (:290:30), &lt;anonymous&gt;:2:35)&#10;    at UtilityScript.evaluate (&lt;anonymous&gt;:292:16)&#10;    at UtilityScript.&lt;anonymous&gt; (&lt;anonymous&gt;:1:44)&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(),&quot;)">tests/page_4_2b0a/test_page_4_2b0a.py:74: in test_TC_FooterNavigation_01
+    page.locator("xpath=//a[contains(text(), ").click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(),' is not a valid XPath expression.
+E       at Object.queryAll (&lt;anonymous&gt;:6147:25)
+E       at InjectedScript._queryEngineAll (&lt;anonymous&gt;:6847:49)
+E       at InjectedScript.querySelectorAll (&lt;anonymous&gt;:6834:30)
+E       at eval (eval at evaluate (:290:30), &lt;anonymous&gt;:2:35)
+E       at UtilityScript.evaluate (&lt;anonymous&gt;:292:16)
+E       at UtilityScript.&lt;anonymous&gt; (&lt;anonymous&gt;:1:44)
+E   Call log:
+E     - waiting for locator("//a[contains(text(),")</failure></testcase><testcase classname="tests.page_4_2b0a.test_page_4_2b0a" name="test_TC_FooterNavigation_02" time="2.213"><failure message="playwright._impl._errors.Error: Locator.click: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(),' is not a valid XPath expression.&#10;    at Object.queryAll (&lt;anonymous&gt;:6147:25)&#10;    at InjectedScript._queryEngineAll (&lt;anonymous&gt;:6847:49)&#10;    at InjectedScript.querySelectorAll (&lt;anonymous&gt;:6834:30)&#10;    at eval (eval at evaluate (:290:30), &lt;anonymous&gt;:2:35)&#10;    at UtilityScript.evaluate (&lt;anonymous&gt;:292:16)&#10;    at UtilityScript.&lt;anonymous&gt; (&lt;anonymous&gt;:1:44)&#10;Call log:&#10;  - waiting for locator(&quot;//a[contains(text(),&quot;)">tests/page_4_2b0a/test_page_4_2b0a.py:81: in test_TC_FooterNavigation_02
+    page.locator("xpath=//a[contains(text(), ").click()
+../venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py:15631: in click
+    self._sync(
+../venv/lib/python3.12/site-packages/playwright/_impl/_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+../venv/lib/python3.12/site-packages/playwright/_impl/_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+../venv/lib/python3.12/site-packages/playwright/_impl/_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.Error: Locator.click: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(),' is not a valid XPath expression.
+E       at Object.queryAll (&lt;anonymous&gt;:6147:25)
+E       at InjectedScript._queryEngineAll (&lt;anonymous&gt;:6847:49)
+E       at InjectedScript.querySelectorAll (&lt;anonymous&gt;:6834:30)
+E       at eval (eval at evaluate (:290:30), &lt;anonymous&gt;:2:35)
+E       at UtilityScript.evaluate (&lt;anonymous&gt;:292:16)
+E       at UtilityScript.&lt;anonymous&gt; (&lt;anonymous&gt;:1:44)
+E   Call log:
+E     - waiting for locator("//a[contains(text(),")</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Navigation_01" time="2.874" /><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Navigation_02" time="7.302"><failure message="AssertionError: Page URL expected to be 're.compile('/enterprise')'&#10;Actual value: https://www.jellypod.com/pricing &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    3 × unexpected value &quot;https://www.jellypod.com/contact&quot;&#10;    5 × unexpected value &quot;https://www.jellypod.com/pricing&quot;">tests/page_5_aa33/test_page_5_aa33.py:26: in test_TC_Navigation_02
+    expect(page).to_have_url(re.compile(r"/enterprise"))
+E   AssertionError: Page URL expected to be 're.compile('/enterprise')'
+E   Actual value: https://www.jellypod.com/pricing 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       3 × unexpected value "https://www.jellypod.com/contact"
+E       5 × unexpected value "https://www.jellypod.com/pricing"</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Navigation_03" time="3.208" /><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Navigation_04" time="7.037"><failure message="AssertionError: Page URL expected to be 're.compile('/signup')'&#10;Actual value: https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSS5SBTHB7XT96SY6SEZB8 &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    2 × unexpected value &quot;https://www.jellypod.com/contact&quot;&#10;    - waiting for&quot; https://www.jellypod.com/signup&quot; navigation to finish...&#10;    - navigated to &quot;https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSS5SBTHB7XT96SY6SEZB8&quot;&#10;    6 × unexpected value &quot;https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSS5SBTHB7XT96SY6SEZB8&quot;">tests/page_5_aa33/test_page_5_aa33.py:40: in test_TC_Navigation_04
+    expect(page).to_have_url(re.compile(r"/signup"))
+E   AssertionError: Page URL expected to be 're.compile('/signup')'
+E   Actual value: https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSS5SBTHB7XT96SY6SEZB8 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       2 × unexpected value "https://www.jellypod.com/contact"
+E       - waiting for" https://www.jellypod.com/signup" navigation to finish...
+E       - navigated to "https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSS5SBTHB7XT96SY6SEZB8"
+E       6 × unexpected value "https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSS5SBTHB7XT96SY6SEZB8"</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Interaction_01" time="2.095" /><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Interaction_02" time="2.261" /><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Interaction_03" time="7.295"><failure message="AssertionError: Page URL expected to be 're.compile('/signup')'&#10;Actual value: https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSSH927M94JG03K2NVH7K5 &#10;Call log:&#10;  - Expect &quot;to_have_url&quot; with timeout 5000ms&#10;    2 × unexpected value &quot;https://www.jellypod.com/contact&quot;&#10;    - waiting for&quot; https://www.jellypod.com/signup&quot; navigation to finish...&#10;    - navigated to &quot;https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSSH927M94JG03K2NVH7K5&quot;&#10;    5 × unexpected value &quot;https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSSH927M94JG03K2NVH7K5&quot;">tests/page_5_aa33/test_page_5_aa33.py:60: in test_TC_Interaction_03
+    expect(page).to_have_url(re.compile(r"/signup"))
+E   AssertionError: Page URL expected to be 're.compile('/signup')'
+E   Actual value: https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSSH927M94JG03K2NVH7K5 
+E   Call log:
+E     - Expect "to_have_url" with timeout 5000ms
+E       2 × unexpected value "https://www.jellypod.com/contact"
+E       - waiting for" https://www.jellypod.com/signup" navigation to finish...
+E       - navigated to "https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSSH927M94JG03K2NVH7K5"
+E       5 × unexpected value "https://login.jellypod.com/sign-up?client_id=client_01K4VN6KHJECJDHRVF0QV2F4PM&amp;redirect_uri=https%3A%2F%2Fjellypod.com%2Fauth%2Fcallback&amp;authorization_session_id=01KJVSSH927M94JG03K2NVH7K5"</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Interaction_04" time="2.036" /><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Interaction_05" time="17.552"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; with timeout 15000ms&#10;  - waiting for locator(&quot;//*[@data-testid=\&quot;consent-manager-widget-footer-save-button\&quot;]&quot;).first">tests/page_5_aa33/test_page_5_aa33.py:80: in test_TC_Interaction_05
+    expect(page.locator('xpath=//*[@data-testid="consent-manager-widget-footer-save-button"]').first).to_be_visible(timeout=15000)
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" with timeout 15000ms
+E     - waiting for locator("//*[@data-testid=\"consent-manager-widget-footer-save-button\"]").first</failure></testcase><testcase classname="tests.page_5_aa33.test_page_5_aa33" name="test_TC_Navigation_05" time="2.274" /></testsuite></testsuites>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="5" failures="0" skipped="0" tests="5" time="0.909" timestamp="2026-03-04T04:42:27.573342" hostname="ip-172-31-89-239"><testcase classname="" name="tests.consolidated.test_consolidated" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/consolidated/test_consolidated.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/consolidated/test_consolidated.py:9: in &lt;module&gt;
+    from config.urls import CONSOLIDATED_URL
+E   ModuleNotFoundError: No module named 'config.urls'</error></testcase><testcase classname="" name="tests.page_1.test_page_1" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_1/test_page_1.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_1/test_page_1.py:9: in &lt;module&gt;
+    from config.urls import PAGE_1_URL
+E   ModuleNotFoundError: No module named 'config.urls'</error></testcase><testcase classname="" name="tests.page_10.test_page_10" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_10/test_page_10.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_10/test_page_10.py:9: in &lt;module&gt;
+    from config.urls import PAGE_10_URL
+E   ModuleNotFoundError: No module named 'config.urls'</error></testcase><testcase classname="" name="tests.page_10_be84.test_page_10_be84" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_10_be84/test_page_10_be84.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_10_be84/test_page_10_be84.py:9: in &lt;module&gt;
+    from config.urls import PAGE_10_BE84_URL
+E   ModuleNotFoundError: No module named 'config.urls'</error></testcase><testcase classname="" name="tests.page_1_cdbd.test_page_1_cdbd" time="0.000"><error message="collection failure">ImportError while importing test module '/home/ubuntu/qagarden-backend/cicd/tests/page_1_cdbd/test_page_1_cdbd.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../venv/lib/python3.12/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+../venv/lib/python3.12/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+&lt;frozen importlib._bootstrap&gt;:1387: in _gcd_import
+    ???
+&lt;frozen importlib._bootstrap&gt;:1360: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:1331: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:935: in _load_unlocked
+    ???
+../venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:175: in exec_module
+    exec(co, module.__dict__)
+tests/page_1_cdbd/test_page_1_cdbd.py:9: in &lt;module&gt;
+    from config.urls import PAGE_1_CDBD_URL
+E   ModuleNotFoundError: No module named 'config.urls'</error></testcase></testsuite></testsuites>
