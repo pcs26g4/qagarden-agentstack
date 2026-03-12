@@ -32,7 +32,7 @@
         "src": null,
         "class": "active"
       },
-      "x": 79,
+      "x": 103,
       "y": 10,
       "quality_score": 90,
       "element_name": "scrape_this_site",
@@ -40,7 +40,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_scrape_this_site_79_10": {
+    "link_scrape_this_site_103_10": {
       "tag": "a",
       "text": "Scrape This Site",
       "xpath": "//a[contains(text(), \"Scrape This Site\")]",
@@ -52,10 +52,10 @@
         "src": null,
         "class": "nav-link hidden-sm hidden-xs"
       },
-      "x": 79,
+      "x": 103,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_scrape_this_site_79_10",
+      "element_name": "link_scrape_this_site_103_10",
       "playwright_selector": "page.locator('a.nav-link.hidden-sm.hidden-xs')",
       "is_unique": true,
       "element_count": 1
@@ -72,7 +72,7 @@
         "src": null,
         "class": ""
       },
-      "x": 265,
+      "x": 289,
       "y": 10,
       "quality_score": 90,
       "element_name": "sandbox",
@@ -80,7 +80,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_sandbox_265_10": {
+    "link_sandbox_289_10": {
       "tag": "a",
       "text": "Sandbox",
       "xpath": "//a[contains(text(), \"Sandbox\")]",
@@ -92,10 +92,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 265,
+      "x": 289,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_sandbox_265_10",
+      "element_name": "link_sandbox_289_10",
       "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Sandbox\")]')",
       "is_unique": true,
       "element_count": 1
@@ -112,7 +112,7 @@
         "src": null,
         "class": ""
       },
-      "x": 391,
+      "x": 414,
       "y": 10,
       "quality_score": 90,
       "element_name": "lessons",
@@ -120,7 +120,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_lessons_391_10": {
+    "link_lessons_414_10": {
       "tag": "a",
       "text": "Lessons",
       "xpath": "//a[contains(text(), \"Lessons\")]",
@@ -132,10 +132,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 391,
+      "x": 414,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_lessons_391_10",
+      "element_name": "link_lessons_414_10",
       "playwright_selector": "page.locator('a.nav-link').nth(0)",
       "is_unique": false,
       "element_count": 5
@@ -152,7 +152,7 @@
         "src": null,
         "class": ""
       },
-      "x": 513,
+      "x": 536,
       "y": 10,
       "quality_score": 90,
       "element_name": "faq",
@@ -160,7 +160,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_faq_513_10": {
+    "link_faq_536_10": {
       "tag": "a",
       "text": "FAQ",
       "xpath": "//a[contains(text(), \"FAQ\")]",
@@ -172,10 +172,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 513,
+      "x": 536,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_faq_513_10",
+      "element_name": "link_faq_536_10",
       "playwright_selector": "page.locator('a.nav-link').nth(0)",
       "is_unique": false,
       "element_count": 5
@@ -192,7 +192,7 @@
         "src": null,
         "class": "pull-right"
       },
-      "x": 1103,
+      "x": 1126,
       "y": 10,
       "quality_score": 90,
       "element_name": "login",
@@ -200,7 +200,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_login_1103_10": {
+    "link_login_1126_10": {
       "tag": "a",
       "text": "Login",
       "xpath": "//a[contains(text(), \"Login\")]",
@@ -212,15 +212,15 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 1103,
+      "x": 1126,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_login_1103_10",
+      "element_name": "link_login_1126_10",
       "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Login\")]')",
       "is_unique": true,
       "element_count": 1
     },
-    "heading_scrape_this_site_64_390": {
+    "heading_scrape_this_site_88_390": {
       "tag": "h1",
       "text": "Scrape This Site",
       "xpath": "//*[@id=\"hero\"]/div[1]/div[1]/div[1]/h1[1]",
@@ -232,10 +232,10 @@
         "src": null,
         "class": ""
       },
-      "x": 64,
+      "x": 88,
       "y": 390,
       "quality_score": 50,
-      "element_name": "heading_scrape_this_site_64_390",
+      "element_name": "heading_scrape_this_site_88_390",
       "playwright_selector": "page.locator('h1')",
       "is_unique": true,
       "element_count": 1
@@ -252,7 +252,7 @@
         "src": null,
         "class": ""
       },
-      "x": 752,
+      "x": 776,
       "y": 443,
       "quality_score": 50,
       "element_name": "web_scraping",
@@ -272,7 +272,7 @@
         "src": null,
         "class": "btn btn-lg btn-default"
       },
-      "x": 447,
+      "x": 471,
       "y": 549,
       "quality_score": 50,
       "element_name": "link_explore_sandbox",
@@ -292,7 +292,7 @@
         "src": null,
         "class": "btn btn-lg btn-primary"
       },
-      "x": 622,
+      "x": 646,
       "y": 549,
       "quality_score": 50,
       "element_name": "link_begin_lessons",
@@ -323,7 +323,7 @@
   },
   "url": "https://www.scrapethissite.com/",
   "screen_id": 0,
-  "timestamp": "2026-03-11T09:47:26.941236",
+  "timestamp": "2026-03-12T11:09:48.922743",
   "metadata": {
     "title": "Scrape This Site | A public sandbox for learning web scraping"
   }

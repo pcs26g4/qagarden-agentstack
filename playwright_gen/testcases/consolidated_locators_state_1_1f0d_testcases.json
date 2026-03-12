@@ -6,7 +6,7 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
+        "Navigate to /",
         "Click locator `page.locator('xpath=//a[contains(text(), \"Sandbox\")]')`",
         "Verification: Expect URL to change to '/pages/'"
       ],
@@ -20,7 +20,7 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
+        "Navigate to /",
         "Click locator `page.locator('a.nav-link').nth(0)`",
         "Verification: Expect URL to change to '/lessons/'"
       ],
@@ -34,7 +34,7 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
+        "Navigate to /",
         "Click locator `page.locator('a.nav-link').nth(0)`",
         "Verification: Expect URL to change to '/faq/'"
       ],
@@ -48,7 +48,7 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
+        "Navigate to /",
         "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
         "Verification: Expect URL to change to '/login/'"
       ],
@@ -62,7 +62,7 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
+        "Navigate to /",
         "Click locator `page.locator('a.btn.btn-lg.btn-default')`",
         "Verification: Expect URL to change to '/pages/'"
       ],
@@ -76,30 +76,16 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
+        "Navigate to /",
         "Click locator `page.locator('a.btn.btn-lg.btn-primary')`",
         "Verification: Expect URL to change to '/lessons/'"
       ],
       "expected": [
         "Lessons page loads successfully"
       ]
-    },
-    {
-      "id": "TC_Navigation_007",
-      "title": "Verify navigation to Home page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('a.nav-link.hidden-sm.hidden-xs')`",
-        "Verification: Expect URL to change to '/'"
-      ],
-      "expected": [
-        "Home page loads successfully"
-      ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-11T09:57:12.441455",
-  "runId": "84c1f15e-054c-4b0c-b4dd-ba731f398c2d"
+  "generatedAt": "2026-03-12T11:23:10.015157",
+  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
 }

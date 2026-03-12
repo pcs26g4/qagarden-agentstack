@@ -1,0 +1,94 @@
+{
+  "testCases": [
+    {
+      "id": "TC_Navigation_001",
+      "title": "Verify navigation to Lessons page via header link",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to change to '/lessons/'"
+      ],
+      "expected": [
+        "Lessons page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_002",
+      "title": "Verify navigation to FAQ page via header link",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to change to '/faq/'"
+      ],
+      "expected": [
+        "FAQ page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_003",
+      "title": "Verify navigation to Login page via header link",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
+        "Verification: Expect URL to change to '/login/'"
+      ],
+      "expected": [
+        "Login page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Search_001",
+      "title": "Verify searching for a team",
+      "url": "",
+      "inputs": {
+        "STATE_20_INPUT_SEARCH_FOR_TEAMS": "Canucks"
+      },
+      "steps": [
+        "Navigate to ",
+        "Fill 'Canucks' into locator `page.locator('#q')`",
+        "Click locator `page.locator('input.btn.btn-primary')`",
+        "Verification: Ensure search results are displayed."
+      ],
+      "expected": [
+        "Search results for the team are shown"
+      ]
+    },
+    {
+      "id": "TC_Pagination_001",
+      "title": "Verify navigation to next page using pagination",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//*[contains(@aria-label, \"Next\")]')`",
+        "Verification: URL contains '/pages/forms/?page_num=10'"
+      ],
+      "expected": [
+        "Next page of search results is loaded"
+      ]
+    },
+    {
+      "id": "TC_Pagination_002",
+      "title": "Verify navigation to previous page using pagination",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//*[contains(@aria-label, \"Previous\")]')`",
+        "Verification: URL contains '/pages/forms/?page_num=8'"
+      ],
+      "expected": [
+        "Previous page of search results is loaded"
+      ]
+    }
+  ],
+  "url": "",
+  "generatedAt": "2026-03-12T11:23:10.259123",
+  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+}

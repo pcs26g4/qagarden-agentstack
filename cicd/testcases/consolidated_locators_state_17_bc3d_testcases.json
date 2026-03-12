@@ -1,0 +1,94 @@
+{
+  "testCases": [
+    {
+      "id": "TC_Navigation_01",
+      "title": "Verify navigation to Lessons page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('#nav-lessons')`",
+        "Verification: Expect URL to change to '/lessons/'"
+      ],
+      "expected": [
+        "Lessons page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_02",
+      "title": "Verify navigation to FAQ page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('#nav-faq')`",
+        "Verification: Expect URL to change to '/faq/'"
+      ],
+      "expected": [
+        "FAQ page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_03",
+      "title": "Verify navigation to Login page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('#nav-login')`",
+        "Verification: Expect URL to change to '/login/'"
+      ],
+      "expected": [
+        "Login page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Search_01",
+      "title": "Verify search functionality with a valid team name",
+      "url": "",
+      "inputs": {
+        "STATE_17_INPUT_SEARCH_FOR_TEAMS": "Toronto Maple Leafs"
+      },
+      "steps": [
+        "Navigate to ",
+        "Fill 'Toronto Maple Leafs' into locator `page.locator('#q')`",
+        "Click locator `page.locator('input.btn.btn-primary')`",
+        "Verification: Expect some search results to be visible"
+      ],
+      "expected": [
+        "Search results for 'Toronto Maple Leafs' are displayed."
+      ]
+    },
+    {
+      "id": "TC_Pagination_01",
+      "title": "Verify pagination to page 7",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[8]/a[1]')`",
+        "Verification: Expect URL to change to '/pages/forms/?page_num=7'"
+      ],
+      "expected": [
+        "Page 7 loads successfully"
+      ]
+    },
+    {
+      "id": "TC_ResultsPerPage_01",
+      "title": "Verify changing results per page to 50",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Select '50' in locator `page.locator('#per_page')`",
+        "Verification: Expect to see 50 results or the max available if less than 50"
+      ],
+      "expected": [
+        "Results per page are updated to 50"
+      ]
+    }
+  ],
+  "url": "",
+  "generatedAt": "2026-03-12T11:23:10.227197",
+  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+}

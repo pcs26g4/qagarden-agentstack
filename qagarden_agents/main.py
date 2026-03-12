@@ -20,20 +20,20 @@ logger = logging.getLogger("AgentStackMain")
 # ─── Configuration ──────────────────────────────────────────────────
 # SDK Wrapper URLs (Ports 9001-9005)
 WRAPPERS = {
-    "crawler":    "http://localhost:9001/v1/message:send",
-    "testgen":    "http://localhost:9002/v1/message:send",
-    "playwright": "http://localhost:9003/v1/message:send",
-    "cicd":       "http://localhost:9004/v1/message:send",
-    "triage":     "http://localhost:9005/v1/message:send"
+    "crawler":    os.getenv("CRAWLER_WRAPPER_URL", "http://localhost:9001/v1/message:send"),
+    "testgen":    os.getenv("TESTGEN_WRAPPER_URL", "http://localhost:9002/v1/message:send"),
+    "playwright": os.getenv("PLAYWRIGHT_WRAPPER_URL", "http://localhost:9003/v1/message:send"),
+    "cicd":       os.getenv("CICD_WRAPPER_URL", "http://localhost:9004/v1/message:send"),
+    "triage":     os.getenv("TRIAGE_WRAPPER_URL", "http://localhost:9005/v1/message:send")
 }
 
 # Backend URLs (Ports 8001-8005) for status polling
 BACKENDS = {
-    "crawler":    "http://localhost:8005",
-    "testgen":    "http://localhost:8001",
-    "playwright": "http://localhost:8002",
-    "cicd":       "http://localhost:8003",
-    "triage":     "http://localhost:8004"
+    "crawler":    os.getenv("CRAWLER_URL", "http://localhost:8005"),
+    "testgen":    os.getenv("TESTGEN_URL", "http://localhost:8001"),
+    "playwright": os.getenv("PLAYWRIGHT_GEN_URL", "http://localhost:8002"),
+    "cicd":       os.getenv("CICD_URL", "http://localhost:8003"),
+    "triage":     os.getenv("TRIAGE_ENGINE_URL", "http://localhost:8004")
 }
 
 import re
@@ -136,11 +136,12 @@ async def run_pipeline(target_url, depth=10, pages=100):
         logger.info(f"📩 Agent Response Received ({len(resp_text)} chars)")
 
         if "❌" in resp_text:
-            logger.error(f"🛑 Crawler Agent reported an error.")
+            logger.error(f"🛑 Crawler Agent reported an error. Raw response:\n{resp_text}")
             return
             
-        # Extract Job ID from the final AgentStack response
+        # Extract Job ID and Locator Path from the final AgentStack response
         job_id = None
+        locators_path = None
         try:
             # Look for the JSON block in the final response
             result_match = re.search(r"Full result:\s*(\{.*\})", resp_text, re.DOTALL)
@@ -152,6 +153,11 @@ async def run_pipeline(target_url, depth=10, pages=100):
                               result_data.get("job_id") or 
                               result_data.get("result", {}).get("job_id") or
                               result_data.get("last_update", {}).get("job_id"))
+                    
+                    # Extract locators path if provided by crawler
+                    locators_path = (result_data.get("path") or
+                                   result_data.get("result", {}).get("path") or
+                                   result_data.get("last_update", {}).get("path"))
                 except Exception:
                     pass
             
@@ -175,17 +181,19 @@ async def run_pipeline(target_url, depth=10, pages=100):
             
         logger.info(f"📍 Synchronous success! Identified Job ID: {job_id}")
 
-
         # 🟢 STAGE 2: TEST GEN
-        repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        domain = target_url.replace("https://", "").replace("http://", "").split("/")[0].replace(".", "_")
-        locators = os.path.join(repo_root, "crawler", "locators_new", domain, "consolidated_locators.json")
-        if not os.path.exists(locators):
-            locators = os.path.join(repo_root, "crawler", "locators_old", "consolidated_locators.json")
-            logger.info(f"⚠️  Consolidated locators fallback: {locators}")
+        if not locators_path:
+            repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            domain = target_url.replace("https://", "").replace("http://", "").split("/")[0].replace(".", "_")
+            locators_path = os.path.join(repo_root, "crawler", "locators_new", domain, "consolidated_locators.json")
+            if not os.path.exists(locators_path):
+                locators_path = os.path.join(repo_root, "crawler", "locators_old", "consolidated_locators.json")
+                logger.info(f"⚠️  Consolidated locators fallback: {locators_path}")
+        else:
+            logger.info(f"📍 Using locators path from crawler: {locators_path}")
 
         logger.info("📤 Sending Synchronous Trigger to TestGen Agent (Port 9002)...")
-        resp_tg = await call_agent(WRAPPERS["testgen"], f"tg-{run_id}", {"run_id": job_id, "locators_path": locators})
+        resp_tg = await call_agent(WRAPPERS["testgen"], f"tg-{run_id}", {"run_id": job_id, "locators_path": locators_path})
         
         logger.info(f"📩 Agent Response Received ({len(resp_tg)} chars)")
 
@@ -269,7 +277,11 @@ async def main():
             # Use parse_known_args to avoid conflicts with sys.argv checks
             args, _ = parser.parse_known_args()
             
-            url = args.run if args.run else "https://www.scrapethissite.com/"
+            if not args.run:
+                logger.error("❌ Error: The --run flag requires a target URL (e.g. --run \"https://example.com\")")
+                return
+
+            url = args.run
             logger.info(f"Waiting 10s for services to be ready to run pipeline for: {url}")
             await asyncio.sleep(10) 
             await run_pipeline(url, depth=args.depth, pages=args.pages)

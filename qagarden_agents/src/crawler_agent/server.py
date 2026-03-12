@@ -15,7 +15,7 @@ load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file_
 
 # ─── Configuration ──────────────────────────────────────────────────
 CRAWLER_BASE_URL = os.getenv("CRAWLER_URL", "http://127.0.0.1:8005")
-WRAPPER_HOST     = os.getenv("HOST", "127.0.0.1")
+WRAPPER_HOST     = os.getenv("HOST", "0.0.0.0")
 WRAPPER_PORT     = int(os.getenv("PORT", "9001"))
 QA_GARDEN_API_KEY = os.getenv("QA_GARDEN_API_KEY", "qa-garden-secret-key")
 
@@ -91,9 +91,9 @@ async def crawler_agent(input: Message, context: RunContext):
     status_url = f"{CRAWLER_BASE_URL}/job/{run_id}"
     is_done = False
     
-    # Poll every 5 seconds for up to 15 minutes
+    # Poll every 5 seconds for up to 60 minutes
     async with httpx.AsyncClient(timeout=10.0) as client:
-        for _ in range(180): 
+        for _ in range(720): 
             try:
                 status_resp = await client.get(status_url)
                 if status_resp.status_code == 200:
@@ -115,7 +115,7 @@ async def crawler_agent(input: Message, context: RunContext):
             await asyncio.sleep(5)
 
     if not is_done:
-        yield AgentMessage(text=f"❌ Timeout waiting for crawler job {run_id} to complete.")
+        yield AgentMessage(text=f"❌ Timeout waiting for crawler job {run_id} to complete after 60 minutes.")
         return
 
     # ── Return the FINAL result ────────────────────────────────────

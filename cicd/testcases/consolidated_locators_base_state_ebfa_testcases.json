@@ -1,0 +1,137 @@
+{
+  "testCases": [
+    {
+      "id": "TC_Navigation_001",
+      "title": "Verify navigation to the Sandbox page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to change to '/pages/'"
+      ],
+      "expected": [
+        "Sandbox page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_002",
+      "title": "Verify navigation to the Lessons page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to change to '/lessons/'"
+      ],
+      "expected": [
+        "Lessons page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_003",
+      "title": "Verify navigation to the FAQ page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to change to '/faq/'"
+      ],
+      "expected": [
+        "FAQ page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_004",
+      "title": "Verify navigation to the Login page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
+        "Verification: Expect URL to change to '/login/'"
+      ],
+      "expected": [
+        "Login page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_005",
+      "title": "Verify navigation to the Spoofing Headers page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Spoofing Headers\")]')`",
+        "Verification: Expect URL to change to '/pages/advanced/?gotcha=headers'"
+      ],
+      "expected": [
+        "Spoofing Headers page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_006",
+      "title": "Verify navigation to the Logins & Session Data page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Logins & Session Data\")]')`",
+        "Verification: Expect URL to change to '/pages/advanced/?gotcha=login'"
+      ],
+      "expected": [
+        "Logins & Session Data page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_007",
+      "title": "Verify navigation to the CSRF & Hidden Values page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"CSRF & Hidden Values\")]')`",
+        "Verification: Expect URL to change to '/pages/advanced/?gotcha=csrf'"
+      ],
+      "expected": [
+        "CSRF & Hidden Values page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Authentication_001",
+      "title": "Verify email input field accepts valid email format",
+      "url": "",
+      "inputs": {
+        "REVEALED_2_INPUT_YOUR_EMAIL": "test@example.com"
+      },
+      "steps": [
+        "Navigate to ",
+        "Fill 'test@example.com' into locator `page.locator('#email')`",
+        "Verification: Expect the value of locator `page.locator('#email')` to be 'test@example.com'"
+      ],
+      "expected": [
+        "Email field accepts input and retains the value"
+      ]
+    },
+    {
+      "id": "TC_Authentication_002",
+      "title": "Verify email input field accepts special characters in email",
+      "url": "",
+      "inputs": {
+        "REVEALED_2_INPUT_YOUR_EMAIL": "test!#$%&'*+-/=?^_`{|}~@example.com"
+      },
+      "steps": [
+        "Navigate to ",
+        "Fill 'test!#$%&'*+-/=?^_`{|}~@example.com' into locator `page.locator('#email')`",
+        "Verification: Expect the value of locator `page.locator('#email')` to be 'test!#$%&'*+-/=?^_`{|}~@example.com'"
+      ],
+      "expected": [
+        "Email field accepts input and retains the value"
+      ]
+    }
+  ],
+  "url": "",
+  "generatedAt": "2026-03-12T11:23:10.059784",
+  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+}

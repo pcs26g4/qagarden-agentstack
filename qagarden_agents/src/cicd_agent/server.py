@@ -39,9 +39,9 @@ async def cicd_agent(input: Message, context: RunContext):
     status_url = f"{BASE_URL}/job/{run_id}"
     is_done = False
     
-    # Poll every 5 seconds for up to 10 minutes
+    # Poll every 5 seconds for up to 60 minutes (handling large test suites)
     async with httpx.AsyncClient(timeout=10.0) as client:
-        for _ in range(120):
+        for _ in range(720):
             try:
                 status_resp = await client.get(status_url)
                 if status_resp.status_code == 200:
@@ -60,7 +60,7 @@ async def cicd_agent(input: Message, context: RunContext):
             await asyncio.sleep(5)
 
     if not is_done:
-        yield AgentMessage(text=f"❌ Timeout waiting for CICD job {run_id} to complete.")
+        yield AgentMessage(text=f"❌ Timeout waiting for CICD job {run_id} to complete after 60 minutes.")
         return
 
     # ── Return the FINAL result ────────────────────────────────────
@@ -75,4 +75,5 @@ async def cicd_agent(input: Message, context: RunContext):
     yield AgentMessage(text=summary)
 
 if __name__ == "__main__":
-    server.run(host="127.0.0.1", port=9004)
+    host = os.getenv("HOST", "0.0.0.0")
+    server.run(host=host, port=9004)

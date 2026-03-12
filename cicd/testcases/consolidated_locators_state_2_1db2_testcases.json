@@ -1,124 +1,12 @@
 {
   "testCases": [
     {
-      "id": "TC_Navigation_001",
-      "title": "Verify navigation to the Login page",
-      "url": " ",
+      "id": "TC_NAVIGATION_01",
+      "title": "Verify navigation to Lessons page",
+      "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to  ",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
-        "Verification: Expect URL to change to '/login/'"
-      ],
-      "expected": [
-        "Login page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_002",
-      "title": "Verify navigation to the Countries of the World page",
-      "url": " ",
-      "inputs": {},
-      "steps": [
-        "Navigate to  ",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"Countries of the World: A Simple Example\")]')`",
-        "Verification: Expect URL to change to '/pages/simple/'"
-      ],
-      "expected": [
-        "Countries of the World page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_003",
-      "title": "Verify navigation to the Hockey Teams page",
-      "url": " ",
-      "inputs": {},
-      "steps": [
-        "Navigate to  ",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"Hockey Teams: Forms, Searching and Pagination\")]')`",
-        "Verification: Expect URL to change to '/pages/forms/'"
-      ],
-      "expected": [
-        "Hockey Teams page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_004",
-      "title": "Verify navigation to the Oscar Winning Films page",
-      "url": " ",
-      "inputs": {},
-      "steps": [
-        "Navigate to  ",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"Oscar Winning Films: AJAX and Javascript\")]')`",
-        "Verification: Expect URL to change to '/pages/ajax-javascript/'"
-      ],
-      "expected": [
-        "Oscar Winning Films page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_005",
-      "title": "Verify navigation to the Turtles All the Way Down page",
-      "url": " ",
-      "inputs": {},
-      "steps": [
-        "Navigate to  ",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"Turtles All the Way Down: Frames & iFrames\")]')`",
-        "Verification: Expect URL to change to '/pages/frames/'"
-      ],
-      "expected": [
-        "Turtles All the Way Down page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_006",
-      "title": "Verify navigation to the Advanced Topics page",
-      "url": " ",
-      "inputs": {},
-      "steps": [
-        "Navigate to  ",
-        "Click locator `page.locator('xpath=//*[@id=\"pages\"]/section[1]/div[1]/div[1]/div[1]/div[5]/h3[1]/a[1]')`",
-        "Verification: Expect URL to change to '/pages/advanced/'"
-      ],
-      "expected": [
-        "Advanced Topics page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_007",
-      "title": "Verify navigation to the Home page",
-      "url": " ",
-      "inputs": {},
-      "steps": [
-        "Navigate to  ",
-        "Click locator `page.locator('a.nav-link.hidden-sm.hidden-xs')`",
-        "Verification: Expect URL to change to '/'"
-      ],
-      "expected": [
-        "Home page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_008",
-      "title": "Verify navigation to the Sandbox page",
-      "url": " ",
-      "inputs": {},
-      "steps": [
-        "Navigate to  ",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to change to '/pages/'"
-      ],
-      "expected": [
-        "Sandbox page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_009",
-      "title": "Verify navigation to the Lessons page",
-      "url": " ",
-      "inputs": {},
-      "steps": [
-        "Navigate to  ",
+        "Navigate to ",
         "Click locator `page.locator('a.nav-link').nth(0)`",
         "Verification: Expect URL to change to '/lessons/'"
       ],
@@ -127,21 +15,133 @@
       ]
     },
     {
-      "id": "TC_Navigation_010",
-      "title": "Verify navigation to the FAQ page",
-      "url": " ",
+      "id": "TC_NAVIGATION_02",
+      "title": "Verify navigation to FAQ page",
+      "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to  ",
+        "Navigate to ",
         "Click locator `page.locator('a.nav-link').nth(0)`",
         "Verification: Expect URL to change to '/faq/'"
       ],
       "expected": [
         "FAQ page loads successfully"
       ]
+    },
+    {
+      "id": "TC_NAVIGATION_03",
+      "title": "Verify navigation to Login page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
+        "Verification: Expect URL to change to '/login/'"
+      ],
+      "expected": [
+        "Login page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_NAVIGATION_04",
+      "title": "Verify navigation to Countries of the World page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Countries of the World: A Simple Example\")]')`",
+        "Verification: Expect URL to change to '/pages/simple/'"
+      ],
+      "expected": [
+        "Countries of the World page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_NAVIGATION_05",
+      "title": "Verify navigation to Hockey Teams page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Hockey Teams: Forms, Searching and Pagination\")]')`",
+        "Verification: Expect URL to change to '/pages/forms/'"
+      ],
+      "expected": [
+        "Hockey Teams page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_NAVIGATION_06",
+      "title": "Verify navigation to Oscar Winning Films page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Oscar Winning Films: AJAX and Javascript\")]')`",
+        "Verification: Expect URL to change to '/pages/ajax-javascript/'"
+      ],
+      "expected": [
+        "Oscar Winning Films page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_NAVIGATION_07",
+      "title": "Verify navigation to Frames & iFrames page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Turtles All the Way Down: Frames & iFrames\")]')`",
+        "Verification: Expect URL to change to '/pages/frames/'"
+      ],
+      "expected": [
+        "Frames & iFrames page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_NAVIGATION_08",
+      "title": "Verify navigation to Advanced Topics page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//*[@id=\"pages\"]/section[1]/div[1]/div[1]/div[1]/div[5]/h3[1]/a[1]')`",
+        "Verification: Expect URL to change to '/pages/advanced/'"
+      ],
+      "expected": [
+        "Advanced Topics page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_NAVIGATION_09",
+      "title": "Verify navigation to Scrape This Site homepage",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('a.nav-link.hidden-sm.hidden-xs')`",
+        "Verification: Expect URL to change to '/'"
+      ],
+      "expected": [
+        "Scrape This Site homepage loads successfully"
+      ]
+    },
+    {
+      "id": "TC_NAVIGATION_10",
+      "title": "Verify navigation to Sandbox page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('#nav-sandbox')`",
+        "Verification: Expect that the 'Sandbox' element is active."
+      ],
+      "expected": [
+        "Sandbox page loads successfully"
+      ]
     }
   ],
-  "url": " ",
-  "generatedAt": "2026-03-11T09:57:12.443304",
-  "runId": "84c1f15e-054c-4b0c-b4dd-ba731f398c2d"
+  "url": "",
+  "generatedAt": "2026-03-12T11:23:10.030808",
+  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
 }

@@ -1,0 +1,108 @@
+{
+  "testCases": [
+    {
+      "id": "TC_NAVIGATION_01",
+      "title": "Verify navigation to the Lessons page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('#nav-lessons')`",
+        "Verification: Expect URL to change to '/lessons/'"
+      ],
+      "expected": [
+        "Lessons page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_NAVIGATION_02",
+      "title": "Verify navigation to the FAQ page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('#nav-faq')`",
+        "Verification: Expect URL to change to '/faq/'"
+      ],
+      "expected": [
+        "FAQ page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_NAVIGATION_03",
+      "title": "Verify navigation to the Login page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
+        "Verification: Expect URL to change to '/login/'"
+      ],
+      "expected": [
+        "Login page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_NAVIGATION_04",
+      "title": "Verify navigation to the Sandbox page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('#nav-sandbox')`",
+        "Verification: Expect URL to change to '/pages/'"
+      ],
+      "expected": [
+        "Sandbox page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_SEARCH_01",
+      "title": "Verify search functionality with a valid term",
+      "url": "",
+      "inputs": {
+        "STATE_34_INPUT_SEARCH_FOR_TEAMS": "Oilers"
+      },
+      "steps": [
+        "Navigate to ",
+        "Fill 'Oilers' into locator `page.locator('#q')`",
+        "Click locator `page.locator('input.btn.btn-primary')`",
+        "Verification: Expect search results to be displayed"
+      ],
+      "expected": [
+        "Search results for Oilers are displayed correctly"
+      ]
+    },
+    {
+      "id": "TC_PAGINATION_01",
+      "title": "Verify navigation to page 5",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[6]/a[1]')`",
+        "Verification: Expect URL to change to '/pages/forms/?page_num=5'"
+      ],
+      "expected": [
+        "Page 5 loads successfully"
+      ]
+    },
+    {
+      "id": "TC_PAGINATION_02",
+      "title": "Verify changing results per page to 50",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Select '50' in locator `page.locator('#per_page')`",
+        "Verification: Number of displayed items updated to 50"
+      ],
+      "expected": [
+        "50 records displayed per page"
+      ]
+    }
+  ],
+  "url": "",
+  "generatedAt": "2026-03-12T11:23:10.366538",
+  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+}

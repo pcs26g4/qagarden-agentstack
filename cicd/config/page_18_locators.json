@@ -32,7 +32,7 @@
         "src": null,
         "class": ""
       },
-      "x": 83,
+      "x": 81,
       "y": 10,
       "quality_score": 90,
       "element_name": "scrape_this_site",
@@ -40,7 +40,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_scrape_this_site_83_10": {
+    "link_scrape_this_site_81_10": {
       "tag": "a",
       "text": "Scrape This Site",
       "xpath": "//a[contains(text(), \"Scrape This Site\")]",
@@ -52,10 +52,10 @@
         "src": null,
         "class": "nav-link hidden-sm hidden-xs"
       },
-      "x": 83,
+      "x": 81,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_scrape_this_site_83_10",
+      "element_name": "link_scrape_this_site_81_10",
       "playwright_selector": "page.locator('a.nav-link.hidden-sm.hidden-xs')",
       "is_unique": true,
       "element_count": 1
@@ -72,7 +72,7 @@
         "src": null,
         "class": "active"
       },
-      "x": 269,
+      "x": 267,
       "y": 10,
       "quality_score": 90,
       "element_name": "sandbox",
@@ -80,7 +80,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_sandbox_269_10": {
+    "link_sandbox_267_10": {
       "tag": "a",
       "text": "Sandbox",
       "xpath": "//a[contains(text(), \"Sandbox\")]",
@@ -92,10 +92,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 269,
+      "x": 267,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_sandbox_269_10",
+      "element_name": "link_sandbox_267_10",
       "playwright_selector": "page.locator('a.nav-link').nth(0)",
       "is_unique": false,
       "element_count": 5
@@ -112,7 +112,7 @@
         "src": null,
         "class": ""
       },
-      "x": 395,
+      "x": 393,
       "y": 10,
       "quality_score": 90,
       "element_name": "lessons",
@@ -120,7 +120,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_lessons_395_10": {
+    "link_lessons_393_10": {
       "tag": "a",
       "text": "Lessons",
       "xpath": "//a[contains(text(), \"Lessons\")]",
@@ -132,10 +132,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 395,
+      "x": 393,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_lessons_395_10",
+      "element_name": "link_lessons_393_10",
       "playwright_selector": "page.locator('a.nav-link').nth(0)",
       "is_unique": false,
       "element_count": 5
@@ -152,7 +152,7 @@
         "src": null,
         "class": ""
       },
-      "x": 517,
+      "x": 515,
       "y": 10,
       "quality_score": 90,
       "element_name": "faq",
@@ -160,7 +160,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_faq_517_10": {
+    "link_faq_515_10": {
       "tag": "a",
       "text": "FAQ",
       "xpath": "//a[contains(text(), \"FAQ\")]",
@@ -172,10 +172,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 517,
+      "x": 515,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_faq_517_10",
+      "element_name": "link_faq_515_10",
       "playwright_selector": "page.locator('a.nav-link').nth(0)",
       "is_unique": false,
       "element_count": 5
@@ -192,7 +192,7 @@
         "src": null,
         "class": "pull-right"
       },
-      "x": 1107,
+      "x": 1105,
       "y": 10,
       "quality_score": 90,
       "element_name": "login",
@@ -200,7 +200,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_login_1107_10": {
+    "link_login_1105_10": {
       "tag": "a",
       "text": "Login",
       "xpath": "//a[contains(text(), \"Login\")]",
@@ -212,10 +212,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 1107,
+      "x": 1105,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_login_1107_10",
+      "element_name": "link_login_1105_10",
       "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Login\")]')",
       "is_unique": true,
       "element_count": 1
@@ -232,7 +232,7 @@
         "src": null,
         "class": ""
       },
-      "x": 68,
+      "x": 66,
       "y": 82,
       "quality_score": 50,
       "element_name": "heading_hockey_teams_forms_searching",
@@ -252,7 +252,7 @@
         "src": null,
         "class": ""
       },
-      "x": 842,
+      "x": 840,
       "y": 92,
       "quality_score": 50,
       "element_name": "25_items",
@@ -272,7 +272,7 @@
         "src": null,
         "class": ""
       },
-      "x": 150,
+      "x": 148,
       "y": 294,
       "quality_score": 50,
       "element_name": "link_8_video_lessons",
@@ -292,7 +292,7 @@
         "src": null,
         "class": "data-attribution"
       },
-      "x": 946,
+      "x": 944,
       "y": 294,
       "quality_score": 50,
       "element_name": "link_httpwwwopensourcesportsco",
@@ -316,7 +316,7 @@
         "src": null,
         "class": "form-control"
       },
-      "x": 569,
+      "x": 567,
       "y": 353,
       "quality_score": 90,
       "element_name": "input_search_for_teams",
@@ -337,7 +337,7 @@
         "src": null,
         "class": "btn btn-primary"
       },
-      "x": 769,
+      "x": 767,
       "y": 353,
       "quality_score": 50,
       "element_name": "input_el",
@@ -357,7 +357,7 @@
         "src": null,
         "class": ""
       },
-      "x": 68,
+      "x": 66,
       "y": 459,
       "quality_score": 50,
       "element_name": "team_nameyearwinslossesot",
@@ -377,7 +377,7 @@
         "src": null,
         "class": ""
       },
-      "x": 68,
+      "x": 66,
       "y": 459,
       "quality_score": 50,
       "element_name": "team_name",
@@ -397,7 +397,7 @@
         "src": null,
         "class": ""
       },
-      "x": 323,
+      "x": 320,
       "y": 459,
       "quality_score": 50,
       "element_name": "year",
@@ -417,7 +417,7 @@
         "src": null,
         "class": ""
       },
-      "x": 392,
+      "x": 388,
       "y": 459,
       "quality_score": 50,
       "element_name": "wins",
@@ -437,7 +437,7 @@
         "src": null,
         "class": ""
       },
-      "x": 464,
+      "x": 460,
       "y": 459,
       "quality_score": 50,
       "element_name": "losses",
@@ -457,7 +457,7 @@
         "src": null,
         "class": ""
       },
-      "x": 558,
+      "x": 554,
       "y": 459,
       "quality_score": 50,
       "element_name": "ot_losses",
@@ -477,7 +477,7 @@
         "src": null,
         "class": ""
       },
-      "x": 686,
+      "x": 682,
       "y": 459,
       "quality_score": 50,
       "element_name": "win",
@@ -497,7 +497,7 @@
         "src": null,
         "class": ""
       },
-      "x": 771,
+      "x": 766,
       "y": 459,
       "quality_score": 50,
       "element_name": "goals_for_gf",
@@ -517,7 +517,7 @@
         "src": null,
         "class": ""
       },
-      "x": 938,
+      "x": 932,
       "y": 459,
       "quality_score": 50,
       "element_name": "goals_against_ga",
@@ -537,7 +537,7 @@
         "src": null,
         "class": ""
       },
-      "x": 1149,
+      "x": 1142,
       "y": 459,
       "quality_score": 50,
       "element_name": "",
@@ -545,9 +545,9 @@
       "is_unique": true,
       "element_count": 1
     },
-    "colorado_avalanche19964924": {
+    "dallas_stars199526420317": {
       "tag": "tr",
-      "text": "Colorado Avalanche\t1996\t49\t24\t\t0.598\t277\t205\t72",
+      "text": "Dallas Stars\t1995\t26\t42\t\t0.317\t227\t280\t-53",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]",
       "css": "tr.team",
       "id": "",
@@ -557,17 +557,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 496,
       "quality_score": 50,
-      "element_name": "colorado_avalanche19964924",
+      "element_name": "dallas_stars199526420317",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "colorado_avalanche": {
+    "dallas_stars": {
       "tag": "td",
-      "text": "Colorado Avalanche",
+      "text": "Dallas Stars",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[1]",
       "css": "td.name",
       "id": "",
@@ -577,17 +577,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 496,
       "quality_score": 50,
-      "element_name": "colorado_avalanche",
+      "element_name": "dallas_stars",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996": {
+    "1995": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[2]",
       "css": "td.year",
       "id": "",
@@ -597,17 +597,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 496,
       "quality_score": 50,
-      "element_name": "1996",
+      "element_name": "1995",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "49": {
+    "26": {
       "tag": "td",
-      "text": "49",
+      "text": "26",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -617,17 +617,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 496,
       "quality_score": 50,
-      "element_name": "49",
+      "element_name": "26",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "24": {
+    "42": {
       "tag": "td",
-      "text": "24",
+      "text": "42",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -637,37 +637,37 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 496,
       "quality_score": 50,
-      "element_name": "24",
+      "element_name": "42",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0598": {
+    "0317": {
       "tag": "td",
-      "text": "0.598",
+      "text": "0.317",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[6]",
-      "css": "td.pct.text-success",
+      "css": "td.pct.text-danger",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "pct text-success"
+        "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 496,
       "quality_score": 50,
-      "element_name": "0598",
+      "element_name": "0317",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "277": {
+    "227": {
       "tag": "td",
-      "text": "277",
+      "text": "227",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -677,17 +677,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 496,
       "quality_score": 50,
-      "element_name": "277",
+      "element_name": "227",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "205": {
+    "280": {
       "tag": "td",
-      "text": "205",
+      "text": "280",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -697,37 +697,37 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 496,
       "quality_score": 50,
-      "element_name": "205",
+      "element_name": "280",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "72": {
+    "53": {
       "tag": "td",
-      "text": "72",
+      "text": "-53",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[9]",
-      "css": "td.diff.text-success",
+      "css": "td.diff.text-danger",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "diff text-success"
+        "class": "diff text-danger"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 496,
       "quality_score": 50,
-      "element_name": "72",
+      "element_name": "53",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "dallas_stars199648260585": {
+    "detroit_red_wings19956213": {
       "tag": "tr",
-      "text": "Dallas Stars\t1996\t48\t26\t\t0.585\t252\t198\t54",
+      "text": "Detroit Red Wings\t1995\t62\t13\t\t0.756\t325\t181\t144",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]",
       "css": "tr.team",
       "id": "",
@@ -737,17 +737,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 533,
       "quality_score": 50,
-      "element_name": "dallas_stars199648260585",
+      "element_name": "detroit_red_wings19956213",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "dallas_stars": {
+    "detroit_red_wings": {
       "tag": "td",
-      "text": "Dallas Stars",
+      "text": "Detroit Red Wings",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[1]",
       "css": "td.name",
       "id": "",
@@ -757,17 +757,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 533,
       "quality_score": 50,
-      "element_name": "dallas_stars",
+      "element_name": "detroit_red_wings",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_533": {
+    "1995_320_533": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[2]",
       "css": "td.year",
       "id": "",
@@ -777,17 +777,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 533,
       "quality_score": 50,
-      "element_name": "1996_323_533",
+      "element_name": "1995_320_533",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "48": {
+    "62": {
       "tag": "td",
-      "text": "48",
+      "text": "62",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -797,17 +797,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 533,
       "quality_score": 50,
-      "element_name": "48",
+      "element_name": "62",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "26": {
+    "13": {
       "tag": "td",
-      "text": "26",
+      "text": "13",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -817,17 +817,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 533,
       "quality_score": 50,
-      "element_name": "26",
+      "element_name": "13",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0585": {
+    "0756": {
       "tag": "td",
-      "text": "0.585",
+      "text": "0.756",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[6]",
       "css": "td.pct.text-success",
       "id": "",
@@ -837,17 +837,17 @@
         "src": null,
         "class": "pct text-success"
       },
-      "x": 686,
+      "x": 682,
       "y": 533,
       "quality_score": 50,
-      "element_name": "0585",
+      "element_name": "0756",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "252": {
+    "325": {
       "tag": "td",
-      "text": "252",
+      "text": "325",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -857,17 +857,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 533,
       "quality_score": 50,
-      "element_name": "252",
+      "element_name": "325",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "198": {
+    "181": {
       "tag": "td",
-      "text": "198",
+      "text": "181",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -877,17 +877,17 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 533,
       "quality_score": 50,
-      "element_name": "198",
+      "element_name": "181",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "54": {
+    "144": {
       "tag": "td",
-      "text": "54",
+      "text": "144",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[9]",
       "css": "td.diff.text-success",
       "id": "",
@@ -897,17 +897,17 @@
         "src": null,
         "class": "diff text-success"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 533,
       "quality_score": 50,
-      "element_name": "54",
+      "element_name": "144",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "detroit_red_wings19963826": {
+    "edmonton_oilers199530440": {
       "tag": "tr",
-      "text": "Detroit Red Wings\t1996\t38\t26\t\t0.463\t253\t197\t56",
+      "text": "Edmonton Oilers\t1995\t30\t44\t\t0.366\t240\t304\t-64",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]",
       "css": "tr.team",
       "id": "",
@@ -917,17 +917,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 570,
       "quality_score": 50,
-      "element_name": "detroit_red_wings19963826",
+      "element_name": "edmonton_oilers199530440",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "detroit_red_wings": {
+    "edmonton_oilers": {
       "tag": "td",
-      "text": "Detroit Red Wings",
+      "text": "Edmonton Oilers",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[1]",
       "css": "td.name",
       "id": "",
@@ -937,17 +937,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 570,
       "quality_score": 50,
-      "element_name": "detroit_red_wings",
+      "element_name": "edmonton_oilers",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_570": {
+    "1995_320_570": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[2]",
       "css": "td.year",
       "id": "",
@@ -957,17 +957,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 570,
       "quality_score": 50,
-      "element_name": "1996_323_570",
+      "element_name": "1995_320_570",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "38": {
+    "30": {
       "tag": "td",
-      "text": "38",
+      "text": "30",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -977,17 +977,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 570,
       "quality_score": 50,
-      "element_name": "38",
+      "element_name": "30",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "26_464_570": {
+    "44": {
       "tag": "td",
-      "text": "26",
+      "text": "44",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -997,17 +997,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 570,
       "quality_score": 50,
-      "element_name": "26_464_570",
+      "element_name": "44",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0463": {
+    "0366": {
       "tag": "td",
-      "text": "0.463",
+      "text": "0.366",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[6]",
       "css": "td.pct.text-danger",
       "id": "",
@@ -1017,17 +1017,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 570,
       "quality_score": 50,
-      "element_name": "0463",
+      "element_name": "0366",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "253": {
+    "240": {
       "tag": "td",
-      "text": "253",
+      "text": "240",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -1037,17 +1037,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 570,
       "quality_score": 50,
-      "element_name": "253",
+      "element_name": "240",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "197": {
+    "304": {
       "tag": "td",
-      "text": "197",
+      "text": "304",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -1057,37 +1057,37 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 570,
       "quality_score": 50,
-      "element_name": "197",
+      "element_name": "304",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "56": {
+    "64": {
       "tag": "td",
-      "text": "56",
+      "text": "-64",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[9]",
-      "css": "td.diff.text-success",
+      "css": "td.diff.text-danger",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "diff text-success"
+        "class": "diff text-danger"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 570,
       "quality_score": 50,
-      "element_name": "56",
+      "element_name": "64",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "edmonton_oilers199636370": {
+    "florida_panthers199541310": {
       "tag": "tr",
-      "text": "Edmonton Oilers\t1996\t36\t37\t\t0.439\t252\t247\t5",
+      "text": "Florida Panthers\t1995\t41\t31\t\t0.5\t254\t234\t20",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]",
       "css": "tr.team",
       "id": "",
@@ -1097,17 +1097,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 607,
       "quality_score": 50,
-      "element_name": "edmonton_oilers199636370",
+      "element_name": "florida_panthers199541310",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]')",
       "is_unique": true,
       "element_count": 1
     },
-    "edmonton_oilers": {
+    "florida_panthers": {
       "tag": "td",
-      "text": "Edmonton Oilers",
+      "text": "Florida Panthers",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[1]",
       "css": "td.name",
       "id": "",
@@ -1117,17 +1117,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 607,
       "quality_score": 50,
-      "element_name": "edmonton_oilers",
+      "element_name": "florida_panthers",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_607": {
+    "1995_320_607": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[2]",
       "css": "td.year",
       "id": "",
@@ -1137,17 +1137,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 607,
       "quality_score": 50,
-      "element_name": "1996_323_607",
+      "element_name": "1995_320_607",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "36": {
+    "41": {
       "tag": "td",
-      "text": "36",
+      "text": "41",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -1157,17 +1157,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 607,
       "quality_score": 50,
-      "element_name": "36",
+      "element_name": "41",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "37": {
+    "31": {
       "tag": "td",
-      "text": "37",
+      "text": "31",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -1177,37 +1177,37 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 607,
       "quality_score": 50,
-      "element_name": "37",
+      "element_name": "31",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0439": {
+    "05": {
       "tag": "td",
-      "text": "0.439",
+      "text": "0.5",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[6]",
-      "css": "td.pct.text-danger",
+      "css": "td.pct.text-success",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "pct text-danger"
+        "class": "pct text-success"
       },
-      "x": 686,
+      "x": 682,
       "y": 607,
       "quality_score": 50,
-      "element_name": "0439",
+      "element_name": "05",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "252_771_607": {
+    "254": {
       "tag": "td",
-      "text": "252",
+      "text": "254",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -1217,17 +1217,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 607,
       "quality_score": 50,
-      "element_name": "252_771_607",
+      "element_name": "254",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "247": {
+    "234": {
       "tag": "td",
-      "text": "247",
+      "text": "234",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -1237,17 +1237,17 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 607,
       "quality_score": 50,
-      "element_name": "247",
+      "element_name": "234",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "5": {
+    "20": {
       "tag": "td",
-      "text": "5",
+      "text": "20",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[9]",
       "css": "td.diff.text-success",
       "id": "",
@@ -1257,17 +1257,17 @@
         "src": null,
         "class": "diff text-success"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 607,
       "quality_score": 50,
-      "element_name": "5",
+      "element_name": "20",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "florida_panthers199635280": {
+    "hartford_whalers199534390": {
       "tag": "tr",
-      "text": "Florida Panthers\t1996\t35\t28\t\t0.427\t221\t201\t20",
+      "text": "Hartford Whalers\t1995\t34\t39\t\t0.415\t237\t259\t-22",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]",
       "css": "tr.team",
       "id": "",
@@ -1277,17 +1277,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 644,
       "quality_score": 50,
-      "element_name": "florida_panthers199635280",
+      "element_name": "hartford_whalers199534390",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "florida_panthers": {
+    "hartford_whalers": {
       "tag": "td",
-      "text": "Florida Panthers",
+      "text": "Hartford Whalers",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[1]",
       "css": "td.name",
       "id": "",
@@ -1297,17 +1297,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 644,
       "quality_score": 50,
-      "element_name": "florida_panthers",
+      "element_name": "hartford_whalers",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_644": {
+    "1995_320_644": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[2]",
       "css": "td.year",
       "id": "",
@@ -1317,17 +1317,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 644,
       "quality_score": 50,
-      "element_name": "1996_323_644",
+      "element_name": "1995_320_644",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "35": {
+    "34": {
       "tag": "td",
-      "text": "35",
+      "text": "34",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -1337,17 +1337,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 644,
       "quality_score": 50,
-      "element_name": "35",
+      "element_name": "34",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "28": {
+    "39": {
       "tag": "td",
-      "text": "28",
+      "text": "39",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -1357,17 +1357,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 644,
       "quality_score": 50,
-      "element_name": "28",
+      "element_name": "39",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0427": {
+    "0415": {
       "tag": "td",
-      "text": "0.427",
+      "text": "0.415",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[6]",
       "css": "td.pct.text-danger",
       "id": "",
@@ -1377,17 +1377,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 644,
       "quality_score": 50,
-      "element_name": "0427",
+      "element_name": "0415",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "221": {
+    "237": {
       "tag": "td",
-      "text": "221",
+      "text": "237",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -1397,17 +1397,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 644,
       "quality_score": 50,
-      "element_name": "221",
+      "element_name": "237",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "201": {
+    "259": {
       "tag": "td",
-      "text": "201",
+      "text": "259",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -1417,37 +1417,37 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 644,
       "quality_score": 50,
-      "element_name": "201",
+      "element_name": "259",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "20": {
+    "22": {
       "tag": "td",
-      "text": "20",
+      "text": "-22",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[9]",
-      "css": "td.diff.text-success",
+      "css": "td.diff.text-danger",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "diff text-success"
+        "class": "diff text-danger"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 644,
       "quality_score": 50,
-      "element_name": "20",
+      "element_name": "22",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "hartford_whalers199632390": {
+    "los_angeles_kings19952440": {
       "tag": "tr",
-      "text": "Hartford Whalers\t1996\t32\t39\t\t0.39\t226\t256\t-30",
+      "text": "Los Angeles Kings\t1995\t24\t40\t\t0.293\t256\t302\t-46",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]",
       "css": "tr.team",
       "id": "",
@@ -1457,17 +1457,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 681,
       "quality_score": 50,
-      "element_name": "hartford_whalers199632390",
+      "element_name": "los_angeles_kings19952440",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "hartford_whalers": {
+    "los_angeles_kings": {
       "tag": "td",
-      "text": "Hartford Whalers",
+      "text": "Los Angeles Kings",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[1]",
       "css": "td.name",
       "id": "",
@@ -1477,17 +1477,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 681,
       "quality_score": 50,
-      "element_name": "hartford_whalers",
+      "element_name": "los_angeles_kings",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_681": {
+    "1995_320_681": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[2]",
       "css": "td.year",
       "id": "",
@@ -1497,17 +1497,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 681,
       "quality_score": 50,
-      "element_name": "1996_323_681",
+      "element_name": "1995_320_681",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "32": {
+    "24": {
       "tag": "td",
-      "text": "32",
+      "text": "24",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -1517,17 +1517,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 681,
       "quality_score": 50,
-      "element_name": "32",
+      "element_name": "24",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "39": {
+    "40": {
       "tag": "td",
-      "text": "39",
+      "text": "40",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -1537,17 +1537,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 681,
       "quality_score": 50,
-      "element_name": "39",
+      "element_name": "40",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "039": {
+    "0293": {
       "tag": "td",
-      "text": "0.39",
+      "text": "0.293",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[6]",
       "css": "td.pct.text-danger",
       "id": "",
@@ -1557,17 +1557,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 681,
       "quality_score": 50,
-      "element_name": "039",
+      "element_name": "0293",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "226": {
+    "256": {
       "tag": "td",
-      "text": "226",
+      "text": "256",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -1577,17 +1577,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 681,
       "quality_score": 50,
-      "element_name": "226",
+      "element_name": "256",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "256": {
+    "302": {
       "tag": "td",
-      "text": "256",
+      "text": "302",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -1597,17 +1597,17 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 681,
       "quality_score": 50,
-      "element_name": "256",
+      "element_name": "302",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "30": {
+    "46": {
       "tag": "td",
-      "text": "-30",
+      "text": "-46",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[9]",
       "css": "td.diff.text-danger",
       "id": "",
@@ -1617,17 +1617,17 @@
         "src": null,
         "class": "diff text-danger"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 681,
       "quality_score": 50,
-      "element_name": "30",
+      "element_name": "46",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "los_angeles_kings19962843": {
+    "montreal_canadiens19954032": {
       "tag": "tr",
-      "text": "Los Angeles Kings\t1996\t28\t43\t\t0.341\t214\t268\t-54",
+      "text": "Montreal Canadiens\t1995\t40\t32\t\t0.488\t265\t248\t17",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]",
       "css": "tr.team",
       "id": "",
@@ -1637,17 +1637,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 718,
       "quality_score": 50,
-      "element_name": "los_angeles_kings19962843",
+      "element_name": "montreal_canadiens19954032",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "los_angeles_kings": {
+    "montreal_canadiens": {
       "tag": "td",
-      "text": "Los Angeles Kings",
+      "text": "Montreal Canadiens",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[1]",
       "css": "td.name",
       "id": "",
@@ -1657,17 +1657,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 718,
       "quality_score": 50,
-      "element_name": "los_angeles_kings",
+      "element_name": "montreal_canadiens",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_718": {
+    "1995_320_718": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[2]",
       "css": "td.year",
       "id": "",
@@ -1677,17 +1677,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 718,
       "quality_score": 50,
-      "element_name": "1996_323_718",
+      "element_name": "1995_320_718",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "28_392_718": {
+    "40_388_718": {
       "tag": "td",
-      "text": "28",
+      "text": "40",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -1697,17 +1697,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 718,
       "quality_score": 50,
-      "element_name": "28_392_718",
+      "element_name": "40_388_718",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "43": {
+    "32": {
       "tag": "td",
-      "text": "43",
+      "text": "32",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -1717,17 +1717,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 718,
       "quality_score": 50,
-      "element_name": "43",
+      "element_name": "32",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0341": {
+    "0488": {
       "tag": "td",
-      "text": "0.341",
+      "text": "0.488",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[6]",
       "css": "td.pct.text-danger",
       "id": "",
@@ -1737,17 +1737,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 718,
       "quality_score": 50,
-      "element_name": "0341",
+      "element_name": "0488",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "214": {
+    "265": {
       "tag": "td",
-      "text": "214",
+      "text": "265",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -1757,17 +1757,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 718,
       "quality_score": 50,
-      "element_name": "214",
+      "element_name": "265",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "268": {
+    "248": {
       "tag": "td",
-      "text": "268",
+      "text": "248",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -1777,37 +1777,37 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 718,
       "quality_score": 50,
-      "element_name": "268",
+      "element_name": "248",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "54_1149_718": {
+    "17": {
       "tag": "td",
-      "text": "-54",
+      "text": "17",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[9]",
-      "css": "td.diff.text-danger",
+      "css": "td.diff.text-success",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "diff text-danger"
+        "class": "diff text-success"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 718,
       "quality_score": 50,
-      "element_name": "54_1149_718",
+      "element_name": "17",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "montreal_canadiens19963136": {
+    "new_jersey_devils19953733": {
       "tag": "tr",
-      "text": "Montreal Canadiens\t1996\t31\t36\t\t0.378\t249\t276\t-27",
+      "text": "New Jersey Devils\t1995\t37\t33\t\t0.451\t215\t202\t13",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]",
       "css": "tr.team",
       "id": "",
@@ -1817,17 +1817,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 755,
       "quality_score": 50,
-      "element_name": "montreal_canadiens19963136",
+      "element_name": "new_jersey_devils19953733",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "montreal_canadiens": {
+    "new_jersey_devils": {
       "tag": "td",
-      "text": "Montreal Canadiens",
+      "text": "New Jersey Devils",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[1]",
       "css": "td.name",
       "id": "",
@@ -1837,17 +1837,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 755,
       "quality_score": 50,
-      "element_name": "montreal_canadiens",
+      "element_name": "new_jersey_devils",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_755": {
+    "1995_320_755": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[2]",
       "css": "td.year",
       "id": "",
@@ -1857,17 +1857,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 755,
       "quality_score": 50,
-      "element_name": "1996_323_755",
+      "element_name": "1995_320_755",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "31": {
+    "37": {
       "tag": "td",
-      "text": "31",
+      "text": "37",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -1877,17 +1877,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 755,
       "quality_score": 50,
-      "element_name": "31",
+      "element_name": "37",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "36_464_755": {
+    "33": {
       "tag": "td",
-      "text": "36",
+      "text": "33",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -1897,17 +1897,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 755,
       "quality_score": 50,
-      "element_name": "36_464_755",
+      "element_name": "33",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0378": {
+    "0451": {
       "tag": "td",
-      "text": "0.378",
+      "text": "0.451",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[6]",
       "css": "td.pct.text-danger",
       "id": "",
@@ -1917,17 +1917,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 755,
       "quality_score": 50,
-      "element_name": "0378",
+      "element_name": "0451",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "249": {
+    "215": {
       "tag": "td",
-      "text": "249",
+      "text": "215",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -1937,17 +1937,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 755,
       "quality_score": 50,
-      "element_name": "249",
+      "element_name": "215",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "276": {
+    "202": {
       "tag": "td",
-      "text": "276",
+      "text": "202",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -1957,37 +1957,37 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 755,
       "quality_score": 50,
-      "element_name": "276",
+      "element_name": "202",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "27": {
+    "13_1142_755": {
       "tag": "td",
-      "text": "-27",
+      "text": "13",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[9]",
-      "css": "td.diff.text-danger",
+      "css": "td.diff.text-success",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "diff text-danger"
+        "class": "diff text-success"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 755,
       "quality_score": 50,
-      "element_name": "27",
+      "element_name": "13_1142_755",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "new_jersey_devils19964523": {
+    "new_york_islanders19952250": {
       "tag": "tr",
-      "text": "New Jersey Devils\t1996\t45\t23\t\t0.549\t231\t182\t49",
+      "text": "New York Islanders\t1995\t22\t50\t\t0.268\t229\t315\t-86",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]",
       "css": "tr.team",
       "id": "",
@@ -1997,17 +1997,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 792,
       "quality_score": 50,
-      "element_name": "new_jersey_devils19964523",
+      "element_name": "new_york_islanders19952250",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]')",
       "is_unique": true,
       "element_count": 1
     },
-    "new_jersey_devils": {
+    "new_york_islanders": {
       "tag": "td",
-      "text": "New Jersey Devils",
+      "text": "New York Islanders",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[1]",
       "css": "td.name",
       "id": "",
@@ -2017,17 +2017,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 792,
       "quality_score": 50,
-      "element_name": "new_jersey_devils",
+      "element_name": "new_york_islanders",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_792": {
+    "1995_320_792": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[2]",
       "css": "td.year",
       "id": "",
@@ -2037,17 +2037,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 792,
       "quality_score": 50,
-      "element_name": "1996_323_792",
+      "element_name": "1995_320_792",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "45": {
+    "22_388_792": {
       "tag": "td",
-      "text": "45",
+      "text": "22",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -2057,17 +2057,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 792,
       "quality_score": 50,
-      "element_name": "45",
+      "element_name": "22_388_792",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "23": {
+    "50": {
       "tag": "td",
-      "text": "23",
+      "text": "50",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -2077,37 +2077,37 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 792,
       "quality_score": 50,
-      "element_name": "23",
+      "element_name": "50",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0549": {
+    "0268": {
       "tag": "td",
-      "text": "0.549",
+      "text": "0.268",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[6]",
-      "css": "td.pct.text-success",
+      "css": "td.pct.text-danger",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "pct text-success"
+        "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 792,
       "quality_score": 50,
-      "element_name": "0549",
+      "element_name": "0268",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "231": {
+    "229": {
       "tag": "td",
-      "text": "231",
+      "text": "229",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -2117,17 +2117,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 792,
       "quality_score": 50,
-      "element_name": "231",
+      "element_name": "229",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "182": {
+    "315": {
       "tag": "td",
-      "text": "182",
+      "text": "315",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -2137,37 +2137,37 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 792,
       "quality_score": 50,
-      "element_name": "182",
+      "element_name": "315",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "49_1149_792": {
+    "86": {
       "tag": "td",
-      "text": "49",
+      "text": "-86",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[9]",
-      "css": "td.diff.text-success",
+      "css": "td.diff.text-danger",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "diff text-success"
+        "class": "diff text-danger"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 792,
       "quality_score": 50,
-      "element_name": "49_1149_792",
+      "element_name": "86",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "new_york_islanders19962941": {
+    "new_york_rangers199541270": {
       "tag": "tr",
-      "text": "New York Islanders\t1996\t29\t41\t\t0.354\t240\t250\t-10",
+      "text": "New York Rangers\t1995\t41\t27\t\t0.5\t272\t237\t35",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]",
       "css": "tr.team",
       "id": "",
@@ -2177,17 +2177,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 829,
       "quality_score": 50,
-      "element_name": "new_york_islanders19962941",
+      "element_name": "new_york_rangers199541270",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]')",
       "is_unique": true,
       "element_count": 1
     },
-    "new_york_islanders": {
+    "new_york_rangers": {
       "tag": "td",
-      "text": "New York Islanders",
+      "text": "New York Rangers",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[1]",
       "css": "td.name",
       "id": "",
@@ -2197,17 +2197,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 829,
       "quality_score": 50,
-      "element_name": "new_york_islanders",
+      "element_name": "new_york_rangers",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_829": {
+    "1995_320_829": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[2]",
       "css": "td.year",
       "id": "",
@@ -2217,17 +2217,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 829,
       "quality_score": 50,
-      "element_name": "1996_323_829",
+      "element_name": "1995_320_829",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "29": {
+    "41_388_829": {
       "tag": "td",
-      "text": "29",
+      "text": "41",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -2237,17 +2237,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 829,
       "quality_score": 50,
-      "element_name": "29",
+      "element_name": "41_388_829",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "41": {
+    "27": {
       "tag": "td",
-      "text": "41",
+      "text": "27",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -2257,37 +2257,37 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 829,
       "quality_score": 50,
-      "element_name": "41",
+      "element_name": "27",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0354": {
+    "05_682_829": {
       "tag": "td",
-      "text": "0.354",
+      "text": "0.5",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[6]",
-      "css": "td.pct.text-danger",
+      "css": "td.pct.text-success",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "pct text-danger"
+        "class": "pct text-success"
       },
-      "x": 686,
+      "x": 682,
       "y": 829,
       "quality_score": 50,
-      "element_name": "0354",
+      "element_name": "05_682_829",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "240": {
+    "272": {
       "tag": "td",
-      "text": "240",
+      "text": "272",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -2297,17 +2297,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 829,
       "quality_score": 50,
-      "element_name": "240",
+      "element_name": "272",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "250": {
+    "237_932_829": {
       "tag": "td",
-      "text": "250",
+      "text": "237",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -2317,37 +2317,37 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 829,
       "quality_score": 50,
-      "element_name": "250",
+      "element_name": "237_932_829",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "10": {
+    "35": {
       "tag": "td",
-      "text": "-10",
+      "text": "35",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[9]",
-      "css": "td.diff.text-danger",
+      "css": "td.diff.text-success",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "diff text-danger"
+        "class": "diff text-success"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 829,
       "quality_score": 50,
-      "element_name": "10",
+      "element_name": "35",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "new_york_rangers199638340": {
+    "ottawa_senators199518590": {
       "tag": "tr",
-      "text": "New York Rangers\t1996\t38\t34\t\t0.463\t258\t231\t27",
+      "text": "Ottawa Senators\t1995\t18\t59\t\t0.22\t191\t291\t-100",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]",
       "css": "tr.team",
       "id": "",
@@ -2357,17 +2357,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 866,
       "quality_score": 50,
-      "element_name": "new_york_rangers199638340",
+      "element_name": "ottawa_senators199518590",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]')",
       "is_unique": true,
       "element_count": 1
     },
-    "new_york_rangers": {
+    "ottawa_senators": {
       "tag": "td",
-      "text": "New York Rangers",
+      "text": "Ottawa Senators",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[1]",
       "css": "td.name",
       "id": "",
@@ -2377,17 +2377,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 866,
       "quality_score": 50,
-      "element_name": "new_york_rangers",
+      "element_name": "ottawa_senators",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_866": {
+    "1995_320_866": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[2]",
       "css": "td.year",
       "id": "",
@@ -2397,17 +2397,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 866,
       "quality_score": 50,
-      "element_name": "1996_323_866",
+      "element_name": "1995_320_866",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "38_392_866": {
+    "18": {
       "tag": "td",
-      "text": "38",
+      "text": "18",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -2417,17 +2417,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 866,
       "quality_score": 50,
-      "element_name": "38_392_866",
+      "element_name": "18",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "34": {
+    "59": {
       "tag": "td",
-      "text": "34",
+      "text": "59",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -2437,17 +2437,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 866,
       "quality_score": 50,
-      "element_name": "34",
+      "element_name": "59",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0463_686_866": {
+    "022": {
       "tag": "td",
-      "text": "0.463",
+      "text": "0.22",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[6]",
       "css": "td.pct.text-danger",
       "id": "",
@@ -2457,17 +2457,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 866,
       "quality_score": 50,
-      "element_name": "0463_686_866",
+      "element_name": "022",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "258": {
+    "191": {
       "tag": "td",
-      "text": "258",
+      "text": "191",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -2477,17 +2477,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 866,
       "quality_score": 50,
-      "element_name": "258",
+      "element_name": "191",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "231_938_866": {
+    "291": {
       "tag": "td",
-      "text": "231",
+      "text": "291",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -2497,37 +2497,37 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 866,
       "quality_score": 50,
-      "element_name": "231_938_866",
+      "element_name": "291",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "27_1149_866": {
+    "100": {
       "tag": "td",
-      "text": "27",
+      "text": "-100",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[9]",
-      "css": "td.diff.text-success",
+      "css": "td.diff.text-danger",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "diff text-success"
+        "class": "diff text-danger"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 866,
       "quality_score": 50,
-      "element_name": "27_1149_866",
+      "element_name": "100",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "ottawa_senators199631360": {
+    "philadelphia_flyers19954524": {
       "tag": "tr",
-      "text": "Ottawa Senators\t1996\t31\t36\t\t0.378\t226\t234\t-8",
+      "text": "Philadelphia Flyers\t1995\t45\t24\t\t0.549\t282\t208\t74",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]",
       "css": "tr.team",
       "id": "",
@@ -2537,17 +2537,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 903,
       "quality_score": 50,
-      "element_name": "ottawa_senators199631360",
+      "element_name": "philadelphia_flyers19954524",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]')",
       "is_unique": true,
       "element_count": 1
     },
-    "ottawa_senators": {
+    "philadelphia_flyers": {
       "tag": "td",
-      "text": "Ottawa Senators",
+      "text": "Philadelphia Flyers",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[1]",
       "css": "td.name",
       "id": "",
@@ -2557,17 +2557,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 903,
       "quality_score": 50,
-      "element_name": "ottawa_senators",
+      "element_name": "philadelphia_flyers",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_903": {
+    "1995_320_903": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[2]",
       "css": "td.year",
       "id": "",
@@ -2577,17 +2577,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 903,
       "quality_score": 50,
-      "element_name": "1996_323_903",
+      "element_name": "1995_320_903",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "31_392_903": {
+    "45": {
       "tag": "td",
-      "text": "31",
+      "text": "45",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -2597,17 +2597,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 903,
       "quality_score": 50,
-      "element_name": "31_392_903",
+      "element_name": "45",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "36_464_903": {
+    "24_460_903": {
       "tag": "td",
-      "text": "36",
+      "text": "24",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -2617,37 +2617,37 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 903,
       "quality_score": 50,
-      "element_name": "36_464_903",
+      "element_name": "24_460_903",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0378_686_903": {
+    "0549": {
       "tag": "td",
-      "text": "0.378",
+      "text": "0.549",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[6]",
-      "css": "td.pct.text-danger",
+      "css": "td.pct.text-success",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "pct text-danger"
+        "class": "pct text-success"
       },
-      "x": 686,
+      "x": 682,
       "y": 903,
       "quality_score": 50,
-      "element_name": "0378_686_903",
+      "element_name": "0549",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "226_771_903": {
+    "282": {
       "tag": "td",
-      "text": "226",
+      "text": "282",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -2657,17 +2657,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 903,
       "quality_score": 50,
-      "element_name": "226_771_903",
+      "element_name": "282",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "234": {
+    "208": {
       "tag": "td",
-      "text": "234",
+      "text": "208",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -2677,37 +2677,37 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 903,
       "quality_score": 50,
-      "element_name": "234",
+      "element_name": "208",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "8": {
+    "74": {
       "tag": "td",
-      "text": "-8",
+      "text": "74",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[9]",
-      "css": "td.diff.text-danger",
+      "css": "td.diff.text-success",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "diff text-danger"
+        "class": "diff text-success"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 903,
       "quality_score": 50,
-      "element_name": "8",
+      "element_name": "74",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "philadelphia_flyers19964524": {
+    "pittsburgh_penguins19954929": {
       "tag": "tr",
-      "text": "Philadelphia Flyers\t1996\t45\t24\t\t0.549\t274\t217\t57",
+      "text": "Pittsburgh Penguins\t1995\t49\t29\t\t0.598\t362\t284\t78",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]",
       "css": "tr.team",
       "id": "",
@@ -2717,17 +2717,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 940,
       "quality_score": 50,
-      "element_name": "philadelphia_flyers19964524",
+      "element_name": "pittsburgh_penguins19954929",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]')",
       "is_unique": true,
       "element_count": 1
     },
-    "philadelphia_flyers": {
+    "pittsburgh_penguins": {
       "tag": "td",
-      "text": "Philadelphia Flyers",
+      "text": "Pittsburgh Penguins",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[1]",
       "css": "td.name",
       "id": "",
@@ -2737,17 +2737,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 940,
       "quality_score": 50,
-      "element_name": "philadelphia_flyers",
+      "element_name": "pittsburgh_penguins",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_940": {
+    "1995_320_940": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[2]",
       "css": "td.year",
       "id": "",
@@ -2757,17 +2757,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 940,
       "quality_score": 50,
-      "element_name": "1996_323_940",
+      "element_name": "1995_320_940",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "45_392_940": {
+    "49": {
       "tag": "td",
-      "text": "45",
+      "text": "49",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -2777,17 +2777,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 940,
       "quality_score": 50,
-      "element_name": "45_392_940",
+      "element_name": "49",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "24_464_940": {
+    "29": {
       "tag": "td",
-      "text": "24",
+      "text": "29",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -2797,17 +2797,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 940,
       "quality_score": 50,
-      "element_name": "24_464_940",
+      "element_name": "29",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0549_686_940": {
+    "0598": {
       "tag": "td",
-      "text": "0.549",
+      "text": "0.598",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[6]",
       "css": "td.pct.text-success",
       "id": "",
@@ -2817,17 +2817,17 @@
         "src": null,
         "class": "pct text-success"
       },
-      "x": 686,
+      "x": 682,
       "y": 940,
       "quality_score": 50,
-      "element_name": "0549_686_940",
+      "element_name": "0598",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "274": {
+    "362": {
       "tag": "td",
-      "text": "274",
+      "text": "362",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -2837,17 +2837,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 940,
       "quality_score": 50,
-      "element_name": "274",
+      "element_name": "362",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "217": {
+    "284": {
       "tag": "td",
-      "text": "217",
+      "text": "284",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -2857,17 +2857,17 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 940,
       "quality_score": 50,
-      "element_name": "217",
+      "element_name": "284",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "57": {
+    "78": {
       "tag": "td",
-      "text": "57",
+      "text": "78",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[9]",
       "css": "td.diff.text-success",
       "id": "",
@@ -2877,17 +2877,17 @@
         "src": null,
         "class": "diff text-success"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 940,
       "quality_score": 50,
-      "element_name": "57",
+      "element_name": "78",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "phoenix_coyotes199638370": {
+    "san_jose_sharks199520550": {
       "tag": "tr",
-      "text": "Phoenix Coyotes\t1996\t38\t37\t\t0.463\t240\t243\t-3",
+      "text": "San Jose Sharks\t1995\t20\t55\t\t0.244\t252\t357\t-105",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]",
       "css": "tr.team",
       "id": "",
@@ -2897,17 +2897,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 977,
       "quality_score": 50,
-      "element_name": "phoenix_coyotes199638370",
+      "element_name": "san_jose_sharks199520550",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]')",
       "is_unique": true,
       "element_count": 1
     },
-    "phoenix_coyotes": {
+    "san_jose_sharks": {
       "tag": "td",
-      "text": "Phoenix Coyotes",
+      "text": "San Jose Sharks",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[1]",
       "css": "td.name",
       "id": "",
@@ -2917,17 +2917,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 977,
       "quality_score": 50,
-      "element_name": "phoenix_coyotes",
+      "element_name": "san_jose_sharks",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_977": {
+    "1995_320_977": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[2]",
       "css": "td.year",
       "id": "",
@@ -2937,17 +2937,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 977,
       "quality_score": 50,
-      "element_name": "1996_323_977",
+      "element_name": "1995_320_977",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "38_392_977": {
+    "20_388_977": {
       "tag": "td",
-      "text": "38",
+      "text": "20",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -2957,17 +2957,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 977,
       "quality_score": 50,
-      "element_name": "38_392_977",
+      "element_name": "20_388_977",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "37_464_977": {
+    "55": {
       "tag": "td",
-      "text": "37",
+      "text": "55",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -2977,17 +2977,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 977,
       "quality_score": 50,
-      "element_name": "37_464_977",
+      "element_name": "55",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0463_686_977": {
+    "0244": {
       "tag": "td",
-      "text": "0.463",
+      "text": "0.244",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[6]",
       "css": "td.pct.text-danger",
       "id": "",
@@ -2997,17 +2997,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 977,
       "quality_score": 50,
-      "element_name": "0463_686_977",
+      "element_name": "0244",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "240_771_977": {
+    "252": {
       "tag": "td",
-      "text": "240",
+      "text": "252",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -3017,17 +3017,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 977,
       "quality_score": 50,
-      "element_name": "240_771_977",
+      "element_name": "252",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "243": {
+    "357": {
       "tag": "td",
-      "text": "243",
+      "text": "357",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -3037,17 +3037,17 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 977,
       "quality_score": 50,
-      "element_name": "243",
+      "element_name": "357",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "3": {
+    "105": {
       "tag": "td",
-      "text": "-3",
+      "text": "-105",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[9]",
       "css": "td.diff.text-danger",
       "id": "",
@@ -3057,17 +3057,17 @@
         "src": null,
         "class": "diff text-danger"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 977,
       "quality_score": 50,
-      "element_name": "3",
+      "element_name": "105",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "pittsburgh_penguins19963836": {
+    "st_louis_blues199532340": {
       "tag": "tr",
-      "text": "Pittsburgh Penguins\t1996\t38\t36\t\t0.463\t285\t280\t5",
+      "text": "St. Louis Blues\t1995\t32\t34\t\t0.39\t219\t248\t-29",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]",
       "css": "tr.team",
       "id": "",
@@ -3077,17 +3077,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 1014,
       "quality_score": 50,
-      "element_name": "pittsburgh_penguins19963836",
+      "element_name": "st_louis_blues199532340",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]')",
       "is_unique": true,
       "element_count": 1
     },
-    "pittsburgh_penguins": {
+    "st_louis_blues": {
       "tag": "td",
-      "text": "Pittsburgh Penguins",
+      "text": "St. Louis Blues",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[1]",
       "css": "td.name",
       "id": "",
@@ -3097,17 +3097,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 1014,
       "quality_score": 50,
-      "element_name": "pittsburgh_penguins",
+      "element_name": "st_louis_blues",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_1014": {
+    "1995_320_1014": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[2]",
       "css": "td.year",
       "id": "",
@@ -3117,17 +3117,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 1014,
       "quality_score": 50,
-      "element_name": "1996_323_1014",
+      "element_name": "1995_320_1014",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "38_392_1014": {
+    "32_388_1014": {
       "tag": "td",
-      "text": "38",
+      "text": "32",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -3137,17 +3137,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 1014,
       "quality_score": 50,
-      "element_name": "38_392_1014",
+      "element_name": "32_388_1014",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "36_464_1014": {
+    "34_460_1014": {
       "tag": "td",
-      "text": "36",
+      "text": "34",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -3157,17 +3157,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 1014,
       "quality_score": 50,
-      "element_name": "36_464_1014",
+      "element_name": "34_460_1014",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0463_686_1014": {
+    "039": {
       "tag": "td",
-      "text": "0.463",
+      "text": "0.39",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[6]",
       "css": "td.pct.text-danger",
       "id": "",
@@ -3177,17 +3177,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 1014,
       "quality_score": 50,
-      "element_name": "0463_686_1014",
+      "element_name": "039",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "285": {
+    "219": {
       "tag": "td",
-      "text": "285",
+      "text": "219",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -3197,17 +3197,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 1014,
       "quality_score": 50,
-      "element_name": "285",
+      "element_name": "219",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "280": {
+    "248_932_1014": {
       "tag": "td",
-      "text": "280",
+      "text": "248",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -3217,37 +3217,37 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 1014,
       "quality_score": 50,
-      "element_name": "280",
+      "element_name": "248_932_1014",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "5_1149_1014": {
+    "29_1142_1014": {
       "tag": "td",
-      "text": "5",
+      "text": "-29",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[9]",
-      "css": "td.diff.text-success",
+      "css": "td.diff.text-danger",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "diff text-success"
+        "class": "diff text-danger"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 1014,
       "quality_score": 50,
-      "element_name": "5_1149_1014",
+      "element_name": "29_1142_1014",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "san_jose_sharks199627470": {
+    "tampa_bay_lightning19953832": {
       "tag": "tr",
-      "text": "San Jose Sharks\t1996\t27\t47\t\t0.329\t211\t278\t-67",
+      "text": "Tampa Bay Lightning\t1995\t38\t32\t\t0.463\t238\t248\t-10",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]",
       "css": "tr.team",
       "id": "",
@@ -3257,17 +3257,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 1051,
       "quality_score": 50,
-      "element_name": "san_jose_sharks199627470",
+      "element_name": "tampa_bay_lightning19953832",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]')",
       "is_unique": true,
       "element_count": 1
     },
-    "san_jose_sharks": {
+    "tampa_bay_lightning": {
       "tag": "td",
-      "text": "San Jose Sharks",
+      "text": "Tampa Bay Lightning",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[1]",
       "css": "td.name",
       "id": "",
@@ -3277,17 +3277,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 1051,
       "quality_score": 50,
-      "element_name": "san_jose_sharks",
+      "element_name": "tampa_bay_lightning",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_1051": {
+    "1995_320_1051": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[2]",
       "css": "td.year",
       "id": "",
@@ -3297,17 +3297,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 1051,
       "quality_score": 50,
-      "element_name": "1996_323_1051",
+      "element_name": "1995_320_1051",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "27_392_1051": {
+    "38": {
       "tag": "td",
-      "text": "27",
+      "text": "38",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -3317,17 +3317,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 1051,
       "quality_score": 50,
-      "element_name": "27_392_1051",
+      "element_name": "38",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "47": {
+    "32_460_1051": {
       "tag": "td",
-      "text": "47",
+      "text": "32",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -3337,17 +3337,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 1051,
       "quality_score": 50,
-      "element_name": "47",
+      "element_name": "32_460_1051",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0329": {
+    "0463": {
       "tag": "td",
-      "text": "0.329",
+      "text": "0.463",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[6]",
       "css": "td.pct.text-danger",
       "id": "",
@@ -3357,17 +3357,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 1051,
       "quality_score": 50,
-      "element_name": "0329",
+      "element_name": "0463",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "211": {
+    "238": {
       "tag": "td",
-      "text": "211",
+      "text": "238",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -3377,17 +3377,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 1051,
       "quality_score": 50,
-      "element_name": "211",
+      "element_name": "238",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "278": {
+    "248_932_1051": {
       "tag": "td",
-      "text": "278",
+      "text": "248",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -3397,17 +3397,17 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 1051,
       "quality_score": 50,
-      "element_name": "278",
+      "element_name": "248_932_1051",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "67": {
+    "10": {
       "tag": "td",
-      "text": "-67",
+      "text": "-10",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[9]",
       "css": "td.diff.text-danger",
       "id": "",
@@ -3417,17 +3417,17 @@
         "src": null,
         "class": "diff text-danger"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 1051,
       "quality_score": 50,
-      "element_name": "67",
+      "element_name": "10",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "st_louis_blues199636350": {
+    "toronto_maple_leafs19953436": {
       "tag": "tr",
-      "text": "St. Louis Blues\t1996\t36\t35\t\t0.439\t236\t239\t-3",
+      "text": "Toronto Maple Leafs\t1995\t34\t36\t\t0.415\t247\t252\t-5",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]",
       "css": "tr.team",
       "id": "",
@@ -3437,17 +3437,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 1088,
       "quality_score": 50,
-      "element_name": "st_louis_blues199636350",
+      "element_name": "toronto_maple_leafs19953436",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]')",
       "is_unique": true,
       "element_count": 1
     },
-    "st_louis_blues": {
+    "toronto_maple_leafs": {
       "tag": "td",
-      "text": "St. Louis Blues",
+      "text": "Toronto Maple Leafs",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[1]",
       "css": "td.name",
       "id": "",
@@ -3457,17 +3457,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 1088,
       "quality_score": 50,
-      "element_name": "st_louis_blues",
+      "element_name": "toronto_maple_leafs",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_1088": {
+    "1995_320_1088": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[2]",
       "css": "td.year",
       "id": "",
@@ -3477,17 +3477,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 1088,
       "quality_score": 50,
-      "element_name": "1996_323_1088",
+      "element_name": "1995_320_1088",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "36_392_1088": {
+    "34_388_1088": {
       "tag": "td",
-      "text": "36",
+      "text": "34",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -3497,17 +3497,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 1088,
       "quality_score": 50,
-      "element_name": "36_392_1088",
+      "element_name": "34_388_1088",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "35_464_1088": {
+    "36": {
       "tag": "td",
-      "text": "35",
+      "text": "36",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -3517,17 +3517,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 1088,
       "quality_score": 50,
-      "element_name": "35_464_1088",
+      "element_name": "36",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0439_686_1088": {
+    "0415_682_1088": {
       "tag": "td",
-      "text": "0.439",
+      "text": "0.415",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[6]",
       "css": "td.pct.text-danger",
       "id": "",
@@ -3537,17 +3537,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 1088,
       "quality_score": 50,
-      "element_name": "0439_686_1088",
+      "element_name": "0415_682_1088",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "236": {
+    "247": {
       "tag": "td",
-      "text": "236",
+      "text": "247",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -3557,17 +3557,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 1088,
       "quality_score": 50,
-      "element_name": "236",
+      "element_name": "247",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "239": {
+    "252_932_1088": {
       "tag": "td",
-      "text": "239",
+      "text": "252",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -3577,17 +3577,17 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 1088,
       "quality_score": 50,
-      "element_name": "239",
+      "element_name": "252_932_1088",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "3_1149_1088": {
+    "5": {
       "tag": "td",
-      "text": "-3",
+      "text": "-5",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[9]",
       "css": "td.diff.text-danger",
       "id": "",
@@ -3597,17 +3597,17 @@
         "src": null,
         "class": "diff text-danger"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 1088,
       "quality_score": 50,
-      "element_name": "3_1149_1088",
+      "element_name": "5",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "tampa_bay_lightning19963240": {
+    "vancouver_canucks19953235": {
       "tag": "tr",
-      "text": "Tampa Bay Lightning\t1996\t32\t40\t\t0.39\t217\t247\t-30",
+      "text": "Vancouver Canucks\t1995\t32\t35\t\t0.39\t278\t278\t0",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]",
       "css": "tr.team",
       "id": "",
@@ -3617,17 +3617,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 1125,
       "quality_score": 50,
-      "element_name": "tampa_bay_lightning19963240",
+      "element_name": "vancouver_canucks19953235",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]')",
       "is_unique": true,
       "element_count": 1
     },
-    "tampa_bay_lightning": {
+    "vancouver_canucks": {
       "tag": "td",
-      "text": "Tampa Bay Lightning",
+      "text": "Vancouver Canucks",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[1]",
       "css": "td.name",
       "id": "",
@@ -3637,17 +3637,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 1125,
       "quality_score": 50,
-      "element_name": "tampa_bay_lightning",
+      "element_name": "vancouver_canucks",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_1125": {
+    "1995_320_1125": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[2]",
       "css": "td.year",
       "id": "",
@@ -3657,15 +3657,15 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 1125,
       "quality_score": 50,
-      "element_name": "1996_323_1125",
+      "element_name": "1995_320_1125",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "32_392_1125": {
+    "32_388_1125": {
       "tag": "td",
       "text": "32",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[3]",
@@ -3677,17 +3677,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 1125,
       "quality_score": 50,
-      "element_name": "32_392_1125",
+      "element_name": "32_388_1125",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "40": {
+    "35_460_1125": {
       "tag": "td",
-      "text": "40",
+      "text": "35",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -3697,15 +3697,15 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 1125,
       "quality_score": 50,
-      "element_name": "40",
+      "element_name": "35_460_1125",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "039_686_1125": {
+    "039_682_1125": {
       "tag": "td",
       "text": "0.39",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[6]",
@@ -3717,17 +3717,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 1125,
       "quality_score": 50,
-      "element_name": "039_686_1125",
+      "element_name": "039_682_1125",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "217_771_1125": {
+    "278": {
       "tag": "td",
-      "text": "217",
+      "text": "278",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -3737,17 +3737,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 1125,
       "quality_score": 50,
-      "element_name": "217_771_1125",
+      "element_name": "278",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "247_938_1125": {
+    "278_932_1125": {
       "tag": "td",
-      "text": "247",
+      "text": "278",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -3757,37 +3757,37 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 1125,
       "quality_score": 50,
-      "element_name": "247_938_1125",
+      "element_name": "278_932_1125",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "30_1149_1125": {
+    "0": {
       "tag": "td",
-      "text": "-30",
+      "text": "0",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[9]",
-      "css": "td.diff.text-danger",
+      "css": "td.diff.text-success",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "diff text-danger"
+        "class": "diff text-success"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 1125,
       "quality_score": 50,
-      "element_name": "30_1149_1125",
+      "element_name": "0",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "toronto_maple_leafs19963044": {
+    "washington_capitals19953932": {
       "tag": "tr",
-      "text": "Toronto Maple Leafs\t1996\t30\t44\t\t0.366\t230\t273\t-43",
+      "text": "Washington Capitals\t1995\t39\t32\t\t0.476\t234\t204\t30",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]",
       "css": "tr.team",
       "id": "",
@@ -3797,17 +3797,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 1162,
       "quality_score": 50,
-      "element_name": "toronto_maple_leafs19963044",
+      "element_name": "washington_capitals19953932",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]')",
       "is_unique": true,
       "element_count": 1
     },
-    "toronto_maple_leafs": {
+    "washington_capitals": {
       "tag": "td",
-      "text": "Toronto Maple Leafs",
+      "text": "Washington Capitals",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[1]",
       "css": "td.name",
       "id": "",
@@ -3817,17 +3817,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 1162,
       "quality_score": 50,
-      "element_name": "toronto_maple_leafs",
+      "element_name": "washington_capitals",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_1162": {
+    "1995_320_1162": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[2]",
       "css": "td.year",
       "id": "",
@@ -3837,17 +3837,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 1162,
       "quality_score": 50,
-      "element_name": "1996_323_1162",
+      "element_name": "1995_320_1162",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "30_392_1162": {
+    "39_388_1162": {
       "tag": "td",
-      "text": "30",
+      "text": "39",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -3857,17 +3857,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 1162,
       "quality_score": 50,
-      "element_name": "30_392_1162",
+      "element_name": "39_388_1162",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "44": {
+    "32_460_1162": {
       "tag": "td",
-      "text": "44",
+      "text": "32",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -3877,17 +3877,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 1162,
       "quality_score": 50,
-      "element_name": "44",
+      "element_name": "32_460_1162",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0366": {
+    "0476": {
       "tag": "td",
-      "text": "0.366",
+      "text": "0.476",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[6]",
       "css": "td.pct.text-danger",
       "id": "",
@@ -3897,17 +3897,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 1162,
       "quality_score": 50,
-      "element_name": "0366",
+      "element_name": "0476",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "230": {
+    "234_766_1162": {
       "tag": "td",
-      "text": "230",
+      "text": "234",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -3917,17 +3917,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 1162,
       "quality_score": 50,
-      "element_name": "230",
+      "element_name": "234_766_1162",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "273": {
+    "204": {
       "tag": "td",
-      "text": "273",
+      "text": "204",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -3937,37 +3937,37 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 1162,
       "quality_score": 50,
-      "element_name": "273",
+      "element_name": "204",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "43_1149_1162": {
+    "30_1142_1162": {
       "tag": "td",
-      "text": "-43",
+      "text": "30",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[9]",
-      "css": "td.diff.text-danger",
+      "css": "td.diff.text-success",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "diff text-danger"
+        "class": "diff text-success"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 1162,
       "quality_score": 50,
-      "element_name": "43_1149_1162",
+      "element_name": "30_1142_1162",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "vancouver_canucks19963540": {
+    "winnipeg_jets19953640043": {
       "tag": "tr",
-      "text": "Vancouver Canucks\t1996\t35\t40\t\t0.427\t257\t273\t-16",
+      "text": "Winnipeg Jets\t1995\t36\t40\t\t0.439\t275\t291\t-16",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]",
       "css": "tr.team",
       "id": "",
@@ -3977,17 +3977,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 1199,
       "quality_score": 50,
-      "element_name": "vancouver_canucks19963540",
+      "element_name": "winnipeg_jets19953640043",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]')",
       "is_unique": true,
       "element_count": 1
     },
-    "vancouver_canucks": {
+    "winnipeg_jets": {
       "tag": "td",
-      "text": "Vancouver Canucks",
+      "text": "Winnipeg Jets",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[1]",
       "css": "td.name",
       "id": "",
@@ -3997,17 +3997,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 1199,
       "quality_score": 50,
-      "element_name": "vancouver_canucks",
+      "element_name": "winnipeg_jets",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_1199": {
+    "1995_320_1199": {
       "tag": "td",
-      "text": "1996",
+      "text": "1995",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[2]",
       "css": "td.year",
       "id": "",
@@ -4017,17 +4017,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 1199,
       "quality_score": 50,
-      "element_name": "1996_323_1199",
+      "element_name": "1995_320_1199",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "35_392_1199": {
+    "36_388_1199": {
       "tag": "td",
-      "text": "35",
+      "text": "36",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -4037,15 +4037,15 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 1199,
       "quality_score": 50,
-      "element_name": "35_392_1199",
+      "element_name": "36_388_1199",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "40_464_1199": {
+    "40_460_1199": {
       "tag": "td",
       "text": "40",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[4]",
@@ -4057,17 +4057,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 1199,
       "quality_score": 50,
-      "element_name": "40_464_1199",
+      "element_name": "40_460_1199",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0427_686_1199": {
+    "0439": {
       "tag": "td",
-      "text": "0.427",
+      "text": "0.439",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[6]",
       "css": "td.pct.text-danger",
       "id": "",
@@ -4077,17 +4077,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 1199,
       "quality_score": 50,
-      "element_name": "0427_686_1199",
+      "element_name": "0439",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "257": {
+    "275": {
       "tag": "td",
-      "text": "257",
+      "text": "275",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -4097,17 +4097,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 1199,
       "quality_score": 50,
-      "element_name": "257",
+      "element_name": "275",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "273_938_1199": {
+    "291_932_1199": {
       "tag": "td",
-      "text": "273",
+      "text": "291",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -4117,10 +4117,10 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 1199,
       "quality_score": 50,
-      "element_name": "273_938_1199",
+      "element_name": "291_932_1199",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[8]')",
       "is_unique": true,
       "element_count": 1
@@ -4137,7 +4137,7 @@
         "src": null,
         "class": "diff text-danger"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 1199,
       "quality_score": 50,
       "element_name": "16",
@@ -4145,9 +4145,9 @@
       "is_unique": true,
       "element_count": 1
     },
-    "washington_capitals19963340": {
+    "mighty_ducks_of_anaheim19963": {
       "tag": "tr",
-      "text": "Washington Capitals\t1996\t33\t40\t\t0.402\t214\t231\t-17",
+      "text": "Mighty Ducks of Anaheim\t1996\t36\t33\t\t0.439\t245\t233\t12",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]",
       "css": "tr.team",
       "id": "",
@@ -4157,17 +4157,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 1236,
       "quality_score": 50,
-      "element_name": "washington_capitals19963340",
+      "element_name": "mighty_ducks_of_anaheim19963",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]')",
       "is_unique": true,
       "element_count": 1
     },
-    "washington_capitals": {
+    "mighty_ducks_of_anaheim": {
       "tag": "td",
-      "text": "Washington Capitals",
+      "text": "Mighty Ducks of Anaheim",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[1]",
       "css": "td.name",
       "id": "",
@@ -4177,15 +4177,15 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 1236,
       "quality_score": 50,
-      "element_name": "washington_capitals",
+      "element_name": "mighty_ducks_of_anaheim",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1996_323_1236": {
+    "1996": {
       "tag": "td",
       "text": "1996",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[2]",
@@ -4197,17 +4197,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 1236,
       "quality_score": 50,
-      "element_name": "1996_323_1236",
+      "element_name": "1996",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "33": {
+    "36_388_1236": {
       "tag": "td",
-      "text": "33",
+      "text": "36",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -4217,17 +4217,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 1236,
       "quality_score": 50,
-      "element_name": "33",
+      "element_name": "36_388_1236",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "40_464_1236": {
+    "33_460_1236": {
       "tag": "td",
-      "text": "40",
+      "text": "33",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -4237,17 +4237,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 1236,
       "quality_score": 50,
-      "element_name": "40_464_1236",
+      "element_name": "33_460_1236",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0402": {
+    "0439_682_1236": {
       "tag": "td",
-      "text": "0.402",
+      "text": "0.439",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[6]",
       "css": "td.pct.text-danger",
       "id": "",
@@ -4257,17 +4257,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 1236,
       "quality_score": 50,
-      "element_name": "0402",
+      "element_name": "0439_682_1236",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "214_771_1236": {
+    "245": {
       "tag": "td",
-      "text": "214",
+      "text": "245",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -4277,17 +4277,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 1236,
       "quality_score": 50,
-      "element_name": "214_771_1236",
+      "element_name": "245",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "231_938_1236": {
+    "233": {
       "tag": "td",
-      "text": "231",
+      "text": "233",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -4297,37 +4297,37 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 1236,
       "quality_score": 50,
-      "element_name": "231_938_1236",
+      "element_name": "233",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "17": {
+    "12": {
       "tag": "td",
-      "text": "-17",
+      "text": "12",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[9]",
-      "css": "td.diff.text-danger",
+      "css": "td.diff.text-success",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "diff text-danger"
+        "class": "diff text-success"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 1236,
       "quality_score": 50,
-      "element_name": "17",
+      "element_name": "12",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "mighty_ducks_of_anaheim19972": {
+    "boston_bruins19962647031": {
       "tag": "tr",
-      "text": "Mighty Ducks of Anaheim\t1997\t26\t43\t\t0.317\t205\t261\t-56",
+      "text": "Boston Bruins\t1996\t26\t47\t\t0.317\t234\t300\t-66",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]",
       "css": "tr.team",
       "id": "",
@@ -4337,17 +4337,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 1273,
       "quality_score": 50,
-      "element_name": "mighty_ducks_of_anaheim19972",
+      "element_name": "boston_bruins19962647031",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]')",
       "is_unique": true,
       "element_count": 1
     },
-    "mighty_ducks_of_anaheim": {
+    "boston_bruins": {
       "tag": "td",
-      "text": "Mighty Ducks of Anaheim",
+      "text": "Boston Bruins",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[1]",
       "css": "td.name",
       "id": "",
@@ -4357,17 +4357,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 1273,
       "quality_score": 50,
-      "element_name": "mighty_ducks_of_anaheim",
+      "element_name": "boston_bruins",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1997": {
+    "1996_320_1273": {
       "tag": "td",
-      "text": "1997",
+      "text": "1996",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[2]",
       "css": "td.year",
       "id": "",
@@ -4377,15 +4377,15 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 1273,
       "quality_score": 50,
-      "element_name": "1997",
+      "element_name": "1996_320_1273",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "26_392_1273": {
+    "26_388_1273": {
       "tag": "td",
       "text": "26",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[3]",
@@ -4397,17 +4397,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 1273,
       "quality_score": 50,
-      "element_name": "26_392_1273",
+      "element_name": "26_388_1273",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "43_464_1273": {
+    "47": {
       "tag": "td",
-      "text": "43",
+      "text": "47",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -4417,15 +4417,15 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 1273,
       "quality_score": 50,
-      "element_name": "43_464_1273",
+      "element_name": "47",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0317": {
+    "0317_682_1273": {
       "tag": "td",
       "text": "0.317",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[6]",
@@ -4437,17 +4437,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 1273,
       "quality_score": 50,
-      "element_name": "0317",
+      "element_name": "0317_682_1273",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "205_771_1273": {
+    "234_766_1273": {
       "tag": "td",
-      "text": "205",
+      "text": "234",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -4457,17 +4457,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 1273,
       "quality_score": 50,
-      "element_name": "205_771_1273",
+      "element_name": "234_766_1273",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "261": {
+    "300": {
       "tag": "td",
-      "text": "261",
+      "text": "300",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -4477,17 +4477,17 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 1273,
       "quality_score": 50,
-      "element_name": "261",
+      "element_name": "300",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "56_1149_1273": {
+    "66": {
       "tag": "td",
-      "text": "-56",
+      "text": "-66",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[9]",
       "css": "td.diff.text-danger",
       "id": "",
@@ -4497,17 +4497,17 @@
         "src": null,
         "class": "diff text-danger"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 1273,
       "quality_score": 50,
-      "element_name": "56_1149_1273",
+      "element_name": "66",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "boston_bruins19973930047": {
+    "buffalo_sabres1996403004": {
       "tag": "tr",
-      "text": "Boston Bruins\t1997\t39\t30\t\t0.476\t221\t194\t27",
+      "text": "Buffalo Sabres\t1996\t40\t30\t\t0.488\t237\t208\t29",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]",
       "css": "tr.team",
       "id": "",
@@ -4517,17 +4517,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 1310,
       "quality_score": 50,
-      "element_name": "boston_bruins19973930047",
+      "element_name": "buffalo_sabres1996403004",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]')",
       "is_unique": true,
       "element_count": 1
     },
-    "boston_bruins": {
+    "buffalo_sabres": {
       "tag": "td",
-      "text": "Boston Bruins",
+      "text": "Buffalo Sabres",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[1]",
       "css": "td.name",
       "id": "",
@@ -4537,17 +4537,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 1310,
       "quality_score": 50,
-      "element_name": "boston_bruins",
+      "element_name": "buffalo_sabres",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1997_323_1310": {
+    "1996_320_1310": {
       "tag": "td",
-      "text": "1997",
+      "text": "1996",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[2]",
       "css": "td.year",
       "id": "",
@@ -4557,17 +4557,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 1310,
       "quality_score": 50,
-      "element_name": "1997_323_1310",
+      "element_name": "1996_320_1310",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "39_392_1310": {
+    "40_388_1310": {
       "tag": "td",
-      "text": "39",
+      "text": "40",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -4577,15 +4577,15 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 1310,
       "quality_score": 50,
-      "element_name": "39_392_1310",
+      "element_name": "40_388_1310",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "30_464_1310": {
+    "30_460_1310": {
       "tag": "td",
       "text": "30",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[4]",
@@ -4597,17 +4597,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 1310,
       "quality_score": 50,
-      "element_name": "30_464_1310",
+      "element_name": "30_460_1310",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0476": {
+    "0488_682_1310": {
       "tag": "td",
-      "text": "0.476",
+      "text": "0.488",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[6]",
       "css": "td.pct.text-danger",
       "id": "",
@@ -4617,17 +4617,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 1310,
       "quality_score": 50,
-      "element_name": "0476",
+      "element_name": "0488_682_1310",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "221_771_1310": {
+    "237_766_1310": {
       "tag": "td",
-      "text": "221",
+      "text": "237",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -4637,17 +4637,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 1310,
       "quality_score": 50,
-      "element_name": "221_771_1310",
+      "element_name": "237_766_1310",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "194": {
+    "208_932_1310": {
       "tag": "td",
-      "text": "194",
+      "text": "208",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -4657,17 +4657,17 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 1310,
       "quality_score": 50,
-      "element_name": "194",
+      "element_name": "208_932_1310",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "27_1149_1310": {
+    "29_1142_1310": {
       "tag": "td",
-      "text": "27",
+      "text": "29",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[9]",
       "css": "td.diff.text-success",
       "id": "",
@@ -4677,17 +4677,17 @@
         "src": null,
         "class": "diff text-success"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 1310,
       "quality_score": 50,
-      "element_name": "27_1149_1310",
+      "element_name": "29_1142_1310",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "buffalo_sabres1997362904": {
+    "calgary_flames1996324103": {
       "tag": "tr",
-      "text": "Buffalo Sabres\t1997\t36\t29\t\t0.439\t211\t187\t24",
+      "text": "Calgary Flames\t1996\t32\t41\t\t0.39\t214\t239\t-25",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]",
       "css": "tr.team",
       "id": "",
@@ -4697,17 +4697,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 1347,
       "quality_score": 50,
-      "element_name": "buffalo_sabres1997362904",
+      "element_name": "calgary_flames1996324103",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]')",
       "is_unique": true,
       "element_count": 1
     },
-    "buffalo_sabres": {
+    "calgary_flames": {
       "tag": "td",
-      "text": "Buffalo Sabres",
+      "text": "Calgary Flames",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[1]",
       "css": "td.name",
       "id": "",
@@ -4717,17 +4717,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 1347,
       "quality_score": 50,
-      "element_name": "buffalo_sabres",
+      "element_name": "calgary_flames",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1997_323_1347": {
+    "1996_320_1347": {
       "tag": "td",
-      "text": "1997",
+      "text": "1996",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[2]",
       "css": "td.year",
       "id": "",
@@ -4737,17 +4737,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 1347,
       "quality_score": 50,
-      "element_name": "1997_323_1347",
+      "element_name": "1996_320_1347",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "36_392_1347": {
+    "32_388_1347": {
       "tag": "td",
-      "text": "36",
+      "text": "32",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -4757,17 +4757,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 1347,
       "quality_score": 50,
-      "element_name": "36_392_1347",
+      "element_name": "32_388_1347",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "29_464_1347": {
+    "41_460_1347": {
       "tag": "td",
-      "text": "29",
+      "text": "41",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -4777,17 +4777,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 1347,
       "quality_score": 50,
-      "element_name": "29_464_1347",
+      "element_name": "41_460_1347",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0439_686_1347": {
+    "039_682_1347": {
       "tag": "td",
-      "text": "0.439",
+      "text": "0.39",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[6]",
       "css": "td.pct.text-danger",
       "id": "",
@@ -4797,17 +4797,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 1347,
       "quality_score": 50,
-      "element_name": "0439_686_1347",
+      "element_name": "039_682_1347",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "211_771_1347": {
+    "214": {
       "tag": "td",
-      "text": "211",
+      "text": "214",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -4817,17 +4817,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 1347,
       "quality_score": 50,
-      "element_name": "211_771_1347",
+      "element_name": "214",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "187": {
+    "239": {
       "tag": "td",
-      "text": "187",
+      "text": "239",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -4837,37 +4837,37 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 1347,
       "quality_score": 50,
-      "element_name": "187",
+      "element_name": "239",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "24_1149_1347": {
+    "25": {
       "tag": "td",
-      "text": "24",
+      "text": "-25",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[9]",
-      "css": "td.diff.text-success",
+      "css": "td.diff.text-danger",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "diff text-success"
+        "class": "diff text-danger"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 1347,
       "quality_score": 50,
-      "element_name": "24_1149_1347",
+      "element_name": "25",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[9]')",
       "is_unique": true,
       "element_count": 1
     },
-    "calgary_flames1997264103": {
+    "chicago_blackhawks19963435": {
       "tag": "tr",
-      "text": "Calgary Flames\t1997\t26\t41\t\t0.317\t217\t252\t-35",
+      "text": "Chicago Blackhawks\t1996\t34\t35\t\t0.415\t223\t210\t13",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]",
       "css": "tr.team",
       "id": "",
@@ -4877,17 +4877,17 @@
         "src": null,
         "class": "team"
       },
-      "x": 68,
+      "x": 66,
       "y": 1384,
       "quality_score": 50,
-      "element_name": "calgary_flames1997264103",
+      "element_name": "chicago_blackhawks19963435",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]')",
       "is_unique": true,
       "element_count": 1
     },
-    "calgary_flames": {
+    "chicago_blackhawks": {
       "tag": "td",
-      "text": "Calgary Flames",
+      "text": "Chicago Blackhawks",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[1]",
       "css": "td.name",
       "id": "",
@@ -4897,17 +4897,17 @@
         "src": null,
         "class": "name"
       },
-      "x": 68,
+      "x": 66,
       "y": 1384,
       "quality_score": 50,
-      "element_name": "calgary_flames",
+      "element_name": "chicago_blackhawks",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "1997_323_1384": {
+    "1996_320_1384": {
       "tag": "td",
-      "text": "1997",
+      "text": "1996",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[2]",
       "css": "td.year",
       "id": "",
@@ -4917,17 +4917,17 @@
         "src": null,
         "class": "year"
       },
-      "x": 323,
+      "x": 320,
       "y": 1384,
       "quality_score": 50,
-      "element_name": "1997_323_1384",
+      "element_name": "1996_320_1384",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "26_392_1384": {
+    "34_388_1384": {
       "tag": "td",
-      "text": "26",
+      "text": "34",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[3]",
       "css": "td.wins",
       "id": "",
@@ -4937,17 +4937,17 @@
         "src": null,
         "class": "wins"
       },
-      "x": 392,
+      "x": 388,
       "y": 1384,
       "quality_score": 50,
-      "element_name": "26_392_1384",
+      "element_name": "34_388_1384",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[3]')",
       "is_unique": true,
       "element_count": 1
     },
-    "41_464_1384": {
+    "35_460_1384": {
       "tag": "td",
-      "text": "41",
+      "text": "35",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[4]",
       "css": "td.losses",
       "id": "",
@@ -4957,17 +4957,17 @@
         "src": null,
         "class": "losses"
       },
-      "x": 464,
+      "x": 460,
       "y": 1384,
       "quality_score": 50,
-      "element_name": "41_464_1384",
+      "element_name": "35_460_1384",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "0317_686_1384": {
+    "0415_682_1384": {
       "tag": "td",
-      "text": "0.317",
+      "text": "0.415",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[6]",
       "css": "td.pct.text-danger",
       "id": "",
@@ -4977,17 +4977,17 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 686,
+      "x": 682,
       "y": 1384,
       "quality_score": 50,
-      "element_name": "0317_686_1384",
+      "element_name": "0415_682_1384",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[6]')",
       "is_unique": true,
       "element_count": 1
     },
-    "217_771_1384": {
+    "223": {
       "tag": "td",
-      "text": "217",
+      "text": "223",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[7]",
       "css": "td.gf",
       "id": "",
@@ -4997,17 +4997,17 @@
         "src": null,
         "class": "gf"
       },
-      "x": 771,
+      "x": 766,
       "y": 1384,
       "quality_score": 50,
-      "element_name": "217_771_1384",
+      "element_name": "223",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[7]')",
       "is_unique": true,
       "element_count": 1
     },
-    "252_938_1384": {
+    "210": {
       "tag": "td",
-      "text": "252",
+      "text": "210",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[8]",
       "css": "td.ga",
       "id": "",
@@ -5017,30 +5017,30 @@
         "src": null,
         "class": "ga"
       },
-      "x": 938,
+      "x": 932,
       "y": 1384,
       "quality_score": 50,
-      "element_name": "252_938_1384",
+      "element_name": "210",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[8]')",
       "is_unique": true,
       "element_count": 1
     },
-    "35_1149_1384": {
+    "13_1142_1384": {
       "tag": "td",
-      "text": "-35",
+      "text": "13",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[9]",
-      "css": "td.diff.text-danger",
+      "css": "td.diff.text-success",
       "id": "",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "diff text-danger"
+        "class": "diff text-success"
       },
-      "x": 1149,
+      "x": 1142,
       "y": 1384,
       "quality_score": 50,
-      "element_name": "35_1149_1384",
+      "element_name": "13_1142_1384",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[9]')",
       "is_unique": true,
       "element_count": 1
@@ -5054,11 +5054,11 @@
       "ariaLabel": "Previous",
       "isInteractive": true,
       "attributes": {
-        "href": "/pages/forms/?page_num=6",
+        "href": "/pages/forms/?page_num=5",
         "src": null,
         "class": ""
       },
-      "x": 83,
+      "x": 81,
       "y": 1460,
       "quality_score": 50,
       "element_name": "link",
@@ -5078,7 +5078,7 @@
         "src": null,
         "class": ""
       },
-      "x": 116,
+      "x": 114,
       "y": 1460,
       "quality_score": 50,
       "element_name": "link_1",
@@ -5098,7 +5098,7 @@
         "src": null,
         "class": ""
       },
-      "x": 149,
+      "x": 147,
       "y": 1460,
       "quality_score": 50,
       "element_name": "link_2",
@@ -5106,7 +5106,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_3_181_1460": {
+    "link_3": {
       "tag": "a",
       "text": "3",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[4]/a[1]",
@@ -5118,10 +5118,10 @@
         "src": null,
         "class": ""
       },
-      "x": 181,
+      "x": 179,
       "y": 1460,
       "quality_score": 50,
-      "element_name": "link_3_181_1460",
+      "element_name": "link_3",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[4]/a[1]')",
       "is_unique": true,
       "element_count": 1
@@ -5138,7 +5138,7 @@
         "src": null,
         "class": ""
       },
-      "x": 214,
+      "x": 212,
       "y": 1460,
       "quality_score": 50,
       "element_name": "link_4",
@@ -5146,7 +5146,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_5_247_1460": {
+    "link_5_245_1460": {
       "tag": "a",
       "text": "5",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[6]/a[1]",
@@ -5158,10 +5158,10 @@
         "src": null,
         "class": ""
       },
-      "x": 247,
+      "x": 245,
       "y": 1460,
       "quality_score": 50,
-      "element_name": "link_5_247_1460",
+      "element_name": "link_5_245_1460",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[6]/a[1]')",
       "is_unique": true,
       "element_count": 1
@@ -5178,11 +5178,31 @@
         "src": null,
         "class": ""
       },
-      "x": 280,
+      "x": 278,
       "y": 1460,
       "quality_score": 50,
       "element_name": "link_6",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[7]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "6_291_1469": {
+      "tag": "strong",
+      "text": "6",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[7]/a[1]/strong[1]",
+      "css": "strong",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 291,
+      "y": 1469,
+      "quality_score": 50,
+      "element_name": "6_291_1469",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[7]/a[1]/strong[1]')",
       "is_unique": true,
       "element_count": 1
     },
@@ -5198,7 +5218,7 @@
         "src": null,
         "class": ""
       },
-      "x": 313,
+      "x": 311,
       "y": 1460,
       "quality_score": 50,
       "element_name": "link_7",
@@ -5206,27 +5226,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "7_326_1469": {
-      "tag": "strong",
-      "text": "7",
-      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[8]/a[1]/strong[1]",
-      "css": "strong",
-      "id": "",
-      "isInteractive": true,
-      "attributes": {
-        "href": null,
-        "src": null,
-        "class": ""
-      },
-      "x": 326,
-      "y": 1469,
-      "quality_score": 50,
-      "element_name": "7_326_1469",
-      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[8]/a[1]/strong[1]')",
-      "is_unique": true,
-      "element_count": 1
-    },
-    "link_8_345_1460": {
+    "link_8": {
       "tag": "a",
       "text": "8",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[9]/a[1]",
@@ -5238,10 +5238,10 @@
         "src": null,
         "class": ""
       },
-      "x": 345,
+      "x": 343,
       "y": 1460,
       "quality_score": 50,
-      "element_name": "link_8_345_1460",
+      "element_name": "link_8",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[9]/a[1]')",
       "is_unique": true,
       "element_count": 1
@@ -5258,7 +5258,7 @@
         "src": null,
         "class": ""
       },
-      "x": 378,
+      "x": 376,
       "y": 1460,
       "quality_score": 50,
       "element_name": "link_9",
@@ -5266,7 +5266,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_10_411_1460": {
+    "link_10_409_1460": {
       "tag": "a",
       "text": "10",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[11]/a[1]",
@@ -5278,10 +5278,10 @@
         "src": null,
         "class": ""
       },
-      "x": 411,
+      "x": 409,
       "y": 1460,
       "quality_score": 50,
-      "element_name": "link_10_411_1460",
+      "element_name": "link_10_409_1460",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[11]/a[1]')",
       "is_unique": true,
       "element_count": 1
@@ -5298,7 +5298,7 @@
         "src": null,
         "class": ""
       },
-      "x": 452,
+      "x": 450,
       "y": 1460,
       "quality_score": 50,
       "element_name": "link_11",
@@ -5306,7 +5306,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_12": {
+    "link_12_489_1460": {
       "tag": "a",
       "text": "12",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[13]/a[1]",
@@ -5318,15 +5318,15 @@
         "src": null,
         "class": ""
       },
-      "x": 491,
+      "x": 489,
       "y": 1460,
       "quality_score": 50,
-      "element_name": "link_12",
+      "element_name": "link_12_489_1460",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[13]/a[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "link_13": {
+    "link_13_530_1460": {
       "tag": "a",
       "text": "13",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[14]/a[1]",
@@ -5338,10 +5338,10 @@
         "src": null,
         "class": ""
       },
-      "x": 532,
+      "x": 530,
       "y": 1460,
       "quality_score": 50,
-      "element_name": "link_13",
+      "element_name": "link_13_530_1460",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[14]/a[1]')",
       "is_unique": true,
       "element_count": 1
@@ -5358,7 +5358,7 @@
         "src": null,
         "class": ""
       },
-      "x": 572,
+      "x": 570,
       "y": 1460,
       "quality_score": 50,
       "element_name": "link_14",
@@ -5378,7 +5378,7 @@
         "src": null,
         "class": ""
       },
-      "x": 613,
+      "x": 611,
       "y": 1460,
       "quality_score": 50,
       "element_name": "link_15",
@@ -5386,7 +5386,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_16_653_1460": {
+    "link_16_651_1460": {
       "tag": "a",
       "text": "16",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[17]/a[1]",
@@ -5398,15 +5398,15 @@
         "src": null,
         "class": ""
       },
-      "x": 653,
+      "x": 651,
       "y": 1460,
       "quality_score": 50,
-      "element_name": "link_16_653_1460",
+      "element_name": "link_16_651_1460",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[17]/a[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "link_17_694_1460": {
+    "link_17_692_1460": {
       "tag": "a",
       "text": "17",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[18]/a[1]",
@@ -5418,15 +5418,15 @@
         "src": null,
         "class": ""
       },
-      "x": 694,
+      "x": 692,
       "y": 1460,
       "quality_score": 50,
-      "element_name": "link_17_694_1460",
+      "element_name": "link_17_692_1460",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[18]/a[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "link_18": {
+    "link_18_733_1460": {
       "tag": "a",
       "text": "18",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[19]/a[1]",
@@ -5438,10 +5438,10 @@
         "src": null,
         "class": ""
       },
-      "x": 735,
+      "x": 733,
       "y": 1460,
       "quality_score": 50,
-      "element_name": "link_18",
+      "element_name": "link_18_733_1460",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[19]/a[1]')",
       "is_unique": true,
       "element_count": 1
@@ -5458,7 +5458,7 @@
         "src": null,
         "class": ""
       },
-      "x": 775,
+      "x": 773,
       "y": 1460,
       "quality_score": 50,
       "element_name": "link_19",
@@ -5466,7 +5466,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_20_816_1460": {
+    "link_20_814_1460": {
       "tag": "a",
       "text": "20",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[21]/a[1]",
@@ -5478,10 +5478,10 @@
         "src": null,
         "class": ""
       },
-      "x": 816,
+      "x": 814,
       "y": 1460,
       "quality_score": 50,
-      "element_name": "link_20_816_1460",
+      "element_name": "link_20_814_1460",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[21]/a[1]')",
       "is_unique": true,
       "element_count": 1
@@ -5498,7 +5498,7 @@
         "src": null,
         "class": ""
       },
-      "x": 856,
+      "x": 854,
       "y": 1460,
       "quality_score": 50,
       "element_name": "link_21",
@@ -5506,7 +5506,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_22": {
+    "link_22_895_1460": {
       "tag": "a",
       "text": "22",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[23]/a[1]",
@@ -5518,15 +5518,15 @@
         "src": null,
         "class": ""
       },
-      "x": 897,
+      "x": 895,
       "y": 1460,
       "quality_score": 50,
-      "element_name": "link_22",
+      "element_name": "link_22_895_1460",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[23]/a[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "link_23_937_1460": {
+    "link_23": {
       "tag": "a",
       "text": "23",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[24]/a[1]",
@@ -5538,15 +5538,15 @@
         "src": null,
         "class": ""
       },
-      "x": 937,
+      "x": 935,
       "y": 1460,
       "quality_score": 50,
-      "element_name": "link_23_937_1460",
+      "element_name": "link_23",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[24]/a[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "link_24_82_1494": {
+    "link_24_80_1494": {
       "tag": "a",
       "text": "24",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[25]/a[1]",
@@ -5558,15 +5558,15 @@
         "src": null,
         "class": ""
       },
-      "x": 82,
+      "x": 80,
       "y": 1494,
       "quality_score": 50,
-      "element_name": "link_24_82_1494",
+      "element_name": "link_24_80_1494",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[25]/a[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "link_123_1494": {
+    "link_121_1494": {
       "tag": "a",
       "text": "\u00bb",
       "xpath": "//*[contains(@aria-label, \"Next\")]",
@@ -5575,14 +5575,14 @@
       "ariaLabel": "Next",
       "isInteractive": true,
       "attributes": {
-        "href": "/pages/forms/?page_num=8",
+        "href": "/pages/forms/?page_num=7",
         "src": null,
         "class": ""
       },
-      "x": 123,
+      "x": 121,
       "y": 1494,
       "quality_score": 50,
-      "element_name": "link_123_1494",
+      "element_name": "link_121_1494",
       "playwright_selector": "page.locator('xpath=//*[contains(@aria-label, \"Next\")]')",
       "is_unique": true,
       "element_count": 1
@@ -5599,7 +5599,7 @@
         "src": null,
         "class": ""
       },
-      "x": 1018,
+      "x": 1016,
       "y": 1462,
       "quality_score": 50,
       "element_name": "per_page",
@@ -5619,7 +5619,7 @@
         "src": null,
         "class": "form-control col-md-3"
       },
-      "x": 1113,
+      "x": 1111,
       "y": 1460,
       "quality_score": 90,
       "element_name": "2550100",
@@ -5627,7 +5627,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "25": {
+    "25_1": {
       "tag": "option",
       "text": "25",
       "xpath": "//*[@id=\"per_page\"]/option[1]",
@@ -5642,12 +5642,12 @@
       "x": 0,
       "y": 0,
       "quality_score": 50,
-      "element_name": "25",
+      "element_name": "25_1",
       "playwright_selector": "page.locator('xpath=//*[@id=\"per_page\"]/option[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "50": {
+    "50_1": {
       "tag": "option",
       "text": "50",
       "xpath": "//*[@id=\"per_page\"]/option[2]",
@@ -5662,12 +5662,12 @@
       "x": 0,
       "y": 0,
       "quality_score": 50,
-      "element_name": "50",
+      "element_name": "50_1",
       "playwright_selector": "page.locator('xpath=//*[@id=\"per_page\"]/option[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "100": {
+    "100_1": {
       "tag": "option",
       "text": "100",
       "xpath": "//*[@id=\"per_page\"]/option[3]",
@@ -5682,7 +5682,7 @@
       "x": 0,
       "y": 0,
       "quality_score": 50,
-      "element_name": "100",
+      "element_name": "100_1",
       "playwright_selector": "page.locator('xpath=//*[@id=\"per_page\"]/option[3]')",
       "is_unique": true,
       "element_count": 1
@@ -5708,9 +5708,9 @@
       "element_count": 1
     }
   },
-  "url": "http://www.scrapethissite.com/pages/forms/?page_num=7",
+  "url": "http://www.scrapethissite.com/pages/forms/?page_num=6",
   "screen_id": 17,
-  "timestamp": "2026-03-11T09:56:04.658659",
+  "timestamp": "2026-03-12T11:19:44.171513",
   "metadata": {
     "title": "Hockey Teams: Forms, Searching and Pagination | Scrape This Site | A public sandbox for learning web scraping"
   }

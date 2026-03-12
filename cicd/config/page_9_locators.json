@@ -32,7 +32,7 @@
         "src": null,
         "class": ""
       },
-      "x": 79,
+      "x": 103,
       "y": 10,
       "quality_score": 90,
       "element_name": "scrape_this_site",
@@ -40,7 +40,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_scrape_this_site_79_10": {
+    "link_scrape_this_site_103_10": {
       "tag": "a",
       "text": "Scrape This Site",
       "xpath": "//a[contains(text(), \"Scrape This Site\")]",
@@ -52,10 +52,10 @@
         "src": null,
         "class": "nav-link hidden-sm hidden-xs"
       },
-      "x": 79,
+      "x": 103,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_scrape_this_site_79_10",
+      "element_name": "link_scrape_this_site_103_10",
       "playwright_selector": "page.locator('a.nav-link.hidden-sm.hidden-xs')",
       "is_unique": true,
       "element_count": 1
@@ -72,7 +72,7 @@
         "src": null,
         "class": "active"
       },
-      "x": 265,
+      "x": 289,
       "y": 10,
       "quality_score": 90,
       "element_name": "sandbox",
@@ -80,7 +80,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_sandbox_265_10": {
+    "link_sandbox_289_10": {
       "tag": "a",
       "text": "Sandbox",
       "xpath": "//a[contains(text(), \"Sandbox\")]",
@@ -92,10 +92,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 265,
+      "x": 289,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_sandbox_265_10",
+      "element_name": "link_sandbox_289_10",
       "playwright_selector": "page.locator('a.nav-link').nth(0)",
       "is_unique": false,
       "element_count": 5
@@ -112,7 +112,7 @@
         "src": null,
         "class": ""
       },
-      "x": 391,
+      "x": 414,
       "y": 10,
       "quality_score": 90,
       "element_name": "lessons",
@@ -120,7 +120,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_lessons_391_10": {
+    "link_lessons_414_10": {
       "tag": "a",
       "text": "Lessons",
       "xpath": "//a[contains(text(), \"Lessons\")]",
@@ -132,10 +132,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 391,
+      "x": 414,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_lessons_391_10",
+      "element_name": "link_lessons_414_10",
       "playwright_selector": "page.locator('a.nav-link').nth(0)",
       "is_unique": false,
       "element_count": 5
@@ -152,7 +152,7 @@
         "src": null,
         "class": ""
       },
-      "x": 513,
+      "x": 536,
       "y": 10,
       "quality_score": 90,
       "element_name": "faq",
@@ -160,7 +160,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_faq_513_10": {
+    "link_faq_536_10": {
       "tag": "a",
       "text": "FAQ",
       "xpath": "//a[contains(text(), \"FAQ\")]",
@@ -172,10 +172,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 513,
+      "x": 536,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_faq_513_10",
+      "element_name": "link_faq_536_10",
       "playwright_selector": "page.locator('a.nav-link').nth(0)",
       "is_unique": false,
       "element_count": 5
@@ -192,7 +192,7 @@
         "src": null,
         "class": "pull-right"
       },
-      "x": 1103,
+      "x": 1126,
       "y": 10,
       "quality_score": 90,
       "element_name": "login",
@@ -200,7 +200,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_login_1103_10": {
+    "link_login_1126_10": {
       "tag": "a",
       "text": "Login",
       "xpath": "//a[contains(text(), \"Login\")]",
@@ -212,18 +212,18 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 1103,
+      "x": 1126,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_login_1103_10",
+      "element_name": "link_login_1126_10",
       "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Login\")]')",
       "is_unique": true,
       "element_count": 1
     },
-    "heading_turtles_all_the_way_down_fram": {
+    "heading_oscar_winning_films_ajax_and": {
       "tag": "h1",
-      "text": "Turtles All the Way Down: Frames & iFrames 14 items",
-      "xpath": "//*[@id=\"frames\"]/div[1]/div[1]/div[1]/h1[1]",
+      "text": "Oscar Winning Films: AJAX and Javascript 87 items",
+      "xpath": "//*[@id=\"oscars\"]/div[1]/div[1]/div[1]/h1[1]",
       "css": "h1",
       "id": "",
       "isInteractive": false,
@@ -232,18 +232,18 @@
         "src": null,
         "class": ""
       },
-      "x": 64,
+      "x": 88,
       "y": 82,
       "quality_score": 50,
-      "element_name": "heading_turtles_all_the_way_down_fram",
+      "element_name": "heading_oscar_winning_films_ajax_and",
       "playwright_selector": "page.locator('h1')",
       "is_unique": true,
       "element_count": 1
     },
-    "14_items": {
+    "87_items": {
       "tag": "small",
-      "text": "14 items",
-      "xpath": "//*[@id=\"frames\"]/div[1]/div[1]/div[1]/h1[1]/small[1]",
+      "text": "87 items",
+      "xpath": "//*[@id=\"oscars\"]/div[1]/div[1]/div[1]/h1[1]/small[1]",
       "css": "small",
       "id": "",
       "isInteractive": false,
@@ -252,10 +252,10 @@
         "src": null,
         "class": ""
       },
-      "x": 780,
+      "x": 772,
       "y": 92,
       "quality_score": 50,
-      "element_name": "14_items",
+      "element_name": "87_items",
       "playwright_selector": "page.locator('small')",
       "is_unique": true,
       "element_count": 1
@@ -272,8 +272,8 @@
         "src": null,
         "class": ""
       },
-      "x": 146,
-      "y": 324,
+      "x": 170,
+      "y": 294,
       "quality_score": 50,
       "element_name": "link_3_video_lessons",
       "playwright_selector": "page.locator('xpath=//a[contains(text(), \"3 video lessons\")]')",
@@ -282,23 +282,163 @@
     },
     "link_httpsenwikipediaorgwiki": {
       "tag": "a",
-      "text": "https://en.wikipedia.org/wiki/List_of_Testudines_families",
-      "xpath": "//*[@id=\"frames\"]/div[1]/div[3]/div[2]/p[1]/a[1]",
+      "text": "https://en.wikipedia.org/wiki/List_of_Academy_Award-winning_films",
+      "xpath": "//*[@id=\"oscars\"]/div[1]/div[3]/div[2]/p[1]/a[1]",
       "css": "a.data-attribution",
       "id": "",
       "isInteractive": true,
       "attributes": {
-        "href": "https://en.wikipedia.org/wiki/List_of_Testudines_families",
+        "href": "https://en.wikipedia.org/wiki/List_of_Academy_Award-winning_films",
         "src": null,
         "class": "data-attribution"
       },
-      "x": 858,
-      "y": 324,
+      "x": 810,
+      "y": 294,
       "quality_score": 50,
       "element_name": "link_httpsenwikipediaorgwiki",
       "playwright_selector": "page.locator('a.data-attribution')",
       "is_unique": true,
       "element_count": 1
+    },
+    "heading_choose_a_year_to_view_films": {
+      "tag": "h3",
+      "text": "Choose a Year to View Films",
+      "xpath": "//*[@id=\"oscars\"]/div[1]/div[4]/div[1]/h3[1]",
+      "css": "h3",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 88,
+      "y": 373,
+      "quality_score": 50,
+      "element_name": "heading_choose_a_year_to_view_films",
+      "playwright_selector": "page.locator('h3')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_2015": {
+      "tag": "a",
+      "text": "2015",
+      "xpath": "//*[@id=\"2015\"]",
+      "css": "#2015",
+      "id": "2015",
+      "isInteractive": true,
+      "attributes": {
+        "href": "#",
+        "src": null,
+        "class": "year-link"
+      },
+      "x": 399,
+      "y": 430,
+      "quality_score": 90,
+      "element_name": "link_2015",
+      "playwright_selector": "page.locator('#2015').nth(0)",
+      "is_unique": false,
+      "element_count": 0
+    },
+    "link_2014": {
+      "tag": "a",
+      "text": "2014",
+      "xpath": "//*[@id=\"2014\"]",
+      "css": "#2014",
+      "id": "2014",
+      "isInteractive": true,
+      "attributes": {
+        "href": "#",
+        "src": null,
+        "class": "year-link"
+      },
+      "x": 493,
+      "y": 430,
+      "quality_score": 90,
+      "element_name": "link_2014",
+      "playwright_selector": "page.locator('#2014').nth(0)",
+      "is_unique": false,
+      "element_count": 0
+    },
+    "link_2013": {
+      "tag": "a",
+      "text": "2013",
+      "xpath": "//*[@id=\"2013\"]",
+      "css": "#2013",
+      "id": "2013",
+      "isInteractive": true,
+      "attributes": {
+        "href": "#",
+        "src": null,
+        "class": "year-link"
+      },
+      "x": 587,
+      "y": 430,
+      "quality_score": 90,
+      "element_name": "link_2013",
+      "playwright_selector": "page.locator('#2013').nth(0)",
+      "is_unique": false,
+      "element_count": 0
+    },
+    "link_2012": {
+      "tag": "a",
+      "text": "2012",
+      "xpath": "//*[@id=\"2012\"]",
+      "css": "#2012",
+      "id": "2012",
+      "isInteractive": true,
+      "attributes": {
+        "href": "#",
+        "src": null,
+        "class": "year-link"
+      },
+      "x": 680,
+      "y": 430,
+      "quality_score": 90,
+      "element_name": "link_2012",
+      "playwright_selector": "page.locator('#2012').nth(0)",
+      "is_unique": false,
+      "element_count": 0
+    },
+    "link_2011": {
+      "tag": "a",
+      "text": "2011",
+      "xpath": "//*[@id=\"2011\"]",
+      "css": "#2011",
+      "id": "2011",
+      "isInteractive": true,
+      "attributes": {
+        "href": "#",
+        "src": null,
+        "class": "year-link"
+      },
+      "x": 774,
+      "y": 430,
+      "quality_score": 90,
+      "element_name": "link_2011",
+      "playwright_selector": "page.locator('#2011').nth(0)",
+      "is_unique": false,
+      "element_count": 0
+    },
+    "link_2010": {
+      "tag": "a",
+      "text": "2010",
+      "xpath": "//*[@id=\"2010\"]",
+      "css": "#2010",
+      "id": "2010",
+      "isInteractive": true,
+      "attributes": {
+        "href": "#",
+        "src": null,
+        "class": "year-link"
+      },
+      "x": 866,
+      "y": 430,
+      "quality_score": 90,
+      "element_name": "link_2010",
+      "playwright_selector": "page.locator('#2010').nth(0)",
+      "is_unique": false,
+      "element_count": 0
     },
     "lessons_and_videos_hartley_b": {
       "tag": "section",
@@ -313,7 +453,7 @@
         "class": ""
       },
       "x": 0,
-      "y": 828,
+      "y": 523,
       "quality_score": 90,
       "element_name": "lessons_and_videos_hartley_b",
       "playwright_selector": "page.locator('#footer')",
@@ -321,10 +461,10 @@
       "element_count": 1
     }
   },
-  "url": "http://www.scrapethissite.com/pages/frames/",
+  "url": "http://www.scrapethissite.com/pages/ajax-javascript/",
   "screen_id": 8,
-  "timestamp": "2026-03-11T09:54:12.338733",
+  "timestamp": "2026-03-12T11:17:00.468616",
   "metadata": {
-    "title": "Turtles All the Way Down: Frames & iFrames | Scrape This Site | A public sandbox for learning web scraping"
+    "title": "Oscar Winning Films: AJAX and Javascript | Scrape This Site | A public sandbox for learning web scraping"
   }
 }

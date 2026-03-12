@@ -1,0 +1,108 @@
+{
+  "testCases": [
+    {
+      "id": "TC_NAVIGATION_01",
+      "title": "Verify navigation to Lessons page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('#nav-lessons')`",
+        "Verification: Expect URL to change to '/lessons/'"
+      ],
+      "expected": [
+        "Lessons page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_NAVIGATION_02",
+      "title": "Verify navigation to FAQ page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('#nav-faq')`",
+        "Verification: Expect URL to change to '/faq/'"
+      ],
+      "expected": [
+        "FAQ page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_NAVIGATION_03",
+      "title": "Verify navigation to Login page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
+        "Verification: Expect URL to change to '/login/'"
+      ],
+      "expected": [
+        "Login page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_SEARCH_01",
+      "title": "Verify team search functionality",
+      "url": "",
+      "inputs": {
+        "STATE_15_INPUT_SEARCH_FOR_TEAMS": "Toronto Maple Leafs"
+      },
+      "steps": [
+        "Navigate to ",
+        "Fill 'Toronto Maple Leafs' into locator `page.locator('#q')`",
+        "Click locator `page.locator('input.btn.btn-primary')`",
+        "Verification: Expect search results to be displayed"
+      ],
+      "expected": [
+        "Search results for Toronto Maple Leafs are displayed"
+      ]
+    },
+    {
+      "id": "TC_PAGINATION_01",
+      "title": "Verify pagination functionality",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[2]/a[1]')`",
+        "Verification: Expect URL to change to '/pages/forms/?page_num=1'"
+      ],
+      "expected": [
+        "Navigates to the page 1 and content loads successfully"
+      ]
+    },
+    {
+      "id": "TC_PAGINATION_02",
+      "title": "Verify pagination functionality - next page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//*[contains(@aria-label, \"Next\")]')`",
+        "Verification: Expect URL to change to '/pages/forms/?page_num=5'"
+      ],
+      "expected": [
+        "Navigates to the next page and content loads successfully"
+      ]
+    },
+    {
+      "id": "TC_RECORDS_PER_PAGE_01",
+      "title": "Verify changing records per page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('#per_page')`",
+        "Verification: Expect select dropdown to open"
+      ],
+      "expected": [
+        "Dropdown opens and the available options are displayed"
+      ]
+    }
+  ],
+  "url": "",
+  "generatedAt": "2026-03-12T11:23:10.217038",
+  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+}

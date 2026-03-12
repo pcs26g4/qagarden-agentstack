@@ -1,0 +1,6217 @@
+{
+  "elements": {
+    "scrape_this_site_sandbox_les": {
+      "tag": "nav",
+      "text": "Scrape This Site\n Sandbox\n Lessons\n FAQ\nLogin",
+      "xpath": "//*[@id=\"site-nav\"]",
+      "css": "#site-nav",
+      "id": "site-nav",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 0,
+      "y": 10,
+      "quality_score": 90,
+      "element_name": "scrape_this_site_sandbox_les",
+      "playwright_selector": "page.locator('#site-nav')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "scrape_this_site": {
+      "tag": "li",
+      "text": "Scrape This Site",
+      "xpath": "//*[@id=\"nav-homepage\"]",
+      "css": "#nav-homepage",
+      "id": "nav-homepage",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 91,
+      "y": 10,
+      "quality_score": 90,
+      "element_name": "scrape_this_site",
+      "playwright_selector": "page.locator('#nav-homepage')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_scrape_this_site_91_10": {
+      "tag": "a",
+      "text": "Scrape This Site",
+      "xpath": "//a[contains(text(), \"Scrape This Site\")]",
+      "css": "a.nav-link.hidden-sm.hidden-xs",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/",
+        "src": null,
+        "class": "nav-link hidden-sm hidden-xs"
+      },
+      "x": 91,
+      "y": 10,
+      "quality_score": 50,
+      "element_name": "link_scrape_this_site_91_10",
+      "playwright_selector": "page.locator('a.nav-link.hidden-sm.hidden-xs')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "sandbox": {
+      "tag": "li",
+      "text": "Sandbox",
+      "xpath": "//*[@id=\"nav-sandbox\"]",
+      "css": "#nav-sandbox",
+      "id": "nav-sandbox",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "active"
+      },
+      "x": 277,
+      "y": 10,
+      "quality_score": 90,
+      "element_name": "sandbox",
+      "playwright_selector": "page.locator('#nav-sandbox')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_sandbox_277_10": {
+      "tag": "a",
+      "text": "Sandbox",
+      "xpath": "//a[contains(text(), \"Sandbox\")]",
+      "css": "a.nav-link",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/",
+        "src": null,
+        "class": "nav-link"
+      },
+      "x": 277,
+      "y": 10,
+      "quality_score": 50,
+      "element_name": "link_sandbox_277_10",
+      "playwright_selector": "page.locator('a.nav-link').nth(0)",
+      "is_unique": false,
+      "element_count": 5
+    },
+    "lessons": {
+      "tag": "li",
+      "text": "Lessons",
+      "xpath": "//*[@id=\"nav-lessons\"]",
+      "css": "#nav-lessons",
+      "id": "nav-lessons",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 402,
+      "y": 10,
+      "quality_score": 90,
+      "element_name": "lessons",
+      "playwright_selector": "page.locator('#nav-lessons')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_lessons_402_10": {
+      "tag": "a",
+      "text": "Lessons",
+      "xpath": "//a[contains(text(), \"Lessons\")]",
+      "css": "a.nav-link",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/lessons/",
+        "src": null,
+        "class": "nav-link"
+      },
+      "x": 402,
+      "y": 10,
+      "quality_score": 50,
+      "element_name": "link_lessons_402_10",
+      "playwright_selector": "page.locator('a.nav-link').nth(0)",
+      "is_unique": false,
+      "element_count": 5
+    },
+    "faq": {
+      "tag": "li",
+      "text": "FAQ",
+      "xpath": "//*[@id=\"nav-faq\"]",
+      "css": "#nav-faq",
+      "id": "nav-faq",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 524,
+      "y": 10,
+      "quality_score": 90,
+      "element_name": "faq",
+      "playwright_selector": "page.locator('#nav-faq')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_faq_524_10": {
+      "tag": "a",
+      "text": "FAQ",
+      "xpath": "//a[contains(text(), \"FAQ\")]",
+      "css": "a.nav-link",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/faq/",
+        "src": null,
+        "class": "nav-link"
+      },
+      "x": 524,
+      "y": 10,
+      "quality_score": 50,
+      "element_name": "link_faq_524_10",
+      "playwright_selector": "page.locator('a.nav-link').nth(0)",
+      "is_unique": false,
+      "element_count": 5
+    },
+    "login": {
+      "tag": "li",
+      "text": "Login",
+      "xpath": "//*[@id=\"nav-login\"]",
+      "css": "#nav-login",
+      "id": "nav-login",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pull-right"
+      },
+      "x": 1114,
+      "y": 10,
+      "quality_score": 90,
+      "element_name": "login",
+      "playwright_selector": "page.locator('#nav-login')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_login_1114_10": {
+      "tag": "a",
+      "text": "Login",
+      "xpath": "//a[contains(text(), \"Login\")]",
+      "css": "a.nav-link",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/login/",
+        "src": null,
+        "class": "nav-link"
+      },
+      "x": 1114,
+      "y": 10,
+      "quality_score": 50,
+      "element_name": "link_login_1114_10",
+      "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Login\")]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "heading_hockey_teams_forms_searching": {
+      "tag": "h1",
+      "text": "Hockey Teams: Forms, Searching and Pagination 25 items",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[1]/div[1]/h1[1]",
+      "css": "h1",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 76,
+      "y": 82,
+      "quality_score": 50,
+      "element_name": "heading_hockey_teams_forms_searching",
+      "playwright_selector": "page.locator('h1')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "25_items": {
+      "tag": "small",
+      "text": "25 items",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[1]/div[1]/h1[1]/small[1]",
+      "css": "small",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 850,
+      "y": 92,
+      "quality_score": 50,
+      "element_name": "25_items",
+      "playwright_selector": "page.locator('small')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_8_video_lessons": {
+      "tag": "a",
+      "text": "8 video lessons",
+      "xpath": "//a[contains(text(), \"8 video lessons\")]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/lessons/",
+        "src": null,
+        "class": ""
+      },
+      "x": 158,
+      "y": 294,
+      "quality_score": 50,
+      "element_name": "link_8_video_lessons",
+      "playwright_selector": "page.locator('xpath=//a[contains(text(), \"8 video lessons\")]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_httpwwwopensourcesportsco": {
+      "tag": "a",
+      "text": "http://www.opensourcesports.com/hockey/",
+      "xpath": "//a[contains(text(), \"http://www.opensourcesports.com/hockey/\")]",
+      "css": "a.data-attribution",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "http://www.opensourcesports.com/hockey/",
+        "src": null,
+        "class": "data-attribution"
+      },
+      "x": 953,
+      "y": 294,
+      "quality_score": 50,
+      "element_name": "link_httpwwwopensourcesportsco",
+      "playwright_selector": "page.locator('a.data-attribution')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "input_search_for_teams": {
+      "tag": "input",
+      "text": "",
+      "xpath": "//*[@id=\"q\"]",
+      "css": "#q",
+      "id": "q",
+      "name": "q",
+      "type": "text",
+      "placeholder": "Search for Teams",
+      "customLabel": "Search for Teams:",
+      "isInteractive": true,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "form-control"
+      },
+      "x": 577,
+      "y": 353,
+      "quality_score": 90,
+      "element_name": "input_search_for_teams",
+      "playwright_selector": "page.locator('#q')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "input_el": {
+      "tag": "input",
+      "text": "",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[4]/div[1]/form[1]/input[2]",
+      "css": "input.btn.btn-primary",
+      "id": "",
+      "type": "submit",
+      "isInteractive": true,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "btn btn-primary"
+      },
+      "x": 777,
+      "y": 353,
+      "quality_score": 50,
+      "element_name": "input_el",
+      "playwright_selector": "page.locator('input.btn.btn-primary')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "team_nameyearwinslossesot": {
+      "tag": "tr",
+      "text": "Team Name\tYear\tWins\tLosses\tOT Losses\tWin %\tGoals For (GF)\tGoals Against (GA)\t+ / -",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]",
+      "css": "tr",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 76,
+      "y": 459,
+      "quality_score": 50,
+      "element_name": "team_nameyearwinslossesot",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "team_name": {
+      "tag": "th",
+      "text": "Team Name",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[1]",
+      "css": "th",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 76,
+      "y": 459,
+      "quality_score": 50,
+      "element_name": "team_name",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "year": {
+      "tag": "th",
+      "text": "Year",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[2]",
+      "css": "th",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 317,
+      "y": 459,
+      "quality_score": 50,
+      "element_name": "year",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "wins": {
+      "tag": "th",
+      "text": "Wins",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[3]",
+      "css": "th",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 387,
+      "y": 459,
+      "quality_score": 50,
+      "element_name": "wins",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "losses": {
+      "tag": "th",
+      "text": "Losses",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[4]",
+      "css": "th",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 460,
+      "y": 459,
+      "quality_score": 50,
+      "element_name": "losses",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "ot_losses": {
+      "tag": "th",
+      "text": "OT Losses",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[5]",
+      "css": "th",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 556,
+      "y": 459,
+      "quality_score": 50,
+      "element_name": "ot_losses",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "win": {
+      "tag": "th",
+      "text": "Win %",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[6]",
+      "css": "th",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 686,
+      "y": 459,
+      "quality_score": 50,
+      "element_name": "win",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "goals_for_gf": {
+      "tag": "th",
+      "text": "Goals For (GF)",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[7]",
+      "css": "th",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 772,
+      "y": 459,
+      "quality_score": 50,
+      "element_name": "goals_for_gf",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "goals_against_ga": {
+      "tag": "th",
+      "text": "Goals Against (GA)",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[8]",
+      "css": "th",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 941,
+      "y": 459,
+      "quality_score": 50,
+      "element_name": "goals_against_ga",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "": {
+      "tag": "th",
+      "text": "+ / -",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[9]",
+      "css": "th",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 1155,
+      "y": 459,
+      "quality_score": 50,
+      "element_name": "",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[1]/th[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "new_york_islanders20073538": {
+      "tag": "tr",
+      "text": "New York Islanders\t2007\t35\t38\t9\t0.427\t194\t243\t-49",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 496,
+      "quality_score": 50,
+      "element_name": "new_york_islanders20073538",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "new_york_islanders": {
+      "tag": "td",
+      "text": "New York Islanders",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 496,
+      "quality_score": 50,
+      "element_name": "new_york_islanders",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2007": {
+      "tag": "td",
+      "text": "2007",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 496,
+      "quality_score": 50,
+      "element_name": "2007",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "35": {
+      "tag": "td",
+      "text": "35",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 496,
+      "quality_score": 50,
+      "element_name": "35",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "38": {
+      "tag": "td",
+      "text": "38",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 496,
+      "quality_score": 50,
+      "element_name": "38",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "9": {
+      "tag": "td",
+      "text": "9",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 496,
+      "quality_score": 50,
+      "element_name": "9",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0427": {
+      "tag": "td",
+      "text": "0.427",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[6]",
+      "css": "td.pct.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-danger"
+      },
+      "x": 686,
+      "y": 496,
+      "quality_score": 50,
+      "element_name": "0427",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "194": {
+      "tag": "td",
+      "text": "194",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 496,
+      "quality_score": 50,
+      "element_name": "194",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "243": {
+      "tag": "td",
+      "text": "243",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 496,
+      "quality_score": 50,
+      "element_name": "243",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "49": {
+      "tag": "td",
+      "text": "-49",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[9]",
+      "css": "td.diff.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-danger"
+      },
+      "x": 1155,
+      "y": 496,
+      "quality_score": 50,
+      "element_name": "49",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[2]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "new_york_rangers2007422713": {
+      "tag": "tr",
+      "text": "New York Rangers\t2007\t42\t27\t13\t0.512\t213\t199\t14",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 533,
+      "quality_score": 50,
+      "element_name": "new_york_rangers2007422713",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "new_york_rangers": {
+      "tag": "td",
+      "text": "New York Rangers",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 533,
+      "quality_score": 50,
+      "element_name": "new_york_rangers",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2007_317_533": {
+      "tag": "td",
+      "text": "2007",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 533,
+      "quality_score": 50,
+      "element_name": "2007_317_533",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "42": {
+      "tag": "td",
+      "text": "42",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 533,
+      "quality_score": 50,
+      "element_name": "42",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "27": {
+      "tag": "td",
+      "text": "27",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 533,
+      "quality_score": 50,
+      "element_name": "27",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "13": {
+      "tag": "td",
+      "text": "13",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 533,
+      "quality_score": 50,
+      "element_name": "13",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0512": {
+      "tag": "td",
+      "text": "0.512",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[6]",
+      "css": "td.pct.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-success"
+      },
+      "x": 686,
+      "y": 533,
+      "quality_score": 50,
+      "element_name": "0512",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "213": {
+      "tag": "td",
+      "text": "213",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 533,
+      "quality_score": 50,
+      "element_name": "213",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "199": {
+      "tag": "td",
+      "text": "199",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 533,
+      "quality_score": 50,
+      "element_name": "199",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "14": {
+      "tag": "td",
+      "text": "14",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[9]",
+      "css": "td.diff.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-success"
+      },
+      "x": 1155,
+      "y": 533,
+      "quality_score": 50,
+      "element_name": "14",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "ottawa_senators2007433180": {
+      "tag": "tr",
+      "text": "Ottawa Senators\t2007\t43\t31\t8\t0.524\t261\t247\t14",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 570,
+      "quality_score": 50,
+      "element_name": "ottawa_senators2007433180",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "ottawa_senators": {
+      "tag": "td",
+      "text": "Ottawa Senators",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 570,
+      "quality_score": 50,
+      "element_name": "ottawa_senators",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2007_317_570": {
+      "tag": "td",
+      "text": "2007",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 570,
+      "quality_score": 50,
+      "element_name": "2007_317_570",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "43": {
+      "tag": "td",
+      "text": "43",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 570,
+      "quality_score": 50,
+      "element_name": "43",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "31": {
+      "tag": "td",
+      "text": "31",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 570,
+      "quality_score": 50,
+      "element_name": "31",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "8": {
+      "tag": "td",
+      "text": "8",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 570,
+      "quality_score": 50,
+      "element_name": "8",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0524": {
+      "tag": "td",
+      "text": "0.524",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[6]",
+      "css": "td.pct.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-success"
+      },
+      "x": 686,
+      "y": 570,
+      "quality_score": 50,
+      "element_name": "0524",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "261": {
+      "tag": "td",
+      "text": "261",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 570,
+      "quality_score": 50,
+      "element_name": "261",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "247": {
+      "tag": "td",
+      "text": "247",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 570,
+      "quality_score": 50,
+      "element_name": "247",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "14_1155_570": {
+      "tag": "td",
+      "text": "14",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[9]",
+      "css": "td.diff.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-success"
+      },
+      "x": 1155,
+      "y": 570,
+      "quality_score": 50,
+      "element_name": "14_1155_570",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[4]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "philadelphia_flyers20074229": {
+      "tag": "tr",
+      "text": "Philadelphia Flyers\t2007\t42\t29\t11\t0.512\t248\t233\t15",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 607,
+      "quality_score": 50,
+      "element_name": "philadelphia_flyers20074229",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "philadelphia_flyers": {
+      "tag": "td",
+      "text": "Philadelphia Flyers",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 607,
+      "quality_score": 50,
+      "element_name": "philadelphia_flyers",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2007_317_607": {
+      "tag": "td",
+      "text": "2007",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 607,
+      "quality_score": 50,
+      "element_name": "2007_317_607",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "42_387_607": {
+      "tag": "td",
+      "text": "42",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 607,
+      "quality_score": 50,
+      "element_name": "42_387_607",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "29": {
+      "tag": "td",
+      "text": "29",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 607,
+      "quality_score": 50,
+      "element_name": "29",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "11": {
+      "tag": "td",
+      "text": "11",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 607,
+      "quality_score": 50,
+      "element_name": "11",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0512_686_607": {
+      "tag": "td",
+      "text": "0.512",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[6]",
+      "css": "td.pct.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-success"
+      },
+      "x": 686,
+      "y": 607,
+      "quality_score": 50,
+      "element_name": "0512_686_607",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "248": {
+      "tag": "td",
+      "text": "248",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 607,
+      "quality_score": 50,
+      "element_name": "248",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "233": {
+      "tag": "td",
+      "text": "233",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 607,
+      "quality_score": 50,
+      "element_name": "233",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "15": {
+      "tag": "td",
+      "text": "15",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[9]",
+      "css": "td.diff.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-success"
+      },
+      "x": 1155,
+      "y": 607,
+      "quality_score": 50,
+      "element_name": "15",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "phoenix_coyotes2007383770": {
+      "tag": "tr",
+      "text": "Phoenix Coyotes\t2007\t38\t37\t7\t0.463\t214\t231\t-17",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 644,
+      "quality_score": 50,
+      "element_name": "phoenix_coyotes2007383770",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "phoenix_coyotes": {
+      "tag": "td",
+      "text": "Phoenix Coyotes",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 644,
+      "quality_score": 50,
+      "element_name": "phoenix_coyotes",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2007_317_644": {
+      "tag": "td",
+      "text": "2007",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 644,
+      "quality_score": 50,
+      "element_name": "2007_317_644",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "38_387_644": {
+      "tag": "td",
+      "text": "38",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 644,
+      "quality_score": 50,
+      "element_name": "38_387_644",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "37": {
+      "tag": "td",
+      "text": "37",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 644,
+      "quality_score": 50,
+      "element_name": "37",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "7": {
+      "tag": "td",
+      "text": "7",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 644,
+      "quality_score": 50,
+      "element_name": "7",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0463": {
+      "tag": "td",
+      "text": "0.463",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[6]",
+      "css": "td.pct.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-danger"
+      },
+      "x": 686,
+      "y": 644,
+      "quality_score": 50,
+      "element_name": "0463",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "214": {
+      "tag": "td",
+      "text": "214",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 644,
+      "quality_score": 50,
+      "element_name": "214",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "231": {
+      "tag": "td",
+      "text": "231",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 644,
+      "quality_score": 50,
+      "element_name": "231",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "17": {
+      "tag": "td",
+      "text": "-17",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[9]",
+      "css": "td.diff.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-danger"
+      },
+      "x": 1155,
+      "y": 644,
+      "quality_score": 50,
+      "element_name": "17",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "pittsburgh_penguins20074727": {
+      "tag": "tr",
+      "text": "Pittsburgh Penguins\t2007\t47\t27\t8\t0.573\t247\t216\t31",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 681,
+      "quality_score": 50,
+      "element_name": "pittsburgh_penguins20074727",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "pittsburgh_penguins": {
+      "tag": "td",
+      "text": "Pittsburgh Penguins",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 681,
+      "quality_score": 50,
+      "element_name": "pittsburgh_penguins",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2007_317_681": {
+      "tag": "td",
+      "text": "2007",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 681,
+      "quality_score": 50,
+      "element_name": "2007_317_681",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "47": {
+      "tag": "td",
+      "text": "47",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 681,
+      "quality_score": 50,
+      "element_name": "47",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "27_460_681": {
+      "tag": "td",
+      "text": "27",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 681,
+      "quality_score": 50,
+      "element_name": "27_460_681",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "8_556_681": {
+      "tag": "td",
+      "text": "8",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 681,
+      "quality_score": 50,
+      "element_name": "8_556_681",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0573": {
+      "tag": "td",
+      "text": "0.573",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[6]",
+      "css": "td.pct.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-success"
+      },
+      "x": 686,
+      "y": 681,
+      "quality_score": 50,
+      "element_name": "0573",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "247_772_681": {
+      "tag": "td",
+      "text": "247",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 681,
+      "quality_score": 50,
+      "element_name": "247_772_681",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "216": {
+      "tag": "td",
+      "text": "216",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 681,
+      "quality_score": 50,
+      "element_name": "216",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "31_1155_681": {
+      "tag": "td",
+      "text": "31",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[9]",
+      "css": "td.diff.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-success"
+      },
+      "x": 1155,
+      "y": 681,
+      "quality_score": 50,
+      "element_name": "31_1155_681",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "san_jose_sharks2007492310": {
+      "tag": "tr",
+      "text": "San Jose Sharks\t2007\t49\t23\t10\t0.598\t222\t193\t29",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 718,
+      "quality_score": 50,
+      "element_name": "san_jose_sharks2007492310",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "san_jose_sharks": {
+      "tag": "td",
+      "text": "San Jose Sharks",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 718,
+      "quality_score": 50,
+      "element_name": "san_jose_sharks",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2007_317_718": {
+      "tag": "td",
+      "text": "2007",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 718,
+      "quality_score": 50,
+      "element_name": "2007_317_718",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "49_387_718": {
+      "tag": "td",
+      "text": "49",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 718,
+      "quality_score": 50,
+      "element_name": "49_387_718",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "23": {
+      "tag": "td",
+      "text": "23",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 718,
+      "quality_score": 50,
+      "element_name": "23",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "10": {
+      "tag": "td",
+      "text": "10",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 718,
+      "quality_score": 50,
+      "element_name": "10",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0598": {
+      "tag": "td",
+      "text": "0.598",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[6]",
+      "css": "td.pct.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-success"
+      },
+      "x": 686,
+      "y": 718,
+      "quality_score": 50,
+      "element_name": "0598",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "222": {
+      "tag": "td",
+      "text": "222",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 718,
+      "quality_score": 50,
+      "element_name": "222",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "193": {
+      "tag": "td",
+      "text": "193",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 718,
+      "quality_score": 50,
+      "element_name": "193",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "29_1155_718": {
+      "tag": "td",
+      "text": "29",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[9]",
+      "css": "td.diff.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-success"
+      },
+      "x": 1155,
+      "y": 718,
+      "quality_score": 50,
+      "element_name": "29_1155_718",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "st_louis_blues2007333613": {
+      "tag": "tr",
+      "text": "St. Louis Blues\t2007\t33\t36\t13\t0.402\t205\t237\t-32",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 755,
+      "quality_score": 50,
+      "element_name": "st_louis_blues2007333613",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "st_louis_blues": {
+      "tag": "td",
+      "text": "St. Louis Blues",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 755,
+      "quality_score": 50,
+      "element_name": "st_louis_blues",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2007_317_755": {
+      "tag": "td",
+      "text": "2007",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 755,
+      "quality_score": 50,
+      "element_name": "2007_317_755",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "33": {
+      "tag": "td",
+      "text": "33",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 755,
+      "quality_score": 50,
+      "element_name": "33",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "36": {
+      "tag": "td",
+      "text": "36",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 755,
+      "quality_score": 50,
+      "element_name": "36",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "13_556_755": {
+      "tag": "td",
+      "text": "13",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 755,
+      "quality_score": 50,
+      "element_name": "13_556_755",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0402": {
+      "tag": "td",
+      "text": "0.402",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[6]",
+      "css": "td.pct.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-danger"
+      },
+      "x": 686,
+      "y": 755,
+      "quality_score": 50,
+      "element_name": "0402",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "205": {
+      "tag": "td",
+      "text": "205",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 755,
+      "quality_score": 50,
+      "element_name": "205",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "237": {
+      "tag": "td",
+      "text": "237",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 755,
+      "quality_score": 50,
+      "element_name": "237",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "32": {
+      "tag": "td",
+      "text": "-32",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[9]",
+      "css": "td.diff.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-danger"
+      },
+      "x": 1155,
+      "y": 755,
+      "quality_score": 50,
+      "element_name": "32",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[9]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "tampa_bay_lightning20073142": {
+      "tag": "tr",
+      "text": "Tampa Bay Lightning\t2007\t31\t42\t9\t0.378\t223\t267\t-44",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 792,
+      "quality_score": 50,
+      "element_name": "tampa_bay_lightning20073142",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "tampa_bay_lightning": {
+      "tag": "td",
+      "text": "Tampa Bay Lightning",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 792,
+      "quality_score": 50,
+      "element_name": "tampa_bay_lightning",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2007_317_792": {
+      "tag": "td",
+      "text": "2007",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 792,
+      "quality_score": 50,
+      "element_name": "2007_317_792",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "31_387_792": {
+      "tag": "td",
+      "text": "31",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 792,
+      "quality_score": 50,
+      "element_name": "31_387_792",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "42_460_792": {
+      "tag": "td",
+      "text": "42",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 792,
+      "quality_score": 50,
+      "element_name": "42_460_792",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "9_556_792": {
+      "tag": "td",
+      "text": "9",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 792,
+      "quality_score": 50,
+      "element_name": "9_556_792",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0378": {
+      "tag": "td",
+      "text": "0.378",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[6]",
+      "css": "td.pct.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-danger"
+      },
+      "x": 686,
+      "y": 792,
+      "quality_score": 50,
+      "element_name": "0378",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "223": {
+      "tag": "td",
+      "text": "223",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 792,
+      "quality_score": 50,
+      "element_name": "223",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "267": {
+      "tag": "td",
+      "text": "267",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 792,
+      "quality_score": 50,
+      "element_name": "267",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "44": {
+      "tag": "td",
+      "text": "-44",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[9]",
+      "css": "td.diff.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-danger"
+      },
+      "x": 1155,
+      "y": 792,
+      "quality_score": 50,
+      "element_name": "44",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[10]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "toronto_maple_leafs20073635": {
+      "tag": "tr",
+      "text": "Toronto Maple Leafs\t2007\t36\t35\t11\t0.439\t231\t260\t-29",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 829,
+      "quality_score": 50,
+      "element_name": "toronto_maple_leafs20073635",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "toronto_maple_leafs": {
+      "tag": "td",
+      "text": "Toronto Maple Leafs",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 829,
+      "quality_score": 50,
+      "element_name": "toronto_maple_leafs",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2007_317_829": {
+      "tag": "td",
+      "text": "2007",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 829,
+      "quality_score": 50,
+      "element_name": "2007_317_829",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "36_387_829": {
+      "tag": "td",
+      "text": "36",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 829,
+      "quality_score": 50,
+      "element_name": "36_387_829",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "35_460_829": {
+      "tag": "td",
+      "text": "35",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 829,
+      "quality_score": 50,
+      "element_name": "35_460_829",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "11_556_829": {
+      "tag": "td",
+      "text": "11",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 829,
+      "quality_score": 50,
+      "element_name": "11_556_829",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0439": {
+      "tag": "td",
+      "text": "0.439",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[6]",
+      "css": "td.pct.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-danger"
+      },
+      "x": 686,
+      "y": 829,
+      "quality_score": 50,
+      "element_name": "0439",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "231_772_829": {
+      "tag": "td",
+      "text": "231",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 829,
+      "quality_score": 50,
+      "element_name": "231_772_829",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "260": {
+      "tag": "td",
+      "text": "260",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 829,
+      "quality_score": 50,
+      "element_name": "260",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "29_1155_829": {
+      "tag": "td",
+      "text": "-29",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[9]",
+      "css": "td.diff.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-danger"
+      },
+      "x": 1155,
+      "y": 829,
+      "quality_score": 50,
+      "element_name": "29_1155_829",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[11]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "vancouver_canucks200739331": {
+      "tag": "tr",
+      "text": "Vancouver Canucks\t2007\t39\t33\t10\t0.476\t213\t215\t-2",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 866,
+      "quality_score": 50,
+      "element_name": "vancouver_canucks200739331",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "vancouver_canucks": {
+      "tag": "td",
+      "text": "Vancouver Canucks",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 866,
+      "quality_score": 50,
+      "element_name": "vancouver_canucks",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2007_317_866": {
+      "tag": "td",
+      "text": "2007",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 866,
+      "quality_score": 50,
+      "element_name": "2007_317_866",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "39": {
+      "tag": "td",
+      "text": "39",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 866,
+      "quality_score": 50,
+      "element_name": "39",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "33_460_866": {
+      "tag": "td",
+      "text": "33",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 866,
+      "quality_score": 50,
+      "element_name": "33_460_866",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "10_556_866": {
+      "tag": "td",
+      "text": "10",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 866,
+      "quality_score": 50,
+      "element_name": "10_556_866",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0476": {
+      "tag": "td",
+      "text": "0.476",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[6]",
+      "css": "td.pct.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-danger"
+      },
+      "x": 686,
+      "y": 866,
+      "quality_score": 50,
+      "element_name": "0476",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "213_772_866": {
+      "tag": "td",
+      "text": "213",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 866,
+      "quality_score": 50,
+      "element_name": "213_772_866",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "215": {
+      "tag": "td",
+      "text": "215",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 866,
+      "quality_score": 50,
+      "element_name": "215",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2": {
+      "tag": "td",
+      "text": "-2",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[9]",
+      "css": "td.diff.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-danger"
+      },
+      "x": 1155,
+      "y": 866,
+      "quality_score": 50,
+      "element_name": "2",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[12]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "washington_capitals20074331": {
+      "tag": "tr",
+      "text": "Washington Capitals\t2007\t43\t31\t8\t0.524\t242\t231\t11",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 903,
+      "quality_score": 50,
+      "element_name": "washington_capitals20074331",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "washington_capitals": {
+      "tag": "td",
+      "text": "Washington Capitals",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 903,
+      "quality_score": 50,
+      "element_name": "washington_capitals",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2007_317_903": {
+      "tag": "td",
+      "text": "2007",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 903,
+      "quality_score": 50,
+      "element_name": "2007_317_903",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "43_387_903": {
+      "tag": "td",
+      "text": "43",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 903,
+      "quality_score": 50,
+      "element_name": "43_387_903",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "31_460_903": {
+      "tag": "td",
+      "text": "31",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 903,
+      "quality_score": 50,
+      "element_name": "31_460_903",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "8_556_903": {
+      "tag": "td",
+      "text": "8",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 903,
+      "quality_score": 50,
+      "element_name": "8_556_903",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0524_686_903": {
+      "tag": "td",
+      "text": "0.524",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[6]",
+      "css": "td.pct.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-success"
+      },
+      "x": 686,
+      "y": 903,
+      "quality_score": 50,
+      "element_name": "0524_686_903",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "242": {
+      "tag": "td",
+      "text": "242",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 903,
+      "quality_score": 50,
+      "element_name": "242",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "231_941_903": {
+      "tag": "td",
+      "text": "231",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 903,
+      "quality_score": 50,
+      "element_name": "231_941_903",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "11_1155_903": {
+      "tag": "td",
+      "text": "11",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[9]",
+      "css": "td.diff.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-success"
+      },
+      "x": 1155,
+      "y": 903,
+      "quality_score": 50,
+      "element_name": "11_1155_903",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[13]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "anaheim_ducks20084233705": {
+      "tag": "tr",
+      "text": "Anaheim Ducks\t2008\t42\t33\t7\t0.512\t245\t238\t7",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 940,
+      "quality_score": 50,
+      "element_name": "anaheim_ducks20084233705",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "anaheim_ducks": {
+      "tag": "td",
+      "text": "Anaheim Ducks",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 940,
+      "quality_score": 50,
+      "element_name": "anaheim_ducks",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2008": {
+      "tag": "td",
+      "text": "2008",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 940,
+      "quality_score": 50,
+      "element_name": "2008",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "42_387_940": {
+      "tag": "td",
+      "text": "42",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 940,
+      "quality_score": 50,
+      "element_name": "42_387_940",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "33_460_940": {
+      "tag": "td",
+      "text": "33",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 940,
+      "quality_score": 50,
+      "element_name": "33_460_940",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "7_556_940": {
+      "tag": "td",
+      "text": "7",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 940,
+      "quality_score": 50,
+      "element_name": "7_556_940",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0512_686_940": {
+      "tag": "td",
+      "text": "0.512",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[6]",
+      "css": "td.pct.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-success"
+      },
+      "x": 686,
+      "y": 940,
+      "quality_score": 50,
+      "element_name": "0512_686_940",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "245": {
+      "tag": "td",
+      "text": "245",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 940,
+      "quality_score": 50,
+      "element_name": "245",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "238": {
+      "tag": "td",
+      "text": "238",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 940,
+      "quality_score": 50,
+      "element_name": "238",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "7_1155_940": {
+      "tag": "td",
+      "text": "7",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[9]",
+      "css": "td.diff.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-success"
+      },
+      "x": 1155,
+      "y": 940,
+      "quality_score": 50,
+      "element_name": "7_1155_940",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[14]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "atlanta_thrashers200835416": {
+      "tag": "tr",
+      "text": "Atlanta Thrashers\t2008\t35\t41\t6\t0.427\t257\t280\t-23",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 977,
+      "quality_score": 50,
+      "element_name": "atlanta_thrashers200835416",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "atlanta_thrashers": {
+      "tag": "td",
+      "text": "Atlanta Thrashers",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 977,
+      "quality_score": 50,
+      "element_name": "atlanta_thrashers",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2008_317_977": {
+      "tag": "td",
+      "text": "2008",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 977,
+      "quality_score": 50,
+      "element_name": "2008_317_977",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "35_387_977": {
+      "tag": "td",
+      "text": "35",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 977,
+      "quality_score": 50,
+      "element_name": "35_387_977",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "41": {
+      "tag": "td",
+      "text": "41",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 977,
+      "quality_score": 50,
+      "element_name": "41",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "6": {
+      "tag": "td",
+      "text": "6",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 977,
+      "quality_score": 50,
+      "element_name": "6",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0427_686_977": {
+      "tag": "td",
+      "text": "0.427",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[6]",
+      "css": "td.pct.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-danger"
+      },
+      "x": 686,
+      "y": 977,
+      "quality_score": 50,
+      "element_name": "0427_686_977",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "257": {
+      "tag": "td",
+      "text": "257",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 977,
+      "quality_score": 50,
+      "element_name": "257",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "280": {
+      "tag": "td",
+      "text": "280",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 977,
+      "quality_score": 50,
+      "element_name": "280",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "23_1155_977": {
+      "tag": "td",
+      "text": "-23",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[9]",
+      "css": "td.diff.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-danger"
+      },
+      "x": 1155,
+      "y": 977,
+      "quality_score": 50,
+      "element_name": "23_1155_977",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[15]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "boston_bruins20085319100": {
+      "tag": "tr",
+      "text": "Boston Bruins\t2008\t53\t19\t10\t0.646\t274\t196\t78",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 1014,
+      "quality_score": 50,
+      "element_name": "boston_bruins20085319100",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "boston_bruins": {
+      "tag": "td",
+      "text": "Boston Bruins",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 1014,
+      "quality_score": 50,
+      "element_name": "boston_bruins",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2008_317_1014": {
+      "tag": "td",
+      "text": "2008",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 1014,
+      "quality_score": 50,
+      "element_name": "2008_317_1014",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "53": {
+      "tag": "td",
+      "text": "53",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 1014,
+      "quality_score": 50,
+      "element_name": "53",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "19": {
+      "tag": "td",
+      "text": "19",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 1014,
+      "quality_score": 50,
+      "element_name": "19",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "10_556_1014": {
+      "tag": "td",
+      "text": "10",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 1014,
+      "quality_score": 50,
+      "element_name": "10_556_1014",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0646": {
+      "tag": "td",
+      "text": "0.646",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[6]",
+      "css": "td.pct.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-success"
+      },
+      "x": 686,
+      "y": 1014,
+      "quality_score": 50,
+      "element_name": "0646",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "274": {
+      "tag": "td",
+      "text": "274",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 1014,
+      "quality_score": 50,
+      "element_name": "274",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "196": {
+      "tag": "td",
+      "text": "196",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 1014,
+      "quality_score": 50,
+      "element_name": "196",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "78": {
+      "tag": "td",
+      "text": "78",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[9]",
+      "css": "td.diff.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-success"
+      },
+      "x": 1155,
+      "y": 1014,
+      "quality_score": 50,
+      "element_name": "78",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[16]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "buffalo_sabres2008413290": {
+      "tag": "tr",
+      "text": "Buffalo Sabres\t2008\t41\t32\t9\t0.5\t250\t234\t16",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 1051,
+      "quality_score": 50,
+      "element_name": "buffalo_sabres2008413290",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "buffalo_sabres": {
+      "tag": "td",
+      "text": "Buffalo Sabres",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 1051,
+      "quality_score": 50,
+      "element_name": "buffalo_sabres",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2008_317_1051": {
+      "tag": "td",
+      "text": "2008",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 1051,
+      "quality_score": 50,
+      "element_name": "2008_317_1051",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "41_387_1051": {
+      "tag": "td",
+      "text": "41",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 1051,
+      "quality_score": 50,
+      "element_name": "41_387_1051",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "32_460_1051": {
+      "tag": "td",
+      "text": "32",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 1051,
+      "quality_score": 50,
+      "element_name": "32_460_1051",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "9_556_1051": {
+      "tag": "td",
+      "text": "9",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 1051,
+      "quality_score": 50,
+      "element_name": "9_556_1051",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "05": {
+      "tag": "td",
+      "text": "0.5",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[6]",
+      "css": "td.pct.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-success"
+      },
+      "x": 686,
+      "y": 1051,
+      "quality_score": 50,
+      "element_name": "05",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "250": {
+      "tag": "td",
+      "text": "250",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 1051,
+      "quality_score": 50,
+      "element_name": "250",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "234": {
+      "tag": "td",
+      "text": "234",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 1051,
+      "quality_score": 50,
+      "element_name": "234",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "16": {
+      "tag": "td",
+      "text": "16",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[9]",
+      "css": "td.diff.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-success"
+      },
+      "x": 1155,
+      "y": 1051,
+      "quality_score": 50,
+      "element_name": "16",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[17]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "calgary_flames2008463060": {
+      "tag": "tr",
+      "text": "Calgary Flames\t2008\t46\t30\t6\t0.561\t254\t248\t6",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 1088,
+      "quality_score": 50,
+      "element_name": "calgary_flames2008463060",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "calgary_flames": {
+      "tag": "td",
+      "text": "Calgary Flames",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 1088,
+      "quality_score": 50,
+      "element_name": "calgary_flames",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2008_317_1088": {
+      "tag": "td",
+      "text": "2008",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 1088,
+      "quality_score": 50,
+      "element_name": "2008_317_1088",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "46": {
+      "tag": "td",
+      "text": "46",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 1088,
+      "quality_score": 50,
+      "element_name": "46",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "30": {
+      "tag": "td",
+      "text": "30",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 1088,
+      "quality_score": 50,
+      "element_name": "30",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "6_556_1088": {
+      "tag": "td",
+      "text": "6",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 1088,
+      "quality_score": 50,
+      "element_name": "6_556_1088",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0561": {
+      "tag": "td",
+      "text": "0.561",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[6]",
+      "css": "td.pct.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-success"
+      },
+      "x": 686,
+      "y": 1088,
+      "quality_score": 50,
+      "element_name": "0561",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "254": {
+      "tag": "td",
+      "text": "254",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 1088,
+      "quality_score": 50,
+      "element_name": "254",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "248_941_1088": {
+      "tag": "td",
+      "text": "248",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 1088,
+      "quality_score": 50,
+      "element_name": "248_941_1088",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "6_1155_1088": {
+      "tag": "td",
+      "text": "6",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[9]",
+      "css": "td.diff.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-success"
+      },
+      "x": 1155,
+      "y": 1088,
+      "quality_score": 50,
+      "element_name": "6_1155_1088",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[18]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "carolina_hurricanes20084530": {
+      "tag": "tr",
+      "text": "Carolina Hurricanes\t2008\t45\t30\t7\t0.549\t239\t226\t13",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 1125,
+      "quality_score": 50,
+      "element_name": "carolina_hurricanes20084530",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "carolina_hurricanes": {
+      "tag": "td",
+      "text": "Carolina Hurricanes",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 1125,
+      "quality_score": 50,
+      "element_name": "carolina_hurricanes",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2008_317_1125": {
+      "tag": "td",
+      "text": "2008",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 1125,
+      "quality_score": 50,
+      "element_name": "2008_317_1125",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "45": {
+      "tag": "td",
+      "text": "45",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 1125,
+      "quality_score": 50,
+      "element_name": "45",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "30_460_1125": {
+      "tag": "td",
+      "text": "30",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 1125,
+      "quality_score": 50,
+      "element_name": "30_460_1125",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "7_556_1125": {
+      "tag": "td",
+      "text": "7",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 1125,
+      "quality_score": 50,
+      "element_name": "7_556_1125",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0549": {
+      "tag": "td",
+      "text": "0.549",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[6]",
+      "css": "td.pct.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-success"
+      },
+      "x": 686,
+      "y": 1125,
+      "quality_score": 50,
+      "element_name": "0549",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "239": {
+      "tag": "td",
+      "text": "239",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 1125,
+      "quality_score": 50,
+      "element_name": "239",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "226": {
+      "tag": "td",
+      "text": "226",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 1125,
+      "quality_score": 50,
+      "element_name": "226",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "13_1155_1125": {
+      "tag": "td",
+      "text": "13",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[9]",
+      "css": "td.diff.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-success"
+      },
+      "x": 1155,
+      "y": 1125,
+      "quality_score": 50,
+      "element_name": "13_1155_1125",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[19]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "columbus_blue_jackets200841": {
+      "tag": "tr",
+      "text": "Columbus Blue Jackets\t2008\t41\t31\t10\t0.5\t226\t230\t-4",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 1162,
+      "quality_score": 50,
+      "element_name": "columbus_blue_jackets200841",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "columbus_blue_jackets": {
+      "tag": "td",
+      "text": "Columbus Blue Jackets",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 1162,
+      "quality_score": 50,
+      "element_name": "columbus_blue_jackets",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2008_317_1162": {
+      "tag": "td",
+      "text": "2008",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 1162,
+      "quality_score": 50,
+      "element_name": "2008_317_1162",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "41_387_1162": {
+      "tag": "td",
+      "text": "41",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 1162,
+      "quality_score": 50,
+      "element_name": "41_387_1162",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "31_460_1162": {
+      "tag": "td",
+      "text": "31",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 1162,
+      "quality_score": 50,
+      "element_name": "31_460_1162",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "10_556_1162": {
+      "tag": "td",
+      "text": "10",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 1162,
+      "quality_score": 50,
+      "element_name": "10_556_1162",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "05_686_1162": {
+      "tag": "td",
+      "text": "0.5",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[6]",
+      "css": "td.pct.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-success"
+      },
+      "x": 686,
+      "y": 1162,
+      "quality_score": 50,
+      "element_name": "05_686_1162",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "226_772_1162": {
+      "tag": "td",
+      "text": "226",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 1162,
+      "quality_score": 50,
+      "element_name": "226_772_1162",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "230": {
+      "tag": "td",
+      "text": "230",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 1162,
+      "quality_score": 50,
+      "element_name": "230",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "4": {
+      "tag": "td",
+      "text": "-4",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[9]",
+      "css": "td.diff.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-danger"
+      },
+      "x": 1155,
+      "y": 1162,
+      "quality_score": 50,
+      "element_name": "4",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[20]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "chicago_blackhawks20084624": {
+      "tag": "tr",
+      "text": "Chicago Blackhawks\t2008\t46\t24\t12\t0.561\t264\t216\t48",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 1199,
+      "quality_score": 50,
+      "element_name": "chicago_blackhawks20084624",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "chicago_blackhawks": {
+      "tag": "td",
+      "text": "Chicago Blackhawks",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 1199,
+      "quality_score": 50,
+      "element_name": "chicago_blackhawks",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2008_317_1199": {
+      "tag": "td",
+      "text": "2008",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 1199,
+      "quality_score": 50,
+      "element_name": "2008_317_1199",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "46_387_1199": {
+      "tag": "td",
+      "text": "46",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 1199,
+      "quality_score": 50,
+      "element_name": "46_387_1199",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "24": {
+      "tag": "td",
+      "text": "24",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 1199,
+      "quality_score": 50,
+      "element_name": "24",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "12": {
+      "tag": "td",
+      "text": "12",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 1199,
+      "quality_score": 50,
+      "element_name": "12",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0561_686_1199": {
+      "tag": "td",
+      "text": "0.561",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[6]",
+      "css": "td.pct.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-success"
+      },
+      "x": 686,
+      "y": 1199,
+      "quality_score": 50,
+      "element_name": "0561_686_1199",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "264": {
+      "tag": "td",
+      "text": "264",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 1199,
+      "quality_score": 50,
+      "element_name": "264",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "216_941_1199": {
+      "tag": "td",
+      "text": "216",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 1199,
+      "quality_score": 50,
+      "element_name": "216_941_1199",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "48": {
+      "tag": "td",
+      "text": "48",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[9]",
+      "css": "td.diff.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-success"
+      },
+      "x": 1155,
+      "y": 1199,
+      "quality_score": 50,
+      "element_name": "48",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[21]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "colorado_avalanche20083245": {
+      "tag": "tr",
+      "text": "Colorado Avalanche\t2008\t32\t45\t5\t0.39\t199\t257\t-58",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 1236,
+      "quality_score": 50,
+      "element_name": "colorado_avalanche20083245",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "colorado_avalanche": {
+      "tag": "td",
+      "text": "Colorado Avalanche",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 1236,
+      "quality_score": 50,
+      "element_name": "colorado_avalanche",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2008_317_1236": {
+      "tag": "td",
+      "text": "2008",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 1236,
+      "quality_score": 50,
+      "element_name": "2008_317_1236",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "32_387_1236": {
+      "tag": "td",
+      "text": "32",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 1236,
+      "quality_score": 50,
+      "element_name": "32_387_1236",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "45_460_1236": {
+      "tag": "td",
+      "text": "45",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 1236,
+      "quality_score": 50,
+      "element_name": "45_460_1236",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "5": {
+      "tag": "td",
+      "text": "5",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 1236,
+      "quality_score": 50,
+      "element_name": "5",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "039": {
+      "tag": "td",
+      "text": "0.39",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[6]",
+      "css": "td.pct.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-danger"
+      },
+      "x": 686,
+      "y": 1236,
+      "quality_score": 50,
+      "element_name": "039",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "199_772_1236": {
+      "tag": "td",
+      "text": "199",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 1236,
+      "quality_score": 50,
+      "element_name": "199_772_1236",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "257_941_1236": {
+      "tag": "td",
+      "text": "257",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 1236,
+      "quality_score": 50,
+      "element_name": "257_941_1236",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "58": {
+      "tag": "td",
+      "text": "-58",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[9]",
+      "css": "td.diff.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-danger"
+      },
+      "x": 1155,
+      "y": 1236,
+      "quality_score": 50,
+      "element_name": "58",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[22]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "dallas_stars200836351104": {
+      "tag": "tr",
+      "text": "Dallas Stars\t2008\t36\t35\t11\t0.439\t230\t257\t-27",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 1273,
+      "quality_score": 50,
+      "element_name": "dallas_stars200836351104",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "dallas_stars": {
+      "tag": "td",
+      "text": "Dallas Stars",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 1273,
+      "quality_score": 50,
+      "element_name": "dallas_stars",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2008_317_1273": {
+      "tag": "td",
+      "text": "2008",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 1273,
+      "quality_score": 50,
+      "element_name": "2008_317_1273",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "36_387_1273": {
+      "tag": "td",
+      "text": "36",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 1273,
+      "quality_score": 50,
+      "element_name": "36_387_1273",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "35_460_1273": {
+      "tag": "td",
+      "text": "35",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 1273,
+      "quality_score": 50,
+      "element_name": "35_460_1273",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "11_556_1273": {
+      "tag": "td",
+      "text": "11",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 1273,
+      "quality_score": 50,
+      "element_name": "11_556_1273",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0439_686_1273": {
+      "tag": "td",
+      "text": "0.439",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[6]",
+      "css": "td.pct.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-danger"
+      },
+      "x": 686,
+      "y": 1273,
+      "quality_score": 50,
+      "element_name": "0439_686_1273",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "230_772_1273": {
+      "tag": "td",
+      "text": "230",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 1273,
+      "quality_score": 50,
+      "element_name": "230_772_1273",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "257_941_1273": {
+      "tag": "td",
+      "text": "257",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 1273,
+      "quality_score": 50,
+      "element_name": "257_941_1273",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "27_1155_1273": {
+      "tag": "td",
+      "text": "-27",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[9]",
+      "css": "td.diff.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-danger"
+      },
+      "x": 1155,
+      "y": 1273,
+      "quality_score": 50,
+      "element_name": "27_1155_1273",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[23]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "detroit_red_wings200851211": {
+      "tag": "tr",
+      "text": "Detroit Red Wings\t2008\t51\t21\t10\t0.622\t295\t244\t51",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 1310,
+      "quality_score": 50,
+      "element_name": "detroit_red_wings200851211",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "detroit_red_wings": {
+      "tag": "td",
+      "text": "Detroit Red Wings",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 1310,
+      "quality_score": 50,
+      "element_name": "detroit_red_wings",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2008_317_1310": {
+      "tag": "td",
+      "text": "2008",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 1310,
+      "quality_score": 50,
+      "element_name": "2008_317_1310",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "51": {
+      "tag": "td",
+      "text": "51",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 1310,
+      "quality_score": 50,
+      "element_name": "51",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "21": {
+      "tag": "td",
+      "text": "21",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 1310,
+      "quality_score": 50,
+      "element_name": "21",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "10_556_1310": {
+      "tag": "td",
+      "text": "10",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 1310,
+      "quality_score": 50,
+      "element_name": "10_556_1310",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0622": {
+      "tag": "td",
+      "text": "0.622",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[6]",
+      "css": "td.pct.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-success"
+      },
+      "x": 686,
+      "y": 1310,
+      "quality_score": 50,
+      "element_name": "0622",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "295": {
+      "tag": "td",
+      "text": "295",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 1310,
+      "quality_score": 50,
+      "element_name": "295",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "244": {
+      "tag": "td",
+      "text": "244",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 1310,
+      "quality_score": 50,
+      "element_name": "244",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "51_1155_1310": {
+      "tag": "td",
+      "text": "51",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[9]",
+      "css": "td.diff.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-success"
+      },
+      "x": 1155,
+      "y": 1310,
+      "quality_score": 50,
+      "element_name": "51_1155_1310",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[24]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "edmonton_oilers2008383590": {
+      "tag": "tr",
+      "text": "Edmonton Oilers\t2008\t38\t35\t9\t0.463\t234\t248\t-14",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 1347,
+      "quality_score": 50,
+      "element_name": "edmonton_oilers2008383590",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "edmonton_oilers": {
+      "tag": "td",
+      "text": "Edmonton Oilers",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 1347,
+      "quality_score": 50,
+      "element_name": "edmonton_oilers",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2008_317_1347": {
+      "tag": "td",
+      "text": "2008",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 1347,
+      "quality_score": 50,
+      "element_name": "2008_317_1347",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "38_387_1347": {
+      "tag": "td",
+      "text": "38",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 1347,
+      "quality_score": 50,
+      "element_name": "38_387_1347",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "35_460_1347": {
+      "tag": "td",
+      "text": "35",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 1347,
+      "quality_score": 50,
+      "element_name": "35_460_1347",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "9_556_1347": {
+      "tag": "td",
+      "text": "9",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 1347,
+      "quality_score": 50,
+      "element_name": "9_556_1347",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "0463_686_1347": {
+      "tag": "td",
+      "text": "0.463",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[6]",
+      "css": "td.pct.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-danger"
+      },
+      "x": 686,
+      "y": 1347,
+      "quality_score": 50,
+      "element_name": "0463_686_1347",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "234_772_1347": {
+      "tag": "td",
+      "text": "234",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 1347,
+      "quality_score": 50,
+      "element_name": "234_772_1347",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "248_941_1347": {
+      "tag": "td",
+      "text": "248",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 1347,
+      "quality_score": 50,
+      "element_name": "248_941_1347",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "14_1155_1347": {
+      "tag": "td",
+      "text": "-14",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[9]",
+      "css": "td.diff.text-danger",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-danger"
+      },
+      "x": 1155,
+      "y": 1347,
+      "quality_score": 50,
+      "element_name": "14_1155_1347",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[25]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "florida_panthers2008413011": {
+      "tag": "tr",
+      "text": "Florida Panthers\t2008\t41\t30\t11\t0.5\t234\t231\t3",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]",
+      "css": "tr.team",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "team"
+      },
+      "x": 76,
+      "y": 1384,
+      "quality_score": 50,
+      "element_name": "florida_panthers2008413011",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "florida_panthers": {
+      "tag": "td",
+      "text": "Florida Panthers",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[1]",
+      "css": "td.name",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "name"
+      },
+      "x": 76,
+      "y": 1384,
+      "quality_score": 50,
+      "element_name": "florida_panthers",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2008_317_1384": {
+      "tag": "td",
+      "text": "2008",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[2]",
+      "css": "td.year",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "year"
+      },
+      "x": 317,
+      "y": 1384,
+      "quality_score": 50,
+      "element_name": "2008_317_1384",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "41_387_1384": {
+      "tag": "td",
+      "text": "41",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[3]",
+      "css": "td.wins",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "wins"
+      },
+      "x": 387,
+      "y": 1384,
+      "quality_score": 50,
+      "element_name": "41_387_1384",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "30_460_1384": {
+      "tag": "td",
+      "text": "30",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[4]",
+      "css": "td.losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "losses"
+      },
+      "x": 460,
+      "y": 1384,
+      "quality_score": 50,
+      "element_name": "30_460_1384",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[4]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "11_556_1384": {
+      "tag": "td",
+      "text": "11",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[5]",
+      "css": "td.ot-losses",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ot-losses"
+      },
+      "x": 556,
+      "y": 1384,
+      "quality_score": 50,
+      "element_name": "11_556_1384",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[5]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "05_686_1384": {
+      "tag": "td",
+      "text": "0.5",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[6]",
+      "css": "td.pct.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pct text-success"
+      },
+      "x": 686,
+      "y": 1384,
+      "quality_score": 50,
+      "element_name": "05_686_1384",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[6]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "234_772_1384": {
+      "tag": "td",
+      "text": "234",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[7]",
+      "css": "td.gf",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "gf"
+      },
+      "x": 772,
+      "y": 1384,
+      "quality_score": 50,
+      "element_name": "234_772_1384",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[7]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "231_941_1384": {
+      "tag": "td",
+      "text": "231",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[8]",
+      "css": "td.ga",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "ga"
+      },
+      "x": 941,
+      "y": 1384,
+      "quality_score": 50,
+      "element_name": "231_941_1384",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[8]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "3": {
+      "tag": "td",
+      "text": "3",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[9]",
+      "css": "td.diff.text-success",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "diff text-success"
+      },
+      "x": 1155,
+      "y": 1384,
+      "quality_score": 50,
+      "element_name": "3",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[26]/td[9]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link": {
+      "tag": "a",
+      "text": "\u00ab",
+      "xpath": "//*[contains(@aria-label, \"Previous\")]",
+      "css": "a",
+      "id": "",
+      "ariaLabel": "Previous",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=18",
+        "src": null,
+        "class": ""
+      },
+      "x": 91,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link",
+      "playwright_selector": "page.locator('xpath=//*[contains(@aria-label, \"Previous\")]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_1": {
+      "tag": "a",
+      "text": "1",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[2]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=1",
+        "src": null,
+        "class": ""
+      },
+      "x": 123,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_1",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[2]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_2_156_1460": {
+      "tag": "a",
+      "text": "2",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[3]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=2",
+        "src": null,
+        "class": ""
+      },
+      "x": 156,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_2_156_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[3]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_3_189_1460": {
+      "tag": "a",
+      "text": "3",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[4]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=3",
+        "src": null,
+        "class": ""
+      },
+      "x": 189,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_3_189_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[4]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_4_222_1460": {
+      "tag": "a",
+      "text": "4",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[5]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=4",
+        "src": null,
+        "class": ""
+      },
+      "x": 222,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_4_222_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[5]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_5_254_1460": {
+      "tag": "a",
+      "text": "5",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[6]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=5",
+        "src": null,
+        "class": ""
+      },
+      "x": 254,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_5_254_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[6]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_6_287_1460": {
+      "tag": "a",
+      "text": "6",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[7]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=6",
+        "src": null,
+        "class": ""
+      },
+      "x": 287,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_6_287_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[7]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_7_320_1460": {
+      "tag": "a",
+      "text": "7",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[8]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=7",
+        "src": null,
+        "class": ""
+      },
+      "x": 320,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_7_320_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[8]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_8_353_1460": {
+      "tag": "a",
+      "text": "8",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[9]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=8",
+        "src": null,
+        "class": ""
+      },
+      "x": 353,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_8_353_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[9]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_9_386_1460": {
+      "tag": "a",
+      "text": "9",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[10]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=9",
+        "src": null,
+        "class": ""
+      },
+      "x": 386,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_9_386_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[10]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_10_418_1460": {
+      "tag": "a",
+      "text": "10",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[11]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=10",
+        "src": null,
+        "class": ""
+      },
+      "x": 418,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_10_418_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[11]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_11_459_1460": {
+      "tag": "a",
+      "text": "11",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[12]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=11",
+        "src": null,
+        "class": ""
+      },
+      "x": 459,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_11_459_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[12]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_12_499_1460": {
+      "tag": "a",
+      "text": "12",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[13]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=12",
+        "src": null,
+        "class": ""
+      },
+      "x": 499,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_12_499_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[13]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_13_539_1460": {
+      "tag": "a",
+      "text": "13",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[14]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=13",
+        "src": null,
+        "class": ""
+      },
+      "x": 539,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_13_539_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[14]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_14_580_1460": {
+      "tag": "a",
+      "text": "14",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[15]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=14",
+        "src": null,
+        "class": ""
+      },
+      "x": 580,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_14_580_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[15]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_15_620_1460": {
+      "tag": "a",
+      "text": "15",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[16]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=15",
+        "src": null,
+        "class": ""
+      },
+      "x": 620,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_15_620_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[16]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_16_661_1460": {
+      "tag": "a",
+      "text": "16",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[17]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=16",
+        "src": null,
+        "class": ""
+      },
+      "x": 661,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_16_661_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[17]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_17_701_1460": {
+      "tag": "a",
+      "text": "17",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[18]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=17",
+        "src": null,
+        "class": ""
+      },
+      "x": 701,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_17_701_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[18]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_18": {
+      "tag": "a",
+      "text": "18",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[19]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=18",
+        "src": null,
+        "class": ""
+      },
+      "x": 742,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_18",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[19]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_19_783_1460": {
+      "tag": "a",
+      "text": "19",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[20]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=19",
+        "src": null,
+        "class": ""
+      },
+      "x": 783,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_19_783_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[20]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "19_796_1469": {
+      "tag": "strong",
+      "text": "19",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[20]/a[1]/strong[1]",
+      "css": "strong",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 796,
+      "y": 1469,
+      "quality_score": 50,
+      "element_name": "19_796_1469",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[20]/a[1]/strong[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_20": {
+      "tag": "a",
+      "text": "20",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[21]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=20",
+        "src": null,
+        "class": ""
+      },
+      "x": 823,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_20",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[21]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_21_864_1460": {
+      "tag": "a",
+      "text": "21",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[22]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=21",
+        "src": null,
+        "class": ""
+      },
+      "x": 864,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_21_864_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[22]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_22": {
+      "tag": "a",
+      "text": "22",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[23]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=22",
+        "src": null,
+        "class": ""
+      },
+      "x": 904,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_22",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[23]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_23_945_1460": {
+      "tag": "a",
+      "text": "23",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[24]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=23",
+        "src": null,
+        "class": ""
+      },
+      "x": 945,
+      "y": 1460,
+      "quality_score": 50,
+      "element_name": "link_23_945_1460",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[24]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_24_90_1494": {
+      "tag": "a",
+      "text": "24",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[25]/a[1]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=24",
+        "src": null,
+        "class": ""
+      },
+      "x": 90,
+      "y": 1494,
+      "quality_score": 50,
+      "element_name": "link_24_90_1494",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[25]/a[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_130_1494": {
+      "tag": "a",
+      "text": "\u00bb",
+      "xpath": "//*[contains(@aria-label, \"Next\")]",
+      "css": "a",
+      "id": "",
+      "ariaLabel": "Next",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/forms/?page_num=20",
+        "src": null,
+        "class": ""
+      },
+      "x": 130,
+      "y": 1494,
+      "quality_score": 50,
+      "element_name": "link_130_1494",
+      "playwright_selector": "page.locator('xpath=//*[contains(@aria-label, \"Next\")]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "per_page": {
+      "tag": "strong",
+      "text": "Per Page",
+      "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[2]/strong[1]",
+      "css": "strong",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 1026,
+      "y": 1462,
+      "quality_score": 50,
+      "element_name": "per_page",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[2]/strong[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "2550100": {
+      "tag": "select",
+      "text": "25\n50\n100",
+      "xpath": "//*[@id=\"per_page\"]",
+      "css": "#per_page",
+      "id": "per_page",
+      "isInteractive": true,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "form-control col-md-3"
+      },
+      "x": 1121,
+      "y": 1460,
+      "quality_score": 90,
+      "element_name": "2550100",
+      "playwright_selector": "page.locator('#per_page')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "25": {
+      "tag": "option",
+      "text": "25",
+      "xpath": "//*[@id=\"per_page\"]/option[1]",
+      "css": "option",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 0,
+      "y": 0,
+      "quality_score": 50,
+      "element_name": "25",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"per_page\"]/option[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "50": {
+      "tag": "option",
+      "text": "50",
+      "xpath": "//*[@id=\"per_page\"]/option[2]",
+      "css": "option",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 0,
+      "y": 0,
+      "quality_score": 50,
+      "element_name": "50",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"per_page\"]/option[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "100": {
+      "tag": "option",
+      "text": "100",
+      "xpath": "//*[@id=\"per_page\"]/option[3]",
+      "css": "option",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 0,
+      "y": 0,
+      "quality_score": 50,
+      "element_name": "100",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"per_page\"]/option[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "lessons_and_videos_hartley_b": {
+      "tag": "section",
+      "text": "Lessons and Videos \u00a9 Hartley Brody 2023",
+      "xpath": "//*[@id=\"footer\"]",
+      "css": "#footer",
+      "id": "footer",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 0,
+      "y": 1623,
+      "quality_score": 90,
+      "element_name": "lessons_and_videos_hartley_b",
+      "playwright_selector": "page.locator('#footer')",
+      "is_unique": true,
+      "element_count": 1
+    }
+  },
+  "url": "http://www.scrapethissite.com/pages/forms/?page_num=19",
+  "screen_id": 30,
+  "timestamp": "2026-03-12T11:22:49.429624",
+  "metadata": {
+    "title": "Hockey Teams: Forms, Searching and Pagination | Scrape This Site | A public sandbox for learning web scraping"
+  }
+}

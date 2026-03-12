@@ -12,43 +12,29 @@ import re
 import pytest
 
 @pytest.mark.smoke
-def test_page_title(page):
+def test_page_12_navigation(page):
+    """
+    Navigates to the robots.txt page and verifies the URL.
+    """
     page.goto(PAGE_12_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    expect(page).to_have_title(re.compile(r"Hockey Teams: Forms, Searching and Pagination"))
+    expect(page).to_have_url(PAGE_12_URL)
 
 @pytest.mark.regression
-def test_search_team(page):
+def test_page_12_useragent_disallow_visibility(page):
+    """
+    Checks if the robots.txt content is visible.
+    """
     page.goto(PAGE_12_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    search_term = "Boston Bruins"
-    page.locator("#q").first.fill(search_term)
-    page.locator('input.btn.btn-primary').first.click()
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[2]/td[1]').first).to_have_text(search_term, timeout=10000)
+    expect(page.locator("pre").first).to_be_visible(timeout=15000)
 
 @pytest.mark.regression
-def test_pagination(page):
+def test_page_12_useragent_disallow_content(page):
+    """
+    Verifies the content of robots.txt file.
+    """
     page.goto(PAGE_12_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('xpath=//*[contains(@aria-label, "Next")]').click()
-    page.wait_for_load_state('networkidle')
-    expect(page).to_have_url(re.compile(r"page_num=2"), timeout=10000)
-
-@pytest.mark.regression
-def test_per_page_select(page):
-    page.goto(PAGE_12_URL, timeout=60000)
-    page.wait_for_load_state('networkidle')
-    page.locator("#per_page").first.select_option("50")
-    page.wait_for_load_state('networkidle')
-    expect(page.locator('h1').first).to_have_text(re.compile(r"50 items"), timeout=10000)
-
-@pytest.mark.smoke
-def test_element_visibility(page):
-    page.goto(PAGE_12_URL, timeout=60000)
-    page.wait_for_load_state('networkidle')
-    expect(page.locator('#site-nav').first).to_be_visible(timeout=10000)
-    expect(page.locator('#nav-homepage').first).to_be_visible(timeout=10000)
-    expect(page.locator('#nav-sandbox').first).to_be_visible(timeout=10000)
-    expect(page.locator('#nav-lessons').first).to_be_visible(timeout=10000)
-    expect(page.locator('#nav-faq').first).to_be_visible(timeout=10000)
-    expect(page.locator('#nav-login').first).to_be_visible(timeout=10000)
+    expected_text = "User-agent: *\nDisallow: /lessons/\nDisallow: /faq/"
+    expect(page.locator("pre").first).to_have_text(expected_text)

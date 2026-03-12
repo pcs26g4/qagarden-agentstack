@@ -1,289 +1,69 @@
 {
   "elements": {
-    "scrape_this_site_sandbox_les": {
-      "tag": "nav",
-      "text": "Scrape This Site\n Sandbox\n Lessons\n FAQ\nLogin",
-      "xpath": "//*[@id=\"site-nav\"]",
-      "css": "#site-nav",
-      "id": "site-nav",
+    "a_course_to_help_you": {
+      "tag": "p",
+      "text": "A course to help you",
+      "xpath": "//*[@id=\"preheader\"]",
+      "css": "#preheader",
+      "id": "preheader",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": ""
+        "class": "cursive"
       },
-      "x": 0,
-      "y": 10,
+      "x": 88,
+      "y": 140,
       "quality_score": 90,
-      "element_name": "scrape_this_site_sandbox_les",
-      "playwright_selector": "page.locator('#site-nav')",
+      "element_name": "a_course_to_help_you",
+      "playwright_selector": "page.locator('#preheader')",
       "is_unique": true,
       "element_count": 1
     },
-    "scrape_this_site": {
-      "tag": "li",
-      "text": "Scrape This Site",
-      "xpath": "//*[@id=\"nav-homepage\"]",
-      "css": "#nav-homepage",
-      "id": "nav-homepage",
-      "isInteractive": false,
-      "attributes": {
-        "href": null,
-        "src": null,
-        "class": ""
-      },
-      "x": 79,
-      "y": 10,
-      "quality_score": 90,
-      "element_name": "scrape_this_site",
-      "playwright_selector": "page.locator('#nav-homepage')",
-      "is_unique": true,
-      "element_count": 1
-    },
-    "link_scrape_this_site_79_10": {
-      "tag": "a",
-      "text": "Scrape This Site",
-      "xpath": "//a[contains(text(), \"Scrape This Site\")]",
-      "css": "a.nav-link.hidden-sm.hidden-xs",
-      "id": "",
-      "isInteractive": true,
-      "attributes": {
-        "href": "/",
-        "src": null,
-        "class": "nav-link hidden-sm hidden-xs"
-      },
-      "x": 79,
-      "y": 10,
-      "quality_score": 50,
-      "element_name": "link_scrape_this_site_79_10",
-      "playwright_selector": "page.locator('a.nav-link.hidden-sm.hidden-xs')",
-      "is_unique": true,
-      "element_count": 1
-    },
-    "sandbox": {
-      "tag": "li",
-      "text": "Sandbox",
-      "xpath": "//*[@id=\"nav-sandbox\"]",
-      "css": "#nav-sandbox",
-      "id": "nav-sandbox",
-      "isInteractive": false,
-      "attributes": {
-        "href": null,
-        "src": null,
-        "class": ""
-      },
-      "x": 265,
-      "y": 10,
-      "quality_score": 90,
-      "element_name": "sandbox",
-      "playwright_selector": "page.locator('#nav-sandbox')",
-      "is_unique": true,
-      "element_count": 1
-    },
-    "link_sandbox_265_10": {
-      "tag": "a",
-      "text": "Sandbox",
-      "xpath": "//a[contains(text(), \"Sandbox\")]",
-      "css": "a.nav-link",
-      "id": "",
-      "isInteractive": true,
-      "attributes": {
-        "href": "/pages/",
-        "src": null,
-        "class": "nav-link"
-      },
-      "x": 265,
-      "y": 10,
-      "quality_score": 50,
-      "element_name": "link_sandbox_265_10",
-      "playwright_selector": "page.locator('a.nav-link').nth(0)",
-      "is_unique": false,
-      "element_count": 5
-    },
-    "lessons": {
-      "tag": "li",
-      "text": "Lessons",
-      "xpath": "//*[@id=\"nav-lessons\"]",
-      "css": "#nav-lessons",
-      "id": "nav-lessons",
-      "isInteractive": false,
-      "attributes": {
-        "href": null,
-        "src": null,
-        "class": ""
-      },
-      "x": 391,
-      "y": 10,
-      "quality_score": 90,
-      "element_name": "lessons",
-      "playwright_selector": "page.locator('#nav-lessons')",
-      "is_unique": true,
-      "element_count": 1
-    },
-    "link_lessons_391_10": {
-      "tag": "a",
-      "text": "Lessons",
-      "xpath": "//a[contains(text(), \"Lessons\")]",
-      "css": "a.nav-link",
-      "id": "",
-      "isInteractive": true,
-      "attributes": {
-        "href": "/lessons/",
-        "src": null,
-        "class": "nav-link"
-      },
-      "x": 391,
-      "y": 10,
-      "quality_score": 50,
-      "element_name": "link_lessons_391_10",
-      "playwright_selector": "page.locator('a.nav-link').nth(0)",
-      "is_unique": false,
-      "element_count": 5
-    },
-    "faq": {
-      "tag": "li",
-      "text": "FAQ",
-      "xpath": "//*[@id=\"nav-faq\"]",
-      "css": "#nav-faq",
-      "id": "nav-faq",
-      "isInteractive": false,
-      "attributes": {
-        "href": null,
-        "src": null,
-        "class": "active"
-      },
-      "x": 513,
-      "y": 10,
-      "quality_score": 90,
-      "element_name": "faq",
-      "playwright_selector": "page.locator('#nav-faq')",
-      "is_unique": true,
-      "element_count": 1
-    },
-    "link_faq_513_10": {
-      "tag": "a",
-      "text": "FAQ",
-      "xpath": "//a[contains(text(), \"FAQ\")]",
-      "css": "a.nav-link",
-      "id": "",
-      "isInteractive": true,
-      "attributes": {
-        "href": "/faq/",
-        "src": null,
-        "class": "nav-link"
-      },
-      "x": 513,
-      "y": 10,
-      "quality_score": 50,
-      "element_name": "link_faq_513_10",
-      "playwright_selector": "page.locator('a.nav-link').nth(0)",
-      "is_unique": false,
-      "element_count": 5
-    },
-    "login": {
-      "tag": "li",
-      "text": "Login",
-      "xpath": "//*[@id=\"nav-login\"]",
-      "css": "#nav-login",
-      "id": "nav-login",
-      "isInteractive": false,
-      "attributes": {
-        "href": null,
-        "src": null,
-        "class": "pull-right"
-      },
-      "x": 1103,
-      "y": 10,
-      "quality_score": 90,
-      "element_name": "login",
-      "playwright_selector": "page.locator('#nav-login')",
-      "is_unique": true,
-      "element_count": 1
-    },
-    "link_login_1103_10": {
-      "tag": "a",
-      "text": "Login",
-      "xpath": "//a[contains(text(), \"Login\")]",
-      "css": "a.nav-link",
-      "id": "",
-      "isInteractive": true,
-      "attributes": {
-        "href": "/login/",
-        "src": null,
-        "class": "nav-link"
-      },
-      "x": 1103,
-      "y": 10,
-      "quality_score": 50,
-      "element_name": "link_login_1103_10",
-      "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Login\")]')",
-      "is_unique": true,
-      "element_count": 1
-    },
-    "heading_frequently_asked_questions": {
+    "heading_scrape_any_website": {
       "tag": "h1",
-      "text": "Frequently Asked Questions",
-      "xpath": "//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/h1[1]",
-      "css": "h1",
-      "id": "",
+      "text": "SCRAPE ANY WEBSITE",
+      "xpath": "//*[@id=\"header\"]",
+      "css": "#header",
+      "id": "header",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
         "class": ""
       },
-      "x": 357,
-      "y": 82,
-      "quality_score": 50,
-      "element_name": "heading_frequently_asked_questions",
-      "playwright_selector": "page.locator('h1')",
+      "x": 88,
+      "y": 202,
+      "quality_score": 90,
+      "element_name": "heading_scrape_any_website",
+      "playwright_selector": "page.locator('#header')",
       "is_unique": true,
       "element_count": 1
     },
-    "heading_please_scrape_this_site": {
-      "tag": "h2",
-      "text": "Please Scrape This Site",
-      "xpath": "//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/h2[1]",
-      "css": "h2",
-      "id": "",
+    "learn_how_to_build_your_own_we": {
+      "tag": "p",
+      "text": "Learn how to build your own web scrapers and\nstart collecting the data you need.",
+      "xpath": "//*[@id=\"postheader\"]",
+      "css": "#postheader",
+      "id": "postheader",
       "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
         "class": ""
       },
-      "x": 357,
-      "y": 163,
-      "quality_score": 50,
-      "element_name": "heading_please_scrape_this_site",
-      "playwright_selector": "page.locator('xpath=//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/h2[1]')",
+      "x": 88,
+      "y": 273,
+      "quality_score": 90,
+      "element_name": "learn_how_to_build_your_own_we",
+      "playwright_selector": "page.locator('#postheader')",
       "is_unique": true,
       "element_count": 1
     },
-    "heading_please_be_wellbehaved": {
-      "tag": "h2",
-      "text": "Please be Well-Behaved",
-      "xpath": "//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/h2[2]",
-      "css": "h2",
-      "id": "",
-      "isInteractive": false,
-      "attributes": {
-        "href": null,
-        "src": null,
-        "class": ""
-      },
-      "x": 357,
-      "y": 344,
-      "quality_score": 50,
-      "element_name": "heading_please_be_wellbehaved",
-      "playwright_selector": "page.locator('xpath=//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/h2[2]')",
-      "is_unique": true,
-      "element_count": 1
-    },
-    "you_must_observe_the_following": {
+    "start_collecting_the_data_you": {
       "tag": "strong",
-      "text": "you must observe the following rules:",
-      "xpath": "//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/p[2]/strong[1]",
+      "text": "start collecting the data you need.",
+      "xpath": "//*[@id=\"postheader\"]/strong[1]",
       "css": "strong",
       "id": "",
       "isInteractive": false,
@@ -292,100 +72,60 @@
         "src": null,
         "class": ""
       },
-      "x": 357,
-      "y": 409,
+      "x": 428,
+      "y": 316,
       "quality_score": 50,
-      "element_name": "you_must_observe_the_following",
-      "playwright_selector": "page.locator('xpath=//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/p[2]/strong[1]')",
+      "element_name": "start_collecting_the_data_you",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"postheader\"]/strong[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "one_request_per_second": {
-      "tag": "strong",
-      "text": "one request per second",
-      "xpath": "//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/strong[1]",
-      "css": "strong",
-      "id": "",
-      "isInteractive": false,
-      "attributes": {
-        "href": null,
-        "src": null,
-        "class": ""
-      },
-      "x": 633,
-      "y": 459,
-      "quality_score": 50,
-      "element_name": "one_request_per_second",
-      "playwright_selector": "page.locator('xpath=//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/strong[1]')",
-      "is_unique": true,
-      "element_count": 1
-    },
-    "identifying_user_agent": {
-      "tag": "strong",
-      "text": "identifying user agent",
-      "xpath": "//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/strong[1]",
-      "css": "strong",
-      "id": "",
-      "isInteractive": false,
-      "attributes": {
-        "href": null,
-        "src": null,
-        "class": ""
-      },
-      "x": 531,
-      "y": 479,
-      "quality_score": 50,
-      "element_name": "identifying_user_agent",
-      "playwright_selector": "page.locator('xpath=//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/strong[1]')",
-      "is_unique": true,
-      "element_count": 1
-    },
-    "link_robotstxt_file": {
+    "link_get_started_now": {
       "tag": "a",
-      "text": "robots.txt file",
-      "xpath": "//a[contains(text(), \"robots.txt file\")]",
-      "css": "a",
+      "text": "Get Started Now",
+      "xpath": "//a[contains(text(), \"Get Started Now\")]",
+      "css": "a.gumroad-button",
       "id": "",
       "isInteractive": true,
       "attributes": {
-        "href": "/robots.txt",
+        "href": "https://gum.co/oLpqb?wanted=true&referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F",
         "src": null,
-        "class": ""
+        "class": "gumroad-button"
       },
-      "x": 588,
-      "y": 499,
+      "x": 542,
+      "y": 377,
       "quality_score": 50,
-      "element_name": "link_robotstxt_file",
-      "playwright_selector": "page.locator('a').nth(0)",
+      "element_name": "link_get_started_now",
+      "playwright_selector": "page.locator('a.gumroad-button').nth(0)",
       "is_unique": false,
-      "element_count": 6
+      "element_count": 4
     },
-    "robotstxt": {
-      "tag": "code",
-      "text": "robots.txt",
-      "xpath": "//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/code[1]",
-      "css": "code",
+    "purchase_securely_with_paypal": {
+      "tag": "small",
+      "text": "Purchase securely with Paypal or Credit Card.",
+      "xpath": "//*[@id=\"hero\"]/div[1]/div[2]/div[1]/small[1]",
+      "css": "small.text-muted.cta-subtext",
       "id": "",
-      "isInteractive": true,
+      "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": ""
+        "class": "text-muted cta-subtext"
       },
-      "x": 588,
-      "y": 498,
+      "x": 88,
+      "y": 405,
       "quality_score": 50,
-      "element_name": "robotstxt",
-      "playwright_selector": "page.locator('code')",
+      "element_name": "purchase_securely_with_paypal",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"hero\"]/div[1]/div[2]/div[1]/small[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "lessons_and_videos_hartley_b": {
+    "build_your_first_scraper_in_mi": {
       "tag": "section",
-      "text": "Lessons and Videos \u00a9 Hartley Brody 2023",
-      "xpath": "//*[@id=\"footer\"]",
-      "css": "#footer",
-      "id": "footer",
+      "text": "Build your first scraper in minutes!",
+      "xpath": "//*[@id=\"subhero\"]",
+      "css": "#subhero",
+      "id": "subhero",
       "isInteractive": false,
       "attributes": {
         "href": null,
@@ -393,18 +133,478 @@
         "class": ""
       },
       "x": 0,
-      "y": 666,
+      "y": 592,
       "quality_score": 90,
-      "element_name": "lessons_and_videos_hartley_b",
-      "playwright_selector": "page.locator('#footer')",
+      "element_name": "build_your_first_scraper_in_mi",
+      "playwright_selector": "page.locator('#subhero')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "paul_blank": {
+      "tag": "footer",
+      "text": "Paul Blank",
+      "xpath": "//*[@id=\"testimonials\"]/div[1]/div[1]/div[2]/blockquote[1]/footer[1]",
+      "css": "footer",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 210,
+      "y": 843,
+      "quality_score": 50,
+      "element_name": "paul_blank",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"testimonials\"]/div[1]/div[1]/div[2]/blockquote[1]/footer[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "lev_selector": {
+      "tag": "footer",
+      "text": "Lev Selector",
+      "xpath": "//*[@id=\"testimonials\"]/div[1]/div[1]/div[4]/blockquote[1]/footer[1]",
+      "css": "footer",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 795,
+      "y": 843,
+      "quality_score": 50,
+      "element_name": "lev_selector",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"testimonials\"]/div[1]/div[1]/div[4]/blockquote[1]/footer[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "heading_follow_along_stepbystep": {
+      "tag": "h3",
+      "text": "Follow along step-by-step...",
+      "xpath": "//*[@id=\"benefits\"]/div[1]/div[1]/div[1]/h3[1]",
+      "css": "h3",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 283,
+      "y": 1033,
+      "quality_score": 50,
+      "element_name": "heading_follow_along_stepbystep",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"benefits\"]/div[1]/div[1]/div[1]/h3[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "heading_youll_learn_how_to_scrape": {
+      "tag": "h3",
+      "text": "You'll Learn How to Scrape:",
+      "xpath": "//*[@id=\"benefits\"]/div[1]/div[2]/div[2]/h3[1]",
+      "css": "h3",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 575,
+      "y": 1376,
+      "quality_score": 50,
+      "element_name": "heading_youll_learn_how_to_scrape",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"benefits\"]/div[1]/div[2]/div[2]/h3[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "excel_spreadsheet": {
+      "tag": "strong",
+      "text": "excel spreadsheet",
+      "xpath": "//*[@id=\"benefits\"]/div[1]/div[2]/div[2]/p[1]/strong[1]",
+      "css": "strong",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 575,
+      "y": 1663,
+      "quality_score": 50,
+      "element_name": "excel_spreadsheet",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"benefits\"]/div[1]/div[2]/div[2]/p[1]/strong[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "database": {
+      "tag": "strong",
+      "text": "database",
+      "xpath": "//*[@id=\"benefits\"]/div[1]/div[2]/div[2]/p[1]/strong[2]",
+      "css": "strong",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 787,
+      "y": 1663,
+      "quality_score": 50,
+      "element_name": "database",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"benefits\"]/div[1]/div[2]/div[2]/p[1]/strong[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "heading_get_access_to": {
+      "tag": "h3",
+      "text": "Get access to:",
+      "xpath": "//*[@id=\"benefits\"]/div[1]/div[3]/div[1]/h3[1]",
+      "css": "h3",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 283,
+      "y": 1838,
+      "quality_score": 50,
+      "element_name": "heading_get_access_to",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"benefits\"]/div[1]/div[3]/div[1]/h3[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "nothing_to_lose": {
+      "tag": "u",
+      "text": "nothing to lose",
+      "xpath": "//*[@id=\"guarantee\"]/div[1]/div[1]/div[1]/p[1]/u[1]",
+      "css": "u",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 659,
+      "y": 2496,
+      "quality_score": 50,
+      "element_name": "nothing_to_lose",
+      "playwright_selector": "page.locator('u')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "learn_more_about_the_course": {
+      "tag": "section",
+      "text": "Learn more about the course:",
+      "xpath": "//*[@id=\"video\"]",
+      "css": "#video",
+      "id": "video",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 0,
+      "y": 2564,
+      "quality_score": 90,
+      "element_name": "learn_more_about_the_course",
+      "playwright_selector": "page.locator('#video')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_get_started_now_451_2987": {
+      "tag": "a",
+      "text": "Get Started Now",
+      "xpath": "//a[contains(text(), \"Get Started Now\")]",
+      "css": "a.gumroad-button",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "https://gum.co/oLpqb?wanted=true&referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F",
+        "src": null,
+        "class": "gumroad-button"
+      },
+      "x": 451,
+      "y": 2987,
+      "quality_score": 50,
+      "element_name": "link_get_started_now_451_2987",
+      "playwright_selector": "page.locator('a.gumroad-button').nth(0)",
+      "is_unique": false,
+      "element_count": 4
+    },
+    "purchase_securely_with_paypal_88_2981": {
+      "tag": "small",
+      "text": "Purchase securely with Paypal or Credit Card.",
+      "xpath": "//*[@id=\"second-buy-now\"]/div[1]/div[1]/div[1]/small[1]",
+      "css": "small.text-muted.cta-subtext",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "text-muted cta-subtext"
+      },
+      "x": 88,
+      "y": 2981,
+      "quality_score": 50,
+      "element_name": "purchase_securely_with_paypal_88_2981",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"second-buy-now\"]/div[1]/div[1]/div[1]/small[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "i_loved_the_course_and_believ": {
+      "tag": "blockquote",
+      "text": "\"I loved the course and believed it was worth every penny!\"\nNicholas Renotte",
+      "xpath": "//*[@id=\"story\"]/div[1]/div[1]/div[2]/blockquote[1]",
+      "css": "blockquote",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 478,
+      "y": 3038,
+      "quality_score": 50,
+      "element_name": "i_loved_the_course_and_believ",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"story\"]/div[1]/div[1]/div[2]/blockquote[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "nicholas_renotte": {
+      "tag": "footer",
+      "text": "Nicholas Renotte",
+      "xpath": "//*[@id=\"story\"]/div[1]/div[1]/div[2]/blockquote[1]/footer[1]",
+      "css": "footer",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 503,
+      "y": 3098,
+      "quality_score": 50,
+      "element_name": "nicholas_renotte",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"story\"]/div[1]/div[1]/div[2]/blockquote[1]/footer[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "heading_this_course_has_been_years_in": {
+      "tag": "h2",
+      "text": "This course has been years in the making.",
+      "xpath": "//*[@id=\"story\"]/div[1]/div[2]/div[1]/h2[1]",
+      "css": "h2.text-center",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "text-center"
+      },
+      "x": 380,
+      "y": 3189,
+      "quality_score": 50,
+      "element_name": "heading_this_course_has_been_years_in",
+      "playwright_selector": "page.locator('h2.text-center')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "years_in_the_making": {
+      "tag": "em",
+      "text": "years in the making",
+      "xpath": "//*[@id=\"story\"]/div[1]/div[2]/div[1]/h2[1]/em[1]",
+      "css": "em",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 662,
+      "y": 3187,
+      "quality_score": 50,
+      "element_name": "years_in_the_making",
+      "playwright_selector": "page.locator('em')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "simple_but_important_lessons_o": {
+      "tag": "strong",
+      "text": "simple but important lessons on pulling data from websites",
+      "xpath": "//*[@id=\"story\"]/div[1]/div[2]/div[1]/p[2]/strong[1]",
+      "css": "strong",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 380,
+      "y": 3422,
+      "quality_score": 50,
+      "element_name": "simple_but_important_lessons_o",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"story\"]/div[1]/div[2]/div[1]/p[2]/strong[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "from_graduate_students_and_sof": {
+      "tag": "strong",
+      "text": "from graduate students and software developers to small business owners and journalists",
+      "xpath": "//*[@id=\"story\"]/div[1]/div[2]/div[1]/p[5]/strong[1]",
+      "css": "strong",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 380,
+      "y": 3630,
+      "quality_score": 50,
+      "element_name": "from_graduate_students_and_sof",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"story\"]/div[1]/div[2]/div[1]/p[5]/strong[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "scrape_this_site_the_worlds": {
+      "tag": "strong",
+      "text": "Scrape This Site \u2014 the world's best place to learn web scraping",
+      "xpath": "//*[@id=\"story\"]/div[1]/div[2]/div[1]/p[7]/strong[1]",
+      "css": "strong",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 380,
+      "y": 3811,
+      "quality_score": 50,
+      "element_name": "scrape_this_site_the_worlds",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"story\"]/div[1]/div[2]/div[1]/p[7]/strong[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "heading_get_lifetime_access": {
+      "tag": "h3",
+      "text": "Get Lifetime Access!",
+      "xpath": "//*[@id=\"fine-print\"]/div[1]/div[1]/div[1]/h3[1]",
+      "css": "h3",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 283,
+      "y": 4081,
+      "quality_score": 50,
+      "element_name": "heading_get_lifetime_access",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"fine-print\"]/div[1]/div[1]/div[1]/h3[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "heading_need_help": {
+      "tag": "h3",
+      "text": "Need Help?",
+      "xpath": "//*[@id=\"fine-print\"]/div[1]/div[1]/div[2]/h3[1]",
+      "css": "h3",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 673,
+      "y": 4081,
+      "quality_score": 50,
+      "element_name": "heading_need_help",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"fine-print\"]/div[1]/div[1]/div[2]/h3[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_get_started_now_451_4235": {
+      "tag": "a",
+      "text": "Get Started Now",
+      "xpath": "//a[contains(text(), \"Get Started Now\")]",
+      "css": "a.gumroad-button",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "https://gum.co/oLpqb?wanted=true&referrer=http%3A%2F%2Fwww.scrapethissite.com%2Flessons%2Fsign-up%2F",
+        "src": null,
+        "class": "gumroad-button"
+      },
+      "x": 451,
+      "y": 4235,
+      "quality_score": 50,
+      "element_name": "link_get_started_now_451_4235",
+      "playwright_selector": "page.locator('a.gumroad-button').nth(0)",
+      "is_unique": false,
+      "element_count": 4
+    },
+    "purchase_securely_with_paypal_88_4229": {
+      "tag": "small",
+      "text": "Purchase securely with Paypal or Credit Card.",
+      "xpath": "//*[@id=\"final-buy-now\"]/div[1]/div[1]/div[1]/small[1]",
+      "css": "small.text-muted.cta-subtext",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "text-muted cta-subtext"
+      },
+      "x": 88,
+      "y": 4229,
+      "quality_score": 50,
+      "element_name": "purchase_securely_with_paypal_88_4229",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"final-buy-now\"]/div[1]/div[1]/div[1]/small[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "hartley_brody": {
+      "tag": "section",
+      "text": "\u00a9 Hartley Brody",
+      "xpath": "//*[@id=\"footer-content\"]",
+      "css": "#footer-content",
+      "id": "footer-content",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 0,
+      "y": 4286,
+      "quality_score": 90,
+      "element_name": "hartley_brody",
+      "playwright_selector": "page.locator('#footer-content')",
       "is_unique": true,
       "element_count": 1
     }
   },
-  "url": "http://www.scrapethissite.com/faq/",
+  "url": "http://www.scrapethissite.com/lessons/sign-up/",
   "screen_id": 3,
-  "timestamp": "2026-03-11T09:50:09.902742",
+  "timestamp": "2026-03-12T11:12:19.853688",
   "metadata": {
-    "title": "Frequently Asked Questions | Scrape This Site | A public sandbox for learning web scraping"
+    "title": "Sign Up | Scrape This Site | A public sandbox for learning web scraping"
   }
 }

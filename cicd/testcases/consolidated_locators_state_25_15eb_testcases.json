@@ -1,0 +1,94 @@
+{
+  "testCases": [
+    {
+      "id": "TC_NAVIGATION_01",
+      "title": "Verify navigation to Lessons page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('#nav-lessons')`",
+        "Verification: Expect URL to change to '/lessons/'"
+      ],
+      "expected": [
+        "Lessons page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_NAVIGATION_02",
+      "title": "Verify navigation to FAQ page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('#nav-faq')`",
+        "Verification: Expect URL to change to '/faq/'"
+      ],
+      "expected": [
+        "FAQ page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_NAVIGATION_03",
+      "title": "Verify navigation to Login page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
+        "Verification: Expect URL to change to '/login/'"
+      ],
+      "expected": [
+        "Login page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_SEARCH_01",
+      "title": "Verify Hockey Team Search Functionality",
+      "url": "",
+      "inputs": {
+        "STATE_25_INPUT_SEARCH_FOR_TEAMS": "Toronto Maple Leafs"
+      },
+      "steps": [
+        "Navigate to ",
+        "Fill 'Toronto Maple Leafs' into locator `page.locator('#q')`",
+        "Click locator `page.locator('input.btn.btn-primary')`",
+        "Verification: Expect some result for the 'Toronto Maple Leafs' team"
+      ],
+      "expected": [
+        "Search returns relevant team information"
+      ]
+    },
+    {
+      "id": "TC_PAGINATION_01",
+      "title": "Verify pagination to page 10",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[11]/a[1]')`",
+        "Verification: Expect URL to change to '/pages/forms/?page_num=11'"
+      ],
+      "expected": [
+        "Page 10 loads successfully"
+      ]
+    },
+    {
+      "id": "TC_RECORDS_PER_PAGE_01",
+      "title": "Verify number of records per page changes to 50",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Select '50' from locator `page.locator('#per_page')`",
+        "Verification: Expect the number of records on the page to be 50"
+      ],
+      "expected": [
+        "50 records are displayed on the page"
+      ]
+    }
+  ],
+  "url": "",
+  "generatedAt": "2026-03-12T11:23:10.295230",
+  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+}

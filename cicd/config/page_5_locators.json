@@ -1,46 +1,6 @@
 {
   "elements": {
     "scrape_this_site_sandbox_les": {
-      "tag": "html",
-      "text": "Scrape This Site\n Sandbox\n Lessons\n FAQ\nLogin\nLogin\nYour Email\nYour Password\nNeed an account? Start ",
-      "xpath": "/html/body/html[1]",
-      "css": "html",
-      "id": "",
-      "isInteractive": false,
-      "attributes": {
-        "href": null,
-        "src": null,
-        "class": ""
-      },
-      "x": 0,
-      "y": 0,
-      "quality_score": 50,
-      "element_name": "scrape_this_site_sandbox_les",
-      "playwright_selector": "page.locator('html')",
-      "is_unique": true,
-      "element_count": 1
-    },
-    "scrape_this_site_sandbox_les_0_10": {
-      "tag": "body",
-      "text": "Scrape This Site\n Sandbox\n Lessons\n FAQ\nLogin\nLogin\nYour Email\nYour Password\nNeed an account? Start ",
-      "xpath": "/html/body",
-      "css": "body",
-      "id": "",
-      "isInteractive": false,
-      "attributes": {
-        "href": null,
-        "src": null,
-        "class": ""
-      },
-      "x": 0,
-      "y": 10,
-      "quality_score": 50,
-      "element_name": "scrape_this_site_sandbox_les_0_10",
-      "playwright_selector": "page.locator('body')",
-      "is_unique": true,
-      "element_count": 1
-    },
-    "scrape_this_site_sandbox_les_2": {
       "tag": "nav",
       "text": "Scrape This Site\n Sandbox\n Lessons\n FAQ\nLogin",
       "xpath": "//*[@id=\"site-nav\"]",
@@ -55,7 +15,7 @@
       "x": 0,
       "y": 10,
       "quality_score": 90,
-      "element_name": "scrape_this_site_sandbox_les_2",
+      "element_name": "scrape_this_site_sandbox_les",
       "playwright_selector": "page.locator('#site-nav')",
       "is_unique": true,
       "element_count": 1
@@ -72,7 +32,7 @@
         "src": null,
         "class": ""
       },
-      "x": 79,
+      "x": 103,
       "y": 10,
       "quality_score": 90,
       "element_name": "scrape_this_site",
@@ -80,7 +40,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_scrape_this_site_79_10": {
+    "link_scrape_this_site_103_10": {
       "tag": "a",
       "text": "Scrape This Site",
       "xpath": "//a[contains(text(), \"Scrape This Site\")]",
@@ -92,10 +52,10 @@
         "src": null,
         "class": "nav-link hidden-sm hidden-xs"
       },
-      "x": 79,
+      "x": 103,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_scrape_this_site_79_10",
+      "element_name": "link_scrape_this_site_103_10",
       "playwright_selector": "page.locator('a.nav-link.hidden-sm.hidden-xs')",
       "is_unique": true,
       "element_count": 1
@@ -112,7 +72,7 @@
         "src": null,
         "class": ""
       },
-      "x": 265,
+      "x": 289,
       "y": 10,
       "quality_score": 90,
       "element_name": "sandbox",
@@ -120,7 +80,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_sandbox_265_10": {
+    "link_sandbox_289_10": {
       "tag": "a",
       "text": "Sandbox",
       "xpath": "//a[contains(text(), \"Sandbox\")]",
@@ -132,10 +92,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 265,
+      "x": 289,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_sandbox_265_10",
+      "element_name": "link_sandbox_289_10",
       "playwright_selector": "page.locator('a.nav-link').nth(0)",
       "is_unique": false,
       "element_count": 5
@@ -152,7 +112,7 @@
         "src": null,
         "class": ""
       },
-      "x": 391,
+      "x": 414,
       "y": 10,
       "quality_score": 90,
       "element_name": "lessons",
@@ -160,7 +120,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_lessons_391_10": {
+    "link_lessons_414_10": {
       "tag": "a",
       "text": "Lessons",
       "xpath": "//a[contains(text(), \"Lessons\")]",
@@ -172,10 +132,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 391,
+      "x": 414,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_lessons_391_10",
+      "element_name": "link_lessons_414_10",
       "playwright_selector": "page.locator('a.nav-link').nth(0)",
       "is_unique": false,
       "element_count": 5
@@ -190,9 +150,9 @@
       "attributes": {
         "href": null,
         "src": null,
-        "class": ""
+        "class": "active"
       },
-      "x": 513,
+      "x": 536,
       "y": 10,
       "quality_score": 90,
       "element_name": "faq",
@@ -200,7 +160,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_faq_513_10": {
+    "link_faq_536_10": {
       "tag": "a",
       "text": "FAQ",
       "xpath": "//a[contains(text(), \"FAQ\")]",
@@ -212,10 +172,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 513,
+      "x": 536,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_faq_513_10",
+      "element_name": "link_faq_536_10",
       "playwright_selector": "page.locator('a.nav-link').nth(0)",
       "is_unique": false,
       "element_count": 5
@@ -230,9 +190,9 @@
       "attributes": {
         "href": null,
         "src": null,
-        "class": "pull-right active"
+        "class": "pull-right"
       },
-      "x": 1103,
+      "x": 1126,
       "y": 10,
       "quality_score": 90,
       "element_name": "login",
@@ -240,7 +200,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_login_1103_10": {
+    "link_login_1126_10": {
       "tag": "a",
       "text": "Login",
       "xpath": "//a[contains(text(), \"Login\")]",
@@ -252,18 +212,38 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 1103,
+      "x": 1126,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_login_1103_10",
+      "element_name": "link_login_1126_10",
       "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Login\")]')",
       "is_unique": true,
       "element_count": 1
     },
-    "heading_login_357_262": {
+    "heading_frequently_asked_questions": {
+      "tag": "h1",
+      "text": "Frequently Asked Questions",
+      "xpath": "//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/h1[1]",
+      "css": "h1",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 380,
+      "y": 82,
+      "quality_score": 50,
+      "element_name": "heading_frequently_asked_questions",
+      "playwright_selector": "page.locator('h1')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "heading_please_scrape_this_site": {
       "tag": "h2",
-      "text": "Login",
-      "xpath": "//*[@id=\"hero\"]/div[1]/div[1]/div[1]/h2[1]",
+      "text": "Please Scrape This Site",
+      "xpath": "//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/h2[1]",
       "css": "h2",
       "id": "",
       "isInteractive": false,
@@ -272,100 +252,131 @@
         "src": null,
         "class": ""
       },
-      "x": 357,
-      "y": 262,
+      "x": 380,
+      "y": 163,
       "quality_score": 50,
-      "element_name": "heading_login_357_262",
-      "playwright_selector": "page.locator('h2')",
+      "element_name": "heading_please_scrape_this_site",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/h2[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "input_your_email": {
-      "tag": "input",
-      "text": "",
-      "xpath": "//*[@id=\"email\"]",
-      "css": "#email",
-      "id": "email",
-      "name": "email",
-      "type": "email",
-      "placeholder": "Email Address",
-      "customLabel": "Your Email",
-      "isInteractive": true,
-      "attributes": {
-        "href": null,
-        "src": null,
-        "class": "form-control"
-      },
-      "x": 357,
-      "y": 330,
-      "quality_score": 90,
-      "element_name": "input_your_email",
-      "playwright_selector": "page.locator('#email')",
-      "is_unique": true,
-      "element_count": 1
-    },
-    "input_your_password": {
-      "tag": "input",
-      "text": "",
-      "xpath": "//*[@id=\"password\"]",
-      "css": "#password",
-      "id": "password",
-      "name": "password",
-      "type": "password",
-      "placeholder": "Password",
-      "customLabel": "Your Password",
-      "isInteractive": true,
-      "attributes": {
-        "href": null,
-        "src": null,
-        "class": "form-control"
-      },
-      "x": 357,
-      "y": 404,
-      "quality_score": 90,
-      "element_name": "input_your_password",
-      "playwright_selector": "page.locator('#password')",
-      "is_unique": true,
-      "element_count": 1
-    },
-    "input_el": {
-      "tag": "input",
-      "text": "",
-      "xpath": "//*[@id=\"hero\"]/div[1]/div[1]/div[1]/form[1]/input[1]",
-      "css": "input.btn.btn-primary.btn-lg.pull-right",
+    "heading_please_be_wellbehaved": {
+      "tag": "h2",
+      "text": "Please be Well-Behaved",
+      "xpath": "//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/h2[2]",
+      "css": "h2",
       "id": "",
-      "type": "submit",
-      "isInteractive": true,
+      "isInteractive": false,
       "attributes": {
         "href": null,
         "src": null,
-        "class": "btn btn-primary btn-lg pull-right"
+        "class": ""
       },
-      "x": 810,
-      "y": 453,
+      "x": 380,
+      "y": 344,
       "quality_score": 50,
-      "element_name": "input_el",
-      "playwright_selector": "page.locator('input.btn.btn-primary.btn-lg.pull-right')",
+      "element_name": "heading_please_be_wellbehaved",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/h2[2]')",
       "is_unique": true,
       "element_count": 1
     },
-    "link_start_learning_web_scraping_to": {
+    "you_must_observe_the_following": {
+      "tag": "strong",
+      "text": "you must observe the following rules:",
+      "xpath": "//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/p[2]/strong[1]",
+      "css": "strong",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 380,
+      "y": 409,
+      "quality_score": 50,
+      "element_name": "you_must_observe_the_following",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/p[2]/strong[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "one_request_per_second": {
+      "tag": "strong",
+      "text": "one request per second",
+      "xpath": "//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/strong[1]",
+      "css": "strong",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 657,
+      "y": 459,
+      "quality_score": 50,
+      "element_name": "one_request_per_second",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/strong[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "identifying_user_agent": {
+      "tag": "strong",
+      "text": "identifying user agent",
+      "xpath": "//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/strong[1]",
+      "css": "strong",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 555,
+      "y": 479,
+      "quality_score": 50,
+      "element_name": "identifying_user_agent",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/strong[1]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_robotstxt_file": {
       "tag": "a",
-      "text": "Start learning web scraping today",
-      "xpath": "//a[contains(text(), \"Start learning web scraping today\")]",
+      "text": "robots.txt file",
+      "xpath": "//a[contains(text(), \"robots.txt file\")]",
       "css": "a",
       "id": "",
       "isInteractive": true,
       "attributes": {
-        "href": "/lessons/",
+        "href": "/robots.txt",
         "src": null,
         "class": ""
       },
-      "x": 474,
-      "y": 455,
+      "x": 612,
+      "y": 499,
       "quality_score": 50,
-      "element_name": "link_start_learning_web_scraping_to",
-      "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Start learning web scraping today\")]')",
+      "element_name": "link_robotstxt_file",
+      "playwright_selector": "page.locator('a').nth(0)",
+      "is_unique": false,
+      "element_count": 6
+    },
+    "robotstxt": {
+      "tag": "code",
+      "text": "robots.txt",
+      "xpath": "//*[@id=\"terms\"]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/code[1]",
+      "css": "code",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 612,
+      "y": 498,
+      "quality_score": 50,
+      "element_name": "robotstxt",
+      "playwright_selector": "page.locator('code')",
       "is_unique": true,
       "element_count": 1
     },
@@ -382,7 +393,7 @@
         "class": ""
       },
       "x": 0,
-      "y": 719,
+      "y": 666,
       "quality_score": 90,
       "element_name": "lessons_and_videos_hartley_b",
       "playwright_selector": "page.locator('#footer')",
@@ -390,10 +401,10 @@
       "element_count": 1
     }
   },
-  "url": "http://www.scrapethissite.com/login/",
+  "url": "http://www.scrapethissite.com/faq/",
   "screen_id": 4,
-  "timestamp": "2026-03-11T09:50:24.241162",
+  "timestamp": "2026-03-12T11:13:34.841292",
   "metadata": {
-    "title": "Login | Scrape This Site | A public sandbox for learning web scraping"
+    "title": "Frequently Asked Questions | Scrape This Site | A public sandbox for learning web scraping"
   }
 }

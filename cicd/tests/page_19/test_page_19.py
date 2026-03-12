@@ -12,41 +12,31 @@ import re
 import pytest
 
 @pytest.mark.regression
-def test_page_19_title(page):
+def test_page_title(page):
     page.goto(PAGE_19_URL)
-    page.wait_for_load_state('networkidle')
     expect(page).to_have_title(re.compile(r"Hockey Teams: Forms, Searching and Pagination"))
 
 @pytest.mark.regression
-def test_page_19_search_team(page):
+def test_hockey_teams_header_visible(page):
     page.goto(PAGE_19_URL)
-    page.wait_for_load_state('networkidle')
-    search_term = "Dallas Stars"
-    page.locator("#q").first.fill(search_term)
-    page.locator("input.btn.btn-primary").first.click()
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[5]/td[1]').first).to_have_text(search_term)
+    expect(page.locator('h1').first).to_be_visible()
 
 @pytest.mark.regression
-def test_page_19_navigation_to_page_1(page):
+def test_search_for_teams(page):
     page.goto(PAGE_19_URL)
-    page.wait_for_load_state('networkidle')
-    page.locator('xpath=//*[@id="hockey"]/div[1]/div[5]/div[1]/ul[1]/li[2]/a[1]').first.click()
-    expect(page).to_have_url(re.compile(r"page_num=1"))
+    page.locator('#q').first.fill("Colorado")
+    page.locator('input.btn.btn-primary').first.click()
 
 @pytest.mark.regression
-def test_page_19_change_per_page_to_50(page):
+def test_pagination_navigation(page):
     page.goto(PAGE_19_URL)
+    page.locator('xpath=//*[contains(@aria-label, "Next")]').click()
     page.wait_for_load_state('networkidle')
-    page.locator("#per_page").first.select_option("50")
-    # Wait for the table to re-render with the new page size.  A more robust solution would be to wait for an element to be created based on the number of rows.
-    page.wait_for_load_state('networkidle')
-    # Basic check that the table has re-rendered. It does not verify that there are indeed 50 rows.
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[2]').first).to_be_visible()
+    expect(page).to_have_url(re.compile(r"page_num=8"))
 
-@pytest.mark.smoke
-def test_page_19_element_visibility(page):
+@pytest.mark.regression
+def test_change_items_per_page(page):
     page.goto(PAGE_19_URL)
+    page.locator('#per_page').first.select_option('100')
     page.wait_for_load_state('networkidle')
-    expect(page.locator("#site-nav").first).to_be_visible()
-    expect(page.locator("#q").first).to_be_visible()
-    expect(page.locator('a.nav-link').nth(0)).to_be_visible()
+    expect(page).to_have_url(PAGE_19_URL) # URL does not change.

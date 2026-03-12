@@ -16,7 +16,7 @@ load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file_
 # ─── Configuration ──────────────────────────────────────────────────
 # The Test Generator backend is typically on port 8001 (from main.py)
 TEST_GEN_BASE_URL = os.getenv("TEST_GEN_URL", "http://127.0.0.1:8001")
-WRAPPER_HOST      = os.getenv("HOST", "127.0.0.1")
+WRAPPER_HOST      = os.getenv("HOST", "0.0.0.0")
 WRAPPER_PORT      = int(os.getenv("PORT", "9002"))
 
 # ─── AgentStack Server ───────────────────────────────────────────────
@@ -87,9 +87,9 @@ async def test_generator_agent(input: Message, context: RunContext):
     status_url = f"{TEST_GEN_BASE_URL}/api/v1/job/{run_id}"
     is_done = False
     
-    # Poll every 5 seconds for up to 10 minutes
+    # Poll every 5 seconds for up to 60 minutes
     async with httpx.AsyncClient(timeout=10.0) as client:
-        for _ in range(120):
+        for _ in range(720):
             try:
                 status_resp = await client.get(status_url)
                 if status_resp.status_code == 200:
@@ -108,7 +108,7 @@ async def test_generator_agent(input: Message, context: RunContext):
             await asyncio.sleep(5)
 
     if not is_done:
-        yield AgentMessage(text=f"❌ Timeout waiting for test generation job {run_id} to complete.")
+        yield AgentMessage(text=f"❌ Timeout waiting for test generation job {run_id} to complete after 60 minutes.")
         return
 
     # ── Return the FINAL result ────────────────────────────────────

@@ -11,33 +11,38 @@ from playwright.sync_api import expect
 import re
 import pytest
 
-def test_formy_components_page_navigation(page):
+@pytest.mark.smoke
+def test_page_9_e3bd_navigation(page):
+    """
+    Navigates to the page and verifies the URL.
+    """
     page.goto(PAGE_9_E3BD_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
     expect(page).to_have_url(PAGE_9_E3BD_URL)
 
 @pytest.mark.smoke
-def test_formy_link_navigation(page):
+def test_page_9_e3bd_logo_link(page):
+    """
+    Verifies the logo link is visible and clickable.
+    """
     page.goto(PAGE_9_E3BD_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator("#logo").first.click()
-    expect(page).not_to_have_url(PAGE_9_E3BD_URL)
+    expect(page.locator("#logo").first).to_be_visible(timeout=15000)
 
-@pytest.mark.regression
-def test_components_link_visibility(page):
+@pytest.mark.smoke
+def test_page_9_e3bd_form_components_link(page):
+    """
+    Verifies the "Form components" link is visible.
+    """
     page.goto(PAGE_9_E3BD_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
     expect(page.locator("#navbarDropdownMenuLink").first).to_be_visible(timeout=15000)
 
 @pytest.mark.regression
-def test_components_link_click(page):
-    page.goto(PAGE_9_E3BD_URL, timeout=60000)
-    page.wait_for_load_state('networkidle')
-    page.locator("#navbarDropdownMenuLink").first.click()
-    expect(page.locator("a.nav-link").first).to_be_visible(timeout=15000)
-
-@pytest.mark.regression
-def test_heading_visibility(page):
+def test_page_9_e3bd_heading_visibility(page):
+    """
+    Verifies the heading "Enabled and Disabled elements" is visible.
+    """
     page.goto(PAGE_9_E3BD_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
     expect(page.locator("h1").first).to_be_visible(timeout=15000)

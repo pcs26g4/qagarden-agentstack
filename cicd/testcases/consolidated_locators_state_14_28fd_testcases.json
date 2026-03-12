@@ -1,0 +1,94 @@
+{
+  "testCases": [
+    {
+      "id": "TC_Navigation_01",
+      "title": "Verify navigation to the Lessons page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('#nav-lessons')`",
+        "Verification: Expect URL to change to '/lessons/'"
+      ],
+      "expected": [
+        "Lessons page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_02",
+      "title": "Verify navigation to the FAQ page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('#nav-faq')`",
+        "Verification: Expect URL to change to '/faq/'"
+      ],
+      "expected": [
+        "FAQ page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_03",
+      "title": "Verify navigation to the Login page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
+        "Verification: Expect URL to change to '/login/'"
+      ],
+      "expected": [
+        "Login page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Search_01",
+      "title": "Verify searching for a team",
+      "url": "",
+      "inputs": {
+        "STATE_14_INPUT_SEARCH_FOR_TEAMS": "Oilers"
+      },
+      "steps": [
+        "Navigate to ",
+        "Fill 'Oilers' into locator `page.locator('#q')`",
+        "Click locator `page.locator('input.btn.btn-primary')`",
+        "Verification: Expect search results to load successfully"
+      ],
+      "expected": [
+        "Search results are displayed"
+      ]
+    },
+    {
+      "id": "TC_Pagination_01",
+      "title": "Verify navigating to page 4 of the table",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[5]/a[1]')`",
+        "Verification: Expect URL to change to '/pages/forms/?page_num=4'"
+      ],
+      "expected": [
+        "Table displays results for page 4"
+      ]
+    },
+    {
+      "id": "TC_RecordsPerPage_01",
+      "title": "Verify changing the number of records per page to 50",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Select '50' in locator `page.locator('#per_page')`",
+        "Verification: Expect the number of records displayed to change to 50"
+      ],
+      "expected": [
+        "Table displays 50 records per page"
+      ]
+    }
+  ],
+  "url": "",
+  "generatedAt": "2026-03-12T11:23:10.210156",
+  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+}

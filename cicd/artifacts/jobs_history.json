@@ -327,5 +327,25 @@
       },
       "report_available": "/artifacts/report.html"
     }
+  },
+  "f869636d-330d-4e5a-bc08-1d241d184ca3": {
+    "status": "running"
+  },
+  "df89599b-8ac0-4cae-8fcd-3098f304f767": {
+    "status": "completed",
+    "percent": 100,
+    "result": {
+      "message": "Test Execution Finished: Parsed from XML: 0 passed, 1 failed out of 1",
+      "exit_code": 2,
+      "stdout": "============================= test session starts =============================\nplatform win32 -- Python 3.11.9, pytest-9.0.2, pluggy-1.6.0 -- C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\python.exe\ncachedir: .pytest_cache\nmetadata: {'Python': '3.11.9', 'Platform': 'Windows-10-10.0.26200-SP0', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'anyio': '4.9.0', 'Faker': '37.12.0', 'langsmith': '0.7.14', 'base-url': '2.1.0', 'html': '4.2.0', 'json-report': '1.5.0', 'metadata': '3.1.1', 'playwright': '0.7.2', 'rerunfailures': '16.1', 'xdist': '3.8.0', 'requests-mock': '1.12.1'}, 'Base URL': ''}\nrootdir: D:\\agentstack\\qagarden\\cicd\nconfigfile: pytest.ini\nplugins: anyio-4.9.0, Faker-37.12.0, langsmith-0.7.14, base-url-2.1.0, html-4.2.0, json-report-1.5.0, metadata-3.1.1, playwright-0.7.2, rerunfailures-16.1, xdist-3.8.0, requests-mock-1.12.1\ncollecting ... collected 383 items / 1 error\n\n=================================== ERRORS ====================================\n___________ ERROR collecting tests/page_2_f871/test_page_2_f871.py ____________\nC:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pytest\\python.py:507: in importtestmodule\n    mod = import_path(\nC:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pytest\\pathlib.py:587: in import_path\n    importlib.import_module(module_name)\nC:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\__init__.py:126: in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n<frozen importlib._bootstrap>:1204: in _gcd_import\n    ???\n<frozen importlib._bootstrap>:1176: in _find_and_load\n    ???\n<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked\n    ???\n<frozen importlib._bootstrap>:690: in _load_unlocked\n    ???\nC:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py:188: in exec_module\n    source_stat, co = _rewrite_test(fn, self.config)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nC:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py:357: in _rewrite_test\n    tree = ast.parse(source, filename=strfn)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nC:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ast.py:50: in parse\n    return compile(source, filename, mode, flags,\nE     File \"D:\\agentstack\\qagarden\\cicd\\tests\\page_2_f871\\test_page_2_f871.py\", line 91\nE       expect(page.locator(\"xpath=//a[contains(text(), \")\").is_visible())\nE                                                         ^\nE   SyntaxError: unterminated string literal (detected at line 91)\n- generated xml file: D:\\agentstack\\qagarden\\cicd\\artifacts\\results_df89599b-8ac0-4cae-8fcd-3098f304f767.xml -\n- Generated html report: file:///D:/agentstack/qagarden/cicd/artifacts/report_df89599b-8ac0-4cae-8fcd-3098f304f767.html -\n=========================== short test summary info ===========================\nERROR tests/page_2_f871/test_page_2_f871.py\n!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n============================== 1 error in 0.66s ===============================\n",
+      "stderr": "",
+      "metrics": {
+        "total_tests": 1,
+        "passed": 0,
+        "failed": 1,
+        "success_rate": 0.0
+      },
+      "report_available": "/artifacts/report.html"
+    }
   }
 }

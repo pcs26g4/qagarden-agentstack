@@ -12,48 +12,37 @@ import re
 import pytest
 
 @pytest.mark.smoke
-def test_page_15_navigation(page):
-    """Verify navigation to the hockey teams page."""
-    page.goto(PAGE_15_URL, timeout=60000)
+def test_page_15_title(page):
+    page.goto(PAGE_15_URL)
     page.wait_for_load_state('networkidle')
-    expect(page).to_have_url(PAGE_15_URL)
-    expect(page.locator('h1').first).to_be_visible(timeout=10000)
+    expect(page).to_have_title(re.compile(r"Hockey Teams: Forms, Searching and Pagination"))
 
 @pytest.mark.regression
 def test_page_15_search_team(page):
-    """Verify searching for a specific team."""
-    page.goto(PAGE_15_URL, timeout=60000)
+    page.goto(PAGE_15_URL)
     page.wait_for_load_state('networkidle')
-    team_name = "Toronto Maple Leafs"
-    page.locator('#q').first.fill(team_name)
+    team_name = "Boston Bruins"
+    page.locator("#q").first.fill(team_name)
     page.locator('input.btn.btn-primary').first.click()
-    expect(page.locator('table.table').first).to_be_visible(timeout=10000)
+    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[20]/td[1]').first).to_have_text(team_name)
 
 @pytest.mark.regression
 def test_page_15_pagination(page):
-    """Verify navigating to a specific page using pagination links."""
-    page.goto(PAGE_15_URL, timeout=60000)
+    page.goto(PAGE_15_URL)
     page.wait_for_load_state('networkidle')
     page.locator('xpath=//*[contains(@aria-label, "Next")]').click()
+    expect(page).to_have_url(re.compile(r"page_num=4"))
+
+@pytest.mark.smoke
+def test_page_15_element_visibility(page):
+    page.goto(PAGE_15_URL)
     page.wait_for_load_state('networkidle')
-    expect(page).not_to_have_url(PAGE_15_URL)
+    expect(page.locator("#site-nav").first).to_be_visible()
+    expect(page.locator('input.btn.btn-primary').first).to_be_visible()
 
 @pytest.mark.regression
-def test_page_15_elements_visibility(page):
-    """Verify the visibility of key elements on the page."""
-    page.goto(PAGE_15_URL, timeout=60000)
+def test_page_15_change_per_page(page):
+    page.goto(PAGE_15_URL)
     page.wait_for_load_state('networkidle')
-    expect(page.locator('#site-nav').first).to_be_visible(timeout=10000)
-    expect(page.locator('h1').first).to_be_visible(timeout=10000)
-    expect(page.locator('table.table').first).to_be_visible(timeout=10000)
-    expect(page.locator('#footer').first).to_be_visible(timeout=10000)
-    expect(page.locator('#q').first).to_be_visible(timeout=10000)
-
-@pytest.mark.regression
-def test_page_15_select_50_teams_per_page(page):
-    """Verify selecting 50 teams per page."""
-    page.goto(PAGE_15_URL, timeout=60000)
-    page.wait_for_load_state('networkidle')
-    page.locator('#per_page').first.select_option("50")
-    page.wait_for_load_state('networkidle')
-    expect(page.locator('table.table').first).to_be_visible(timeout=10000)
+    page.locator("#per_page").first.select_option("50")
+    expect(page.locator("#per_page").first).to_have_value("50")
