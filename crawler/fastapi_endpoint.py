@@ -64,12 +64,12 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 if GROQ_API_KEY:
     os.environ["GROQ_API_KEY"] = GROQ_API_KEY
-    logger.info("🤖 GROQ_API_KEY detected and injected into environment.")
+    logger.info("GROQ_API_KEY detected and injected into environment.")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 if GROQ_API_KEY:
     os.environ["GROQ_API_KEY"] = GROQ_API_KEY
-    logger.info("🤖 GROQ_API_KEY detected and injected into environment.")
+    logger.info("GROQ_API_KEY detected and injected into environment.")
 
 def verify_api_key(x_api_key: str = Header(...)):
     if x_api_key != API_KEY:
@@ -342,7 +342,7 @@ async def websocket_endpoint(websocket: WebSocket, run_id: str):
 
     logger.info(f"WebSocket connected for job: {run_id}")
     
-    # Send initial status  use real cached progress so UI doesn't reset to 0 on reconnect
+    # Send initial status  use real cached progress so UI doesn't reset to 0 on reconnect
     if run_id in jobs:
         job = jobs[run_id]
         # Pull the most recent metrics payload if available
