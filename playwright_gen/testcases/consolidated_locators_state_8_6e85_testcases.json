@@ -2,13 +2,13 @@
   "testCases": [
     {
       "id": "TC_Navigation_01",
-      "title": "Verify navigation to the Lessons page",
+      "title": "Verify navigation to the Lessons page using the header link",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to change to '/lessons/'"
+        "Navigate to ",
+        "Click locator `state_8_link_lessons_414_10`",
+        "Verification: Expect URL to contain '/lessons/'"
       ],
       "expected": [
         "Lessons page loads successfully"
@@ -16,13 +16,13 @@
     },
     {
       "id": "TC_Navigation_02",
-      "title": "Verify navigation to the FAQ page",
+      "title": "Verify navigation to the FAQ page using the header link",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to change to '/faq/'"
+        "Navigate to ",
+        "Click locator `state_8_link_faq_536_10`",
+        "Verification: Expect URL to contain '/faq/'"
       ],
       "expected": [
         "FAQ page loads successfully"
@@ -30,13 +30,13 @@
     },
     {
       "id": "TC_Navigation_03",
-      "title": "Verify navigation to the Login page",
+      "title": "Verify navigation to the Login page using the header link",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
-        "Verification: Expect URL to change to '/login/'"
+        "Navigate to ",
+        "Click locator `state_8_link_login_1126_10`",
+        "Verification: Expect URL to contain '/login/'"
       ],
       "expected": [
         "Login page loads successfully"
@@ -44,13 +44,13 @@
     },
     {
       "id": "TC_Navigation_04",
-      "title": "Verify navigation to the Sandbox page",
+      "title": "Verify navigation to the Sandbox page using the header link",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to change to '/pages/'"
+        "Navigate to ",
+        "Click locator `state_8_link_sandbox_289_10`",
+        "Verification: Expect URL to contain '/pages/'"
       ],
       "expected": [
         "Sandbox page loads successfully"
@@ -58,33 +58,65 @@
     },
     {
       "id": "TC_Navigation_05",
-      "title": "Verify navigation to lessons page using 3 video lessons link",
+      "title": "Verify navigation to the home page using the header link",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"3 video lessons\")]')`",
-        "Verification: Expect URL to change to '/lessons/'"
+        "Navigate to ",
+        "Click locator `state_8_link_scrape_this_site_103_10`",
+        "Verification: Expect URL to be '/' or the base URL"
       ],
       "expected": [
-        "Lessons page loads successfully"
+        "Home page loads successfully"
       ]
     },
     {
-      "id": "TC_Content_01",
-      "title": "Verify footer text",
+      "id": "TC_Search_01",
+      "title": "Verify team search functionality",
+      "url": "",
+      "inputs": {
+        "STATE_8_INPUT_SEARCH_FOR_TEAMS": "Leafs"
+      },
+      "steps": [
+        "Navigate to ",
+        "Fill 'Leafs' into locator `state_8_input_search_for_teams`",
+        "Click locator `state_8_input_el`",
+        "Verification: Expect search results to be displayed or URL to contain 'Leafs'"
+      ],
+      "expected": [
+        "Search results for 'Leafs' are displayed"
+      ]
+    },
+    {
+      "id": "TC_Pagination_01",
+      "title": "Verify pagination functionality by navigating to page 5",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
-        "Verification: Verify text of locator `page.locator('#footer')` contains 'Lessons and Videos \u00a9 Hartley Brody 2023'"
+        "Navigate to ",
+        "Click locator `state_8_link_5_234_1460`",
+        "Verification: Expect URL to contain '/pages/forms/?page_num=5'"
       ],
       "expected": [
-        "Footer text is correct"
+        "Page 5 of the forms is displayed"
+      ]
+    },
+    {
+      "id": "TC_Pagination_02",
+      "title": "Verify pagination functionality by navigating to page 23",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `state_8_link_23_924_1460`",
+        "Verification: Expect URL to contain '/pages/forms/?page_num=23'"
+      ],
+      "expected": [
+        "Page 23 of the forms is displayed"
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.142372",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.294168",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

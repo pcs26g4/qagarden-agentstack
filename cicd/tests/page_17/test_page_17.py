@@ -8,40 +8,41 @@ sys.path.insert(0, str(ROOT_DIR))
 
 from config.urls import PAGE_17_URL
 from playwright.sync_api import expect
-import re
 import pytest
+
 
 @pytest.mark.regression
 def test_page_17_title(page):
-    page.goto(PAGE_17_URL, timeout=60000)
-    page.wait_for_load_state('networkidle')
-    expect(page).to_have_title(re.compile(r"Hockey Teams: Forms, Searching and Pagination"))
+    page.goto(PAGE_17_URL)
+    expect(page).to_have_title("Hockey Teams: Forms, Searching and Pagination | Scrape This Site | A public sandbox for learning web scraping")
 
-@pytest.mark.regression
-def test_page_17_search_team(page):
-    page.goto(PAGE_17_URL, timeout=60000)
-    page.wait_for_load_state('networkidle')
-    page.locator("#q").first.fill("Edmonton Oilers")
-    page.locator('input.btn.btn-primary').first.click()
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[2]/td[1]').first).to_have_text("Edmonton Oilers", timeout=10000)
 
 @pytest.mark.smoke
-def test_page_17_navigation_to_lessons(page):
-    page.goto(PAGE_17_URL, timeout=60000)
-    page.wait_for_load_state('networkidle')
-    page.locator('xpath=//a[contains(text(), "Lessons")]').first().click()
-    expect(page).to_have_url(re.compile(r"/lessons/"))
+def test_page_17_navigation_to_page_1(page):
+    page.goto(PAGE_17_URL)
+    page.locator('xpath=//*[contains(@aria-label, "Previous")]').click()
+    expect(page).to_have_url("http://www.scrapethissite.com/pages/forms/?page_num=5")
+
 
 @pytest.mark.regression
-def test_page_17_pagination(page):
-    page.goto(PAGE_17_URL, timeout=60000)
-    page.wait_for_load_state('networkidle')
-    page.locator('xpath=//*[contains(@aria-label, "Next")]').click()
-    expect(page).to_have_url(re.compile(r"page_num=6"))
+def test_page_17_search_for_team(page):
+    page.goto(PAGE_17_URL)
+    page.locator('#q').first.fill("Dallas Stars")
+    page.locator('input.btn.btn-primary').first.click()
+    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[2]/td[1]').first).to_be_visible()
+
 
 @pytest.mark.regression
-def test_page_17_change_per_page(page):
-    page.goto(PAGE_17_URL, timeout=60000)
+def test_page_17_check_pagination_link_visibility(page):
+    page.goto(PAGE_17_URL)
+    expect(page.locator('xpath=//*[contains(@aria-label, "Next")]')).to_be_visible()
+    expect(page.locator('xpath=//*[contains(@aria-label, "Previous")]')).to_be_visible()
+    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/div[5]/div[1]/ul[1]/li[7]/a[1]/strong[1]').first).to_be_visible()
+
+
+@pytest.mark.regression
+def test_page_17_select_per_page_option(page):
+    page.goto(PAGE_17_URL)
+    page.locator('#per_page').first.select_option("50")
     page.wait_for_load_state('networkidle')
-    page.locator("#per_page").first.select_option("100")
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/div[1]/div[1]/h1[1]').first).to_have_text(re.compile(r"100 items"), timeout=10000)
+    expect(page.locator('xpath=//*[@id="per_page"]/option[2]').first).to_be_visible()

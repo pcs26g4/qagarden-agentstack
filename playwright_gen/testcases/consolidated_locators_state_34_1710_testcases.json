@@ -1,8 +1,8 @@
 {
   "testCases": [
     {
-      "id": "TC_NAVIGATION_01",
-      "title": "Verify navigation to the Lessons page",
+      "id": "TC_Navigation_01",
+      "title": "Verify navigation to Lessons page",
       "url": "",
       "inputs": {},
       "steps": [
@@ -15,8 +15,8 @@
       ]
     },
     {
-      "id": "TC_NAVIGATION_02",
-      "title": "Verify navigation to the FAQ page",
+      "id": "TC_Navigation_02",
+      "title": "Verify navigation to FAQ page",
       "url": "",
       "inputs": {},
       "steps": [
@@ -29,8 +29,8 @@
       ]
     },
     {
-      "id": "TC_NAVIGATION_03",
-      "title": "Verify navigation to the Login page",
+      "id": "TC_Navigation_03",
+      "title": "Verify navigation to Login page",
       "url": "",
       "inputs": {},
       "steps": [
@@ -43,39 +43,25 @@
       ]
     },
     {
-      "id": "TC_NAVIGATION_04",
-      "title": "Verify navigation to the Sandbox page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('#nav-sandbox')`",
-        "Verification: Expect URL to change to '/pages/'"
-      ],
-      "expected": [
-        "Sandbox page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_SEARCH_01",
-      "title": "Verify search functionality with a valid term",
+      "id": "TC_Search_01",
+      "title": "Verify team search functionality",
       "url": "",
       "inputs": {
-        "STATE_34_INPUT_SEARCH_FOR_TEAMS": "Oilers"
+        "STATE_34_INPUT_SEARCH_FOR_TEAMS": "Toronto Maple Leafs"
       },
       "steps": [
         "Navigate to ",
-        "Fill 'Oilers' into locator `page.locator('#q')`",
+        "Fill 'Toronto Maple Leafs' into locator `page.locator('#q')`",
         "Click locator `page.locator('input.btn.btn-primary')`",
-        "Verification: Expect search results to be displayed"
+        "Verification: Expect the page to load the search results for 'Toronto Maple Leafs'"
       ],
       "expected": [
-        "Search results for Oilers are displayed correctly"
+        "Search results are displayed"
       ]
     },
     {
-      "id": "TC_PAGINATION_01",
-      "title": "Verify navigation to page 5",
+      "id": "TC_Pagination_01",
+      "title": "Verify pagination functionality by navigating to page 5",
       "url": "",
       "inputs": {},
       "steps": [
@@ -88,21 +74,21 @@
       ]
     },
     {
-      "id": "TC_PAGINATION_02",
-      "title": "Verify changing results per page to 50",
+      "id": "TC_Pagination_02",
+      "title": "Verify pagination functionality by navigating to the next page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Select '50' in locator `page.locator('#per_page')`",
-        "Verification: Number of displayed items updated to 50"
+        "Click locator `page.locator('xpath=//*[contains(@aria-label, \"Next\")]')`",
+        "Verification: Expect URL to change to '/pages/forms/?page_num=23'"
       ],
       "expected": [
-        "50 records displayed per page"
+        "Next page loads successfully"
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.366538",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.425158",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

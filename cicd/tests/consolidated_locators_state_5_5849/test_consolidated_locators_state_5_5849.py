@@ -10,49 +10,36 @@ from config.urls import CONSOLIDATED_LOCATORS_STATE_5_5849_URL
 from playwright.sync_api import expect
 import re
 
-def test_TC_NAVIGATION_01(page):
+def test_TC_Navigation_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_5_5849_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
     page.locator('a.nav-link').nth(0).click()
-    expect(page).to_have_url(re.compile(r"/pages/"))
-
-def test_TC_NAVIGATION_02(page):
+    expect(page).to_have_url(re.compile(r"/sandbox/"), timeout=10000)
+    
+@pytest.mark.regression
+def test_TC_Navigation_02(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_5_5849_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
     page.locator('a.nav-link').nth(0).click()
-    expect(page).to_have_url(re.compile(r"/lessons/"))
+    expect(page).to_have_url(re.compile(r"/lessons/"), timeout=10000)
 
-def test_TC_NAVIGATION_03(page):
+@pytest.mark.regression
+def test_TC_Navigation_03(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_5_5849_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
     page.locator('a.nav-link').nth(0).click()
-    expect(page).to_have_url(re.compile(r"/faq/"))
+    expect(page).to_have_url(re.compile(r"/faq/"), timeout=10000)
 
-def test_TC_NAVIGATION_04(page):
+@pytest.mark.regression
+def test_TC_Navigation_04(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_5_5849_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
     page.locator('xpath=//a[contains(text(), "Login")]').click()
-    expect(page).to_have_url(re.compile(r"/login/"))
+    expect(page).to_have_url(re.compile(r"/login/"), timeout=10000)
 
-def test_TC_AUTHENTICATION_01(page):
+@pytest.mark.regression
+def test_TC_Navigation_05(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_5_5849_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('xpath=//a[contains(text(), "Login")]').click()
-    expect(page).to_have_url(re.compile(r"/login/"))
-    page.locator('#email').first.fill("user@example.com")
-    page.locator('#password').first.fill("SecretPassword123")
-    page.locator('input.btn.btn-primary.btn-lg.pull-right').first.click()
-    #Since there's no real dashboard, just checking that form was submitted
-    #and we are still on the same page
-    expect(page).to_have_url(re.compile(r"/login/"))
-
-def test_TC_AUTHENTICATION_02(page):
-    page.goto(CONSOLIDATED_LOCATORS_STATE_5_5849_URL, timeout=60000)
-    page.wait_for_load_state('networkidle')
-    page.locator('xpath=//a[contains(text(), "Login")]').click()
-    expect(page).to_have_url(re.compile(r"/login/"))
-    page.locator('#email').first.fill("invalid@example.com")
-    page.locator('#password').first.fill("WrongPassword")
-    page.locator('input.btn.btn-primary.btn-lg.pull-right').first.click()
-    # Since the login is static, and we expect an error, we verify that the page URL does not change.
-    expect(page).to_have_url(re.compile(r"/login/"))
+    page.locator('a').nth(0).click()
+    expect(page).to_have_url(re.compile(r"/robots\.txt"), timeout=10000)

@@ -11,46 +11,42 @@ from playwright.sync_api import expect
 import re
 import pytest
 
-@pytest.mark.regression
-def test_page_navigation(page):
-    page.goto(PAGE_29_URL, timeout=60000)
-    page.wait_for_load_state('networkidle')
-    expect(page.locator("#site-nav").first).to_be_visible(timeout=15000)
-    expect(page.locator("#nav-homepage").first).to_be_visible(timeout=15000)
-    expect(page.locator("#nav-sandbox").first).to_be_visible(timeout=15000)
-    expect(page.locator("#nav-lessons").first).to_be_visible(timeout=15000)
-    expect(page.locator("#nav-faq").first).to_be_visible(timeout=15000)
-    expect(page.locator("#nav-login").first).to_be_visible(timeout=15000)
-
-@pytest.mark.regression
-def test_page_hockey_teams_header_visibility(page):
-    page.goto(PAGE_29_URL, timeout=60000)
-    page.wait_for_load_state('networkidle')
-    expect(page.locator('h1').first).to_be_visible(timeout=15000)
-    expect(page.locator('small').first).to_be_visible(timeout=15000)
-
-@pytest.mark.regression
-def test_page_search_team_functionality(page):
-    page.goto(PAGE_29_URL, timeout=60000)
-    page.wait_for_load_state('networkidle')
-    page.locator('#q').first.fill("Vancouver Canucks")
-    page.locator('input.btn.btn-primary').first.click()
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[2]/td[1]').first).to_have_text("Vancouver Canucks", timeout=10000)
 
 @pytest.mark.smoke
-def test_page_pagination_navigation(page):
+@pytest.mark.regression
+def test_page_29_navigation(page):
+    """Verify navigation to the hockey teams page."""
     page.goto(PAGE_29_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('xpath=//*[contains(@aria-label, "Next")]').click()
-    page.wait_for_load_state('networkidle')
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/div[5]/div[1]/ul[1]/li[18]/a[1]/strong[1]').first).to_be_visible(timeout=15000) # Assert that page 18 is active
+    expect(page).to_have_url(PAGE_29_URL)
+    expect(page.locator("page.locator('h1')")).to_be_visible(timeout=10000)
+
 
 @pytest.mark.regression
-def test_page_elements_per_page_selection(page):
+def test_page_29_search_team(page):
+    """Verify searching for a specific hockey team."""
     page.goto(PAGE_29_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('#per_page').first.select_option("100")
+    team_name = "Toronto Maple Leafs"
+    page.locator("#q").first.fill(team_name)
+    page.locator("input.btn.btn-primary").first.click()
+    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[6]/td[1]').first).to_have_text(team_name, timeout=10000)
+
+
+@pytest.mark.regression
+def test_page_29_pagination(page):
+    """Verify navigating to a specific page using pagination."""
+    page.goto(PAGE_29_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    # Check number of team name rows.
-    team_rows = page.locator("tr.team")
-    expect(team_rows).to_have_count(25) # Limit of items is 25 (sanity check)
+    page_number = "19"
+    page.locator('xpath=//*[contains(@aria-label, "Next")]').click()
+    expect(page).to_have_url(re.compile(r"page_num=19"))
+
+
+@pytest.mark.regression
+def test_page_29_change_per_page(page):
+    """Verify changing the number of teams displayed per page."""
+    page.goto(PAGE_29_URL, timeout=60000)
+    page.wait_for_load_state('networkidle')
+    page.locator("#per_page").first.select_option("50")
+    expect(page.locator("#per_page").first).to_have_value("50", timeout=10000)

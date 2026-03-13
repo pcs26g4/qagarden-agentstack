@@ -1,0 +1,250 @@
+{
+  "elements": {
+    "scrape_this_site_sandbox_les": {
+      "tag": "nav",
+      "text": "Scrape This Site\n Sandbox\n Lessons\n FAQ\nLogin",
+      "xpath": "//*[@id=\"site-nav\"]",
+      "css": "#site-nav",
+      "id": "site-nav",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 0,
+      "y": 10,
+      "quality_score": 90,
+      "element_name": "scrape_this_site_sandbox_les",
+      "playwright_selector": "page.locator('#site-nav')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "scrape_this_site": {
+      "tag": "li",
+      "text": "Scrape This Site",
+      "xpath": "//*[@id=\"nav-homepage\"]",
+      "css": "#nav-homepage",
+      "id": "nav-homepage",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 64,
+      "y": 10,
+      "quality_score": 90,
+      "element_name": "scrape_this_site",
+      "playwright_selector": "page.locator('#nav-homepage')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_scrape_this_site_64_10": {
+      "tag": "a",
+      "text": "Scrape This Site",
+      "xpath": "//a[contains(text(), \"Scrape This Site\")]",
+      "css": "a.nav-link.hidden-sm.hidden-xs",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/",
+        "src": null,
+        "class": "nav-link hidden-sm hidden-xs"
+      },
+      "x": 64,
+      "y": 10,
+      "quality_score": 50,
+      "element_name": "link_scrape_this_site_64_10",
+      "playwright_selector": "page.locator('a.nav-link.hidden-sm.hidden-xs')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "sandbox": {
+      "tag": "li",
+      "text": "Sandbox",
+      "xpath": "//*[@id=\"nav-sandbox\"]",
+      "css": "#nav-sandbox",
+      "id": "nav-sandbox",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "active"
+      },
+      "x": 250,
+      "y": 10,
+      "quality_score": 90,
+      "element_name": "sandbox",
+      "playwright_selector": "page.locator('#nav-sandbox')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_sandbox_250_10": {
+      "tag": "a",
+      "text": "Sandbox",
+      "xpath": "//a[contains(text(), \"Sandbox\")]",
+      "css": "a.nav-link",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/",
+        "src": null,
+        "class": "nav-link"
+      },
+      "x": 250,
+      "y": 10,
+      "quality_score": 50,
+      "element_name": "link_sandbox_250_10",
+      "playwright_selector": "page.locator('a.nav-link').nth(0)",
+      "is_unique": false,
+      "element_count": 5
+    },
+    "lessons": {
+      "tag": "li",
+      "text": "Lessons",
+      "xpath": "//*[@id=\"nav-lessons\"]",
+      "css": "#nav-lessons",
+      "id": "nav-lessons",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 376,
+      "y": 10,
+      "quality_score": 90,
+      "element_name": "lessons",
+      "playwright_selector": "page.locator('#nav-lessons')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_lessons_376_10": {
+      "tag": "a",
+      "text": "Lessons",
+      "xpath": "//a[contains(text(), \"Lessons\")]",
+      "css": "a.nav-link",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/lessons/",
+        "src": null,
+        "class": "nav-link"
+      },
+      "x": 376,
+      "y": 10,
+      "quality_score": 50,
+      "element_name": "link_lessons_376_10",
+      "playwright_selector": "page.locator('a.nav-link').nth(0)",
+      "is_unique": false,
+      "element_count": 5
+    },
+    "faq": {
+      "tag": "li",
+      "text": "FAQ",
+      "xpath": "//*[@id=\"nav-faq\"]",
+      "css": "#nav-faq",
+      "id": "nav-faq",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 498,
+      "y": 10,
+      "quality_score": 90,
+      "element_name": "faq",
+      "playwright_selector": "page.locator('#nav-faq')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_faq_498_10": {
+      "tag": "a",
+      "text": "FAQ",
+      "xpath": "//a[contains(text(), \"FAQ\")]",
+      "css": "a.nav-link",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/faq/",
+        "src": null,
+        "class": "nav-link"
+      },
+      "x": 498,
+      "y": 10,
+      "quality_score": 50,
+      "element_name": "link_faq_498_10",
+      "playwright_selector": "page.locator('a.nav-link').nth(0)",
+      "is_unique": false,
+      "element_count": 5
+    },
+    "login": {
+      "tag": "li",
+      "text": "Login",
+      "xpath": "//*[@id=\"nav-login\"]",
+      "css": "#nav-login",
+      "id": "nav-login",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": "pull-right"
+      },
+      "x": 1088,
+      "y": 10,
+      "quality_score": 90,
+      "element_name": "login",
+      "playwright_selector": "page.locator('#nav-login')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_login_1088_10": {
+      "tag": "a",
+      "text": "Login",
+      "xpath": "//a[contains(text(), \"Login\")]",
+      "css": "a.nav-link",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/login/",
+        "src": null,
+        "class": "nav-link"
+      },
+      "x": 1088,
+      "y": 10,
+      "quality_score": 50,
+      "element_name": "link_login_1088_10",
+      "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Login\")]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "lessons_and_videos_hartley_b": {
+      "tag": "section",
+      "text": "Lessons and Videos \u00a9 Hartley Brody 2023",
+      "xpath": "//*[@id=\"footer\"]",
+      "css": "#footer",
+      "id": "footer",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 0,
+      "y": 142,
+      "quality_score": 90,
+      "element_name": "lessons_and_videos_hartley_b",
+      "playwright_selector": "page.locator('#footer')",
+      "is_unique": true,
+      "element_count": 1
+    }
+  },
+  "url": "http://www.scrapethissite.com/pages/advanced/?gotcha=headers",
+  "screen_id": 35,
+  "timestamp": "2026-03-13T11:28:34.123252",
+  "metadata": {
+    "title": "Advanced Topics: Real World Challenges You'll Encounter | Scrape This Site | A public sandbox for learning web scraping"
+  }
+}

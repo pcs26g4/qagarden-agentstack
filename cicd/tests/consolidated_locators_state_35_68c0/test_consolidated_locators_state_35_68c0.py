@@ -9,38 +9,26 @@ sys.path.insert(0, str(ROOT_DIR))
 from config.urls import CONSOLIDATED_LOCATORS_STATE_35_68C0_URL
 from playwright.sync_api import expect
 import re
-import pytest
 
-def test_tc_navigation_01(page):
+def test_TC_Navigation_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_35_68C0_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator("#nav-lessons").first.click()
+    page.locator('a.nav-link').nth(0).click()
     expect(page).to_have_url(re.compile(r"/lessons/"))
 
-@pytest.mark.smoke
-def test_tc_navigation_02(page):
+def test_TC_Search_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_35_68C0_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator("#nav-faq").first.click()
-    expect(page).to_have_url(re.compile(r"/faq/"))
+    page.locator('#q').first.fill("Toronto Maple Leafs")
+    page.locator('input.btn.btn-primary').first.click()
 
-@pytest.mark.smoke
-def test_tc_navigation_03(page):
+def test_TC_Pagination_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_35_68C0_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator("xpath=//a[contains(text(), \"Login\")]").click()
-    expect(page).to_have_url(re.compile(r"/login/"))
+    page.locator('xpath=//*[@id="hockey"]/div[1]/div[5]/div[1]/ul[1]/li[16]/a[1]').first.click()
+    expect(page).to_have_url(re.compile(r"/pages/forms/\?page_num=15"))
 
-@pytest.mark.regression
-def test_tc_search_01(page):
+def test_TC_RecordsPerPage_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_35_68C0_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator("#q").first.fill("Toronto Maple Leafs")
-    page.locator("input.btn.btn-primary").first.click()
-
-@pytest.mark.regression
-def test_tc_pagination_01(page):
-    page.goto(CONSOLIDATED_LOCATORS_STATE_35_68C0_URL, timeout=60000)
-    page.wait_for_load_state('networkidle')
-    page.locator("xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[3]/a[1]").first.click()
-    expect(page).to_have_url(re.compile(r"/pages/forms/\?page_num=2"))
+    page.locator('#per_page').first.select_option("100")

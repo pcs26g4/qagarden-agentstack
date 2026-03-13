@@ -1,7 +1,7 @@
 {
   "testCases": [
     {
-      "id": "TC_NAVIGATION_01",
+      "id": "TC_Navigation_01",
       "title": "Verify navigation to the Lessons page",
       "url": "",
       "inputs": {},
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "id": "TC_NAVIGATION_02",
+      "id": "TC_Navigation_02",
       "title": "Verify navigation to the FAQ page",
       "url": "",
       "inputs": {},
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "id": "TC_NAVIGATION_03",
+      "id": "TC_Navigation_03",
       "title": "Verify navigation to the Login page",
       "url": "",
       "inputs": {},
@@ -43,52 +43,38 @@
       ]
     },
     {
-      "id": "TC_SEARCH_01",
+      "id": "TC_Search_01",
       "title": "Verify team search functionality",
       "url": "",
       "inputs": {
-        "STATE_28_INPUT_SEARCH_FOR_TEAMS": "Toronto Maple Leafs"
+        "STATE_28_INPUT_SEARCH_FOR_TEAMS": "Montreal Canadiens"
       },
       "steps": [
         "Navigate to ",
-        "Fill 'Toronto Maple Leafs' into locator `page.locator('#q')`",
+        "Fill 'Montreal Canadiens' into locator `page.locator('#q')`",
         "Click locator `page.locator('input.btn.btn-primary')`",
-        "Verification: Expect search results to contain 'Toronto Maple Leafs'"
+        "Verification: Expect search results to be displayed with 'Montreal Canadiens'"
       ],
       "expected": [
-        "Search results are displayed for the specified team"
+        "Search results are displayed for the entered team."
       ]
     },
     {
-      "id": "TC_PAGINATION_01",
-      "title": "Verify pagination functionality",
+      "id": "TC_Pagination_01",
+      "title": "Verify pagination functionality by navigating to page 5",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[3]/a[1]')`",
-        "Verification: Expect URL to change to '/pages/forms/?page_num=2'"
+        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[6]/a[1]')`",
+        "Verification: Expect URL to change to '/pages/forms/?page_num=5'"
       ],
       "expected": [
-        "Navigates to hockey forms page 2"
-      ]
-    },
-    {
-      "id": "TC_RECORDS_PER_PAGE_01",
-      "title": "Verify records per page functionality",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('#per_page')`",
-        "Verification: Expect records per page dropdown is interactive"
-      ],
-      "expected": [
-        "Records per page dropdown shows 25, 50 and 100 options"
+        "The data displayed on the page should correspond to page 5."
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.321432",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.399089",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

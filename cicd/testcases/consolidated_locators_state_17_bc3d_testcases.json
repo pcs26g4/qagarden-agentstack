@@ -7,7 +7,7 @@
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('#nav-lessons')`",
+        "Click locator `state_17_link_lessons_393_10`",
         "Verification: Expect URL to change to '/lessons/'"
       ],
       "expected": [
@@ -21,7 +21,7 @@
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('#nav-faq')`",
+        "Click locator `state_17_link_faq_515_10`",
         "Verification: Expect URL to change to '/faq/'"
       ],
       "expected": [
@@ -35,7 +35,7 @@
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('#nav-login')`",
+        "Click locator `state_17_link_login_1105_10`",
         "Verification: Expect URL to change to '/login/'"
       ],
       "expected": [
@@ -43,52 +43,66 @@
       ]
     },
     {
+      "id": "TC_Navigation_04",
+      "title": "Verify navigation to Sandbox page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `state_17_link_sandbox_267_10`",
+        "Verification: Expect URL to change to '/pages/'"
+      ],
+      "expected": [
+        "Sandbox page loads successfully"
+      ]
+    },
+    {
       "id": "TC_Search_01",
-      "title": "Verify search functionality with a valid team name",
+      "title": "Verify team search functionality",
       "url": "",
       "inputs": {
         "STATE_17_INPUT_SEARCH_FOR_TEAMS": "Toronto Maple Leafs"
       },
       "steps": [
         "Navigate to ",
-        "Fill 'Toronto Maple Leafs' into locator `page.locator('#q')`",
-        "Click locator `page.locator('input.btn.btn-primary')`",
-        "Verification: Expect some search results to be visible"
+        "Fill 'Toronto Maple Leafs' into locator `state_17_input_search_for_teams`",
+        "Click locator `state_17_input_el`",
+        "Verification: Expect search results to be displayed"
       ],
       "expected": [
-        "Search results for 'Toronto Maple Leafs' are displayed."
+        "Search results for Toronto Maple Leafs are displayed"
       ]
     },
     {
       "id": "TC_Pagination_01",
-      "title": "Verify pagination to page 7",
+      "title": "Verify pagination to page 6",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[8]/a[1]')`",
-        "Verification: Expect URL to change to '/pages/forms/?page_num=7'"
+        "Click locator `state_17_link_6`",
+        "Verification: Expect URL to change to '/pages/forms/?page_num=6'"
       ],
       "expected": [
-        "Page 7 loads successfully"
+        "Navigated to page 6 successfully"
       ]
     },
     {
-      "id": "TC_ResultsPerPage_01",
+      "id": "TC_Pagination_02",
       "title": "Verify changing results per page to 50",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Select '50' in locator `page.locator('#per_page')`",
-        "Verification: Expect to see 50 results or the max available if less than 50"
+        "Select '50' in locator `state_17_2550100`",
+        "Verification: Expect to see 50 results per page"
       ],
       "expected": [
-        "Results per page are updated to 50"
+        "50 results are displayed per page"
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.227197",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.353519",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

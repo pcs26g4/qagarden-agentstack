@@ -14,39 +14,42 @@ import pytest
 def test_TC_Navigation_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_14_28FD_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator("#nav-lessons").first.click()
-    expect(page).to_have_url(re.compile(r"/lessons/"))
+    page.locator('#nav-lessons').first.click()
+    expect(page).to_have_url(re.compile(r"/lessons/"), timeout=10000)
 
 @pytest.mark.smoke
 def test_TC_Navigation_02(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_14_28FD_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator("#nav-faq").first.click()
-    expect(page).to_have_url(re.compile(r"/faq/"))
+    page.locator('#nav-faq').first.click()
+    expect(page).to_have_url(re.compile(r"/faq/"), timeout=10000)
 
 @pytest.mark.smoke
 def test_TC_Navigation_03(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_14_28FD_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
     page.locator('xpath=//a[contains(text(), "Login")]').click()
-    expect(page).to_have_url(re.compile(r"/login/"))
+    expect(page).to_have_url(re.compile(r"/login/"), timeout=10000)
 
 @pytest.mark.regression
 def test_TC_Search_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_14_28FD_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator("#q").first.fill("Oilers")
-    page.locator("input.btn.btn-primary").first.click()
+    page.locator('#q').first.fill("Bruins")
+    page.locator('input.btn.btn-primary').first.click()
+    # Since this is a static website, we're not asserting actual results, but rather attempt and presence
+    expect(page.locator('input.btn.btn-primary').first).to_be_visible(timeout=10000)
 
 @pytest.mark.regression
 def test_TC_Pagination_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_14_28FD_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('xpath=//*[@id="hockey"]/div[1]/div[5]/div[1]/ul[1]/li[5]/a[1]').first.click()
-    expect(page).to_have_url(re.compile(r"/pages/forms/\?page_num=4"))
+    page.locator('xpath=//*[@id="hockey"]/div[1]/div[5]/div[1]/ul[1]/li[8]/a[1]').first.click()
+    expect(page).to_have_url(re.compile(r"/pages/forms/\?page_num=7"), timeout=10000)
 
 @pytest.mark.regression
-def test_TC_RecordsPerPage_01(page):
+def test_TC_Pagination_02(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_14_28FD_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator("#per_page").first.select_option("50")
+    page.locator('xpath=//*[contains(@aria-label, "Next")]').click()
+    expect(page).to_have_url(re.compile(r"/pages/forms/\?page_num=3"), timeout=10000)

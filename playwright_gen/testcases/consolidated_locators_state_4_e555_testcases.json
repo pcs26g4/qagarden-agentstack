@@ -1,91 +1,36 @@
 {
   "testCases": [
     {
-      "id": "TC_Navigation_001",
-      "title": "Verify navigation to Sandbox page",
-      "url": "",
+      "id": "TC_ContentVerification_01",
+      "title": "Verify header and subheader texts are displayed correctly",
+      "url": "NO_URL_PROVIDED",
       "inputs": {},
       "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to contain '/pages/'"
+        "Navigate to NO_URL_PROVIDED",
+        "Verification: Expect locator `page.locator('#preheader')` to have text 'A course to help you'",
+        "Verification: Expect locator `page.locator('#header')` to have text 'SCRAPE ANY WEBSITE'",
+        "Verification: Expect locator `page.locator('#postheader')` to have text 'Learn how to build your own web scrapers and\\nstart collecting the data you need.'"
       ],
       "expected": [
-        "Sandbox page loads successfully"
+        "Header and subheader texts are displayed as expected."
       ]
     },
     {
-      "id": "TC_Navigation_002",
-      "title": "Verify navigation to Lessons page",
-      "url": "",
+      "id": "TC_Navigation_01",
+      "title": "Verify 'Get Started Now' link navigates to the correct URL",
+      "url": "NO_URL_PROVIDED",
       "inputs": {},
       "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to contain '/lessons/'"
+        "Navigate to NO_URL_PROVIDED",
+        "Click locator `page.locator('a.gumroad-button').nth(0)`",
+        "Verification: Expect URL to contain 'https://gum.co/oLpqb'"
       ],
       "expected": [
-        "Lessons page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_003",
-      "title": "Verify navigation to FAQ page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to contain '/faq/'"
-      ],
-      "expected": [
-        "FAQ page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_004",
-      "title": "Verify navigation to Login page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
-        "Verification: Expect URL to contain '/login/'"
-      ],
-      "expected": [
-        "Login page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_005",
-      "title": "Verify navigation to Home page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('a.nav-link.hidden-sm.hidden-xs')`",
-        "Verification: Expect URL to be '/'"
-      ],
-      "expected": [
-        "Home page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_006",
-      "title": "Verify navigation to robots.txt",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('a').nth(0)`",
-        "Verification: Expect URL to be '/robots.txt'"
-      ],
-      "expected": [
-        "robots.txt loads successfully"
+        "Navigates to the correct Gumroad purchase page"
       ]
     }
   ],
-  "url": "",
-  "generatedAt": "2026-03-12T11:23:10.080992",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "url": "NO_URL_PROVIDED",
+  "generatedAt": "2026-03-13T11:28:41.249959",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

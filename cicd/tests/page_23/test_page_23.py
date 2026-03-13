@@ -12,44 +12,42 @@ import re
 import pytest
 
 @pytest.mark.smoke
-def test_page_23_title(page):
+def test_page_title(page):
+    """Verify the page title."""
     page.goto(PAGE_23_URL)
     page.wait_for_load_state('networkidle')
-    expect(page).to_have_title("Hockey Teams: Forms, Searching and Pagination | Scrape This Site | A public sandbox for learning web scraping")
+    expect(page).to_have_title(re.compile(r"Hockey Teams: Forms, Searching and Pagination"))
 
 @pytest.mark.regression
-def test_page_23_search_team(page):
+def test_search_for_teams(page):
+    """Search for a team and verify the input field."""
     page.goto(PAGE_23_URL)
     page.wait_for_load_state('networkidle')
-    search_term = "Vancouver Canucks"
-    page.locator("#q").first.fill(search_term)
+    team_name = "Pittsburgh Penguins"
+    page.locator("#q").first.fill(team_name)
     page.locator('input.btn.btn-primary').first.click()
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[2]/td[1]').first).to_have_text(search_term)
+    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[2]/td[1]').first).to_contain_text(team_name)
 
 @pytest.mark.regression
-def test_page_23_check_team_data(page):
+def test_pagination(page):
+    """Navigate to the next page using pagination."""
     page.goto(PAGE_23_URL)
     page.wait_for_load_state('networkidle')
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[3]/td[1]').first).to_have_text("Washington Capitals")
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[3]/td[2]').first).to_have_text("1999")
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[3]/td[3]').first).to_have_text("44")
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[3]/td[4]').first).to_have_text("24")
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[3]/td[5]').first).to_have_text("2")
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[3]/td[6]').first).to_have_text("0.537")
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[3]/td[7]').first).to_have_text("227")
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[3]/td[8]').first).to_have_text("194")
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[3]/td[9]').first).to_have_text("33")
+    page.locator('xpath=//*[contains(@aria-label, "Next")]').click()
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(re.compile(r"page_num=13"))
 
 @pytest.mark.regression
-def test_page_23_check_pagination_element_visibility(page):
+def test_check_element_visibility(page):
+    """Check if the search input field is visible."""
     page.goto(PAGE_23_URL)
     page.wait_for_load_state('networkidle')
-    expect(page.locator('xpath=//*[contains(@aria-label, "Previous")]')).to_be_visible()
-    expect(page.locator('xpath=//*[contains(@aria-label, "Next")]')).to_be_visible()
+    expect(page.locator("#q").first).to_be_visible()
 
-@pytest.mark.regression
-def test_page_23_select_50_per_page(page):
+@pytest.mark.smoke
+def test_navigation_to_lessons(page):
     page.goto(PAGE_23_URL)
     page.wait_for_load_state('networkidle')
-    page.locator("#per_page").first.select_option("50")
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/div[1]/div[1]/h1[1]/small[1]').first).to_have_text("25 items") #Expect the count to stay the same due to total teams being only 25.
+    page.locator('#nav-lessons').first.click()
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(re.compile(r"/lessons/"))

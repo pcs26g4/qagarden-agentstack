@@ -1,27 +1,13 @@
 {
   "testCases": [
     {
-      "id": "TC_Navigation_01",
-      "title": "Verify navigation to the Sandbox page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to change to '/pages/'"
-      ],
-      "expected": [
-        "Sandbox page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_02",
+      "id": "TC_NAVIGATION_01",
       "title": "Verify navigation to the Lessons page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Click locator `page.locator('#nav-lessons')`",
         "Verification: Expect URL to change to '/lessons/'"
       ],
       "expected": [
@@ -29,13 +15,13 @@
       ]
     },
     {
-      "id": "TC_Navigation_03",
+      "id": "TC_NAVIGATION_02",
       "title": "Verify navigation to the FAQ page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Click locator `page.locator('#nav-faq')`",
         "Verification: Expect URL to change to '/faq/'"
       ],
       "expected": [
@@ -43,7 +29,7 @@
       ]
     },
     {
-      "id": "TC_Navigation_04",
+      "id": "TC_NAVIGATION_03",
       "title": "Verify navigation to the Login page",
       "url": "",
       "inputs": {},
@@ -57,21 +43,69 @@
       ]
     },
     {
-      "id": "TC_Navigation_05",
-      "title": "Verify navigation to the Home page",
+      "id": "TC_SEARCH_01",
+      "title": "Verify search functionality with a valid team name",
+      "url": "",
+      "inputs": {
+        "STATE_36_INPUT_SEARCH_FOR_TEAMS": "Toronto Maple Leafs"
+      },
+      "steps": [
+        "Navigate to ",
+        "Fill 'Toronto Maple Leafs' into locator `page.locator('#q')`",
+        "Click locator `page.locator('input.btn.btn-primary')`",
+        "Verification: Expect search results to be displayed"
+      ],
+      "expected": [
+        "Search results are displayed for the team name"
+      ]
+    },
+    {
+      "id": "TC_SEARCH_02",
+      "title": "Verify search functionality with no input",
+      "url": "",
+      "inputs": {
+        "STATE_36_INPUT_SEARCH_FOR_TEAMS": ""
+      },
+      "steps": [
+        "Navigate to ",
+        "Fill '' into locator `page.locator('#q')`",
+        "Click locator `page.locator('input.btn.btn-primary')`",
+        "Verification: Expect all teams to be displayed"
+      ],
+      "expected": [
+        "All teams are displayed as there is no search input"
+      ]
+    },
+    {
+      "id": "TC_PAGINATION_01",
+      "title": "Verify pagination link navigates to page 2",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('a.nav-link.hidden-sm.hidden-xs')`",
-        "Verification: Expect URL to change to '/'"
+        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[3]/a[1]')`",
+        "Verification: Expect URL to change to '/pages/forms/?page_num=2'"
       ],
       "expected": [
-        "Home page loads successfully"
+        "Pagination navigates to page 2"
+      ]
+    },
+    {
+      "id": "TC_RECORDS_PER_PAGE_01",
+      "title": "Verify number of records displayed per page change to 50",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Select option '50' in locator `page.locator('#per_page')`",
+        "Verification: Expect 50 records displayed on page"
+      ],
+      "expected": [
+        "50 records displayed on page"
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.382209",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.431769",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

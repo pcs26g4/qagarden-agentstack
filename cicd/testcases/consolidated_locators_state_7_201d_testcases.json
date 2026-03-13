@@ -6,8 +6,8 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
-        "Click locator `state_7_link_lessons_420_10`",
+        "Navigate to /",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
         "Verification: Expect URL to change to '/lessons/'"
       ],
       "expected": [
@@ -20,8 +20,8 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
-        "Click locator `state_7_link_faq_542_10`",
+        "Navigate to /",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
         "Verification: Expect URL to change to '/faq/'"
       ],
       "expected": [
@@ -34,8 +34,8 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
-        "Click locator `state_7_link_login_1132_10`",
+        "Navigate to /",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
         "Verification: Expect URL to change to '/login/'"
       ],
       "expected": [
@@ -43,52 +43,35 @@
       ]
     },
     {
-      "id": "TC_Search_01",
-      "title": "Verify team search functionality",
-      "url": "",
-      "inputs": {
-        "STATE_7_INPUT_SEARCH_FOR_TEAMS": "Toronto Maple Leafs"
-      },
-      "steps": [
-        "Navigate to ",
-        "Fill 'Toronto Maple Leafs' into locator `page.locator('#q')`",
-        "Click locator `page.locator('input.btn.btn-primary')`",
-        "Verification: Expect search results to load with 'Toronto Maple Leafs'"
-      ],
-      "expected": [
-        "Search results are displayed correctly."
-      ]
-    },
-    {
-      "id": "TC_Pagination_01",
-      "title": "Verify navigation to page 5 of the hockey forms",
+      "id": "TC_Navigation_04",
+      "title": "Verify navigation to the Sandbox page",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
-        "Click locator `state_7_link_5_240_1460`",
-        "Verification: Expect URL to change to '/pages/forms/?page_num=5'"
+        "Navigate to /",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to change to '/pages/'"
       ],
       "expected": [
-        "Page 5 of the forms loads successfully"
+        "Sandbox page loads successfully"
       ]
     },
     {
-      "id": "TC_Pagination_02",
-      "title": "Verify navigation to page 23 of the hockey forms",
+      "id": "TC_Navigation_05",
+      "title": "Verify navigation to lessons page via footer link",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
-        "Click locator `state_7_link_23_930_1460`",
-        "Verification: Expect URL to change to '/pages/forms/?page_num=23'"
+        "Navigate to /",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"4 video lessons\")]')`",
+        "Verification: Expect URL to change to '/lessons/'"
       ],
       "expected": [
-        "Page 23 of the forms loads successfully"
+        "Lessons page loads successfully"
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.131988",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.283223",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

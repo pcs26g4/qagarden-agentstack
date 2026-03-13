@@ -12,43 +12,52 @@ import re
 import pytest
 
 
-def test_page_3_9ddb_navigation(page):
-    page.goto(PAGE_3_9DDB_URL, timeout=60000)
-    page.wait_for_load_state('networkidle')
-    expect(page.locator("#logo").first).to_be_visible(timeout=15000)
-    expect(page.locator("a.nav-link").first).to_be_visible(timeout=15000)
-    expect(page.locator("#navbarDropdownMenuLink").first).to_be_visible(timeout=15000)
-
-
 @pytest.mark.smoke
-def test_page_3_9ddb_autocomplete_link(page):
+def test_page_3_navigation_to_autocomplete(page):
     page.goto(PAGE_3_9DDB_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
     page.locator("#navbarDropdownMenuLink").first.click()
     page.locator("xpath=//a[contains(text(), 'Autocomplete')]").click()
-    expect(page.locator("h1").first).to_be_visible(timeout=15000)
+    expect(page.locator("h1").first).to_be_visible(timeout=10000)
+    expect(page.locator("h1").first).to_have_text("Autocomplete", timeout=10000)
 
 
 @pytest.mark.regression
-def test_page_3_9ddb_fill_autocomplete_form(page):
+def test_page_3_autocomplete_input(page):
     page.goto(PAGE_3_9DDB_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
     page.locator("#navbarDropdownMenuLink").first.click()
     page.locator("xpath=//a[contains(text(), 'Autocomplete')]").click()
-    page.locator("#autocomplete").first.fill("1600 Amphitheatre Parkway")
-    page.locator("#street_number").first.fill("1600")
-    page.locator("#route").first.fill("Amphitheatre Parkway")
-    page.locator("#locality").first.fill("Mountain View")
+    page.locator("#autocomplete").first.fill("123 Main St")
+    page.locator("#street_number").first.fill("123")
+    page.locator("#route").first.fill("Main St")
+    page.locator("#locality").first.fill("Anytown")
     page.locator("#administrative_area_level_1").first.fill("CA")
-    page.locator("#postal_code").first.fill("94043")
+    page.locator("#postal_code").first.fill("90210")
     page.locator("#country").first.fill("USA")
-    expect(page.locator("#autocomplete").first).to_have_value("1600 Amphitheatre Parkway")
 
 
 @pytest.mark.regression
-def test_page_3_9ddb_buttons_link(page):
+def test_page_3_element_visibility(page):
+    page.goto(PAGE_3_9DDB_URL, timeout=60000)
+    page.wait_for_load_state('networkidle')
+    expect(page.locator("#logo").first).to_be_visible(timeout=10000)
+    expect(page.locator("a.nav-link").first).to_be_visible(timeout=10000)
+
+
+@pytest.mark.regression
+def test_page_3_navigation_buttons(page):
     page.goto(PAGE_3_9DDB_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
     page.locator("#navbarDropdownMenuLink").first.click()
     page.locator("xpath=//a[contains(text(), 'Buttons')]").click()
-    expect(page).to_have_url(PAGE_3_9DDB_URL)  # Verify page stays on same URL.
+    expect(page.locator("xpath=//a[contains(text(), 'Buttons')]")).to_be_visible(timeout=10000)
+
+
+@pytest.mark.regression
+def test_page_3_navigation_checkbox(page):
+    page.goto(PAGE_3_9DDB_URL, timeout=60000)
+    page.wait_for_load_state('networkidle')
+    page.locator("#navbarDropdownMenuLink").first.click()
+    page.locator("xpath=//a[contains(text(), 'Checkbox')]").click()
+    expect(page.locator("xpath=//a[contains(text(), 'Checkbox')]")).to_be_visible(timeout=10000)

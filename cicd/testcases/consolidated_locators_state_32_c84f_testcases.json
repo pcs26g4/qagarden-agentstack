@@ -2,13 +2,13 @@
   "testCases": [
     {
       "id": "TC_Navigation_01",
-      "title": "Verify navigation to the Lessons page",
+      "title": "Verify navigation to Lessons page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('#nav-lessons')`",
-        "Verification: Expect URL to change to '/lessons/'"
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to contain '/lessons/'"
       ],
       "expected": [
         "Lessons page loads successfully"
@@ -16,13 +16,13 @@
     },
     {
       "id": "TC_Navigation_02",
-      "title": "Verify navigation to the FAQ page",
+      "title": "Verify navigation to FAQ page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('#nav-faq')`",
-        "Verification: Expect URL to change to '/faq/'"
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to contain '/faq/'"
       ],
       "expected": [
         "FAQ page loads successfully"
@@ -30,51 +30,107 @@
     },
     {
       "id": "TC_Navigation_03",
-      "title": "Verify navigation to the Login page",
+      "title": "Verify navigation to Login page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
         "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
-        "Verification: Expect URL to change to '/login/'"
+        "Verification: Expect URL to contain '/login/'"
       ],
       "expected": [
         "Login page loads successfully"
       ]
     },
     {
-      "id": "TC_Search_01",
-      "title": "Verify searching for a team",
-      "url": "",
-      "inputs": {
-        "STATE_32_INPUT_SEARCH_FOR_TEAMS": "Vancouver Canucks"
-      },
-      "steps": [
-        "Navigate to ",
-        "Fill 'Vancouver Canucks' into locator `page.locator('#q')`",
-        "Click locator `page.locator('input.btn.btn-primary')`",
-        "Verification: Expect search results to contain 'Vancouver Canucks'"
-      ],
-      "expected": [
-        "Search results load successfully"
-      ]
-    },
-    {
-      "id": "TC_Pagination_01",
-      "title": "Verify navigation to page 5 of the hockey teams",
+      "id": "TC_Navigation_04",
+      "title": "Verify navigation to Sandbox page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[6]/a[1]')`",
-        "Verification: Expect URL to change to '/pages/forms/?page_num=5'"
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to contain '/pages/'"
       ],
       "expected": [
-        "Page 5 of hockey teams loads successfully"
+        "Sandbox page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Search_01",
+      "title": "Verify search functionality with a team name",
+      "url": "",
+      "inputs": {
+        "STATE_32_INPUT_SEARCH_FOR_TEAMS": "Ottawa Senators"
+      },
+      "steps": [
+        "Navigate to ",
+        "Fill 'Ottawa Senators' into locator `page.locator('#q')`",
+        "Click locator `page.locator('input.btn.btn-primary')`",
+        "Verification: Expect the search results to display information about the Ottawa Senators"
+      ],
+      "expected": [
+        "Search results for Ottawa Senators are displayed"
+      ]
+    },
+    {
+      "id": "TC_Pagination_01",
+      "title": "Verify pagination functionality by navigating to page 2",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[3]/a[1]')`",
+        "Verification: Expect URL to contain '?page_num=2'"
+      ],
+      "expected": [
+        "Page 2 of the data table is displayed"
+      ]
+    },
+    {
+      "id": "TC_Pagination_02",
+      "title": "Verify navigation to the last page using the next button",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//*[contains(@aria-label, \"Next\")]')`",
+        "Verification: Expect URL to contain '?page_num=21'"
+      ],
+      "expected": [
+        "Navigated to the next page"
+      ]
+    },
+    {
+      "id": "TC_Pagination_03",
+      "title": "Verify navigation to the previous page using the previous button",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//*[contains(@aria-label, \"Previous\")]')`",
+        "Verification: Expect URL to contain '?page_num=19'"
+      ],
+      "expected": [
+        "Navigated to the previous page"
+      ]
+    },
+    {
+      "id": "TC_RecordsPerPage_01",
+      "title": "Verify changing records per page to 50",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Select '50' from locator `page.locator('#per_page')`",
+        "Verification: Verify the number of records displayed per page has increased to 50"
+      ],
+      "expected": [
+        "Number of records displayed per page is 50"
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.349970",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.417595",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

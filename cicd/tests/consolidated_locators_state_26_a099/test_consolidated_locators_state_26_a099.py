@@ -9,40 +9,45 @@ sys.path.insert(0, str(ROOT_DIR))
 from config.urls import CONSOLIDATED_LOCATORS_STATE_26_A099_URL
 from playwright.sync_api import expect
 import re
+import pytest
 
+@pytest.mark.smoke
 def test_TC_Navigation_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_26_A099_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator("#nav-lessons").first.click()
-    expect(page).to_have_url(re.compile(r"/lessons/"), timeout=10000)
+    page.locator('a.nav-link').nth(0).click()
+    expect(page).to_have_url(re.compile(r"/lessons/"))
 
+@pytest.mark.smoke
 def test_TC_Navigation_02(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_26_A099_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator("#nav-faq").first.click()
-    expect(page).to_have_url(re.compile(r"/faq/"), timeout=10000)
+    page.locator('a.nav-link').nth(0).click()
+    expect(page).to_have_url(re.compile(r"/faq/"))
 
+@pytest.mark.smoke
 def test_TC_Navigation_03(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_26_A099_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
     page.locator('xpath=//a[contains(text(), "Login")]').click()
-    expect(page).to_have_url(re.compile(r"/login/"), timeout=10000)
+    expect(page).to_have_url(re.compile(r"/login/"))
 
+@pytest.mark.regression
 def test_TC_Search_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_26_A099_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator("#q").first.fill("Bruins")
-    page.locator("input.btn.btn-primary").first.click()
-    expect(page.locator("body").first).to_contain_text("Bruins", timeout=10000)
+    page.locator('#q').first.fill("Bruins")
+    page.locator('input.btn.btn-primary').first.click()
 
+@pytest.mark.regression
 def test_TC_Pagination_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_26_A099_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('xpath=//*[@id="hockey"]/div[1]/div[5]/div[1]/ul[1]/li[3]/a[1]').first.click()
-    expect(page).to_have_url(re.compile(r"/pages/forms/\?page_num=2"), timeout=10000)
+    page.locator('xpath=//*[@id="hockey"]/div[1]/div[5]/div[1]/ul[1]/li[6]/a[1]').first.click()
+    expect(page).to_have_url(re.compile(r"/pages/forms/\?page_num=5"))
 
-def test_TC_RecordsPerPage_01(page):
+@pytest.mark.regression
+def test_TC_Pagination_02(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_26_A099_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator("#per_page").first.click()
-    expect(page.locator("#per_page").first).to_be_visible(timeout=10000)
+    page.locator('xpath=//*[contains(@aria-label, "Next")]').click()

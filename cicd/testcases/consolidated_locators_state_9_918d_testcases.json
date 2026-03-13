@@ -1,7 +1,7 @@
 {
   "testCases": [
     {
-      "id": "TC_Navigation_001",
+      "id": "TC_Navigation_01",
       "title": "Verify navigation to the Lessons page",
       "url": "",
       "inputs": {},
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "id": "TC_Navigation_002",
+      "id": "TC_Navigation_02",
       "title": "Verify navigation to the FAQ page",
       "url": "",
       "inputs": {},
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "id": "TC_Navigation_003",
+      "id": "TC_Navigation_03",
       "title": "Verify navigation to the Login page",
       "url": "",
       "inputs": {},
@@ -43,21 +43,35 @@
       ]
     },
     {
-      "id": "TC_Navigation_004",
-      "title": "Verify navigation to the Sandbox page",
+      "id": "TC_Navigation_04",
+      "title": "Verify navigation to the home page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to change to '/pages/'"
+        "Click locator `page.locator('a.nav-link.hidden-sm.hidden-xs')`",
+        "Verification: Expect URL to change to '/'"
       ],
       "expected": [
-        "Sandbox page loads successfully"
+        "Home page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Link_2015_01",
+      "title": "Verify clicking on 2015 link does not navigate to a new page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('#2015').nth(0)`",
+        "Verification: Expect the page to remain on the same URL"
+      ],
+      "expected": [
+        "Page remains on the same URL"
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.158512",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.299388",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

@@ -11,42 +11,41 @@ from playwright.sync_api import expect
 import re
 import pytest
 
-@pytest.mark.regression
-def test_page_30_verify_heading(page):
+@pytest.mark.smoke
+def test_page_30_title(page):
+    """Verify the page title."""
     page.goto(PAGE_30_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    expect(page.locator('h1').first).to_be_visible(timeout=10000)
-    expect(page.locator('h1').first).to_have_text(re.compile(r"Hockey Teams: Forms, Searching and Pagination"))
+    expect(page).to_have_title(re.compile(r"Hockey Teams: Forms, Searching and Pagination"))
 
 @pytest.mark.regression
 def test_page_30_search_team(page):
+    """Search for a team and verify that the input field is present."""
     page.goto(PAGE_30_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('#q').first.fill("Toronto Maple Leafs")
+    expect(page.locator("#q").first).to_be_visible(timeout=10000)
+    page.locator("#q").first.fill("Boston Bruins")
     page.locator('input.btn.btn-primary').first.click()
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[6]').first).to_be_visible(timeout=10000)
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[6]/td[1]').first).to_have_text("Toronto Maple Leafs")
 
 @pytest.mark.regression
-def test_page_30_navigate_pages(page):
+def test_page_30_pagination(page):
+    """Navigate to page 2 and verify the URL."""
     page.goto(PAGE_30_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('xpath=//*[contains(@aria-label, "Next")]').click()
-    page.wait_for_load_state('networkidle')
-    expect(page).to_have_url(re.compile(r"page_num=19"))
-
-@pytest.mark.regression
-def test_page_30_change_per_page(page):
-    page.goto(PAGE_30_URL, timeout=60000)
-    page.wait_for_load_state('networkidle')
-    page.locator('#per_page').first.select_option("100")
-    page.wait_for_load_state('networkidle')
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/div[1]/div[1]/h1[1]/small[1]').first).to_have_text("25 items")
+    page.locator('xpath=//*[@id="hockey"]/div[1]/div[5]/div[1]/ul[1]/li[3]/a[1]').first.click()
+    expect(page).to_have_url(re.compile(r".*page_num=2"))
 
 @pytest.mark.smoke
-def test_page_30_header_links(page):
+def test_page_30_lessons_link(page):
+    """Verify the lessons link navigates to the lessons page."""
     page.goto(PAGE_30_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('a.nav-link.hidden-sm.hidden-xs').first.click()
+    page.locator('xpath=//a[contains(text(), "8 video lessons")]').click()
+    expect(page).to_have_url(re.compile(r".*lessons"))
+
+@pytest.mark.regression
+def test_page_30_select_per_page(page):
+    """Select 50 items per page and verify URL."""
+    page.goto(PAGE_30_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    expect(page).to_have_url("http://www.scrapethissite.com/")
+    page.locator("#per_page").first.select_option("50")

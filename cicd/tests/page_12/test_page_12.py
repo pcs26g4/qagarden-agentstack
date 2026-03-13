@@ -12,29 +12,44 @@ import re
 import pytest
 
 @pytest.mark.smoke
-def test_page_12_navigation(page):
-    """
-    Navigates to the robots.txt page and verifies the URL.
-    """
+def test_page_loads_successfully(page):
+    """Verify the page loads and the main heading is visible."""
     page.goto(PAGE_12_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    expect(page).to_have_url(PAGE_12_URL)
+    expect(page.locator("page.locator('h1')")).to_be_visible(timeout=15000)
 
 @pytest.mark.regression
-def test_page_12_useragent_disallow_visibility(page):
-    """
-    Checks if the robots.txt content is visible.
-    """
+def test_search_team_boston(page):
+    """Verify that searching for a specific team displays relevant results."""
     page.goto(PAGE_12_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    expect(page.locator("pre").first).to_be_visible(timeout=15000)
+    page.locator("page.locator('#q')").fill("Boston")
+    page.locator("page.locator('input.btn.btn-primary')").click()
+    expect(page.locator("page.locator('xpath\=\/\/*\[\@id\=\"hockey\"\]\/div\[1\]\/table\[1\]\/tbody\[1\]\/tr\[2\]\/td\[1\]')")).to_have_text("Boston Bruins", timeout=10000)
 
 @pytest.mark.regression
-def test_page_12_useragent_disallow_content(page):
-    """
-    Verifies the content of robots.txt file.
-    """
+def test_pagination_to_page_2(page):
+    """Verify navigating to page 2 displays different team data."""
     page.goto(PAGE_12_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    expected_text = "User-agent: *\nDisallow: /lessons/\nDisallow: /faq/"
-    expect(page.locator("pre").first).to_have_text(expected_text)
+    page.locator("page.locator('xpath\=\/\/*\[contains(\@aria-label, \"Next\")]')").click()
+    expect(page.locator("page.locator('xpath\=\/\/*\[\@id\=\"hockey\"\]\/div\[1\]\/table\[1\]\/tbody\[1\]\/tr\[2\]\/td\[1\]')")).to_have_text("Hartford Whalers", timeout=10000)
+
+@pytest.mark.regression
+def test_change_per_page_to_50(page):
+    """Verify changing the 'per page' selection updates the displayed team count."""
+    page.goto(PAGE_12_URL, timeout=60000)
+    page.wait_for_load_state('networkidle')
+    page.locator("page.locator('#per_page')").select_option("50")
+    expect(page.locator("page.locator('xpath\=\/\/*\[\@id\=\"hockey\"\]\/div\[1\]\/table\[1\]\/tbody\[1\]\/tr\[2\]\/td\[1\]')")).to_be_visible(timeout=10000)
+
+@pytest.mark.smoke
+def test_navigation_links_exist(page):
+    """Verify the main navigation links are present."""
+    page.goto(PAGE_12_URL, timeout=60000)
+    page.wait_for_load_state('networkidle')
+    expect(page.locator("page.locator('#nav-homepage')")).to_be_visible(timeout=10000)
+    expect(page.locator("page.locator('#nav-sandbox')")).to_be_visible(timeout=10000)
+    expect(page.locator("page.locator('#nav-lessons')")).to_be_visible(timeout=10000)
+    expect(page.locator("page.locator('#nav-faq')")).to_be_visible(timeout=10000)
+    expect(page.locator("page.locator('#nav-login')")).to_be_visible(timeout=10000)

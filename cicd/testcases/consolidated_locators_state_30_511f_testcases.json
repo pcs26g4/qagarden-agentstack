@@ -6,9 +6,9 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
+        "Navigate to ",
         "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to change to '/lessons/'"
+        "Verification: Expect URL to contain '/lessons/'"
       ],
       "expected": [
         "Lessons page loads successfully"
@@ -20,9 +20,9 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
+        "Navigate to ",
         "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to change to '/faq/'"
+        "Verification: Expect URL to contain '/faq/'"
       ],
       "expected": [
         "FAQ page loads successfully"
@@ -34,9 +34,9 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
+        "Navigate to ",
         "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
-        "Verification: Expect URL to change to '/login/'"
+        "Verification: Expect URL to contain '/login/'"
       ],
       "expected": [
         "Login page loads successfully"
@@ -44,51 +44,65 @@
     },
     {
       "id": "TC_Search_01",
-      "title": "Verify searching for a hockey team",
+      "title": "Verify team search functionality",
       "url": "",
       "inputs": {
-        "STATE_30_INPUT_SEARCH_FOR_TEAMS": "Bruins"
+        "STATE_30_INPUT_SEARCH_FOR_TEAMS": "Canucks"
       },
       "steps": [
-        "Navigate to /",
-        "Fill 'Bruins' into locator `page.locator('#q')`",
+        "Navigate to ",
+        "Fill 'Canucks' into locator `page.locator('#q')`",
         "Click locator `page.locator('input.btn.btn-primary')`",
-        "Verification: Expect search results to be displayed"
+        "Verification: Expect the page to reload with search results"
       ],
       "expected": [
-        "Search results for 'Bruins' are displayed"
+        "Search results for 'Canucks' are displayed."
       ]
     },
     {
       "id": "TC_Pagination_01",
-      "title": "Verify navigation to page 2 of the hockey teams list",
+      "title": "Verify pagination functionality - go to page 5",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
-        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[3]/a[1]')`",
-        "Verification: Expect URL to change to '/pages/forms/?page_num=2'"
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[6]/a[1]')`",
+        "Verification: Expect URL to contain '/pages/forms/?page_num=5'"
       ],
       "expected": [
-        "Page 2 of hockey teams list is displayed"
+        "Page 5 of the hockey data table is displayed."
       ]
     },
     {
       "id": "TC_Pagination_02",
-      "title": "Verify navigation to the next page of hockey teams list",
+      "title": "Verify the 'Next' pagination button",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
+        "Navigate to ",
         "Click locator `page.locator('xpath=//*[contains(@aria-label, \"Next\")]')`",
-        "Verification: Expect URL to change to '/pages/forms/?page_num=20'"
+        "Verification: Expect URL to contain '/pages/forms/?page_num=19'"
       ],
       "expected": [
-        "Next page of hockey teams list is displayed"
+        "The next page of the data table is displayed."
+      ]
+    },
+    {
+      "id": "TC_Pagination_03",
+      "title": "Verify the 'Previous' pagination button",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//*[contains(@aria-label, \"Previous\")]')`",
+        "Verification: Expect URL to contain '/pages/forms/?page_num=17'"
+      ],
+      "expected": [
+        "The previous page of the data table is displayed."
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.333907",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.399089",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

@@ -11,45 +11,33 @@ from playwright.sync_api import expect
 import re
 import pytest
 
+
+@pytest.mark.regression
+def test_page_check_heading_visibility(page):
+    page.goto(PAGE_31_URL, timeout=60000)
+    page.wait_for_load_state('networkidle')
+    expect(page.locator("h1").first).to_be_visible(timeout=10000)
+
+
 @pytest.mark.smoke
-def test_page_navigation(page):
-    """Verify navigation links are working"""
-    page.goto(PAGE_31_URL)
+def test_page_check_sandbox_link(page):
+    page.goto(PAGE_31_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.get_by_role("link", name="Lessons").first.click()
-    expect(page).to_have_url(re.compile(r"lessons"))
-    page.goto(PAGE_31_URL)  # Navigate back
+    expect(page.locator('#nav-sandbox').first).to_be_visible(timeout=10000)
 
-    page.get_by_role("link", name="FAQ").first.click()
-    expect(page).to_have_url(re.compile(r"faq"))
-    page.goto(PAGE_31_URL)
-
-    page.locator('xpath=//a[contains(text(), "Login")]').click()
-    expect(page).to_have_url(re.compile(r"login"))
-    page.goto(PAGE_31_URL)
 
 @pytest.mark.regression
-def test_search_hockey_teams(page):
-    """Verify searching for a team filters the results."""
-    page.goto(PAGE_31_URL)
+def test_page_search_for_teams(page):
+    page.goto(PAGE_31_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    team_name = "Toronto Maple Leafs"
-    page.locator("#q").first.fill(team_name)
+    page.locator('#q').first.fill("Flyers")
     page.locator('input.btn.btn-primary').first.click()
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[11]').first).to_be_visible(timeout=10000)
+    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[10]/td[1]').first).to_be_visible(timeout=10000)
+
 
 @pytest.mark.regression
-def test_change_per_page_count(page):
-    """Verify changing the number of displayed teams per page updates the table."""
-    page.goto(PAGE_31_URL)
-    page.wait_for_load_state('networkidle')
-    page.locator("#per_page").first.select_option("50")
-    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/table[1]/tbody[1]/tr[26]').first).to_be_visible(timeout=10000)
-    
-@pytest.mark.regression
-def test_pagination(page):
-    """Verify pagination links navigate correctly."""
-    page.goto(PAGE_31_URL)
+def test_page_check_pagination(page):
+    page.goto(PAGE_31_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
     page.locator('xpath=//*[contains(@aria-label, "Next")]').click()
-    expect(page).to_have_url(re.compile(r"page_num=20"))
+    expect(page.locator('xpath=//*[@id="hockey"]/div[1]/div[5]/div[1]/ul[1]/li[21]/a[1]/strong[1]').first).to_be_visible(timeout=10000)

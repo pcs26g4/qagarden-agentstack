@@ -8,16 +8,17 @@ sys.path.insert(0, str(ROOT_DIR))
 
 from config.urls import CONSOLIDATED_LOCATORS_STATE_10_85D9_URL
 from playwright.sync_api import expect
-
 import re
+import pytest
 
+@pytest.mark.regression
 def test_TC_Navigation_001(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_10_85D9_URL)
     page.wait_for_load_state('networkidle')
     page.locator('a.nav-link').nth(0).click()
     expect(page).to_have_url(re.compile(r"/lessons/"))
 
-@pytest.mark.smoke
+@pytest.mark.regression
 def test_TC_Navigation_002(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_10_85D9_URL)
     page.wait_for_load_state('networkidle')
@@ -28,40 +29,19 @@ def test_TC_Navigation_002(page):
 def test_TC_Navigation_003(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_10_85D9_URL)
     page.wait_for_load_state('networkidle')
-    page.locator('a.nav-link').nth(0).click()
+    page.locator('xpath=//a[contains(text(), "Login")]').click()
     expect(page).to_have_url(re.compile(r"/login/"))
 
-@pytest.mark.smoke
+@pytest.mark.regression
 def test_TC_Navigation_004(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_10_85D9_URL)
     page.wait_for_load_state('networkidle')
     page.locator('a.nav-link.hidden-sm.hidden-xs').first.click()
-    expect(page).to_have_url(CONSOLIDATED_LOCATORS_STATE_10_85D9_URL)
+    expect(page).to_have_url(re.compile(r"/$"))
 
-@pytest.mark.smoke
+@pytest.mark.regression
 def test_TC_Navigation_005(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_10_85D9_URL)
     page.wait_for_load_state('networkidle')
-    page.locator('a.nav-link').nth(0).click()
-    expect(page).to_have_url(re.compile(r"/pages/"))
-
-@pytest.mark.regression
-def test_TC_Navigation_006(page):
-    page.goto(CONSOLIDATED_LOCATORS_STATE_10_85D9_URL)
-    page.wait_for_load_state('networkidle')
-    page.locator('xpath=//a[contains(text(), "Spoofing Headers")]').click()
-    expect(page).to_have_url(re.compile(r"/pages/advanced/\?gotcha=headers"))
-
-@pytest.mark.regression
-def test_TC_Navigation_007(page):
-    page.goto(CONSOLIDATED_LOCATORS_STATE_10_85D9_URL)
-    page.wait_for_load_state('networkidle')
-    page.locator('xpath=//a[contains(text(), "Logins & Session Data")]').click()
-    expect(page).to_have_url(re.compile(r"/pages/advanced/\?gotcha=login"))
-
-@pytest.mark.regression
-def test_TC_Navigation_008(page):
-    page.goto(CONSOLIDATED_LOCATORS_STATE_10_85D9_URL)
-    page.wait_for_load_state('networkidle')
-    page.locator('xpath=//a[contains(text(), "CSRF & Hidden Values")]').click()
-    expect(page).to_have_url(re.compile(r"/pages/advanced/\?gotcha=csrf"))
+    page.locator('xpath=//a[contains(text(), "3 video lessons")]').click()
+    expect(page).to_have_url(re.compile(r"/lessons/"))

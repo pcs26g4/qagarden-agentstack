@@ -1,7 +1,21 @@
 {
   "testCases": [
     {
-      "id": "TC_NAVIGATION_01",
+      "id": "TC_Navigation_001",
+      "title": "Verify navigation to Sandbox page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Sandbox\")]')`",
+        "Verification: Expect URL to change to '/pages/'"
+      ],
+      "expected": [
+        "Sandbox page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_002",
       "title": "Verify navigation to Lessons page",
       "url": "",
       "inputs": {},
@@ -15,7 +29,7 @@
       ]
     },
     {
-      "id": "TC_NAVIGATION_02",
+      "id": "TC_Navigation_003",
       "title": "Verify navigation to FAQ page",
       "url": "",
       "inputs": {},
@@ -29,7 +43,7 @@
       ]
     },
     {
-      "id": "TC_NAVIGATION_03",
+      "id": "TC_Navigation_004",
       "title": "Verify navigation to Login page",
       "url": "",
       "inputs": {},
@@ -43,105 +57,35 @@
       ]
     },
     {
-      "id": "TC_NAVIGATION_04",
-      "title": "Verify navigation to Countries of the World page",
+      "id": "TC_Navigation_005",
+      "title": "Verify navigation to Explore Sandbox page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"Countries of the World: A Simple Example\")]')`",
-        "Verification: Expect URL to change to '/pages/simple/'"
+        "Click locator `page.locator('a.btn.btn-lg.btn-default')`",
+        "Verification: Expect URL to change to '/pages/'"
       ],
       "expected": [
-        "Countries of the World page loads successfully"
+        "Explore Sandbox page loads successfully"
       ]
     },
     {
-      "id": "TC_NAVIGATION_05",
-      "title": "Verify navigation to Hockey Teams page",
+      "id": "TC_Navigation_006",
+      "title": "Verify navigation to Begin Lessons page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"Hockey Teams: Forms, Searching and Pagination\")]')`",
-        "Verification: Expect URL to change to '/pages/forms/'"
+        "Click locator `page.locator('a.btn.btn-lg.btn-primary')`",
+        "Verification: Expect URL to change to '/lessons/'"
       ],
       "expected": [
-        "Hockey Teams page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_NAVIGATION_06",
-      "title": "Verify navigation to Oscar Winning Films page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"Oscar Winning Films: AJAX and Javascript\")]')`",
-        "Verification: Expect URL to change to '/pages/ajax-javascript/'"
-      ],
-      "expected": [
-        "Oscar Winning Films page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_NAVIGATION_07",
-      "title": "Verify navigation to Frames & iFrames page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"Turtles All the Way Down: Frames & iFrames\")]')`",
-        "Verification: Expect URL to change to '/pages/frames/'"
-      ],
-      "expected": [
-        "Frames & iFrames page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_NAVIGATION_08",
-      "title": "Verify navigation to Advanced Topics page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('xpath=//*[@id=\"pages\"]/section[1]/div[1]/div[1]/div[1]/div[5]/h3[1]/a[1]')`",
-        "Verification: Expect URL to change to '/pages/advanced/'"
-      ],
-      "expected": [
-        "Advanced Topics page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_NAVIGATION_09",
-      "title": "Verify navigation to Scrape This Site homepage",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('a.nav-link.hidden-sm.hidden-xs')`",
-        "Verification: Expect URL to change to '/'"
-      ],
-      "expected": [
-        "Scrape This Site homepage loads successfully"
-      ]
-    },
-    {
-      "id": "TC_NAVIGATION_10",
-      "title": "Verify navigation to Sandbox page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('#nav-sandbox')`",
-        "Verification: Expect that the 'Sandbox' element is active."
-      ],
-      "expected": [
-        "Sandbox page loads successfully"
+        "Begin Lessons page loads successfully"
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.030808",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.227132",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

@@ -10,36 +10,37 @@ from config.urls import PAGE_1_CDBD_URL
 from playwright.sync_api import expect
 import re
 
-def test_page_cdbd_navigation(page):
+def test_page_welcome_elements_visible(page):
     page.goto(PAGE_1_CDBD_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    expect(page).to_have_url(PAGE_1_CDBD_URL)
-    expect(page.locator("#logo").first).to_be_visible(timeout=15000)
-    expect(page.locator("#navbarNavDropdown").first).to_be_visible(timeout=15000)
+    expect(page.locator("#logo").first).to_be_visible(timeout=10000)
+    expect(page.locator("h1").first).to_be_visible(timeout=10000)
+    expect(page.locator("a.btn.btn-lg").first).to_be_visible(timeout=10000)
 
 @pytest.mark.smoke
-def test_page_cdbd_welcome_heading(page):
+def test_page_navigation_formy_link(page):
     page.goto(PAGE_1_CDBD_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    expect(page.locator("h1").first).to_be_visible(timeout=15000)
-    expect(page.locator("h1").first).to_have_text("Welcome to Formy")
+    page.locator("#logo").first.click()
+    expect(page).to_have_url(PAGE_1_CDBD_URL)
 
 @pytest.mark.regression
-def test_page_cdbd_link_buttons_visible(page):
+def test_page_form_components_dropdown(page):
     page.goto(PAGE_1_CDBD_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    expect(page.locator("a.btn.btn-lg\:has-text('Buttons')")).to_be_visible(timeout=15000)
+    page.locator("#navbarDropdownMenuLink").first.click()
+    expect(page.locator("a.nav-link").first).to_be_visible(timeout=10000)
 
 @pytest.mark.regression
-def test_page_cdbd_link_checkbox_visible(page):
+def test_page_link_complete_web_form(page):
     page.goto(PAGE_1_CDBD_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    expect(page.locator("a.btn.btn-lg\:has-text('Checkbox')")).to_be_visible(timeout=15000)
+    expect(page.locator("a.btn.btn-lg").nth(12)).to_be_visible(timeout=10000)
+    page.locator("a.btn.btn-lg").nth(12).click()
 
 @pytest.mark.regression
-def test_page_cdbd_link_autocomplete_click(page):
+def test_page_link_radio_button(page):
     page.goto(PAGE_1_CDBD_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator("a.btn.btn-lg\:has-text('Autocomplete')").click()
-    page.wait_for_load_state('networkidle')
-    expect(page).not_to_have_url(PAGE_1_CDBD_URL)
+    expect(page.locator("a.btn.btn-lg").nth(10)).to_be_visible(timeout=10000)
+    page.locator("a.btn.btn-lg").nth(10).click()

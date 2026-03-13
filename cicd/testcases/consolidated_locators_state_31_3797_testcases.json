@@ -6,8 +6,8 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('#nav-lessons')`",
+        "Navigate to Lessons page",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
         "Verification: Expect URL to change to '/lessons/'"
       ],
       "expected": [
@@ -20,8 +20,8 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('#nav-faq')`",
+        "Navigate to FAQ page",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
         "Verification: Expect URL to change to '/faq/'"
       ],
       "expected": [
@@ -34,7 +34,7 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
+        "Navigate to Login page",
         "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
         "Verification: Expect URL to change to '/login/'"
       ],
@@ -44,79 +44,51 @@
     },
     {
       "id": "TC_Search_01",
-      "title": "Verify search functionality for teams",
+      "title": "Verify team search functionality",
       "url": "",
       "inputs": {
-        "STATE_31_INPUT_SEARCH_FOR_TEAMS": "New York Rangers"
+        "STATE_31_INPUT_SEARCH_FOR_TEAMS": "Toronto Maple Leafs"
       },
       "steps": [
-        "Navigate to ",
-        "Fill 'New York Rangers' into locator `page.locator('#q')`",
+        "Navigate to the page",
+        "Fill 'Toronto Maple Leafs' into locator `page.locator('#q')`",
         "Click locator `page.locator('input.btn.btn-primary')`",
-        "Verification: Expect search results to be displayed"
+        "Verification: Expect the search results to load with 'Toronto Maple Leafs' displayed"
       ],
       "expected": [
-        "Search results related to 'New York Rangers' are displayed"
+        "Search results are displayed for 'Toronto Maple Leafs'"
       ]
     },
     {
       "id": "TC_Pagination_01",
-      "title": "Verify navigation to page 5 of the hockey table",
+      "title": "Verify navigation to page 5 using pagination",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
+        "Navigate to page 5 using pagination",
         "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[6]/a[1]')`",
         "Verification: Expect URL to change to '/pages/forms/?page_num=5'"
       ],
       "expected": [
-        "Page 5 of the hockey table is displayed"
-      ]
-    },
-    {
-      "id": "TC_Pagination_02",
-      "title": "Verify 'Next' pagination button",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('xpath=//*[contains(@aria-label, \"Next\")]')`",
-        "Verification: Expect URL to change to '/pages/forms/?page_num=21'"
-      ],
-      "expected": [
-        "Navigates to the next page of hockey teams"
-      ]
-    },
-    {
-      "id": "TC_Pagination_03",
-      "title": "Verify 'Previous' pagination button",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('xpath=//*[contains(@aria-label, \"Previous\")]')`",
-        "Verification: Expect URL to change to '/pages/forms/?page_num=19'"
-      ],
-      "expected": [
-        "Navigates to the previous page of hockey teams"
+        "Page 5 is loaded"
       ]
     },
     {
       "id": "TC_RecordsPerPage_01",
-      "title": "Verify selecting 100 records per page",
+      "title": "Verify changing records per page to 50",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
-        "Select '100' from locator `page.locator('#per_page')`",
-        "Verification: Expect number of hockey teams displayed to be 100"
+        "Select number of records per page to 50",
+        "Select '50' from locator `page.locator('#per_page')`",
+        "Verification: Expect the number of records displayed to change to 50 per page."
       ],
       "expected": [
-        "100 hockey teams are displayed on the page"
+        "Number of records displayed changes to 50 per page."
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.343967",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.411569",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

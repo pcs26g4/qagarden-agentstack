@@ -10,41 +10,39 @@ from config.urls import CONSOLIDATED_LOCATORS_STATE_20_760A_URL
 from playwright.sync_api import expect
 import re
 
-def test_TC_Navigation_001(page):
+def test_TC_Navigation_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_20_760A_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('a.nav-link').nth(0).click()
+    page.locator("a\:has-text('Lessons')").click()
     expect(page).to_have_url(re.compile(r"/lessons/"))
 
-def test_TC_Navigation_002(page):
+def test_TC_Navigation_02(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_20_760A_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('a.nav-link').nth(0).click()
+    page.locator("a\:has-text('FAQ')").click()
     expect(page).to_have_url(re.compile(r"/faq/"))
 
-def test_TC_Navigation_003(page):
+def test_TC_Navigation_03(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_20_760A_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('xpath=//a[contains(text(), "Login")]').click()
+    page.locator("a\:has-text('Login')").click()
     expect(page).to_have_url(re.compile(r"/login/"))
 
-@pytest.mark.regression
-def test_TC_Search_001(page):
+def test_TC_Search_01(page,):
     page.goto(CONSOLIDATED_LOCATORS_STATE_20_760A_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('#q').first.fill("Canucks")
-    page.locator('input.btn.btn-primary').first.click()
+    page.locator("#team-search").first.fill("Oilers")
+    page.locator("li\:has-text('Oilers')").click()
+    expect(page.locator("li\:has-text('Oilers')")).to_be_visible()
 
-@pytest.mark.regression
-def test_TC_Pagination_001(page):
+def test_TC_Pagination_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_20_760A_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('xpath=//*[contains(@aria-label, "Next")]').click()
-    expect(page).to_have_url(re.compile(r"/pages/forms/\?page_num=10"))
+    page.locator("a\:has-text('2')").click()
+    expect(page).to_have_url(re.compile(r"\?page_num=2"))
 
-@pytest.mark.regression
-def test_TC_Pagination_002(page):
+def test_TC_ResultsPerPage_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_20_760A_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('xpath=//*[contains(@aria-label, "Previous")]').click()
-    expect(page).to_have_url(re.compile(r"/pages/forms/\?page_num=8"))
+    page.locator("#per-page-select").first.select_option("50")
+    expect(page).to_have_url(re.compile(r"per_page=50"))

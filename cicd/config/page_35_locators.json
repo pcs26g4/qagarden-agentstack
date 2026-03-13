@@ -152,7 +152,7 @@
         "src": null,
         "class": ""
       },
-      "x": 375,
+      "x": 376,
       "y": 10,
       "quality_score": 90,
       "element_name": "lessons",
@@ -160,7 +160,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_lessons_375_10": {
+    "link_lessons_376_10": {
       "tag": "a",
       "text": "Lessons",
       "xpath": "//a[contains(text(), \"Lessons\")]",
@@ -172,10 +172,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 375,
+      "x": 376,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_lessons_375_10",
+      "element_name": "link_lessons_376_10",
       "playwright_selector": "page.locator('a.nav-link').nth(0)",
       "is_unique": false,
       "element_count": 5
@@ -192,7 +192,7 @@
         "src": null,
         "class": ""
       },
-      "x": 497,
+      "x": 498,
       "y": 10,
       "quality_score": 90,
       "element_name": "faq",
@@ -200,7 +200,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_faq_497_10": {
+    "link_faq_498_10": {
       "tag": "a",
       "text": "FAQ",
       "xpath": "//a[contains(text(), \"FAQ\")]",
@@ -212,10 +212,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 497,
+      "x": 498,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_faq_497_10",
+      "element_name": "link_faq_498_10",
       "playwright_selector": "page.locator('a.nav-link').nth(0)",
       "is_unique": false,
       "element_count": 5
@@ -232,7 +232,7 @@
         "src": null,
         "class": "pull-right"
       },
-      "x": 1087,
+      "x": 1088,
       "y": 10,
       "quality_score": 90,
       "element_name": "login",
@@ -240,7 +240,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_login_1087_10": {
+    "link_login_1088_10": {
       "tag": "a",
       "text": "Login",
       "xpath": "//a[contains(text(), \"Login\")]",
@@ -252,10 +252,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 1087,
+      "x": 1088,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_login_1087_10",
+      "element_name": "link_login_1088_10",
       "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Login\")]')",
       "is_unique": true,
       "element_count": 1
@@ -332,7 +332,7 @@
         "src": null,
         "class": "data-attribution"
       },
-      "x": 926,
+      "x": 927,
       "y": 294,
       "quality_score": 50,
       "element_name": "link_httpwwwopensourcesportsco",
@@ -477,7 +477,7 @@
         "src": null,
         "class": ""
       },
-      "x": 416,
+      "x": 417,
       "y": 459,
       "quality_score": 50,
       "element_name": "losses",
@@ -497,7 +497,7 @@
         "src": null,
         "class": ""
       },
-      "x": 514,
+      "x": 515,
       "y": 459,
       "quality_score": 50,
       "element_name": "ot_losses",
@@ -517,7 +517,7 @@
         "src": null,
         "class": ""
       },
-      "x": 647,
+      "x": 648,
       "y": 459,
       "quality_score": 50,
       "element_name": "win",
@@ -537,7 +537,7 @@
         "src": null,
         "class": ""
       },
-      "x": 735,
+      "x": 736,
       "y": 459,
       "quality_score": 50,
       "element_name": "goals_for_gf",
@@ -557,7 +557,7 @@
         "src": null,
         "class": ""
       },
-      "x": 908,
+      "x": 909,
       "y": 459,
       "quality_score": 50,
       "element_name": "goals_against_ga",
@@ -677,7 +677,7 @@
         "src": null,
         "class": "losses"
       },
-      "x": 416,
+      "x": 417,
       "y": 496,
       "quality_score": 50,
       "element_name": "29",
@@ -697,7 +697,7 @@
         "src": null,
         "class": "ot-losses"
       },
-      "x": 514,
+      "x": 515,
       "y": 496,
       "quality_score": 50,
       "element_name": "10",
@@ -717,7 +717,7 @@
         "src": null,
         "class": "pct text-success"
       },
-      "x": 647,
+      "x": 648,
       "y": 496,
       "quality_score": 50,
       "element_name": "0524",
@@ -737,7 +737,7 @@
         "src": null,
         "class": "gf"
       },
-      "x": 735,
+      "x": 736,
       "y": 496,
       "quality_score": 50,
       "element_name": "228",
@@ -757,7 +757,7 @@
         "src": null,
         "class": "ga"
       },
-      "x": 908,
+      "x": 909,
       "y": 496,
       "quality_score": 50,
       "element_name": "210",
@@ -877,7 +877,7 @@
         "src": null,
         "class": "losses"
       },
-      "x": 416,
+      "x": 417,
       "y": 533,
       "quality_score": 50,
       "element_name": "22",
@@ -897,7 +897,7 @@
         "src": null,
         "class": "ot-losses"
       },
-      "x": 514,
+      "x": 515,
       "y": 533,
       "quality_score": 50,
       "element_name": "11",
@@ -917,7 +917,7 @@
         "src": null,
         "class": "pct text-success"
       },
-      "x": 647,
+      "x": 648,
       "y": 533,
       "quality_score": 50,
       "element_name": "0598",
@@ -925,7 +925,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "210_735_533": {
+    "210_736_533": {
       "tag": "td",
       "text": "210",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[7]",
@@ -937,10 +937,10 @@
         "src": null,
         "class": "gf"
       },
-      "x": 735,
+      "x": 736,
       "y": 533,
       "quality_score": 50,
-      "element_name": "210_735_533",
+      "element_name": "210_736_533",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[3]/td[7]')",
       "is_unique": true,
       "element_count": 1
@@ -957,7 +957,7 @@
         "src": null,
         "class": "ga"
       },
-      "x": 908,
+      "x": 909,
       "y": 533,
       "quality_score": 50,
       "element_name": "165",
@@ -1077,7 +1077,7 @@
         "src": null,
         "class": "losses"
       },
-      "x": 416,
+      "x": 417,
       "y": 570,
       "quality_score": 50,
       "element_name": "36",
@@ -1097,7 +1097,7 @@
         "src": null,
         "class": "ot-losses"
       },
-      "x": 514,
+      "x": 515,
       "y": 570,
       "quality_score": 50,
       "element_name": "8",
@@ -1117,7 +1117,7 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 647,
+      "x": 648,
       "y": 570,
       "quality_score": 50,
       "element_name": "0463",
@@ -1137,7 +1137,7 @@
         "src": null,
         "class": "gf"
       },
-      "x": 735,
+      "x": 736,
       "y": 570,
       "quality_score": 50,
       "element_name": "235",
@@ -1157,7 +1157,7 @@
         "src": null,
         "class": "ga"
       },
-      "x": 908,
+      "x": 909,
       "y": 570,
       "quality_score": 50,
       "element_name": "281",
@@ -1277,7 +1277,7 @@
         "src": null,
         "class": "losses"
       },
-      "x": 416,
+      "x": 417,
       "y": 607,
       "quality_score": 50,
       "element_name": "37",
@@ -1285,7 +1285,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "10_514_607": {
+    "10_515_607": {
       "tag": "td",
       "text": "10",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[5]",
@@ -1297,10 +1297,10 @@
         "src": null,
         "class": "ot-losses"
       },
-      "x": 514,
+      "x": 515,
       "y": 607,
       "quality_score": 50,
-      "element_name": "10_514_607",
+      "element_name": "10_515_607",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[5]/td[5]')",
       "is_unique": true,
       "element_count": 1
@@ -1317,7 +1317,7 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 647,
+      "x": 648,
       "y": 607,
       "quality_score": 50,
       "element_name": "0427",
@@ -1337,7 +1337,7 @@
         "src": null,
         "class": "gf"
       },
-      "x": 735,
+      "x": 736,
       "y": 607,
       "quality_score": 50,
       "element_name": "231",
@@ -1357,7 +1357,7 @@
         "src": null,
         "class": "ga"
       },
-      "x": 908,
+      "x": 909,
       "y": 607,
       "quality_score": 50,
       "element_name": "264",
@@ -1465,7 +1465,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "22_416_644": {
+    "22_417_644": {
       "tag": "td",
       "text": "22",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[4]",
@@ -1477,10 +1477,10 @@
         "src": null,
         "class": "losses"
       },
-      "x": 416,
+      "x": 417,
       "y": 644,
       "quality_score": 50,
-      "element_name": "22_416_644",
+      "element_name": "22_417_644",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[6]/td[4]')",
       "is_unique": true,
       "element_count": 1
@@ -1497,7 +1497,7 @@
         "src": null,
         "class": "ot-losses"
       },
-      "x": 514,
+      "x": 515,
       "y": 644,
       "quality_score": 50,
       "element_name": "9",
@@ -1517,7 +1517,7 @@
         "src": null,
         "class": "pct text-success"
       },
-      "x": 647,
+      "x": 648,
       "y": 644,
       "quality_score": 50,
       "element_name": "0622",
@@ -1537,7 +1537,7 @@
         "src": null,
         "class": "gf"
       },
-      "x": 735,
+      "x": 736,
       "y": 644,
       "quality_score": 50,
       "element_name": "249",
@@ -1557,7 +1557,7 @@
         "src": null,
         "class": "ga"
       },
-      "x": 908,
+      "x": 909,
       "y": 644,
       "quality_score": 50,
       "element_name": "198",
@@ -1677,7 +1677,7 @@
         "src": null,
         "class": "losses"
       },
-      "x": 416,
+      "x": 417,
       "y": 681,
       "quality_score": 50,
       "element_name": "32",
@@ -1685,7 +1685,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "8_514_681": {
+    "8_515_681": {
       "tag": "td",
       "text": "8",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[5]",
@@ -1697,10 +1697,10 @@
         "src": null,
         "class": "ot-losses"
       },
-      "x": 514,
+      "x": 515,
       "y": 681,
       "quality_score": 50,
-      "element_name": "8_514_681",
+      "element_name": "8_515_681",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[7]/td[5]')",
       "is_unique": true,
       "element_count": 1
@@ -1717,7 +1717,7 @@
         "src": null,
         "class": "pct text-success"
       },
-      "x": 647,
+      "x": 648,
       "y": 681,
       "quality_score": 50,
       "element_name": "0512",
@@ -1737,7 +1737,7 @@
         "src": null,
         "class": "gf"
       },
-      "x": 735,
+      "x": 736,
       "y": 681,
       "quality_score": 50,
       "element_name": "222",
@@ -1757,7 +1757,7 @@
         "src": null,
         "class": "ga"
       },
-      "x": 908,
+      "x": 909,
       "y": 681,
       "quality_score": 50,
       "element_name": "230",
@@ -1865,7 +1865,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "35_416_718": {
+    "35_417_718": {
       "tag": "td",
       "text": "35",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[4]",
@@ -1877,15 +1877,15 @@
         "src": null,
         "class": "losses"
       },
-      "x": 416,
+      "x": 417,
       "y": 718,
       "quality_score": 50,
-      "element_name": "35_416_718",
+      "element_name": "35_417_718",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[4]')",
       "is_unique": true,
       "element_count": 1
     },
-    "10_514_718": {
+    "10_515_718": {
       "tag": "td",
       "text": "10",
       "xpath": "//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[5]",
@@ -1897,10 +1897,10 @@
         "src": null,
         "class": "ot-losses"
       },
-      "x": 514,
+      "x": 515,
       "y": 718,
       "quality_score": 50,
-      "element_name": "10_514_718",
+      "element_name": "10_515_718",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/table[1]/tbody[1]/tr[8]/td[5]')",
       "is_unique": true,
       "element_count": 1
@@ -1917,7 +1917,7 @@
         "src": null,
         "class": "pct text-danger"
       },
-      "x": 647,
+      "x": 648,
       "y": 718,
       "quality_score": 50,
       "element_name": "0451",
@@ -1937,7 +1937,7 @@
         "src": null,
         "class": "gf"
       },
-      "x": 735,
+      "x": 736,
       "y": 718,
       "quality_score": 50,
       "element_name": "225",
@@ -1957,7 +1957,7 @@
         "src": null,
         "class": "ga"
       },
-      "x": 908,
+      "x": 909,
       "y": 718,
       "quality_score": 50,
       "element_name": "246",
@@ -2018,7 +2018,7 @@
         "src": null,
         "class": ""
       },
-      "x": 96,
+      "x": 97,
       "y": 794,
       "quality_score": 50,
       "element_name": "link_1",
@@ -2038,7 +2038,7 @@
         "src": null,
         "class": ""
       },
-      "x": 129,
+      "x": 130,
       "y": 794,
       "quality_score": 50,
       "element_name": "link_2",
@@ -2098,7 +2098,7 @@
         "src": null,
         "class": ""
       },
-      "x": 227,
+      "x": 228,
       "y": 794,
       "quality_score": 50,
       "element_name": "link_5",
@@ -2118,7 +2118,7 @@
         "src": null,
         "class": ""
       },
-      "x": 260,
+      "x": 261,
       "y": 794,
       "quality_score": 50,
       "element_name": "link_6",
@@ -2138,7 +2138,7 @@
         "src": null,
         "class": ""
       },
-      "x": 293,
+      "x": 294,
       "y": 794,
       "quality_score": 50,
       "element_name": "link_7",
@@ -2186,7 +2186,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_10_391_794": {
+    "link_10_392_794": {
       "tag": "a",
       "text": "10",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[11]/a[1]",
@@ -2198,15 +2198,15 @@
         "src": null,
         "class": ""
       },
-      "x": 391,
+      "x": 392,
       "y": 794,
       "quality_score": 50,
-      "element_name": "link_10_391_794",
+      "element_name": "link_10_392_794",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[11]/a[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "link_11_432_794": {
+    "link_11_433_794": {
       "tag": "a",
       "text": "11",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[12]/a[1]",
@@ -2218,10 +2218,10 @@
         "src": null,
         "class": ""
       },
-      "x": 432,
+      "x": 433,
       "y": 794,
       "quality_score": 50,
-      "element_name": "link_11_432_794",
+      "element_name": "link_11_433_794",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[12]/a[1]')",
       "is_unique": true,
       "element_count": 1
@@ -2258,7 +2258,7 @@
         "src": null,
         "class": ""
       },
-      "x": 512,
+      "x": 513,
       "y": 794,
       "quality_score": 50,
       "element_name": "link_13",
@@ -2298,7 +2298,7 @@
         "src": null,
         "class": ""
       },
-      "x": 593,
+      "x": 594,
       "y": 794,
       "quality_score": 50,
       "element_name": "link_15",
@@ -2338,7 +2338,7 @@
         "src": null,
         "class": ""
       },
-      "x": 674,
+      "x": 675,
       "y": 794,
       "quality_score": 50,
       "element_name": "link_17",
@@ -2346,7 +2346,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_18_715_794": {
+    "link_18_716_794": {
       "tag": "a",
       "text": "18",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[19]/a[1]",
@@ -2358,10 +2358,10 @@
         "src": null,
         "class": ""
       },
-      "x": 715,
+      "x": 716,
       "y": 794,
       "quality_score": 50,
-      "element_name": "link_18_715_794",
+      "element_name": "link_18_716_794",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[19]/a[1]')",
       "is_unique": true,
       "element_count": 1
@@ -2398,7 +2398,7 @@
         "src": null,
         "class": ""
       },
-      "x": 796,
+      "x": 797,
       "y": 794,
       "quality_score": 50,
       "element_name": "link_20",
@@ -2426,7 +2426,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_22_877_794": {
+    "link_22_878_794": {
       "tag": "a",
       "text": "22",
       "xpath": "//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[23]/a[1]",
@@ -2438,10 +2438,10 @@
         "src": null,
         "class": ""
       },
-      "x": 877,
+      "x": 878,
       "y": 794,
       "quality_score": 50,
-      "element_name": "link_22_877_794",
+      "element_name": "link_22_878_794",
       "playwright_selector": "page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[23]/a[1]')",
       "is_unique": true,
       "element_count": 1
@@ -2629,7 +2629,7 @@
   },
   "url": "http://www.scrapethissite.com/pages/forms/?page_num=24",
   "screen_id": 34,
-  "timestamp": "2026-03-12T10:37:40.349112",
+  "timestamp": "2026-03-13T11:28:24.878831",
   "metadata": {
     "title": "Hockey Teams: Forms, Searching and Pagination | Scrape This Site | A public sandbox for learning web scraping"
   }

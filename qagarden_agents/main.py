@@ -282,8 +282,33 @@ async def main():
                 return
 
             url = args.run
-            logger.info(f"Waiting 10s for services to be ready to run pipeline for: {url}")
-            await asyncio.sleep(10) 
+            
+            # Smart readiness check — wait until all 5 wrappers are actually up
+            wrapper_ports = [9001, 9002, 9003, 9004, 9005]
+            logger.info(f"⏳ Waiting for all wrappers to be ready (ports {wrapper_ports})...")
+            import socket
+            max_wait_secs = 120
+            poll_interval = 3
+            elapsed = 0
+            while elapsed < max_wait_secs:
+                ready = []
+                for port in wrapper_ports:
+                    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                        s.settimeout(1)
+                        if s.connect_ex(('localhost', port)) == 0:
+                            ready.append(port)
+                if len(ready) == len(wrapper_ports):
+                    logger.info(f"✅ All wrappers are ready! Starting pipeline for: {url}")
+                    break
+                not_ready = [p for p in wrapper_ports if p not in ready]
+                logger.info(f"   Waiting... ready={ready}, pending={not_ready} ({elapsed}s/{max_wait_secs}s)")
+                await asyncio.sleep(poll_interval)
+                elapsed += poll_interval
+            else:
+                not_ready = [p for p in wrapper_ports if not any(True for s in [socket.socket(socket.AF_INET, socket.SOCK_STREAM)] if s.settimeout(1) is None and s.connect_ex(('localhost', p)) == 0)]
+                logger.error(f"❌ Timed out after {max_wait_secs}s. Wrappers still not ready. Check logs in src/*/")
+                return
+
             await run_pipeline(url, depth=args.depth, pages=args.pages)
         else:
             logger.info("Wrappers are running. Use --run <url> to start an automated pipeline.")

@@ -1,94 +1,94 @@
 {
   "testCases": [
     {
-      "id": "TC_Navigation_001",
-      "title": "Verify navigation to Lessons page via header link",
+      "id": "TC_Navigation_01",
+      "title": "Verify navigation to Lessons page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to change to '/lessons/'"
+        "Click locator `state_20_link_lessons_393_10`",
+        "Verification: Expect URL to contain '/lessons/'"
       ],
       "expected": [
         "Lessons page loads successfully"
       ]
     },
     {
-      "id": "TC_Navigation_002",
-      "title": "Verify navigation to FAQ page via header link",
+      "id": "TC_Navigation_02",
+      "title": "Verify navigation to FAQ page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to change to '/faq/'"
+        "Click locator `state_20_link_faq_515_10`",
+        "Verification: Expect URL to contain '/faq/'"
       ],
       "expected": [
         "FAQ page loads successfully"
       ]
     },
     {
-      "id": "TC_Navigation_003",
-      "title": "Verify navigation to Login page via header link",
+      "id": "TC_Navigation_03",
+      "title": "Verify navigation to Login page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
-        "Verification: Expect URL to change to '/login/'"
+        "Click locator `state_20_link_login_1105_10`",
+        "Verification: Expect URL to contain '/login/'"
       ],
       "expected": [
         "Login page loads successfully"
       ]
     },
     {
-      "id": "TC_Search_001",
+      "id": "TC_Search_01",
       "title": "Verify searching for a team",
       "url": "",
       "inputs": {
-        "STATE_20_INPUT_SEARCH_FOR_TEAMS": "Canucks"
+        "STATE_20_INPUT_SEARCH_FOR_TEAMS": "Oilers"
       },
       "steps": [
         "Navigate to ",
-        "Fill 'Canucks' into locator `page.locator('#q')`",
-        "Click locator `page.locator('input.btn.btn-primary')`",
-        "Verification: Ensure search results are displayed."
+        "Fill 'Oilers' into locator `state_20_input_search_for_teams`",
+        "Click locator `state_20_input_el`",
+        "Verification: Verify that team 'Oilers' are displayed in the search results."
       ],
       "expected": [
-        "Search results for the team are shown"
+        "Search results are displayed correctly"
       ]
     },
     {
-      "id": "TC_Pagination_001",
-      "title": "Verify navigation to next page using pagination",
+      "id": "TC_Pagination_01",
+      "title": "Verify pagination works correctly",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('xpath=//*[contains(@aria-label, \"Next\")]')`",
-        "Verification: URL contains '/pages/forms/?page_num=10'"
+        "Click locator `state_20_link_2_147_1460`",
+        "Verification: Expect URL to contain '?page_num=2'"
       ],
       "expected": [
-        "Next page of search results is loaded"
+        "Navigated to page 2 successfully"
       ]
     },
     {
-      "id": "TC_Pagination_002",
-      "title": "Verify navigation to previous page using pagination",
+      "id": "TC_ResultsPerPage_01",
+      "title": "Verify changing number of results per page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('xpath=//*[contains(@aria-label, \"Previous\")]')`",
-        "Verification: URL contains '/pages/forms/?page_num=8'"
+        "Select '50' in locator `state_20_2550100`",
+        "Verification: Verify the URL contains 'per_page=50'"
       ],
       "expected": [
-        "Previous page of search results is loaded"
+        "The number of displayed results changes based on selection"
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.259123",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.364758",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

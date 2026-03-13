@@ -9,25 +9,82 @@ sys.path.insert(0, str(ROOT_DIR))
 from config.urls import CONSOLIDATED_LOCATORS_STATE_3_CA37_URL
 from playwright.sync_api import expect
 import re
-import pytest
 
-@pytest.mark.smoke
-def test_TC_Navigation_01(page):
+def test_TC_Navigation_001(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
     page.wait_for_load_state('networkidle')
-    page.get_by_role('link', name='Get started now', exact=True).first.click()
-    expect(page).to_have_url(re.compile(r"^https:\/\/gum\.co\/oLpqb"))
+    page.locator('a.nav-link.hidden-sm.hidden-xs').first.click()
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(re.compile(r"/$"))
 
-@pytest.mark.regression
-def test_TC_ContentVerification_01(page):
+def test_TC_Navigation_002(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
     page.wait_for_load_state('networkidle')
-    expect(page.locator('#preheader').first).to_have_text('A course to help you')
-    expect(page.locator('#header').first).to_have_text('SCRAPE ANY WEBSITE')
-    expect(page.locator('#postheader').first).to_have_text('Learn how to build your own web scrapers and\nstart collecting the data you need.')
+    expect(page).to_have_url(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
+    expect(page).to_have_url(re.compile(r"\/"))
+    page.locator('a.nav-link').nth(0).click()
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(re.compile(r"\/lessons\/"))
 
-@pytest.mark.regression
-def test_TC_ContentVerification_02(page):
+def test_TC_Navigation_003(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
     page.wait_for_load_state('networkidle')
-    expect(page.locator('#footer-content').first).to_have_text('\u00a9 Hartley Brody')
+    expect(page).to_have_url(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
+    expect(page).to_have_url(re.compile(r"\/"))
+    page.locator('a.nav-link').nth(0).click()
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(re.compile(r"\/faq\/"))
+
+def test_TC_Navigation_004(page):
+    page.goto(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
+    expect(page).to_have_url(re.compile(r"\/"))
+    page.locator('xpath=//a[contains(text(), "Login")]').click()
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(re.compile(r"\/login\/"))
+
+def test_TC_Navigation_005(page):
+    page.goto(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
+    expect(page).to_have_url(re.compile(r"\/"))
+    page.locator('xpath=//a[contains(text(), "Countries of the World: A Simple Example")]').click()
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(re.compile(r"\/pages\/simple\/"))
+
+def test_TC_Navigation_006(page):
+    page.goto(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
+    expect(page).to_have_url(re.compile(r"\/"))
+    page.locator('xpath=//a[contains(text(), "Hockey Teams: Forms, Searching and Pagination")]').click()
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(re.compile(r"\/pages\/forms\/"))
+
+def test_TC_Navigation_007(page):
+    page.goto(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
+    expect(page).to_have_url(re.compile(r"\/"))
+    page.locator('xpath=//a[contains(text(), "Oscar Winning Films: AJAX and Javascript")]').click()
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(re.compile(r"\/pages\/ajax-javascript\/"))
+
+def test_TC_Navigation_008(page):
+    page.goto(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
+    expect(page).to_have_url(re.compile(r"\/"))
+    page.locator('xpath=//a[contains(text(), "Turtles All the Way Down: Frames & iFrames")]').click()
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(re.compile(r"\/pages\/frames\/"))
+
+def test_TC_Navigation_009(page):
+    page.goto(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(CONSOLIDATED_LOCATORS_STATE_3_CA37_URL)
+    expect(page).to_have_url(re.compile(r"\/"))
+    page.locator('xpath=//*[@id="pages"]/section[1]/div[1]/div[1]/div[1]/div[5]/h3[1]/a[1]').first.click()
+    page.wait_for_load_state('networkidle')
+    expect(page).to_have_url(re.compile(r"\/pages\/advanced\/"))

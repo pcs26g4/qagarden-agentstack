@@ -1,77 +1,101 @@
 {
   "testCases": [
     {
-      "id": "TC_Navigation_001",
-      "title": "Verify navigation to the Lessons page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to change to '/lessons/'"
-      ],
-      "expected": [
-        "Lessons page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_002",
-      "title": "Verify navigation to the FAQ page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to change to '/faq/'"
-      ],
-      "expected": [
-        "FAQ page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_003",
-      "title": "Verify navigation to the Login page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
-        "Verification: Expect URL to change to '/login/'"
-      ],
-      "expected": [
-        "Login page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_004",
+      "id": "TC_Navigation_01",
       "title": "Verify navigation to the Sandbox page",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
+        "Navigate to /",
         "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to change to '/pages/'"
+        "Verification: Expect URL to contain '/pages/'"
       ],
       "expected": [
         "Sandbox page loads successfully"
       ]
     },
     {
-      "id": "TC_Navigation_005",
-      "title": "Verify navigation to the Scrape This Site Homepage",
+      "id": "TC_Navigation_02",
+      "title": "Verify navigation to the Lessons page",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('a.nav-link.hidden-sm.hidden-xs')`",
-        "Verification: Expect URL to change to '/'"
+        "Navigate to /",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to contain '/lessons/'"
       ],
       "expected": [
-        "Scrape This Site Homepage loads successfully"
+        "Lessons page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_03",
+      "title": "Verify navigation to the FAQ page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to /",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to contain '/faq/'"
+      ],
+      "expected": [
+        "FAQ page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_04",
+      "title": "Verify navigation to the Login page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to /",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
+        "Verification: Expect URL to contain '/login/'"
+      ],
+      "expected": [
+        "Login page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Authentication_01",
+      "title": "Verify successful login with valid credentials",
+      "url": "",
+      "inputs": {
+        "STATE_6_INPUT_YOUR_EMAIL": "testuser@example.com",
+        "STATE_6_INPUT_YOUR_PASSWORD": "SecurePassword123!"
+      },
+      "steps": [
+        "Navigate to /login/",
+        "Fill 'testuser@example.com' into locator `page.locator('#email')`",
+        "Fill 'SecurePassword123!' into locator `page.locator('#password')`",
+        "Click locator `page.locator('input.btn.btn-primary.btn-lg.pull-right')`",
+        "Verification: Expect URL to change to '/dashboard' or an element indicating successful login (e.g., user profile link) to be visible"
+      ],
+      "expected": [
+        "User is logged in and redirected to the dashboard"
+      ]
+    },
+    {
+      "id": "TC_Authentication_02",
+      "title": "Verify failed login with invalid credentials",
+      "url": "",
+      "inputs": {
+        "STATE_6_INPUT_YOUR_EMAIL": "invaliduser@example.com",
+        "STATE_6_INPUT_YOUR_PASSWORD": "IncorrectPassword"
+      },
+      "steps": [
+        "Navigate to /login/",
+        "Fill 'invaliduser@example.com' into locator `page.locator('#email')`",
+        "Fill 'IncorrectPassword' into locator `page.locator('#password')`",
+        "Click locator `page.locator('input.btn.btn-primary.btn-lg.pull-right')`",
+        "Verification: Expect error message to be displayed (e.g., expect `page.locator('.error-message')` to be visible)"
+      ],
+      "expected": [
+        "Error message is displayed indicating invalid credentials"
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.116630",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.278912",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

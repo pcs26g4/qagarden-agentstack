@@ -6,7 +6,7 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
+        "Navigate to ",
         "Click locator `page.locator('xpath=//a[contains(text(), \"Sandbox\")]')`",
         "Verification: Expect URL to change to '/pages/'"
       ],
@@ -20,7 +20,7 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
+        "Navigate to ",
         "Click locator `page.locator('a.nav-link').nth(0)`",
         "Verification: Expect URL to change to '/lessons/'"
       ],
@@ -34,7 +34,7 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
+        "Navigate to ",
         "Click locator `page.locator('a.nav-link').nth(0)`",
         "Verification: Expect URL to change to '/faq/'"
       ],
@@ -48,7 +48,7 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
+        "Navigate to ",
         "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
         "Verification: Expect URL to change to '/login/'"
       ],
@@ -58,34 +58,34 @@
     },
     {
       "id": "TC_Navigation_005",
-      "title": "Verify navigation to Sandbox page via 'Explore Sandbox' button",
+      "title": "Verify navigation to Explore Sandbox page",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
+        "Navigate to ",
         "Click locator `page.locator('a.btn.btn-lg.btn-default')`",
         "Verification: Expect URL to change to '/pages/'"
       ],
       "expected": [
-        "Sandbox page loads successfully"
+        "Explore Sandbox page loads successfully"
       ]
     },
     {
       "id": "TC_Navigation_006",
-      "title": "Verify navigation to Lessons page via 'Begin Lessons' button",
+      "title": "Verify navigation to Begin Lessons page",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to /",
+        "Navigate to ",
         "Click locator `page.locator('a.btn.btn-lg.btn-primary')`",
         "Verification: Expect URL to change to '/lessons/'"
       ],
       "expected": [
-        "Lessons page loads successfully"
+        "Begin Lessons page loads successfully"
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.015157",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.210266",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

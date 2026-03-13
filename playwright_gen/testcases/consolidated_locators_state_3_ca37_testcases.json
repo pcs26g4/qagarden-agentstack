@@ -1,49 +1,146 @@
 {
   "testCases": [
     {
-      "id": "TC_Navigation_01",
-      "title": "Verify navigation to Gumroad via 'Get Started Now' link",
+      "id": "TC_Navigation_001",
+      "title": "Verify navigation to the 'Scrape This Site' homepage",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('a.gumroad-button').nth(0)`",
-        "Verification: Expect URL to start with 'https://gum.co/oLpqb'"
+        "Navigate to the Sandbox page",
+        "Click locator `page.locator('a.nav-link.hidden-sm.hidden-xs')`",
+        "Verification: Expect URL to change to '/'",
+        "End test case due to navigation"
       ],
       "expected": [
-        "User is redirected to the Gumroad page for the course."
+        "Homepage loads successfully"
       ]
     },
     {
-      "id": "TC_ContentVerification_01",
-      "title": "Verify header and subheader text",
+      "id": "TC_Navigation_002",
+      "title": "Verify navigation to the 'Lessons' page",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
-        "Verification: Expect text of locator `page.locator('#preheader')` to be 'A course to help you'",
-        "Verification: Expect text of locator `page.locator('#header')` to be 'SCRAPE ANY WEBSITE'",
-        "Verification: Expect text of locator `page.locator('#postheader')` to be 'Learn how to build your own web scrapers and\nstart collecting the data you need.'"
+        "Navigate to the Sandbox page",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to contain '/pages/'",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to change to '/lessons/'",
+        "End test case due to navigation"
       ],
       "expected": [
-        "Header and subheader texts are displayed correctly."
+        "Lessons page loads successfully"
       ]
     },
     {
-      "id": "TC_ContentVerification_02",
-      "title": "Verify footer text",
+      "id": "TC_Navigation_003",
+      "title": "Verify navigation to the 'FAQ' page",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
-        "Verification: Expect text of locator `page.locator('#footer-content')` to be '\u00a9 Hartley Brody'"
+        "Navigate to the Sandbox page",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to contain '/pages/'",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to change to '/faq/'",
+        "End test case due to navigation"
       ],
       "expected": [
-        "Footer text is displayed correctly."
+        "FAQ page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_004",
+      "title": "Verify navigation to the 'Login' page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to the Sandbox page",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
+        "Verification: Expect URL to change to '/login/'",
+        "End test case due to navigation"
+      ],
+      "expected": [
+        "Login page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_005",
+      "title": "Verify navigation to the 'Countries of the World' page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to the Sandbox page",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Countries of the World: A Simple Example\")]')`",
+        "Verification: Expect URL to change to '/pages/simple/'",
+        "End test case due to navigation"
+      ],
+      "expected": [
+        "Countries of the world page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_006",
+      "title": "Verify navigation to the 'Hockey Teams' page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to the Sandbox page",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Hockey Teams: Forms, Searching and Pagination\")]')`",
+        "Verification: Expect URL to change to '/pages/forms/'",
+        "End test case due to navigation"
+      ],
+      "expected": [
+        "Hockey Teams page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_007",
+      "title": "Verify navigation to the 'Oscar Winning Films' page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to the Sandbox page",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Oscar Winning Films: AJAX and Javascript\")]')`",
+        "Verification: Expect URL to change to '/pages/ajax-javascript/'",
+        "End test case due to navigation"
+      ],
+      "expected": [
+        "Oscar Winning Films page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_008",
+      "title": "Verify navigation to the 'Turtles All the Way Down' page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to the Sandbox page",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Turtles All the Way Down: Frames & iFrames\")]')`",
+        "Verification: Expect URL to change to '/pages/frames/'",
+        "End test case due to navigation"
+      ],
+      "expected": [
+        "Turtles All the Way Down page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_009",
+      "title": "Verify navigation to the 'Advanced Topics' page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to the Sandbox page",
+        "Click locator `page.locator('xpath=//*[@id=\"pages\"]/section[1]/div[1]/div[1]/div[1]/div[5]/h3[1]/a[1]')`",
+        "Verification: Expect URL to change to '/pages/advanced/'",
+        "End test case due to navigation"
+      ],
+      "expected": [
+        "Advanced Topics page loads successfully"
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.065860",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.242711",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

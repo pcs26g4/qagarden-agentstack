@@ -14,17 +14,15 @@ import pytest
 def test_TC_Navigation_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_29_4050_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('#nav-lessons').first.click()
+    page.locator('a.nav-link').nth(0).click()
     expect(page).to_have_url(re.compile(r"/lessons/"))
 
-@pytest.mark.smoke
 def test_TC_Navigation_02(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_29_4050_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('#nav-faq').first.click()
+    page.locator('a.nav-link').nth(0).click()
     expect(page).to_have_url(re.compile(r"/faq/"))
 
-@pytest.mark.smoke
 def test_TC_Navigation_03(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_29_4050_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
@@ -35,19 +33,24 @@ def test_TC_Navigation_03(page):
 def test_TC_Search_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_29_4050_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('#q').first.fill("Toronto Maple Leafs")
+    page.locator('#q').first.fill('Oilers')
     page.locator('input.btn.btn-primary').first.click()
 
 @pytest.mark.regression
 def test_TC_Pagination_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_29_4050_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('xpath=//*[@id="hockey"]/div[1]/div[5]/div[1]/ul[1]/li[3]/a[1]').first.click()
-    expect(page).to_have_url(re.compile(r"/pages/forms/\?page_num=2"))
+    page.locator('xpath=//*[@id="hockey"]/div[1]/div[5]/div[1]/ul[1]/li[6]/a[1]').first.click()
+    expect(page).to_have_url(re.compile(r"/pages/forms/\?page_num=5"))
 
 @pytest.mark.regression
-def test_TC_RecordsPerPage_01(page):
+def test_TC_Pagination_02(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_29_4050_URL, timeout=60000)
     page.wait_for_load_state('networkidle')
-    page.locator('#per_page').first.click()
-    page.locator('#per_page').first.select_option("50")
+    page.locator('xpath=//*[contains(@aria-label, "Next")]').click()
+
+@pytest.mark.regression
+def test_TC_Pagination_03(page):
+    page.goto(CONSOLIDATED_LOCATORS_STATE_29_4050_URL, timeout=60000)
+    page.wait_for_load_state('networkidle')
+    page.locator('#per_page').first.select_option('100')

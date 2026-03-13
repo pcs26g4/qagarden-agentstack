@@ -1,13 +1,13 @@
 {
   "testCases": [
     {
-      "id": "TC_NAVIGATION_01",
+      "id": "TC_Navigation_01",
       "title": "Verify navigation to Lessons page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('#nav-lessons')`",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
         "Verification: Expect URL to change to '/lessons/'"
       ],
       "expected": [
@@ -15,13 +15,13 @@
       ]
     },
     {
-      "id": "TC_NAVIGATION_02",
+      "id": "TC_Navigation_02",
       "title": "Verify navigation to FAQ page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('#nav-faq')`",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
         "Verification: Expect URL to change to '/faq/'"
       ],
       "expected": [
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "id": "TC_NAVIGATION_03",
+      "id": "TC_Navigation_03",
       "title": "Verify navigation to Login page",
       "url": "",
       "inputs": {},
@@ -43,66 +43,66 @@
       ]
     },
     {
-      "id": "TC_SEARCH_01",
+      "id": "TC_Search_01",
       "title": "Verify team search functionality",
       "url": "",
       "inputs": {
-        "STATE_15_INPUT_SEARCH_FOR_TEAMS": "Toronto Maple Leafs"
+        "STATE_15_INPUT_SEARCH_FOR_TEAMS": "Leafs"
       },
       "steps": [
         "Navigate to ",
-        "Fill 'Toronto Maple Leafs' into locator `page.locator('#q')`",
+        "Fill 'Leafs' into locator `page.locator('#q')`",
         "Click locator `page.locator('input.btn.btn-primary')`",
-        "Verification: Expect search results to be displayed"
+        "Verification: Expect the page to reload and display results for 'Leafs'"
       ],
       "expected": [
-        "Search results for Toronto Maple Leafs are displayed"
+        "Search results are displayed correctly"
       ]
     },
     {
-      "id": "TC_PAGINATION_01",
+      "id": "TC_Pagination_01",
       "title": "Verify pagination functionality",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[2]/a[1]')`",
-        "Verification: Expect URL to change to '/pages/forms/?page_num=1'"
+        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[5]/a[1]')`",
+        "Verification: Expect URL to change to '/pages/forms/?page_num=4'"
       ],
       "expected": [
-        "Navigates to the page 1 and content loads successfully"
+        "Navigates to page 4"
       ]
     },
     {
-      "id": "TC_PAGINATION_02",
-      "title": "Verify pagination functionality - next page",
+      "id": "TC_Pagination_02",
+      "title": "Verify navigation to the next page using the next arrow button",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
         "Click locator `page.locator('xpath=//*[contains(@aria-label, \"Next\")]')`",
-        "Verification: Expect URL to change to '/pages/forms/?page_num=5'"
+        "Verification: Expect URL to change to '/pages/forms/?page_num=4'"
       ],
       "expected": [
-        "Navigates to the next page and content loads successfully"
+        "Navigates to page 4"
       ]
     },
     {
-      "id": "TC_RECORDS_PER_PAGE_01",
-      "title": "Verify changing records per page",
+      "id": "TC_Pagination_03",
+      "title": "Verify changing the number of entries displayed per page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
         "Click locator `page.locator('#per_page')`",
-        "Verification: Expect select dropdown to open"
+        "Verification: Check that the options '25', '50', and '100' are displayed."
       ],
       "expected": [
-        "Dropdown opens and the available options are displayed"
+        "The options '25', '50', and '100' are displayed."
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.217038",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.344836",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

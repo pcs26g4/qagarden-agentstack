@@ -8,29 +8,44 @@ sys.path.insert(0, str(ROOT_DIR))
 
 from config.urls import CONSOLIDATED_LOCATORS_STATE_9_918D_URL
 from playwright.sync_api import expect
-
 import re
 
-def test_TC_Navigation_001(page):
-    page.goto(CONSOLIDATED_LOCATORS_STATE_9_918D_URL, timeout=60000)
+@pytest.mark.smoke
+def test_TC_Navigation_01(page):
+    """Verify navigation to the Lessons page"""
+    page.goto(CONSOLIDATED_LOCATORS_STATE_9_918D_URL)
     page.wait_for_load_state('networkidle')
     page.locator('a.nav-link').nth(0).click()
-    expect(page).to_have_url(re.compile(r"/lessons/"), timeout=10000)
+    expect(page).to_have_url(re.compile(r"/lessons/"))
 
-def test_TC_Navigation_002(page):
-    page.goto(CONSOLIDATED_LOCATORS_STATE_9_918D_URL, timeout=60000)
+@pytest.mark.smoke
+def test_TC_Navigation_02(page):
+    """Verify navigation to the FAQ page"""
+    page.goto(CONSOLIDATED_LOCATORS_STATE_9_918D_URL)
     page.wait_for_load_state('networkidle')
     page.locator('a.nav-link').nth(0).click()
-    expect(page).to_have_url(re.compile(r"/faq/"), timeout=10000)
+    expect(page).to_have_url(re.compile(r"/faq/"))
 
-def test_TC_Navigation_003(page):
-    page.goto(CONSOLIDATED_LOCATORS_STATE_9_918D_URL, timeout=60000)
+@pytest.mark.smoke
+def test_TC_Navigation_03(page):
+    """Verify navigation to the Login page"""
+    page.goto(CONSOLIDATED_LOCATORS_STATE_9_918D_URL)
     page.wait_for_load_state('networkidle')
     page.locator('xpath=//a[contains(text(), "Login")]').click()
-    expect(page).to_have_url(re.compile(r"/login/"), timeout=10000)
+    expect(page).to_have_url(re.compile(r"/login/"))
 
-def test_TC_Navigation_004(page):
-    page.goto(CONSOLIDATED_LOCATORS_STATE_9_918D_URL, timeout=60000)
+@pytest.mark.smoke
+def test_TC_Navigation_04(page):
+    """Verify navigation to the home page"""
+    page.goto(CONSOLIDATED_LOCATORS_STATE_9_918D_URL)
     page.wait_for_load_state('networkidle')
-    page.locator('a.nav-link').nth(0).click()
-    expect(page).to_have_url(re.compile(r"/pages/"), timeout=10000)
+    page.locator('a.nav-link.hidden-sm.hidden-xs').first.click()
+    expect(page).to_have_url(re.compile(r"/"))
+
+@pytest.mark.regression
+def test_TC_Link_2015_01(page):
+    """Verify clicking on 2015 link does not navigate to a new page"""
+    page.goto(CONSOLIDATED_LOCATORS_STATE_9_918D_URL)
+    page.wait_for_load_state('networkidle')
+    page.locator('#2015').nth(0).click()
+    expect(page).to_have_url(CONSOLIDATED_LOCATORS_STATE_9_918D_URL)

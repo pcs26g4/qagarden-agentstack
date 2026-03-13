@@ -1,13 +1,13 @@
 {
   "testCases": [
     {
-      "id": "TC_NAVIGATION_01",
-      "title": "Verify navigation to Lessons page",
+      "id": "TC_Navigation_01",
+      "title": "Verify navigation to the Lessons page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('#nav-lessons')`",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Lessons\")]')`",
         "Verification: Expect URL to change to '/lessons/'"
       ],
       "expected": [
@@ -15,13 +15,13 @@
       ]
     },
     {
-      "id": "TC_NAVIGATION_02",
-      "title": "Verify navigation to FAQ page",
+      "id": "TC_Navigation_02",
+      "title": "Verify navigation to the FAQ page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('#nav-faq')`",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"FAQ\")]')`",
         "Verification: Expect URL to change to '/faq/'"
       ],
       "expected": [
@@ -29,8 +29,8 @@
       ]
     },
     {
-      "id": "TC_NAVIGATION_03",
-      "title": "Verify navigation to Login page",
+      "id": "TC_Navigation_03",
+      "title": "Verify navigation to the Login page",
       "url": "",
       "inputs": {},
       "steps": [
@@ -43,52 +43,66 @@
       ]
     },
     {
-      "id": "TC_SEARCH_01",
-      "title": "Verify Hockey Team Search Functionality",
+      "id": "TC_Search_01",
+      "title": "Verify team search functionality",
       "url": "",
       "inputs": {
-        "STATE_25_INPUT_SEARCH_FOR_TEAMS": "Toronto Maple Leafs"
+        "STATE_25_INPUT_SEARCH_FOR_TEAMS": "Edmonton Oilers"
       },
       "steps": [
         "Navigate to ",
-        "Fill 'Toronto Maple Leafs' into locator `page.locator('#q')`",
-        "Click locator `page.locator('input.btn.btn-primary')`",
-        "Verification: Expect some result for the 'Toronto Maple Leafs' team"
+        "Fill 'Edmonton Oilers' into locator `page.locator('#q')`",
+        "Click locator `page.locator('input.btn.btn.primary')`",
+        "Verification: Expect search results to display Edmonton Oilers"
       ],
       "expected": [
-        "Search returns relevant team information"
+        "Search results for Edmonton Oilers are displayed"
       ]
     },
     {
-      "id": "TC_PAGINATION_01",
-      "title": "Verify pagination to page 10",
+      "id": "TC_Pagination_01",
+      "title": "Verify pagination functionality",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[11]/a[1]')`",
-        "Verification: Expect URL to change to '/pages/forms/?page_num=11'"
+        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[2]/a[1]')`",
+        "Verification: Expect URL to change to '/pages/forms/?page_num=1'"
       ],
       "expected": [
-        "Page 10 loads successfully"
+        "Page 1 loads successfully"
       ]
     },
     {
-      "id": "TC_RECORDS_PER_PAGE_01",
-      "title": "Verify number of records per page changes to 50",
+      "id": "TC_Pagination_02",
+      "title": "Verify pagination to the last page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[24]/a[1]')`",
+        "Verification: Expect URL to change to '/pages/forms/?page_num=24'"
+      ],
+      "expected": [
+        "Page 24 loads successfully"
+      ]
+    },
+    {
+      "id": "TC_ResultsPerPage_01",
+      "title": "Verify changing results per page to 50",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
         "Select '50' from locator `page.locator('#per_page')`",
-        "Verification: Expect the number of records on the page to be 50"
+        "Verification: Expect the number of items on the page to be 50"
       ],
       "expected": [
-        "50 records are displayed on the page"
+        "Number of results shown per page changes to 50"
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.295230",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.388477",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

@@ -32,7 +32,7 @@
         "src": null,
         "class": ""
       },
-      "x": 103,
+      "x": 96,
       "y": 10,
       "quality_score": 90,
       "element_name": "scrape_this_site",
@@ -40,7 +40,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_scrape_this_site_103_10": {
+    "link_scrape_this_site_96_10": {
       "tag": "a",
       "text": "Scrape This Site",
       "xpath": "//a[contains(text(), \"Scrape This Site\")]",
@@ -52,10 +52,10 @@
         "src": null,
         "class": "nav-link hidden-sm hidden-xs"
       },
-      "x": 103,
+      "x": 96,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_scrape_this_site_103_10",
+      "element_name": "link_scrape_this_site_96_10",
       "playwright_selector": "page.locator('a.nav-link.hidden-sm.hidden-xs')",
       "is_unique": true,
       "element_count": 1
@@ -72,7 +72,7 @@
         "src": null,
         "class": "active"
       },
-      "x": 289,
+      "x": 282,
       "y": 10,
       "quality_score": 90,
       "element_name": "sandbox",
@@ -80,7 +80,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_sandbox_289_10": {
+    "link_sandbox_282_10": {
       "tag": "a",
       "text": "Sandbox",
       "xpath": "//a[contains(text(), \"Sandbox\")]",
@@ -92,10 +92,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 289,
+      "x": 282,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_sandbox_289_10",
+      "element_name": "link_sandbox_282_10",
       "playwright_selector": "page.locator('a.nav-link').nth(0)",
       "is_unique": false,
       "element_count": 5
@@ -112,7 +112,7 @@
         "src": null,
         "class": ""
       },
-      "x": 414,
+      "x": 407,
       "y": 10,
       "quality_score": 90,
       "element_name": "lessons",
@@ -120,7 +120,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_lessons_414_10": {
+    "link_lessons_407_10": {
       "tag": "a",
       "text": "Lessons",
       "xpath": "//a[contains(text(), \"Lessons\")]",
@@ -132,10 +132,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 414,
+      "x": 407,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_lessons_414_10",
+      "element_name": "link_lessons_407_10",
       "playwright_selector": "page.locator('a.nav-link').nth(0)",
       "is_unique": false,
       "element_count": 5
@@ -152,7 +152,7 @@
         "src": null,
         "class": ""
       },
-      "x": 536,
+      "x": 529,
       "y": 10,
       "quality_score": 90,
       "element_name": "faq",
@@ -160,7 +160,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_faq_536_10": {
+    "link_faq_529_10": {
       "tag": "a",
       "text": "FAQ",
       "xpath": "//a[contains(text(), \"FAQ\")]",
@@ -172,10 +172,10 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 536,
+      "x": 529,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_faq_536_10",
+      "element_name": "link_faq_529_10",
       "playwright_selector": "page.locator('a.nav-link').nth(0)",
       "is_unique": false,
       "element_count": 5
@@ -192,7 +192,7 @@
         "src": null,
         "class": "pull-right"
       },
-      "x": 1126,
+      "x": 1119,
       "y": 10,
       "quality_score": 90,
       "element_name": "login",
@@ -200,7 +200,7 @@
       "is_unique": true,
       "element_count": 1
     },
-    "link_login_1126_10": {
+    "link_login_1119_10": {
       "tag": "a",
       "text": "Login",
       "xpath": "//a[contains(text(), \"Login\")]",
@@ -212,19 +212,19 @@
         "src": null,
         "class": "nav-link"
       },
-      "x": 1126,
+      "x": 1119,
       "y": 10,
       "quality_score": 50,
-      "element_name": "link_login_1126_10",
-      "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Login\")]')",
-      "is_unique": true,
-      "element_count": 1
+      "element_name": "link_login_1119_10",
+      "playwright_selector": "page.locator('a.nav-link').nth(0)",
+      "is_unique": false,
+      "element_count": 5
     },
-    "heading_turtles_all_the_way_down_fram": {
-      "tag": "h1",
-      "text": "Turtles All the Way Down: Frames & iFrames 14 items",
-      "xpath": "//*[@id=\"frames\"]/div[1]/div[1]/div[1]/h1[1]",
-      "css": "h1",
+    "heading_advanced_topics_real_world_ch": {
+      "tag": "h3",
+      "text": "Advanced Topics: Real World Challenges You'll Encounter",
+      "xpath": "//*[@id=\"gotchas\"]/div[1]/div[1]/div[1]/h3[1]",
+      "css": "h3",
       "id": "",
       "isInteractive": false,
       "attributes": {
@@ -232,19 +232,19 @@
         "src": null,
         "class": ""
       },
-      "x": 88,
+      "x": 373,
       "y": 82,
       "quality_score": 50,
-      "element_name": "heading_turtles_all_the_way_down_fram",
-      "playwright_selector": "page.locator('h1')",
+      "element_name": "heading_advanced_topics_real_world_ch",
+      "playwright_selector": "page.locator('h3')",
       "is_unique": true,
       "element_count": 1
     },
-    "14_items": {
-      "tag": "small",
-      "text": "14 items",
-      "xpath": "//*[@id=\"frames\"]/div[1]/div[1]/div[1]/h1[1]/small[1]",
-      "css": "small",
+    "heading_spoofing_headers": {
+      "tag": "h4",
+      "text": "Spoofing Headers",
+      "xpath": "//*[@id=\"gotchas\"]/div[1]/div[1]/div[1]/h4[1]",
+      "css": "h4",
       "id": "",
       "isInteractive": false,
       "attributes": {
@@ -252,51 +252,111 @@
         "src": null,
         "class": ""
       },
-      "x": 804,
-      "y": 92,
+      "x": 373,
+      "y": 304,
       "quality_score": 50,
-      "element_name": "14_items",
-      "playwright_selector": "page.locator('small')",
+      "element_name": "heading_spoofing_headers",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"gotchas\"]/div[1]/div[1]/div[1]/h4[1]')",
       "is_unique": true,
       "element_count": 1
     },
-    "link_3_video_lessons": {
+    "link_spoofing_headers_373_302": {
       "tag": "a",
-      "text": "3 video lessons",
-      "xpath": "//a[contains(text(), \"3 video lessons\")]",
+      "text": "Spoofing Headers",
+      "xpath": "//a[contains(text(), \"Spoofing Headers\")]",
       "css": "a",
       "id": "",
       "isInteractive": true,
       "attributes": {
-        "href": "/lessons/",
+        "href": "/pages/advanced/?gotcha=headers",
         "src": null,
         "class": ""
       },
-      "x": 170,
-      "y": 324,
+      "x": 373,
+      "y": 302,
       "quality_score": 50,
-      "element_name": "link_3_video_lessons",
-      "playwright_selector": "page.locator('xpath=//a[contains(text(), \"3 video lessons\")]')",
+      "element_name": "link_spoofing_headers_373_302",
+      "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Spoofing Headers\")]')",
       "is_unique": true,
       "element_count": 1
     },
-    "link_httpsenwikipediaorgwiki": {
+    "heading_logins_session_data": {
+      "tag": "h4",
+      "text": "Logins & Session Data",
+      "xpath": "//*[@id=\"gotchas\"]/div[1]/div[1]/div[1]/h4[2]",
+      "css": "h4",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 373,
+      "y": 435,
+      "quality_score": 50,
+      "element_name": "heading_logins_session_data",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"gotchas\"]/div[1]/div[1]/div[1]/h4[2]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_logins_session_data_373_433": {
       "tag": "a",
-      "text": "https://en.wikipedia.org/wiki/List_of_Testudines_families",
-      "xpath": "//*[@id=\"frames\"]/div[1]/div[3]/div[2]/p[1]/a[1]",
-      "css": "a.data-attribution",
+      "text": "Logins & Session Data",
+      "xpath": "//a[contains(text(), \"Logins & Session Data\")]",
+      "css": "a",
       "id": "",
       "isInteractive": true,
       "attributes": {
-        "href": "https://en.wikipedia.org/wiki/List_of_Testudines_families",
+        "href": "/pages/advanced/?gotcha=login",
         "src": null,
-        "class": "data-attribution"
+        "class": ""
       },
-      "x": 882,
-      "y": 324,
+      "x": 373,
+      "y": 433,
       "quality_score": 50,
-      "element_name": "link_httpsenwikipediaorgwiki",
-      "playwright_selector": "page.locator('a.data-attribution')",
+      "element_name": "link_logins_session_data_373_433",
+      "playwright_selector": "page.locator('xpath=//a[contains(text(), \"Logins & Session Data\")]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "heading_csrf_hidden_values": {
+      "tag": "h4",
+      "text": "CSRF & Hidden Values",
+      "xpath": "//*[@id=\"gotchas\"]/div[1]/div[1]/div[1]/h4[3]",
+      "css": "h4",
+      "id": "",
+      "isInteractive": false,
+      "attributes": {
+        "href": null,
+        "src": null,
+        "class": ""
+      },
+      "x": 373,
+      "y": 565,
+      "quality_score": 50,
+      "element_name": "heading_csrf_hidden_values",
+      "playwright_selector": "page.locator('xpath=//*[@id=\"gotchas\"]/div[1]/div[1]/div[1]/h4[3]')",
+      "is_unique": true,
+      "element_count": 1
+    },
+    "link_csrf_hidden_values_373_563": {
+      "tag": "a",
+      "text": "CSRF & Hidden Values",
+      "xpath": "//a[contains(text(), \"CSRF & Hidden Values\")]",
+      "css": "a",
+      "id": "",
+      "isInteractive": true,
+      "attributes": {
+        "href": "/pages/advanced/?gotcha=csrf",
+        "src": null,
+        "class": ""
+      },
+      "x": 373,
+      "y": 563,
+      "quality_score": 50,
+      "element_name": "link_csrf_hidden_values_373_563",
+      "playwright_selector": "page.locator('xpath=//a[contains(text(), \"CSRF & Hidden Values\")]')",
       "is_unique": true,
       "element_count": 1
     },
@@ -313,7 +373,7 @@
         "class": ""
       },
       "x": 0,
-      "y": 828,
+      "y": 736,
       "quality_score": 90,
       "element_name": "lessons_and_videos_hartley_b",
       "playwright_selector": "page.locator('#footer')",
@@ -321,10 +381,10 @@
       "element_count": 1
     }
   },
-  "url": "http://www.scrapethissite.com/pages/frames/",
+  "url": "http://www.scrapethissite.com/pages/advanced/",
   "screen_id": 9,
-  "timestamp": "2026-03-12T11:18:00.492484",
+  "timestamp": "2026-03-13T11:22:50.935184",
   "metadata": {
-    "title": "Turtles All the Way Down: Frames & iFrames | Scrape This Site | A public sandbox for learning web scraping"
+    "title": "Advanced Topics: Real World Challenges You'll Encounter | Scrape This Site | A public sandbox for learning web scraping"
   }
 }

@@ -1,7 +1,7 @@
 {
   "testCases": [
     {
-      "id": "TC_Navigation_01",
+      "id": "TC_NAVIGATION_01",
       "title": "Verify navigation to Lessons page",
       "url": "",
       "inputs": {},
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "id": "TC_Navigation_02",
+      "id": "TC_NAVIGATION_02",
       "title": "Verify navigation to FAQ page",
       "url": "",
       "inputs": {},
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "id": "TC_Navigation_03",
+      "id": "TC_NAVIGATION_03",
       "title": "Verify navigation to Login page",
       "url": "",
       "inputs": {},
@@ -43,80 +43,52 @@
       ]
     },
     {
-      "id": "TC_Search_01",
-      "title": "Verify searching for a team",
+      "id": "TC_SEARCH_01",
+      "title": "Verify team search functionality",
       "url": "",
       "inputs": {
-        "STATE_23_INPUT_SEARCH_FOR_TEAMS": "Bruins"
+        "STATE_23_INPUT_SEARCH_FOR_TEAMS": "Toronto Maple Leafs"
       },
       "steps": [
         "Navigate to ",
-        "Fill 'Bruins' into locator `page.locator('#q')`",
+        "Fill 'Toronto Maple Leafs' into locator `page.locator('#q')`",
         "Click locator `page.locator('input.btn.btn-primary')`",
-        "Verification: Expect search results to be displayed"
+        "Verification: Expect relevant search results to be displayed"
       ],
       "expected": [
-        "Search results for 'Bruins' are displayed"
+        "Search results are displayed"
       ]
     },
     {
-      "id": "TC_Pagination_01",
-      "title": "Verify pagination to page 10",
+      "id": "TC_PAGINATION_01",
+      "title": "Verify pagination functionality - navigate to page 5",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
-        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[11]/a[1]')`",
-        "Verification: Expect URL to change to '/pages/forms/?page_num=10'"
+        "Click locator `page.locator('xpath=//*[@id=\"hockey\"]/div[1]/div[5]/div[1]/ul[1]/li[6]/a[1]')`",
+        "Verification: Expect URL to change to '/pages/forms/?page_num=5'"
       ],
       "expected": [
-        "Page 10 loads successfully"
+        "Page 5 is loaded"
       ]
     },
     {
-      "id": "TC_Pagination_02",
-      "title": "Verify navigating to the next page using the next button",
+      "id": "TC_PAGINATION_02",
+      "title": "Verify pagination functionality - Navigate to next page",
       "url": "",
       "inputs": {},
       "steps": [
         "Navigate to ",
         "Click locator `page.locator('xpath=//*[contains(@aria-label, \"Next\")]')`",
-        "Verification: Expect URL to change to '/pages/forms/?page_num=13'"
+        "Verification: Expect URL to change to '/pages/forms/?page_num=12'"
       ],
       "expected": [
-        "The next page is loaded successfully"
-      ]
-    },
-    {
-      "id": "TC_Pagination_03",
-      "title": "Verify navigating to the previous page using the previous button",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('xpath=//*[contains(@aria-label, \"Previous\")]')`",
-        "Verification: Expect URL to change to '/pages/forms/?page_num=11'"
-      ],
-      "expected": [
-        "The previous page is loaded successfully"
-      ]
-    },
-    {
-      "id": "TC_RecordsPerPage_01",
-      "title": "Verify selecting the number of records per page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('#per_page')`",
-        "Verification: Expect the options to be displayed"
-      ],
-      "expected": [
-        "Options are displayed"
+        "Next page is loaded"
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.279272",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.378695",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

@@ -6,7 +6,7 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
+        "Navigate to /pages/",
         "Click locator `page.locator('a.nav-link').nth(0)`",
         "Verification: Expect URL to change to '/lessons/'"
       ],
@@ -20,7 +20,7 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
+        "Navigate to /pages/",
         "Click locator `page.locator('a.nav-link').nth(0)`",
         "Verification: Expect URL to change to '/faq/'"
       ],
@@ -34,8 +34,8 @@
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Navigate to /pages/",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Login\")]')`",
         "Verification: Expect URL to change to '/login/'"
       ],
       "expected": [
@@ -44,11 +44,11 @@
     },
     {
       "id": "TC_Navigation_004",
-      "title": "Verify navigation to the Home page",
+      "title": "Verify navigation to the home page via Scrape This Site link",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
+        "Navigate to /pages/",
         "Click locator `page.locator('a.nav-link.hidden-sm.hidden-xs')`",
         "Verification: Expect URL to change to '/'"
       ],
@@ -58,62 +58,20 @@
     },
     {
       "id": "TC_Navigation_005",
-      "title": "Verify navigation to the Sandbox page",
+      "title": "Verify navigation to lessons page using 3 video lessons link",
       "url": "",
       "inputs": {},
       "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('a.nav-link').nth(0)`",
-        "Verification: Expect URL to change to '/pages/'"
+        "Navigate to /pages/",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"3 video lessons\")]')`",
+        "Verification: Expect URL to change to '/lessons/'"
       ],
       "expected": [
-        "Sandbox page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_006",
-      "title": "Verify navigation to the Spoofing Headers page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"Spoofing Headers\")]')`",
-        "Verification: Expect URL to change to '/pages/advanced/?gotcha=headers'"
-      ],
-      "expected": [
-        "Spoofing Headers page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_007",
-      "title": "Verify navigation to the Logins & Session Data page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"Logins & Session Data\")]')`",
-        "Verification: Expect URL to change to '/pages/advanced/?gotcha=login'"
-      ],
-      "expected": [
-        "Logins & Session Data page loads successfully"
-      ]
-    },
-    {
-      "id": "TC_Navigation_008",
-      "title": "Verify navigation to the CSRF & Hidden Values page",
-      "url": "",
-      "inputs": {},
-      "steps": [
-        "Navigate to ",
-        "Click locator `page.locator('xpath=//a[contains(text(), \"CSRF & Hidden Values\")]')`",
-        "Verification: Expect URL to change to '/pages/advanced/?gotcha=csrf'"
-      ],
-      "expected": [
-        "CSRF & Hidden Values page loads successfully"
+        "Lessons page loads successfully"
       ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.175337",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.311550",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

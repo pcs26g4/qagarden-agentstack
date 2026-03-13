@@ -1,0 +1,105 @@
+{
+  "testCases": [
+    {
+      "id": "TC_Navigation_001",
+      "title": "Verify navigation to the Lessons page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to change to '/lessons/'"
+      ],
+      "expected": [
+        "Lessons page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_002",
+      "title": "Verify navigation to the FAQ page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to change to '/faq/'"
+      ],
+      "expected": [
+        "FAQ page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_003",
+      "title": "Verify navigation to the Login page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to change to '/login/'"
+      ],
+      "expected": [
+        "Login page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_Navigation_004",
+      "title": "Verify navigation to the Sandbox page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('a.nav-link').nth(0)`",
+        "Verification: Expect URL to change to '/pages/'"
+      ],
+      "expected": [
+        "Sandbox page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_AdvancedPages_001",
+      "title": "Verify navigation to the Spoofing Headers page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Spoofing Headers\")]')`",
+        "Verification: Expect URL to change to '/pages/advanced/?gotcha=headers'"
+      ],
+      "expected": [
+        "Spoofing Headers page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_AdvancedPages_002",
+      "title": "Verify navigation to the Logins & Session Data page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Logins & Session Data\")]')`",
+        "Verification: Expect URL to change to '/pages/advanced/?gotcha=login'"
+      ],
+      "expected": [
+        "Logins & Session Data page loads successfully"
+      ]
+    },
+    {
+      "id": "TC_AdvancedPages_003",
+      "title": "Verify navigation to the CSRF & Hidden Values page",
+      "url": "",
+      "inputs": {},
+      "steps": [
+        "Navigate to ",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"CSRF & Hidden Values\")]')`",
+        "Verification: Expect URL to change to '/pages/advanced/?gotcha=csrf'"
+      ],
+      "expected": [
+        "CSRF & Hidden Values page loads successfully"
+      ]
+    }
+  ],
+  "url": "",
+  "generatedAt": "2026-03-13T11:28:41.322816",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
+}

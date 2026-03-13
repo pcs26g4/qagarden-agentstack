@@ -1,8 +1,8 @@
 {
   "testCases": [
     {
-      "id": "TC_Navigation_001",
-      "title": "Verify navigation to the Sandbox page",
+      "id": "TC_Navigation_01",
+      "title": "Verify navigation to Sandbox page",
       "url": "",
       "inputs": {},
       "steps": [
@@ -15,8 +15,8 @@
       ]
     },
     {
-      "id": "TC_Navigation_002",
-      "title": "Verify navigation to the Lessons page",
+      "id": "TC_Navigation_02",
+      "title": "Verify navigation to Lessons page",
       "url": "",
       "inputs": {},
       "steps": [
@@ -29,8 +29,8 @@
       ]
     },
     {
-      "id": "TC_Navigation_003",
-      "title": "Verify navigation to the FAQ page",
+      "id": "TC_Navigation_03",
+      "title": "Verify navigation to FAQ page",
       "url": "",
       "inputs": {},
       "steps": [
@@ -43,8 +43,8 @@
       ]
     },
     {
-      "id": "TC_Navigation_004",
-      "title": "Verify navigation to the Login page",
+      "id": "TC_Navigation_04",
+      "title": "Verify navigation to Login page",
       "url": "",
       "inputs": {},
       "steps": [
@@ -57,8 +57,25 @@
       ]
     },
     {
-      "id": "TC_Navigation_005",
-      "title": "Verify navigation to the Spoofing Headers page",
+      "id": "TC_Authentication_01",
+      "title": "Attempt to subscribe with a valid email",
+      "url": "",
+      "inputs": {
+        "REVEALED_2_INPUT_YOUR_EMAIL": "user@example.com"
+      },
+      "steps": [
+        "Navigate to ",
+        "Fill 'user@example.com' into locator `page.locator('#email')`",
+        "Click locator `page.locator('xpath=//a[contains(text(), \"Start learning web scraping today\")]')`",
+        "Verification: Expect URL to change to '/lessons/'"
+      ],
+      "expected": [
+        "User should be redirected to lessons page after successful input"
+      ]
+    },
+    {
+      "id": "TC_Sandbox_Navigation_01",
+      "title": "Verify navigation to Spoofing Headers page",
       "url": "",
       "inputs": {},
       "steps": [
@@ -71,8 +88,8 @@
       ]
     },
     {
-      "id": "TC_Navigation_006",
-      "title": "Verify navigation to the Logins & Session Data page",
+      "id": "TC_Sandbox_Navigation_02",
+      "title": "Verify navigation to Logins & Session Data page",
       "url": "",
       "inputs": {},
       "steps": [
@@ -85,8 +102,8 @@
       ]
     },
     {
-      "id": "TC_Navigation_007",
-      "title": "Verify navigation to the CSRF & Hidden Values page",
+      "id": "TC_Sandbox_Navigation_03",
+      "title": "Verify navigation to CSRF & Hidden Values page",
       "url": "",
       "inputs": {},
       "steps": [
@@ -97,41 +114,9 @@
       "expected": [
         "CSRF & Hidden Values page loads successfully"
       ]
-    },
-    {
-      "id": "TC_Authentication_001",
-      "title": "Verify email input field accepts valid email format",
-      "url": "",
-      "inputs": {
-        "REVEALED_2_INPUT_YOUR_EMAIL": "test@example.com"
-      },
-      "steps": [
-        "Navigate to ",
-        "Fill 'test@example.com' into locator `page.locator('#email')`",
-        "Verification: Expect the value of locator `page.locator('#email')` to be 'test@example.com'"
-      ],
-      "expected": [
-        "Email field accepts input and retains the value"
-      ]
-    },
-    {
-      "id": "TC_Authentication_002",
-      "title": "Verify email input field accepts special characters in email",
-      "url": "",
-      "inputs": {
-        "REVEALED_2_INPUT_YOUR_EMAIL": "test!#$%&'*+-/=?^_`{|}~@example.com"
-      },
-      "steps": [
-        "Navigate to ",
-        "Fill 'test!#$%&'*+-/=?^_`{|}~@example.com' into locator `page.locator('#email')`",
-        "Verification: Expect the value of locator `page.locator('#email')` to be 'test!#$%&'*+-/=?^_`{|}~@example.com'"
-      ],
-      "expected": [
-        "Email field accepts input and retains the value"
-      ]
     }
   ],
   "url": "",
-  "generatedAt": "2026-03-12T11:23:10.059784",
-  "runId": "df89599b-8ac0-4cae-8fcd-3098f304f767"
+  "generatedAt": "2026-03-13T11:28:41.239307",
+  "runId": "173752f4-e3b4-4707-960e-7f7e86d33036"
 }

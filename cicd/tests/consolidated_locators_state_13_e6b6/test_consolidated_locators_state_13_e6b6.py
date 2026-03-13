@@ -14,18 +14,21 @@ import pytest
 
 def test_TC_Navigation_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_13_E6B6_URL, timeout=60000)
-    page.locator('a.nav-link').nth(0).click()
+    page.wait_for_load_state('networkidle')
+    page.locator('#nav-lessons').first.click()
     expect(page).to_have_url(re.compile(r"/lessons/"))
 
 
 def test_TC_Navigation_02(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_13_E6B6_URL, timeout=60000)
-    page.locator('a.nav-link').nth(0).click()
+    page.wait_for_load_state('networkidle')
+    page.locator('#nav-faq').first.click()
     expect(page).to_have_url(re.compile(r"/faq/"))
 
 
 def test_TC_Navigation_03(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_13_E6B6_URL, timeout=60000)
+    page.wait_for_load_state('networkidle')
     page.locator('xpath=//a[contains(text(), "Login")]').click()
     expect(page).to_have_url(re.compile(r"/login/"))
 
@@ -33,18 +36,22 @@ def test_TC_Navigation_03(page):
 @pytest.mark.regression
 def test_TC_Search_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_13_E6B6_URL, timeout=60000)
-    page.locator('#q').first.fill("Toronto Maple Leafs")
+    page.wait_for_load_state('networkidle')
+    page.locator('#q').first.fill("Canucks")
     page.locator('input.btn.btn-primary').first.click()
 
 
 @pytest.mark.regression
 def test_TC_Pagination_01(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_13_E6B6_URL, timeout=60000)
-    page.locator('xpath=//*[@id="hockey"]/div[1]/div[5]/div[1]/ul[1]/li[4]/a[1]').first.click()
-    expect(page).to_have_url(re.compile(r"/pages/forms/\?page_num=3"))
+    page.wait_for_load_state('networkidle')
+    page.locator('xpath=//*[@id="hockey"]/div[1]/div[5]/div[1]/ul[1]/li[5]/a[1]').first.click()
+    expect(page).to_have_url(re.compile(r"/pages/forms/\?page_num=5"))
 
 
 @pytest.mark.regression
-def test_TC_RecordsPerPage_01(page):
+def test_TC_Pagination_02(page):
     page.goto(CONSOLIDATED_LOCATORS_STATE_13_E6B6_URL, timeout=60000)
-    page.locator('#per_page').first.select_option("50")
+    page.wait_for_load_state('networkidle')
+    page.locator('xpath=//*[contains(@aria-label, "Next")]').click()
+    expect(page).to_have_url(re.compile(r"/pages/forms/\?page_num=2"))
